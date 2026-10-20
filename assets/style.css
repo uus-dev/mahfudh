@@ -262,6 +262,27 @@ html:not(.js) .btn-recall, html:not(.js) .explain-toggle { display: none !import
   .terms > div { grid-template-columns: 1fr; gap: 0; }
 }
 
+/* Narrow screens: tables become labelled stacks (one card per row) instead of scrolling sideways. */
+@media screen and (max-width: 32rem) {
+  .table-scroll { overflow: visible; border: 0; }
+  .table-scroll table, .table-scroll.wide table { min-width: 0; }
+  .table-scroll table, .table-scroll tbody, .table-scroll tr, .table-scroll th, .table-scroll td { display: block; }
+  .table-scroll thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .table-scroll tr { border: 1px solid var(--line); border-radius: var(--radius); margin-block-end: 8px; overflow: hidden; }
+  .table-scroll th, .table-scroll td { border: 0; border-block-end: 1px solid var(--line); display: flex; align-items: baseline; justify-content: space-between; gap: 12px; text-align: end; white-space: normal; }
+  .table-scroll tr > :last-child { border-block-end: 0; }
+  .table-scroll td::before, .table-scroll th[scope="row"]::before { content: attr(data-label); font: 400 0.8rem/1.4 var(--font-ui); color: var(--muted); text-align: start; flex: 0 0 auto; max-width: 45%; }
+  html[lang="ar"] .table-scroll td::before, html[lang="ar"] .table-scroll th[scope="row"]::before { font-family: var(--font-ar); }
+  .table-scroll th[scope="row"] { background: var(--surface-2); }
+  .table-scroll td.c-ar, .table-scroll th.c-ar { text-align: end; }
+  .table-scroll td.c-bi > span, .table-scroll th.c-bi > span { text-align: end; }
+  .cl-table, .cl-table tbody, .cl-table tr, .cl-table td { display: block; }
+  .cl-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .cl-table tr { border-block-end: 1px solid var(--line); padding-block: 8px; }
+  .cl-table td { border: 0; padding: 2px 0; }
+  .cl-table select { width: 100%; }
+}
+
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 
 @media print {
