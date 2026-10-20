@@ -112,6 +112,10 @@ export function validateUnit(u, taxUnit, tax, errors) {
     if (ex.note) bi(ex.note, `${w}.examples[${i}].note`, errors, { arabicInAr: false });
   }
   biList(u.caveats, `${w}.caveats`, errors, { allowEmpty: true });
+  // Caveats are paired notes in the margin, so each English caveat needs its Arabic counterpart.
+  if (u.caveats && Array.isArray(u.caveats.en) && Array.isArray(u.caveats.ar) && u.caveats.en.length !== u.caveats.ar.length) {
+    errors.push(`${w}.caveats: ${u.caveats.en.length} English vs ${u.caveats.ar.length} Arabic entries; they are paired`);
+  }
   bi(u.convention, `${w}.convention`, errors);
 
   if (!Array.isArray(u.recall) || !u.recall.length) errors.push(`${w}.recall: at least one prompt`);

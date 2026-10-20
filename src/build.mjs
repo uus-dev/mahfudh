@@ -53,10 +53,17 @@ const AR_RUN = /[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]+(?:[\s\u0
 const LATIN_RUN = /[A-Za-z][A-Za-z0-9ʿʾāīūḥṣḍṭẓĀĪŪḤṢḌṬẒ'’.\- ]*[A-Za-z0-9ʿʾāīūḥṣḍṭẓ.]|[A-Za-z]/g;
 
 // Escape text and mark embedded runs of the other script so bidi and fonts behave.
+// The raw text is split first and each run escaped on its own, so entities are never touched.
 function rich(s, lang) {
-  const t = esc(s);
-  if (lang === 'ar') return t.replace(LATIN_RUN, (m) => `<span lang="en" dir="ltr">${m}</span>`);
-  return t.replace(AR_RUN, (m) => `<span lang="ar" dir="rtl">${m}</span>`);
+  const re = lang === 'ar' ? LATIN_RUN : AR_RUN;
+  const wrap = lang === 'ar' ? (m) => `<span lang="en" dir="ltr">${esc(m)}</span>` : (m) => `<span lang="ar" dir="rtl">${esc(m)}</span>`;
+  let out = '';
+  let last = 0;
+  for (const m of String(s).matchAll(re)) {
+    out += esc(s.slice(last, m.index)) + wrap(m[0]);
+    last = m.index + m[0].length;
+  }
+  return out + esc(String(s).slice(last));
 }
 const ar = (s, cls = '') => `<span lang="ar" dir="rtl"${cls ? ` class="${cls}"` : ''}>${esc(s)}</span>`;
 const L = (v, lang) => (lang === 'ar' ? v.ar : v.en);
@@ -235,9 +242,11 @@ function recallColumns(b) {
   return arCols;
 }
 
-function renderBlock(u, b, i, lang, markers) {
+function renderBlock(u, b, i, lang, markers, prompts) {
   const id = `${u.id}-b-${b.id}`;
-  const head = `<h3 class="secthead" id="${id}-h"><span class="num">${ROMAN[i] || i + 1}</span> ${bi(b.title)}${markers}</h3>`;
+  // Recall prompts are shown above the block they ask about, only while reciting.
+  const qs = prompts.map((r) => `<p class="recite-q">${bi(r.prompt)}</p>`).join('');
+  const head = `<h3 class="secthead" id="${id}-h"><span class="num">${ROMAN[i] || i + 1}</span> ${bi(b.title)}${markers}</h3>${qs}`;
   const notes = b.notes && (b.notes.en.length || b.notes.ar.length) ? `<div class="block-notes">${bi({ en: b.notes.en.join(' '), ar: b.notes.ar.join(' ') }, 'p')}</div>` : '';
   if (b.kind === 'rules') {
     const items = b.items
@@ -249,10 +258,11 @@ function renderBlock(u, b, i, lang, markers) {
   const recall = new Set(recallColumns(b));
   const cell = (c, v, isHead) => {
     const label = `data-label="${esc(L(c.label, lang))}"`;
-    const rc = recall.has(c.key) ? ' data-recall' : '';
+    const empty = v === undefined || v === null || v === '';
+    const rc = recall.has(c.key) && !empty ? ' data-recall' : ''; // a dash is not something to recite
     const open = isHead ? `<th scope="row" ${label}${rc}` : `<td ${label}${rc}`;
     const close = isHead ? '</th>' : '</td>';
-    if (v === undefined || v === null || v === '') return `${open} class="empty"><span class="cv" aria-label="—">—</span>${close}`;
+    if (empty) return `${open} class="empty"><span class="cv" aria-label="—">—</span>${close}`;
     if (c.lang === 'ar') return `${open} class="c-ar${recall.has(c.key) || c.key === b.row_header ? '' : ' c-ar-s'}"><span class="cv" lang="ar" dir="rtl">${esc(v)}</span>${close}`;
     return `${open} class="c-bi"><span class="cv">${bi(v)}</span>${close}`;
   };
@@ -314,7 +324,7 @@ function renderUnit(u, lang, { single, first }) {
       let m = '';
       if (i === 0) m += marker(notes[1]);
       if (i === c.blocks.length - 1) m += caveatMarkers;
-      return renderBlock(u, b, i, lang, m ? `<span class="mks">${m}</span>` : '');
+      return renderBlock(u, b, i, lang, m ? `<span class="mks">${m}</span>` : '', c.recall.filter((r) => r.answer_blocks[0] === b.id));
     })
     .join('');
 
@@ -324,7 +334,6 @@ function renderUnit(u, lang, { single, first }) {
       return `<a href="${esc(src.url)}" rel="noopener">${rich(src.provider, 'en')}, “${rich(src.title, 'en')}”</a>`;
     })
     .join(' · ');
-  const recall = c.recall.map((r) => `<li data-answers="${esc(r.answer_blocks.join(' '))}">${bi(r.prompt)}</li>`).join('');
   const bg = linkItems(u.prerequisites, lang);
   const rel = linkItems(u.related, lang);
   const toc = c.blocks.map((b, i) => `<li><a href="#${u.id}-b-${b.id}"><span class="num">${ROMAN[i] || i + 1}</span> ${bi(b.title)}</a></li>`).join('') +
@@ -354,7 +363,6 @@ function renderUnit(u, lang, { single, first }) {
   <div class="recite-bar" hidden></div>
   <div class="blocks">${blocks}</div>
   <div class="round-done" hidden></div>
-  <template id="recall-${u.id}"><ol class="recall-prompts">${recall}</ol></template>
   <div class="examples" id="${u.id}-ex">
     <h3 class="secthead"><span class="num">${ROMAN[c.blocks.length] || ''}</span> ${esc(t.examples)}${t.examplesAr ? ` <span lang="ar" class="sh-ar">${esc(t.examplesAr)}</span>` : ''}</h3>
     ${c.examples.map((ex) => `<div class="ex"><p class="ex-ar" lang="ar" dir="rtl">${esc(ex.ar)}</p><p class="ex-en" lang="en" dir="ltr">${rich(ex.en, 'en')}</p>${ex.note ? `<p class="ex-note">${bi(ex.note)}</p>` : ''}</div>`).join('')}
@@ -421,7 +429,7 @@ for (const lang of LOCALES) {
   </div>
   <p id="stage-help" class="muted small">${esc(t.stageHelp)}</p>
 </form>
-<p id="result-count" class="result-count" role="status" aria-live="polite">${esc(t.resultsCount(published.length))}</p>
+<p id="result-count" class="result-count" role="status" aria-live="polite">${esc(t.resultsCount(lang === 'ar' ? AR_DIGITS(published.length) : published.length))}</p>
 <div id="no-results" class="empty-state" hidden><p><strong>${esc(t.noResults)}</strong></p><p>${esc(t.noResultsHelp)}</p></div>
 <div id="search-error" class="empty-state" hidden><p>${esc(t.searchError)}</p></div>
 <ol class="unit-list" id="unit-list">${published

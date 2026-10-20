@@ -524,7 +524,7 @@
 
   // ---------- search ----------
 
-  var HARAKAT = /[ؐ-ًؚ-ٰٟۖ-ۭـ]/g;
+  var HARAKAT = /[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g; // vowel marks, Quranic marks and tatweel
   function norm(s) {
     return String(s || '')
       .normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC')
@@ -580,7 +580,7 @@
         .sort(function (a, b) { return b.s - a.s || a.u.order - b.u.order; });
       Object.keys(items).forEach(function (id) { items[id].hidden = true; });
       shown.forEach(function (x) { var li = items[x.u.id]; li.hidden = false; list.appendChild(li); });
-      doc.getElementById('result-count').textContent = fmt(T.resultsCount, digits(shown.length));
+      doc.getElementById('result-count').textContent = shown.length === 1 ? T.resultsOne : fmt(T.resultsCount, digits(shown.length));
       doc.getElementById('no-results').hidden = shown.length > 0;
       if (push) {
         var p = new URLSearchParams();
@@ -810,6 +810,9 @@
         // Put the previous state back rather than leave a half-written snapshot.
         clearAll();
         before.units.forEach(function (u) { store.set(UNIT_PREFIX + u.unit_id, { status: u.status, status_target_version: u.status_target_version, status_updated_at: u.status_updated_at, last_reviewed_at: u.last_reviewed_at, last_reviewed_target_version: u.last_reviewed_target_version }); });
+        var bp = {};
+        Object.keys(before.preferences).forEach(function (k) { if (before.preferences[k]) bp[k] = before.preferences[k]; });
+        store.set(PREFS_KEY, bp);
         msg(T.notSaved, true);
       } else {
         applyPrefs(pending.prefs);

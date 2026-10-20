@@ -101,6 +101,7 @@ export const UI = {
     clearFilters: 'Clear filters',
     stageHelp: 'Stages are browsing aids only. Where a topic is taught varies by curriculum.',
     resultsCount: (n) => (n === 1 ? '1 unit' : `${n} units`),
+    resultsOne: '1 unit',
     noResults: 'No published unit matches.',
     noResultsHelp: 'The item may be outside the current release. Try a different spelling, clear the filters, or browse by category.',
     searchError: 'Search is unavailable right now. You can still browse the list below.',
@@ -231,6 +232,7 @@ export const UI = {
     clearFilters: 'مسح التصفية',
     stageHelp: 'المراحل للتصفّح فقط، ويختلف موضع الدرس من منهج إلى آخر.',
     resultsCount: (n) => `${n} وحدة`,
+    resultsOne: 'وحدة واحدة',
     noResults: 'لا توجد وحدة منشورة مطابقة.',
     noResultsHelp: 'قد يكون الموضوع خارج الإصدار الحالي. جرّب كتابة أخرى أو امسح التصفية أو تصفّح حسب القسم.',
     searchError: 'البحث غير متاح الآن، ويمكنك تصفّح القائمة أدناه.',
@@ -334,9 +336,12 @@ export const UI = {
 };
 
 // Strings the browser script needs (functions are serialized as templates with {0},{1},{2}).
+// Arabic functions convert digits, so their placeholders come back as {٠}; restore them.
 export function clientStrings(lang) {
   const out = {};
-  for (const [k, v] of Object.entries(UI[lang])) out[k] = typeof v === 'function' ? v('{0}', '{1}', '{2}') : v;
+  for (const [k, v] of Object.entries(UI[lang])) {
+    out[k] = typeof v === 'function' ? v('{0}', '{1}', '{2}').replace(/\{([٠-٩])\}/g, (_, d) => `{${'٠١٢٣٤٥٦٧٨٩'.indexOf(d)}}`) : v;
+  }
   return out;
 }
 

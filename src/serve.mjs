@@ -11,7 +11,12 @@ const DIST = join(ROOT, 'dist');
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.woff2': 'font/woff2', '.txt': 'text/plain' };
 
 createServer(async (req, res) => {
-  const path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  let path;
+  try {
+    path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  } catch {
+    return res.writeHead(400).end('Bad request');
+  }
   if (!path.startsWith(BASE)) {
     res.writeHead(302, { location: BASE });
     return res.end();

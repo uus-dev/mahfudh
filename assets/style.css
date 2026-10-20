@@ -362,6 +362,10 @@ html[lang="ar"] .pill { font-size: 17px; }
 
 .unit.reciting .examples, .unit.reciting .block-notes, .unit.reciting .u-sharh { filter: blur(5px); opacity: .3; pointer-events: none; user-select: none; }
 .unit.reciting .veiled-note { display: block; }
+.recite-q { display: none; margin: -2px 0 12px; font-style: italic; color: var(--ink2); }
+html[lang="ar"] .recite-q { font-style: normal; }
+.unit.reciting .recite-q { display: block; }
+.unit.reciting .recite-q .x-en, .unit.reciting .recite-q .x-ar { margin: 0; }
 .veiled-note { text-align: center; color: var(--ink2); font-size: 15px; margin: 6px 0 0; }
 .veiled-note[hidden] { display: none !important; }
 .unit.reciting [data-recall] > .cv { display: none; }
@@ -557,6 +561,9 @@ html:not(.js) .btn-recite, html:not(.js) .explain-toggle, html:not(.js) .theme-t
   .corner { display: none; }
   .u-sharh { position: static !important; transform: none !important; visibility: visible !important; border-top: 1px solid #999; margin-top: 12pt; padding-top: 6pt; }
   .unit.reciting [data-recall] > .cv { display: inline !important; }
+  .unit.reciting .rule dd[data-recall] > :not(.tile) { display: block !important; }
+  .unit.reciting .examples, .unit.reciting .block-notes, .unit.reciting .u-sharh { filter: none !important; opacity: 1 !important; }
+  .recite-q, .veiled-note { display: none !important; }
   .tile { display: none !important; }
   tr, .rule, .ex, .note { break-inside: avoid; }
   thead { display: table-header-group; }
