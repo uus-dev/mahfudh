@@ -1,0 +1,4184 @@
+{
+  "metadata": {
+    "title": "Arabic Grammar Memory Reference — Master Taxonomy",
+    "version": "0.1",
+    "prepared_on": "2026-09-27",
+    "scope": "A proposed bilingual reference of bounded grammatical lists, paradigms, patterns and compact rule packages; not a curriculum.",
+    "unit_count": 100,
+    "parent_page_count": 81,
+    "first_release_units": 32,
+    "first_release_pages": 29,
+    "stages": {
+      "Foundation": "Initial reference material; not a course level.",
+      "Core": "Common follow-on material; order depends on the student's course.",
+      "Further": "Specialist, extended or more conditional material."
+    },
+    "editorial_status": "Taxonomy and topic coverage researched; full teaching content and answer keys are not yet authored or approved.",
+    "source_limitations": "Sources establish topic coverage and conventions, not exhaustive validation of every planned rule. D07, D09, G16 and G17 require dedicated specialist sources."
+  },
+  "units": [
+    {
+      "id": "A01",
+      "arabic_name": "علامات الاسم والفعل والحرف",
+      "english_name": "Word-class recognition signs",
+      "stage": "Foundation",
+      "memory_type": "List + Rule",
+      "target": "Recall the diagnostic signs associated with nouns and verbs and the contrast with particles.",
+      "prerequisites": [
+        "S01"
+      ],
+      "related": [
+        "A02",
+        "B01",
+        "C01"
+      ],
+      "page": "word-class-signs",
+      "editorial_note": "A small recognition chart, not a full lesson on parts of speech.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + rule to recall. A small recognition chart, not a full lesson on parts of speech.",
+      "source_ids": [
+        "R01"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "علامات الاسم والفعل والحرف",
+        "Word-class recognition signs"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "A02",
+      "arabic_name": "أقسام الإعراب",
+      "english_name": "Grammatical states: nouns versus verbs",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall رفع، نصب، جر، جزم and which states apply to nouns and inflecting imperfect verbs.",
+      "prerequisites": [
+        "S01",
+        "S02"
+      ],
+      "related": [
+        "E01",
+        "F05"
+      ],
+      "page": "grammatical-states",
+      "editorial_note": "Keep noun case and verb mood distinct in English.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table to recall. Keep noun case and verb mood distinct in English.",
+      "source_ids": [
+        "R02",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أقسام الإعراب",
+        "Grammatical states: nouns versus verbs"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "A03",
+      "arabic_name": "أنواع المعارف",
+      "english_name": "Categories of definite nouns",
+      "stage": "Foundation",
+      "memory_type": "List",
+      "target": "Recall the named categories of definiteness with one representative of each.",
+      "prerequisites": [
+        "S01",
+        "S04"
+      ],
+      "related": [
+        "B01",
+        "B05",
+        "B06",
+        "I01"
+      ],
+      "page": "definite-noun-categories",
+      "editorial_note": "State the adopted grouping rather than claiming a universal category count.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list to recall. State the adopted grouping rather than claiming a universal category count.",
+      "source_ids": [
+        "R22",
+        "R03"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-pronouns/",
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أنواع المعارف",
+        "Categories of definite nouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "A04",
+      "arabic_name": "المبنيات من الأسماء",
+      "english_name": "Indeclinable noun categories",
+      "stage": "Core",
+      "memory_type": "List + Conditions",
+      "target": "Recall the principal categories and the inflecting exceptions within them.",
+      "prerequisites": [
+        "A02",
+        "B01",
+        "B05",
+        "B06",
+        "B08",
+        "S02"
+      ],
+      "related": [
+        "I08"
+      ],
+      "page": "indeclinable-nouns",
+      "editorial_note": "Categories plus exceptions; not an exhaustive dictionary of indeclinable words.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. Categories plus exceptions; not an exhaustive dictionary of indeclinable words.",
+      "source_ids": [
+        "R22",
+        "R03"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-pronouns/",
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "المبنيات من الأسماء",
+        "Indeclinable noun categories"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "A05",
+      "arabic_name": "مرفوعات الأسماء",
+      "english_name": "Nominative noun-role inventory",
+      "stage": "Core",
+      "memory_type": "List",
+      "target": "Recall the standard role headings grouped under nominal رفع in the selected reference convention.",
+      "prerequisites": [
+        "A02",
+        "S03",
+        "D01",
+        "D03"
+      ],
+      "related": [
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "page": "noun-role-inventories",
+      "editorial_note": "One section of a shared role index; no separate course for each role.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with A06, A07 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R01"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مرفوعات الأسماء",
+        "Nominative noun-role inventory"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "A06",
+      "arabic_name": "منصوبات الأسماء",
+      "english_name": "Accusative noun-role inventory",
+      "stage": "Core",
+      "memory_type": "List",
+      "target": "Recall the standard role headings grouped under nominal نصب in the selected reference convention.",
+      "prerequisites": [
+        "A02",
+        "S03",
+        "D01",
+        "D03"
+      ],
+      "related": [
+        "A05",
+        "A07",
+        "I06",
+        "I07"
+      ],
+      "page": "noun-role-inventories",
+      "editorial_note": "Do not present a source-specific traditional count as universal.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with A05, A07 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R01"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "منصوبات الأسماء",
+        "Accusative noun-role inventory"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "A07",
+      "arabic_name": "مجرورات الأسماء",
+      "english_name": "Genitive noun-role inventory",
+      "stage": "Core",
+      "memory_type": "List",
+      "target": "Recall prepositional government, annexation, and dependency as the principal routes to genitive status.",
+      "prerequisites": [
+        "A02",
+        "C01",
+        "I01",
+        "A08"
+      ],
+      "related": [
+        "A05",
+        "A06"
+      ],
+      "page": "noun-role-inventories",
+      "editorial_note": "A compact map; reuse the linked units instead of duplicating their lists.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with A05, A06 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R01"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مجرورات الأسماء",
+        "Genitive noun-role inventory"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "A08",
+      "arabic_name": "أنواع التوابع",
+      "english_name": "The dependent categories",
+      "stage": "Core",
+      "memory_type": "List",
+      "target": "Recall the adopted inventory of dependent constructions and their shared inflectional relationship.",
+      "prerequisites": [
+        "A02",
+        "S03"
+      ],
+      "related": [
+        "C04",
+        "I02",
+        "I04",
+        "I05"
+      ],
+      "page": "dependent-categories",
+      "editorial_note": "Explain whether عطف البيان is grouped separately in the chosen convention.",
+      "category": "Foundational memory maps",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list to recall. Explain whether عطف البيان is grouped separately in the chosen convention.",
+      "source_ids": [
+        "R01"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أنواع التوابع",
+        "The dependent categories"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B01",
+      "arabic_name": "ضمائر الرفع المنفصلة",
+      "english_name": "Independent subject-series pronouns",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall the pronoun grid by person, gender, and number with English equivalents.",
+      "prerequisites": [
+        "S05"
+      ],
+      "related": [
+        "B02",
+        "B03",
+        "F01"
+      ],
+      "page": "independent-pronouns",
+      "editorial_note": "Separate distinct spellings from paradigm slots where forms repeat.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table to recall. Separate distinct spellings from paradigm slots where forms repeat.",
+      "source_ids": [
+        "R02",
+        "R22"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp",
+        "https://www.learnarabiconline.com/arabic-pronouns/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "ضمائر الرفع المنفصلة",
+        "Independent subject-series pronouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B02",
+      "arabic_name": "ضمائر الرفع المتصلة",
+      "english_name": "Attached subject pronouns",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall attached subject-pronoun forms and distinguish them from non-pronominal verb endings.",
+      "prerequisites": [
+        "B01",
+        "S05"
+      ],
+      "related": [
+        "B03",
+        "F01",
+        "F02"
+      ],
+      "page": "attached-pronouns",
+      "editorial_note": "Not every visible verb suffix is a pronoun; give carefully segmented models.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with B03 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R02",
+        "R22"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp",
+        "https://www.learnarabiconline.com/arabic-pronouns/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "ضمائر الرفع المتصلة",
+        "Attached subject pronouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B03",
+      "arabic_name": "ضمائر النصب والجر المتصلة",
+      "english_name": "Attached object and genitive pronouns",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall the suffix grid and the main changes with verbs, nouns, and prepositions.",
+      "prerequisites": [
+        "B01",
+        "S06"
+      ],
+      "related": [
+        "B02",
+        "C01",
+        "I01"
+      ],
+      "page": "attached-pronouns",
+      "editorial_note": "Distinguish the pronoun from نون الوقاية and keep contextual variants visible.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with B02 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R02",
+        "R22"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp",
+        "https://www.learnarabiconline.com/arabic-pronouns/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "ضمائر النصب والجر المتصلة",
+        "Attached object and genitive pronouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B04",
+      "arabic_name": "ضمائر النصب المنفصلة",
+      "english_name": "Independent accusative pronouns",
+      "stage": "Core",
+      "memory_type": "Table",
+      "target": "Recall the إياي / إياك / إياه family by person, gender, and number.",
+      "prerequisites": [
+        "B01",
+        "A02"
+      ],
+      "related": [
+        "B03"
+      ],
+      "page": "independent-accusative-pronouns",
+      "editorial_note": "A separate lookup table because the forms differ from the subject series.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table to recall. A separate lookup table because the forms differ from the subject series.",
+      "source_ids": [
+        "R02",
+        "R22"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp",
+        "https://www.learnarabiconline.com/arabic-pronouns/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "ضمائر النصب المنفصلة",
+        "Independent accusative pronouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B05",
+      "arabic_name": "أسماء الإشارة",
+      "english_name": "Demonstratives",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall the main near/far, gender, and number forms, including dual case variants.",
+      "prerequisites": [
+        "S05",
+        "A02"
+      ],
+      "related": [
+        "E02",
+        "B06"
+      ],
+      "page": "demonstratives",
+      "editorial_note": "Distinguish the principal table from additional classical variants.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table to recall. Distinguish the principal table from additional classical variants.",
+      "source_ids": [
+        "R22"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-pronouns/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أسماء الإشارة",
+        "Demonstratives"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B06",
+      "arabic_name": "الأسماء الموصولة الخاصة",
+      "english_name": "Specific relative pronouns",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall the الذي / التي family, including dual and plural forms.",
+      "prerequisites": [
+        "S05",
+        "A02",
+        "S07"
+      ],
+      "related": [
+        "B05",
+        "B07",
+        "E02"
+      ],
+      "page": "relative-pronouns",
+      "editorial_note": "A table of forms, with only the minimum explanation of relative clauses.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with B07 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R22"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-pronouns/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الأسماء الموصولة الخاصة",
+        "Specific relative pronouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B07",
+      "arabic_name": "الأسماء الموصولة المشتركة",
+      "english_name": "Shared relative forms",
+      "stage": "Further",
+      "memory_type": "List + Conditions",
+      "target": "Recall the shared forms admitted by the selected reference and the restrictions on their relative use.",
+      "prerequisites": [
+        "B06"
+      ],
+      "related": [
+        "B08",
+        "C08"
+      ],
+      "page": "relative-pronouns",
+      "editorial_note": "Names such as من and ما have other uses; no spelling-only classification.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with B06 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R22"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-pronouns/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الأسماء الموصولة المشتركة",
+        "Shared relative forms"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "B08",
+      "arabic_name": "أسماء الاستفهام",
+      "english_name": "Interrogative nouns",
+      "stage": "Foundation",
+      "memory_type": "List + Table",
+      "target": "Recall the principal question nouns and the kinds of information each requests.",
+      "prerequisites": [
+        "S01"
+      ],
+      "related": [
+        "C10",
+        "B07",
+        "C08"
+      ],
+      "page": "interrogative-nouns",
+      "editorial_note": "Keep them distinct from interrogative particles.",
+      "category": "Pronouns and closed noun sets",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table to recall. Keep them distinct from interrogative particles.",
+      "source_ids": [
+        "R03"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أسماء الاستفهام",
+        "Interrogative nouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C01",
+      "arabic_name": "حروف الجر الأساسية",
+      "english_name": "Core prepositions",
+      "stage": "Foundation",
+      "memory_type": "List + Rule",
+      "target": "Recall the selected core set, basic glosses, and their genitive-government rule.",
+      "prerequisites": [
+        "A01",
+        "A02"
+      ],
+      "related": [
+        "C02",
+        "C03",
+        "E01",
+        "B03"
+      ],
+      "page": "prepositions",
+      "editorial_note": "Label the first-release subset explicitly; do not call it every preposition.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with C02 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R01",
+        "R03"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف الجر الأساسية",
+        "Core prepositions",
+        "huruf al jarr",
+        "genitive particles",
+        "حروف الخفض"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C02",
+      "arabic_name": "حروف الجر: القائمة الموسعة",
+      "english_name": "Extended preposition inventory",
+      "stage": "Further",
+      "memory_type": "List + Conditions",
+      "target": "Recall additional classical members and restrictions on their prepositional use.",
+      "prerequisites": [
+        "C01"
+      ],
+      "related": [
+        "C03",
+        "I06"
+      ],
+      "page": "prepositions",
+      "editorial_note": "An advanced section on the same page; counts depend on the adopted scope.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with C01 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R01",
+        "R03"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف الجر: القائمة الموسعة",
+        "Extended preposition inventory"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C03",
+      "arabic_name": "حروف القسم",
+      "english_name": "Oath particles",
+      "stage": "Core",
+      "memory_type": "List + Conditions",
+      "target": "Recall the oath-letter set and the principal restrictions on its members.",
+      "prerequisites": [
+        "C01"
+      ],
+      "related": [
+        "C02"
+      ],
+      "page": "oath-particles",
+      "editorial_note": "A distinct function-and-conditions target, not merely a repeated subset.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. A distinct function-and-conditions target, not merely a repeated subset.",
+      "source_ids": [
+        "R01",
+        "R03"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف القسم",
+        "Oath particles"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C04",
+      "arabic_name": "حروف العطف",
+      "english_name": "Coordinating particles",
+      "stage": "Foundation",
+      "memory_type": "List + Rule",
+      "target": "Recall the principal members, basic contrasts, and dependence in inflection.",
+      "prerequisites": [
+        "A02",
+        "S03"
+      ],
+      "related": [
+        "A08",
+        "I02"
+      ],
+      "page": "coordination-particles",
+      "editorial_note": "Document conventional differences in membership, especially extended lists.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + rule to recall. Document conventional differences in membership, especially extended lists.",
+      "source_ids": [
+        "R01",
+        "R03"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف العطف",
+        "Coordinating particles"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C05",
+      "arabic_name": "نواصب المضارع الصريحة",
+      "english_name": "Explicit imperfect-subjunctive governors",
+      "stage": "Core",
+      "memory_type": "List + Conditions",
+      "target": "Recall أن، لن، كي، إذن in a stated school-style analysis and their operating conditions.",
+      "prerequisites": [
+        "A02",
+        "F02"
+      ],
+      "related": [
+        "C06",
+        "F05",
+        "F06"
+      ],
+      "page": "imperfect-subjunctive-governors",
+      "editorial_note": "Explain the chosen grouping and link treatments that count broader surface triggers.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with C06 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R04",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/mood.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "نواصب المضارع الصريحة",
+        "Explicit imperfect-subjunctive governors",
+        "nawasib al mudari",
+        "subjunctive particles",
+        "accusative particles for verbs"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C06",
+      "arabic_name": "مواضع إضمار أن",
+      "english_name": "Environments for an understood أن",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the selected obligatory/permitted environments and the conditions attached to each.",
+      "prerequisites": [
+        "C05"
+      ],
+      "related": [
+        "F05",
+        "I10"
+      ],
+      "page": "imperfect-subjunctive-governors",
+      "editorial_note": "Do not teach that a spelling such as حتى always makes the next verb منصوب.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with C05 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R04",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/mood.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مواضع إضمار أن",
+        "Environments for an understood أن"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C07",
+      "arabic_name": "جوازم فعل واحد",
+      "english_name": "Single-verb jussive governors",
+      "stage": "Core",
+      "memory_type": "List + Conditions",
+      "target": "Recall لم، لما، لام الأمر، لا الناهية and their grammatical uses.",
+      "prerequisites": [
+        "A02",
+        "F02"
+      ],
+      "related": [
+        "C08",
+        "F05",
+        "F06",
+        "C11"
+      ],
+      "page": "jussive-governors",
+      "editorial_note": "Distinguish prohibitive لا from ordinary negation.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with C08 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R04",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/mood.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "جوازم فعل واحد",
+        "Single-verb jussive governors",
+        "jawazim",
+        "jussive particles"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C08",
+      "arabic_name": "أدوات الشرط الجازمة",
+      "english_name": "Jussive conditional tools",
+      "stage": "Core",
+      "memory_type": "List + Rule",
+      "target": "Recall the selected conditional inventory, meanings, and relationship to condition and response.",
+      "prerequisites": [
+        "C07",
+        "S08"
+      ],
+      "related": [
+        "C09",
+        "I10"
+      ],
+      "page": "jussive-governors",
+      "editorial_note": "Include both nouns and particles under أدوات; do not label every member حرف.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with C07 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R10",
+        "R04"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/condition.jsp",
+        "https://corpus.quran.com/documentation/mood.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أدوات الشرط الجازمة",
+        "Jussive conditional tools"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C09",
+      "arabic_name": "أدوات الشرط غير الجازمة",
+      "english_name": "Non-jussive conditional tools",
+      "stage": "Further",
+      "memory_type": "List + Table",
+      "target": "Recall the principal non-jussive conditional forms and their contrasts.",
+      "prerequisites": [
+        "C08"
+      ],
+      "related": [
+        "I10"
+      ],
+      "page": "non-jussive-conditionals",
+      "editorial_note": "A bounded comparative reference, not a course on conditional interpretation.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table to recall. A bounded comparative reference, not a course on conditional interpretation.",
+      "source_ids": [
+        "R10",
+        "R04"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/condition.jsp",
+        "https://corpus.quran.com/documentation/mood.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أدوات الشرط غير الجازمة",
+        "Non-jussive conditional tools"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C10",
+      "arabic_name": "حروف الاستفهام والجواب",
+      "english_name": "Question and response particles",
+      "stage": "Foundation",
+      "memory_type": "List + Table",
+      "target": "Recall the principal interrogative particles and the contrast among common response forms.",
+      "prerequisites": [
+        "S01"
+      ],
+      "related": [
+        "B08",
+        "C11"
+      ],
+      "page": "question-response-particles",
+      "editorial_note": "Keep yes/no response conventions separate from question-word nouns.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table to recall. Keep yes/no response conventions separate from question-word nouns.",
+      "source_ids": [
+        "R03"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف الاستفهام والجواب",
+        "Question and response particles"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C11",
+      "arabic_name": "أدوات النفي",
+      "english_name": "Negation contrast table",
+      "stage": "Core",
+      "memory_type": "Table + Rule",
+      "target": "Recall the principal negators, their verb or noun environments, and whether they govern endings.",
+      "prerequisites": [
+        "C05",
+        "C07",
+        "D03"
+      ],
+      "related": [
+        "D06",
+        "D07"
+      ],
+      "page": "negation",
+      "editorial_note": "Own the contrasts here; reuse member entries from their governing-family pages.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + rule to recall. Own the contrasts here; reuse member entries from their governing-family pages.",
+      "source_ids": [
+        "R03",
+        "R02"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/tagset.jsp",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أدوات النفي",
+        "Negation contrast table"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C12",
+      "arabic_name": "حروف النداء",
+      "english_name": "Vocative particles",
+      "stage": "Foundation",
+      "memory_type": "List",
+      "target": "Recall the main vocative particles with basic usage distinctions.",
+      "prerequisites": [
+        "S01"
+      ],
+      "related": [
+        "I07"
+      ],
+      "page": "vocative",
+      "editorial_note": "The introductory section of the same page as the vocative case table.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with I07 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R13",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/vocative.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف النداء",
+        "Vocative particles"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "C13",
+      "arabic_name": "حروف الاستقبال وقد",
+      "english_name": "Future markers and قد",
+      "stage": "Core",
+      "memory_type": "List + Table",
+      "target": "Recall سـ، سوف، قد and their principal context-sensitive functions.",
+      "prerequisites": [
+        "F01",
+        "F02"
+      ],
+      "related": [
+        "C11"
+      ],
+      "page": "future-and-qad",
+      "editorial_note": "Do not assign one invariant English meaning to قد.",
+      "category": "Particles and grammatical operators",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table to recall. Do not assign one invariant English meaning to قد.",
+      "source_ids": [
+        "R03",
+        "R02"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/tagset.jsp",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف الاستقبال وقد",
+        "Future markers and قد"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D01",
+      "arabic_name": "إن وأخواتها",
+      "english_name": "Inna and its sisters",
+      "stage": "Core",
+      "memory_type": "List + Rule",
+      "target": "Recall the six principal members, their basic meanings, and their effect on اسم and خبر.",
+      "prerequisites": [
+        "A02",
+        "S03"
+      ],
+      "related": [
+        "D02",
+        "D03"
+      ],
+      "page": "inna-and-sisters",
+      "editorial_note": "The core unit combines the list with its governing rule.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with D02 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R05"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/particleinna.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "إن وأخواتها",
+        "Inna and its sisters",
+        "inna wa akhawatuha",
+        "inna sisters",
+        "إنّ وأخواتها"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D02",
+      "arabic_name": "إن وأخواتها: أحكام إضافية",
+      "english_name": "Inna-family extension tables",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall selected إن / أن environments and the effects of ما الكافة; keep advanced forms in named sub-sections.",
+      "prerequisites": [
+        "D01",
+        "S07"
+      ],
+      "related": [
+        "C06"
+      ],
+      "page": "inna-and-sisters",
+      "editorial_note": "Do not turn all advanced inna syntax into one undifferentiated completion checkbox.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with D01 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R05"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/particleinna.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "إن وأخواتها: أحكام إضافية",
+        "Inna-family extension tables"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D03",
+      "arabic_name": "كان وأخواتها",
+      "english_name": "Kana and its sisters",
+      "stage": "Core",
+      "memory_type": "List + Rule",
+      "target": "Recall the standard family, basic meanings, and اسم / خبر case effects, with essential conditions.",
+      "prerequisites": [
+        "A02",
+        "S03",
+        "F01"
+      ],
+      "related": [
+        "D04",
+        "D01",
+        "D05"
+      ],
+      "page": "kana-and-sisters",
+      "editorial_note": "Conditions essential to the core list must remain visible even before the advanced unit.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with D04 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R06"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/verbkaana.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "كان وأخواتها",
+        "Kana and its sisters",
+        "kana wa akhawatuha",
+        "kana sisters",
+        "كان وأخواتها"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D04",
+      "arabic_name": "كان وأخواتها: شروط وتصرف",
+      "english_name": "Kana-family conditions and conjugability",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall negation-related groups, ما دام, and the main complete/incomplete and conjugability distinctions.",
+      "prerequisites": [
+        "D03"
+      ],
+      "related": [
+        "D05",
+        "F01"
+      ],
+      "page": "kana-and-sisters",
+      "editorial_note": "A deeper section on the same page, not a duplicate family list.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with D03 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R06"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/verbkaana.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "كان وأخواتها: شروط وتصرف",
+        "Kana-family conditions and conjugability"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D05",
+      "arabic_name": "كاد وأخواتها",
+      "english_name": "Approximation, hope, and inception verbs",
+      "stage": "Further",
+      "memory_type": "List + Conditions",
+      "target": "Recall the three families, selected members, and the principal أن restrictions in their predicates.",
+      "prerequisites": [
+        "D03",
+        "C05"
+      ],
+      "related": [
+        "D04"
+      ],
+      "page": "kada-and-sisters",
+      "editorial_note": "Mark less common members and restrict the list to the chosen reference.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. Mark less common members and restrict the list to the chosen reference.",
+      "source_ids": [
+        "R17"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar/lesson-62/part-1"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "كاد وأخواتها",
+        "Approximation, hope, and inception verbs"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D06",
+      "arabic_name": "لا النافية للجنس",
+      "english_name": "Categorical-negation la",
+      "stage": "Core",
+      "memory_type": "Rule + Conditions",
+      "target": "Recall operating conditions and the table of اسم لا forms and grammatical treatment.",
+      "prerequisites": [
+        "A02",
+        "A03",
+        "S03"
+      ],
+      "related": [
+        "C11",
+        "D01"
+      ],
+      "page": "categorical-la",
+      "editorial_note": "A compact conditions-and-forms page rather than a long lesson.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded rule + conditions to recall. A compact conditions-and-forms page rather than a long lesson.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "لا النافية للجنس",
+        "Categorical-negation la"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D07",
+      "arabic_name": "الحروف العاملة عمل ليس",
+      "english_name": "Particles that operate like laysa",
+      "stage": "Further",
+      "memory_type": "List + Conditions",
+      "target": "Recall ما، لا، لات، إن in the relevant uses and the conditions specified by the chosen reference.",
+      "prerequisites": [
+        "D03",
+        "C11"
+      ],
+      "related": [
+        "D06"
+      ],
+      "page": "laysa-like-particles",
+      "editorial_note": "Specialist-source review required; distinguish these uses from homographic particles.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. Specialist-source review required; distinguish these uses from homographic particles.",
+      "source_ids": [],
+      "source_urls": [],
+      "review_status": "Specialist source required",
+      "search_aliases": [
+        "الحروف العاملة عمل ليس",
+        "Particles that operate like laysa"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D08",
+      "arabic_name": "ظن وأخواتها",
+      "english_name": "Dhanna and related two-object verbs",
+      "stage": "Further",
+      "memory_type": "List + Rule",
+      "target": "Recall selected cognition and transformation families and their two-object construction.",
+      "prerequisites": [
+        "A02",
+        "S03",
+        "D03"
+      ],
+      "related": [
+        "D09"
+      ],
+      "page": "dhanna-and-sisters",
+      "editorial_note": "A selected conventional inventory, not every possible verb taking two objects.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + rule to recall. A selected conventional inventory, not every possible verb taking two objects.",
+      "source_ids": [
+        "R18"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar/lesson-63/part-1"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "ظن وأخواتها",
+        "Dhanna and related two-object verbs"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "D09",
+      "arabic_name": "أعلم وأرى وأخواتهما",
+      "english_name": "Selected three-object verb family",
+      "stage": "Further",
+      "memory_type": "List + Rule",
+      "target": "Recall a source-defined family and its three-object frame.",
+      "prerequisites": [
+        "D08"
+      ],
+      "related": [
+        "F04"
+      ],
+      "page": "three-object-verbs",
+      "editorial_note": "Advanced candidate; the exact inventory needs a specialist source before publication.",
+      "category": "Governing families",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + rule to recall. Advanced candidate; the exact inventory needs a specialist source before publication.",
+      "source_ids": [],
+      "source_urls": [],
+      "review_status": "Specialist source required",
+      "search_aliases": [
+        "أعلم وأرى وأخواتهما",
+        "Selected three-object verb family"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E01",
+      "arabic_name": "إعراب الاسم المنصرف",
+      "english_name": "Regular noun case endings",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall the basic nominative, accusative, and genitive endings in indefinite and definite models.",
+      "prerequisites": [
+        "A02",
+        "S04"
+      ],
+      "related": [
+        "E02",
+        "E03",
+        "E04",
+        "E07"
+      ],
+      "page": "regular-noun-endings",
+      "editorial_note": "Use a clearly regular model; do not imply every singular noun follows it.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table to recall. Use a clearly regular model; do not imply every singular noun follows it.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "إعراب الاسم المنصرف",
+        "Regular noun case endings"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E02",
+      "arabic_name": "المثنى",
+      "english_name": "The dual",
+      "stage": "Foundation",
+      "memory_type": "Table + Conditions",
+      "target": "Recall formation, case endings, eligibility, and loss of the final nun in annexation.",
+      "prerequisites": [
+        "A02",
+        "S05"
+      ],
+      "related": [
+        "I01",
+        "E06",
+        "B05",
+        "B06"
+      ],
+      "page": "dual",
+      "editorial_note": "Keep the ending table and its key conditions together.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Keep the ending table and its key conditions together.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "المثنى",
+        "The dual"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E03",
+      "arabic_name": "جمع المذكر السالم",
+      "english_name": "Sound masculine plural",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall formation conditions, case endings, and nun deletion in annexation.",
+      "prerequisites": [
+        "A02",
+        "S05"
+      ],
+      "related": [
+        "E06",
+        "I01"
+      ],
+      "page": "sound-masculine-plural",
+      "editorial_note": "Include exclusions; the suffix is not a universal plural-making device.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Include exclusions; the suffix is not a universal plural-making device.",
+      "source_ids": [
+        "R20"
+      ],
+      "source_urls": [
+        "https://learning.aljazeera.net/ar/node/19630"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "جمع المذكر السالم",
+        "Sound masculine plural"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E04",
+      "arabic_name": "جمع المؤنث السالم",
+      "english_name": "Sound feminine plural",
+      "stage": "Core",
+      "memory_type": "Table + Rule",
+      "target": "Recall formation and the nominative versus accusative/genitive ending pattern.",
+      "prerequisites": [
+        "A02",
+        "S05"
+      ],
+      "related": [
+        "E06",
+        "E11"
+      ],
+      "page": "sound-feminine-plural",
+      "editorial_note": "Show the special accusative sign explicitly.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + rule to recall. Show the special accusative sign explicitly.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "جمع المؤنث السالم",
+        "Sound feminine plural"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E05",
+      "arabic_name": "الأسماء الخمسة",
+      "english_name": "The five special nouns",
+      "stage": "Core",
+      "memory_type": "List + Table + Conditions",
+      "target": "Recall the five core members, letter-based endings, and all conditions for that inflection.",
+      "prerequisites": [
+        "A02",
+        "I01"
+      ],
+      "related": [
+        "E06",
+        "E01"
+      ],
+      "page": "five-nouns",
+      "editorial_note": "Search alias: الأسماء الستة. Explain the sixth-member convention rather than silently mixing lists.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table + conditions to recall. Search alias: الأسماء الستة. Explain the sixth-member convention rather than silently mixing lists.",
+      "source_ids": [
+        "R16",
+        "R01"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar/lesson-57/part-1",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الأسماء الخمسة",
+        "The five special nouns",
+        "al asma al khamsa",
+        "five nouns",
+        "الأسماء الستة",
+        "six nouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E06",
+      "arabic_name": "الملحق بالمثنى والجمع السالم",
+      "english_name": "Forms inflected like duals and sound plurals",
+      "stage": "Further",
+      "memory_type": "List + Conditions",
+      "target": "Recall source-defined attached groups and any special conditions.",
+      "prerequisites": [
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "related": [
+        "E05",
+        "J04"
+      ],
+      "page": "dual-and-plural-supplements",
+      "editorial_note": "Organize by host inflection pattern; extended lists are not universal.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. Organize by host inflection pattern; extended lists are not universal.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الملحق بالمثنى والجمع السالم",
+        "Forms inflected like duals and sound plurals"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E07",
+      "arabic_name": "الممنوع من الصرف",
+      "english_name": "Diptote categories and exceptions",
+      "stage": "Core",
+      "memory_type": "List + Table + Conditions",
+      "target": "Recall the principal causes, ending pattern, and conditions restoring genitive kasrah.",
+      "prerequisites": [
+        "A02",
+        "A03",
+        "I01"
+      ],
+      "related": [
+        "E11",
+        "E10"
+      ],
+      "page": "diptotes",
+      "editorial_note": "A reference package, not an unbounded list of diptote vocabulary.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table + conditions to recall. A reference package, not an unbounded list of diptote vocabulary.",
+      "source_ids": [
+        "R15"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الممنوع من الصرف",
+        "Diptote categories and exceptions"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E08",
+      "arabic_name": "الاسم المقصور",
+      "english_name": "Maqsur nouns",
+      "stage": "Core",
+      "memory_type": "Table + Rule",
+      "target": "Recall the estimated case endings and principal dual/plural transformations.",
+      "prerequisites": [
+        "E01",
+        "E02",
+        "S02"
+      ],
+      "related": [
+        "E09",
+        "E10"
+      ],
+      "page": "maqsur-nouns",
+      "editorial_note": "Separate case behavior from word-formation changes.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + rule to recall. Separate case behavior from word-formation changes.",
+      "source_ids": [
+        "R19"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar/lesson-27/part-1"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الاسم المقصور",
+        "Maqsur nouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E09",
+      "arabic_name": "الاسم المنقوص",
+      "english_name": "Manqus nouns",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall visible/estimated endings and the conditions for retaining or deleting final ya.",
+      "prerequisites": [
+        "E01",
+        "E02",
+        "S02"
+      ],
+      "related": [
+        "E08",
+        "G08"
+      ],
+      "page": "manqus-nouns",
+      "editorial_note": "Show indefinite, definite, and annexed environments separately.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Show indefinite, definite, and annexed environments separately.",
+      "source_ids": [
+        "R19"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar/lesson-27/part-1"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الاسم المنقوص",
+        "Manqus nouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E10",
+      "arabic_name": "الاسم الممدود",
+      "english_name": "Mamdud nouns",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall hamza-origin categories and the associated dual/plural formation options.",
+      "prerequisites": [
+        "E02",
+        "E04",
+        "G01"
+      ],
+      "related": [
+        "E07",
+        "E08",
+        "E09"
+      ],
+      "page": "mamdud-nouns",
+      "editorial_note": "Do not imply mamdud nouns all share the maqsur/manqus estimated-ending behavior.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Do not imply mamdud nouns all share the maqsur/manqus estimated-ending behavior.",
+      "source_ids": [
+        "R19"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar/lesson-27/part-1"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الاسم الممدود",
+        "Mamdud nouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "E11",
+      "arabic_name": "أوزان جمع التكسير",
+      "english_name": "Selected broken-plural patterns",
+      "stage": "Core",
+      "memory_type": "Pattern + List",
+      "target": "Recall a declared selection of common patterns with model singular/plural pairs.",
+      "prerequisites": [
+        "G01",
+        "S05"
+      ],
+      "related": [
+        "E07"
+      ],
+      "page": "broken-plural-patterns",
+      "editorial_note": "Explicitly representative, not exhaustive or a reliable generator for every noun.",
+      "category": "Noun endings and plural patterns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + list to recall. Explicitly representative, not exhaustive or a reliable generator for every noun.",
+      "source_ids": [
+        "R15"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أوزان جمع التكسير",
+        "Selected broken-plural patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F01",
+      "arabic_name": "تصريف الماضي الصحيح",
+      "english_name": "Regular past-tense conjugation",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall a complete regular model by person, gender, and number.",
+      "prerequisites": [
+        "B01",
+        "B02"
+      ],
+      "related": [
+        "F07",
+        "F02",
+        "H01"
+      ],
+      "page": "past-tense",
+      "editorial_note": "Memorize the paradigm, not isolated tables for every regular verb.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with F07 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R24",
+        "R02"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/verb-conjugation/",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف الماضي الصحيح",
+        "Regular past-tense conjugation"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F02",
+      "arabic_name": "تصريف المضارع الصحيح",
+      "english_name": "Regular imperfect conjugation",
+      "stage": "Foundation",
+      "memory_type": "Table",
+      "target": "Recall prefixes and endings for a regular indicative model.",
+      "prerequisites": [
+        "B01",
+        "B02"
+      ],
+      "related": [
+        "F05",
+        "F06",
+        "F09",
+        "G03"
+      ],
+      "page": "imperfect-verb",
+      "editorial_note": "Include all paradigm slots without treating repeated spellings as extra pronouns.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with F05, F09 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R24",
+        "R02"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/verb-conjugation/",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف المضارع الصحيح",
+        "Regular imperfect conjugation"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F03",
+      "arabic_name": "تصريف الأمر الصحيح",
+      "english_name": "Regular imperative conjugation",
+      "stage": "Core",
+      "memory_type": "Table + Rule",
+      "target": "Recall the addressee forms and the core formation procedure.",
+      "prerequisites": [
+        "F02",
+        "B01"
+      ],
+      "related": [
+        "F08",
+        "H02"
+      ],
+      "page": "imperative",
+      "editorial_note": "Keep weak and exceptional forms out of the basic model.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with F08 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R24",
+        "R02"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/verb-conjugation/",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف الأمر الصحيح",
+        "Regular imperative conjugation"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F04",
+      "arabic_name": "بناء الفعل للمجهول",
+      "english_name": "Regular passive formation",
+      "stage": "Core",
+      "memory_type": "Table + Rule",
+      "target": "Recall past and imperfect passive patterns with a regular model.",
+      "prerequisites": [
+        "F01",
+        "F02"
+      ],
+      "related": [
+        "G08",
+        "G09",
+        "H05"
+      ],
+      "page": "passive-formation",
+      "editorial_note": "Morphological formation only; link a short نائب الفاعل definition.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + rule to recall. Morphological formation only; link a short نائب الفاعل definition.",
+      "source_ids": [
+        "R24",
+        "R02"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/verb-conjugation/",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "بناء الفعل للمجهول",
+        "Regular passive formation"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F05",
+      "arabic_name": "علامات إعراب المضارع",
+      "english_name": "Imperfect mood endings",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall indicative, subjunctive, and jussive endings for sound-final and weak-final models.",
+      "prerequisites": [
+        "A02",
+        "F02",
+        "H01"
+      ],
+      "related": [
+        "C05",
+        "C07",
+        "F06"
+      ],
+      "page": "imperfect-verb",
+      "editorial_note": "Refer to the five-verb unit for its separate ending pattern.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with F02, F09 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R04",
+        "R02"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/mood.jsp",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "علامات إعراب المضارع",
+        "Imperfect mood endings"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F06",
+      "arabic_name": "الأفعال الخمسة",
+      "english_name": "The five imperfect templates",
+      "stage": "Core",
+      "memory_type": "Table + Rule",
+      "target": "Recall the five templates and retention/deletion of nun across moods.",
+      "prerequisites": [
+        "A02",
+        "F02"
+      ],
+      "related": [
+        "C05",
+        "C07",
+        "F05"
+      ],
+      "page": "five-verbs",
+      "editorial_note": "These are five templates, not five lexical verbs.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + rule to recall. These are five templates, not five lexical verbs.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الأفعال الخمسة",
+        "The five imperfect templates",
+        "al afal al khamsa",
+        "five verbs"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F07",
+      "arabic_name": "علامات بناء الماضي",
+      "english_name": "Fixed endings of the past tense",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the principal fixed-ending cases and their suffix environments.",
+      "prerequisites": [
+        "F01",
+        "S02"
+      ],
+      "related": [
+        "F09"
+      ],
+      "page": "past-tense",
+      "editorial_note": "A checkable section beside the conjugation grid, not a second past-tense page.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with F01 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "علامات بناء الماضي",
+        "Fixed endings of the past tense"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F08",
+      "arabic_name": "علامات بناء الأمر",
+      "english_name": "Fixed endings of the imperative",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the principal fixed-ending cases with sound, weak-final, and suffixed forms.",
+      "prerequisites": [
+        "F03",
+        "F05",
+        "S02"
+      ],
+      "related": [
+        "F06"
+      ],
+      "page": "imperative",
+      "editorial_note": "Use a stated traditional analysis; terminology can differ across primers.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with F03 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R01",
+        "R15"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "علامات بناء الأمر",
+        "Fixed endings of the imperative"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "F09",
+      "arabic_name": "بناء المضارع",
+      "english_name": "When the imperfect is indeclinable",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the relevant nun environments and the conditions on direct attachment.",
+      "prerequisites": [
+        "F02",
+        "S02",
+        "B02"
+      ],
+      "related": [
+        "F05",
+        "F07"
+      ],
+      "page": "imperfect-verb",
+      "editorial_note": "Distinguish نون النسوة from نون التوكيد and from the five-verbs nun.",
+      "category": "Verb conjugation and endings",
+      "discipline": "نحو / صرف",
+      "release": "Later specialist",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with F02, F05 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R04",
+        "R02"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/mood.jsp",
+        "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "بناء المضارع",
+        "When the imperfect is indeclinable"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G01",
+      "arabic_name": "الميزان الصرفي",
+      "english_name": "Morphological pattern notation",
+      "stage": "Foundation",
+      "memory_type": "Pattern + Rule",
+      "target": "Recall the root-slot correspondence and the compact conventions for representing patterns.",
+      "prerequisites": [
+        "S09"
+      ],
+      "related": [
+        "G02",
+        "G03",
+        "G04",
+        "E11"
+      ],
+      "page": "morphological-pattern-notation",
+      "editorial_note": "Only a decoding key and short rule card, not a full root-analysis course.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + rule to recall. Only a decoding key and short rule card, not a full root-analysis course.",
+      "source_ids": [
+        "R23"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-morphology-introduction/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الميزان الصرفي",
+        "Morphological pattern notation",
+        "wazn",
+        "mizan sarfi",
+        "morphological scale"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G02",
+      "arabic_name": "حروف الزيادة",
+      "english_name": "Augmentation-letter inventory",
+      "stage": "Core",
+      "memory_type": "List + Conditions",
+      "target": "Recall the conventional سألتمونيها letter inventory and the caveat about root letters.",
+      "prerequisites": [
+        "G01"
+      ],
+      "related": [
+        "G04"
+      ],
+      "page": "augmentation-letters",
+      "editorial_note": "Membership in this set does not prove that a letter is extra in a particular word.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. Membership in this set does not prove that a letter is extra in a particular word.",
+      "source_ids": [
+        "R23"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-morphology-introduction/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "حروف الزيادة",
+        "Augmentation-letter inventory"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G03",
+      "arabic_name": "أبواب الثلاثي المجرد",
+      "english_name": "Six basic triliteral verb classes",
+      "stage": "Core",
+      "memory_type": "Table + Pattern",
+      "target": "Recall the six standard past/imperfect vowel pairings with model verbs.",
+      "prerequisites": [
+        "G01",
+        "F01",
+        "F02"
+      ],
+      "related": [
+        "G04"
+      ],
+      "page": "basic-triliteral-classes",
+      "editorial_note": "Model labels and ordering vary; do not infer every verb's class from its past form alone.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + pattern to recall. Model labels and ordering vary; do not infer every verb's class from its past form alone.",
+      "source_ids": [
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أبواب الثلاثي المجرد",
+        "Six basic triliteral verb classes",
+        "abwab al thulathi",
+        "six verb classes"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G04",
+      "arabic_name": "أوزان الثلاثي المزيد",
+      "english_name": "Derived triliteral forms II–X",
+      "stage": "Core",
+      "memory_type": "Table + Pattern",
+      "target": "Recall past/imperfect templates for forms II–X and cautiously labelled common associations.",
+      "prerequisites": [
+        "G01",
+        "G03"
+      ],
+      "related": [
+        "G07",
+        "G08",
+        "G09",
+        "H09"
+      ],
+      "page": "derived-triliteral-forms",
+      "editorial_note": "Treat nine forms as named subtargets; not all forms exist for every root.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + pattern to recall. Treat nine forms as named subtargets; not all forms exist for every root.",
+      "source_ids": [
+        "R07",
+        "R26"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/verbforms.jsp",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أوزان الثلاثي المزيد",
+        "Derived triliteral forms II–X"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G05",
+      "arabic_name": "الرباعي المجرد والمزيد",
+      "english_name": "Quadriliteral verb templates",
+      "stage": "Further",
+      "memory_type": "Table + Pattern",
+      "target": "Recall the basic quadriliteral template and a stated selection of derived patterns.",
+      "prerequisites": [
+        "G01",
+        "F01",
+        "F02"
+      ],
+      "related": [
+        "G04"
+      ],
+      "page": "quadriliteral-verbs",
+      "editorial_note": "Separate the basic model from less common derived formations.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + pattern to recall. Separate the basic model from less common derived formations.",
+      "source_ids": [
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الرباعي المجرد والمزيد",
+        "Quadriliteral verb templates"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G06",
+      "arabic_name": "مصادر الثلاثي المجرد",
+      "english_name": "Selected basic-triliteral verbal-noun patterns",
+      "stage": "Core",
+      "memory_type": "Pattern + List",
+      "target": "Recall selected productive tendencies and model pairs; distinguish lexically learned forms.",
+      "prerequisites": [
+        "G01",
+        "G03"
+      ],
+      "related": [
+        "G07"
+      ],
+      "page": "verbal-nouns",
+      "editorial_note": "No claim that one table predicts every triliteral masdar.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with G07 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مصادر الثلاثي المجرد",
+        "Selected basic-triliteral verbal-noun patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G07",
+      "arabic_name": "مصادر غير الثلاثي",
+      "english_name": "Verbal nouns of non-basic verb forms",
+      "stage": "Core",
+      "memory_type": "Table + Pattern",
+      "target": "Recall form-to-masdar correspondences and the main predictable adjustments.",
+      "prerequisites": [
+        "G04"
+      ],
+      "related": [
+        "G06",
+        "G05"
+      ],
+      "page": "verbal-nouns",
+      "editorial_note": "A separate tracked table within the same verbal-noun reference page.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with G06 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مصادر غير الثلاثي",
+        "Verbal nouns of non-basic verb forms"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G08",
+      "arabic_name": "اسم الفاعل",
+      "english_name": "Active-participle patterns",
+      "stage": "Core",
+      "memory_type": "Pattern + Rule",
+      "target": "Recall formation from basic and non-basic verbs, with links for weak-root adjustments.",
+      "prerequisites": [
+        "G01",
+        "G04"
+      ],
+      "related": [
+        "G09",
+        "E09",
+        "H08"
+      ],
+      "page": "active-participle",
+      "editorial_note": "Keep grammatical government as a later optional conditions unit.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + rule to recall. Keep grammatical government as a later optional conditions unit.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "اسم الفاعل",
+        "Active-participle patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G09",
+      "arabic_name": "اسم المفعول",
+      "english_name": "Passive-participle patterns",
+      "stage": "Core",
+      "memory_type": "Pattern + Rule",
+      "target": "Recall formation from basic and non-basic verbs with representative limitations.",
+      "prerequisites": [
+        "G01",
+        "G04",
+        "F04"
+      ],
+      "related": [
+        "G08",
+        "H08"
+      ],
+      "page": "passive-participle",
+      "editorial_note": "Do not mechanically generate unattested or semantically inappropriate forms.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + rule to recall. Do not mechanically generate unattested or semantically inappropriate forms.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "اسم المفعول",
+        "Passive-participle patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G10",
+      "arabic_name": "صيغ المبالغة",
+      "english_name": "Intensive participial patterns",
+      "stage": "Core",
+      "memory_type": "Pattern + List",
+      "target": "Recall the principal conventional patterns with reviewed model words.",
+      "prerequisites": [
+        "G08"
+      ],
+      "related": [
+        "G11"
+      ],
+      "page": "intensive-patterns",
+      "editorial_note": "A selected pattern inventory; lexical availability is not guaranteed.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + list to recall. A selected pattern inventory; lexical availability is not guaranteed.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "صيغ المبالغة",
+        "Intensive participial patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G11",
+      "arabic_name": "الصفة المشبهة",
+      "english_name": "Resembling-adjective patterns",
+      "stage": "Further",
+      "memory_type": "Pattern + List",
+      "target": "Recall a source-defined selection of patterns and their contrasts with active participles.",
+      "prerequisites": [
+        "G08",
+        "G03"
+      ],
+      "related": [
+        "G10"
+      ],
+      "page": "resembling-adjectives",
+      "editorial_note": "Many forms are lexical; avoid an all-purpose production rule.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + list to recall. Many forms are lexical; avoid an all-purpose production rule.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الصفة المشبهة",
+        "Resembling-adjective patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G12",
+      "arabic_name": "اسم التفضيل",
+      "english_name": "Elative formation and conditions",
+      "stage": "Core",
+      "memory_type": "Pattern + Conditions",
+      "target": "Recall the primary pattern, formation conditions, and a compact alternative-construction rule.",
+      "prerequisites": [
+        "G01",
+        "S04"
+      ],
+      "related": [
+        "I09",
+        "J06"
+      ],
+      "page": "elative",
+      "editorial_note": "Include the main use/agreement table only as a bounded extension.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + conditions to recall. Include the main use/agreement table only as a bounded extension.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "اسم التفضيل",
+        "Elative formation and conditions"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G13",
+      "arabic_name": "اسما الزمان والمكان",
+      "english_name": "Time/place noun patterns",
+      "stage": "Core",
+      "memory_type": "Pattern + Conditions",
+      "target": "Recall the principal basic-verb patterns and the non-basic formation rule.",
+      "prerequisites": [
+        "G03",
+        "G04"
+      ],
+      "related": [
+        "G14"
+      ],
+      "page": "time-and-place-nouns",
+      "editorial_note": "Same templates may have other functions; examples must identify the intended use.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + conditions to recall. Same templates may have other functions; examples must identify the intended use.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "اسما الزمان والمكان",
+        "Time/place noun patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G14",
+      "arabic_name": "اسم الآلة",
+      "english_name": "Instrument-noun patterns",
+      "stage": "Core",
+      "memory_type": "Pattern + List",
+      "target": "Recall a declared traditional core plus separately labelled modern extensions.",
+      "prerequisites": [
+        "G01"
+      ],
+      "related": [
+        "G13"
+      ],
+      "page": "instrument-nouns",
+      "editorial_note": "Traditional and modern pattern inventories must not be silently merged.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + list to recall. Traditional and modern pattern inventories must not be silently merged.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "اسم الآلة",
+        "Instrument-noun patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G15",
+      "arabic_name": "مصدر المرة ومصدر الهيئة",
+      "english_name": "Single-occurrence and manner patterns",
+      "stage": "Further",
+      "memory_type": "Pattern + Conditions",
+      "target": "Recall the main contrasting patterns and the conditions for their formation.",
+      "prerequisites": [
+        "G06",
+        "G07"
+      ],
+      "related": [
+        "G11"
+      ],
+      "page": "occurrence-and-manner",
+      "editorial_note": "A contrast page with separate examples, not a claim of universal derivability.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + conditions to recall. A contrast page with separate examples, not a claim of universal derivability.",
+      "source_ids": [
+        "R25",
+        "R26"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/derived-nouns/",
+        "https://www.learnarabiconline.com/verbal-paradigms/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مصدر المرة ومصدر الهيئة",
+        "Single-occurrence and manner patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G16",
+      "arabic_name": "التصغير",
+      "english_name": "Diminutive templates",
+      "stage": "Further",
+      "memory_type": "Pattern + Conditions",
+      "target": "Recall the principal templates and a limited table of stem adjustments.",
+      "prerequisites": [
+        "G01",
+        "E02"
+      ],
+      "related": [
+        "G17"
+      ],
+      "page": "diminutives",
+      "editorial_note": "Specialist-rule review required before detailed publication.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + conditions to recall. Specialist-rule review required before detailed publication.",
+      "source_ids": [],
+      "source_urls": [],
+      "review_status": "Specialist source required",
+      "search_aliases": [
+        "التصغير",
+        "Diminutive templates"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "G17",
+      "arabic_name": "النسب",
+      "english_name": "Relational-adjective formation",
+      "stage": "Further",
+      "memory_type": "Pattern + Conditions",
+      "target": "Recall the base suffix rule and a selected table of stem-final adjustments.",
+      "prerequisites": [
+        "G01",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "related": [
+        "G16"
+      ],
+      "page": "nisba",
+      "editorial_note": "Keep irregular lexical forms in labelled examples, not an unlimited memorization list.",
+      "category": "Word-formation patterns",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + conditions to recall. Keep irregular lexical forms in labelled examples, not an unlimited memorization list.",
+      "source_ids": [],
+      "source_urls": [],
+      "review_status": "Specialist source required",
+      "search_aliases": [
+        "النسب",
+        "Relational-adjective formation",
+        "nisba",
+        "nisbah",
+        "relative adjective"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H01",
+      "arabic_name": "الصحيح والمعتل",
+      "english_name": "Sound and weak verb classes",
+      "stage": "Core",
+      "memory_type": "List + Table",
+      "target": "Recall sound, hamzated, doubled, initial-weak, hollow, final-weak, and doubly weak categories.",
+      "prerequisites": [
+        "G01"
+      ],
+      "related": [
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "F05"
+      ],
+      "page": "verb-root-classes",
+      "editorial_note": "Hamzated and doubled verbs are not weak-root verbs in the same sense as معتل.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table to recall. Hamzated and doubled verbs are not weak-root verbs in the same sense as معتل.",
+      "source_ids": [
+        "R23"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-morphology-introduction/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الصحيح والمعتل",
+        "Sound and weak verb classes"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H02",
+      "arabic_name": "تصريف المهموز",
+      "english_name": "Hamzated verb models",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the principal model differences and selected high-frequency imperative exceptions.",
+      "prerequisites": [
+        "H01",
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "related": [
+        "H08"
+      ],
+      "page": "hamzated-verbs",
+      "editorial_note": "Keep hamza spelling instruction outside this unit except where indispensable.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Keep hamza spelling instruction outside this unit except where indispensable.",
+      "source_ids": [
+        "R23"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-morphology-introduction/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف المهموز",
+        "Hamzated verb models"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H03",
+      "arabic_name": "تصريف المضاعف",
+      "english_name": "Doubled verb models",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall representative joined/separated-root forms and the suffix conditions.",
+      "prerequisites": [
+        "H01",
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "related": [
+        "H09"
+      ],
+      "page": "doubled-verbs",
+      "editorial_note": "Avoid presenting one model as every doubled verb's complete behavior.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Avoid presenting one model as every doubled verb's complete behavior.",
+      "source_ids": [
+        "R31"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/duplicated-verbs/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف المضاعف",
+        "Doubled verb models"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H04",
+      "arabic_name": "تصريف المثال",
+      "english_name": "Initial-weak verb models",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall representative waw-initial and ya-initial models and their principal differences.",
+      "prerequisites": [
+        "H01",
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "related": [
+        "H08"
+      ],
+      "page": "initial-weak-verbs",
+      "editorial_note": "Do not teach that every initial weak letter always disappears.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Do not teach that every initial weak letter always disappears.",
+      "source_ids": [
+        "R28"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/assimilated-verbs/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف المثال",
+        "Initial-weak verb models"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H05",
+      "arabic_name": "تصريف الأجوف",
+      "english_name": "Hollow verb models",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall representative hollow-verb paradigms and short/long stem alternations.",
+      "prerequisites": [
+        "H01",
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "related": [
+        "F04",
+        "H08"
+      ],
+      "page": "hollow-verbs",
+      "editorial_note": "Use more than one model where the vowel classes require it.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Use more than one model where the vowel classes require it.",
+      "source_ids": [
+        "R27"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/hollow-verbs/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف الأجوف",
+        "Hollow verb models"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H06",
+      "arabic_name": "تصريف الناقص",
+      "english_name": "Final-weak verb models",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall representative final-weak classes across suffixes and moods.",
+      "prerequisites": [
+        "H01",
+        "F01",
+        "F02",
+        "F03",
+        "F05"
+      ],
+      "related": [
+        "H07",
+        "H08"
+      ],
+      "page": "final-weak-verbs",
+      "editorial_note": "Distinguish final alif, waw, and ya outcomes; one grid is insufficient for the family.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Distinguish final alif, waw, and ya outcomes; one grid is insufficient for the family.",
+      "source_ids": [
+        "R29"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/deficient-verbs/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف الناقص",
+        "Final-weak verb models"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H07",
+      "arabic_name": "تصريف اللفيف",
+      "english_name": "Doubly weak verb models",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the two positional classes and a small reviewed set of paradigms.",
+      "prerequisites": [
+        "H04",
+        "H06"
+      ],
+      "related": [
+        "H08"
+      ],
+      "page": "doubly-weak-verbs",
+      "editorial_note": "A limited model collection, not every combination of irregularities.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. A limited model collection, not every combination of irregularities.",
+      "source_ids": [
+        "R30"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/highly-deficient-verbs/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "تصريف اللفيف",
+        "Doubly weak verb models"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H08",
+      "arabic_name": "قواعد الإعلال الأساسية",
+      "english_name": "Selected weak-letter change rules",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall a bounded set of deletion, substitution, and vowel-transfer rules linked to models.",
+      "prerequisites": [
+        "H04",
+        "H05",
+        "H06"
+      ],
+      "related": [
+        "G08",
+        "G09"
+      ],
+      "page": "weak-letter-changes",
+      "editorial_note": "A summary of rules already encountered, not the complete science of الإعلال.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. A summary of rules already encountered, not the complete science of الإعلال.",
+      "source_ids": [
+        "R23"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-morphology-introduction/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "قواعد الإعلال الأساسية",
+        "Selected weak-letter change rules"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "H09",
+      "arabic_name": "الإبدال والإدغام في افتعل",
+      "english_name": "Form VIII assimilation table",
+      "stage": "Further",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the main initial-root environments that alter Form VIII's added ta.",
+      "prerequisites": [
+        "G04",
+        "H01"
+      ],
+      "related": [
+        "H03"
+      ],
+      "page": "form-viii-assimilation",
+      "editorial_note": "Restrict this unit to Form VIII; wider assimilation belongs in optional extensions.",
+      "category": "Weak and irregular verb models",
+      "discipline": "صرف",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Restrict this unit to Form VIII; wider assimilation belongs in optional extensions.",
+      "source_ids": [
+        "R23"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-morphology-introduction/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الإبدال والإدغام في افتعل",
+        "Form VIII assimilation table"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I01",
+      "arabic_name": "أحكام الإضافة الأساسية",
+      "english_name": "Annexation rule card",
+      "stage": "Foundation",
+      "memory_type": "Rule + Conditions",
+      "target": "Recall the core case, definiteness, article/tanwin, and nun-loss constraints.",
+      "prerequisites": [
+        "A02",
+        "S04",
+        "S06"
+      ],
+      "related": [
+        "B03",
+        "E02",
+        "E03",
+        "E05"
+      ],
+      "page": "annexation",
+      "editorial_note": "One compact constraint package; not a full lesson on all types of إضافة.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded rule + conditions to recall. One compact constraint package; not a full lesson on all types of إضافة.",
+      "source_ids": [
+        "R08"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/possessiveconstruction.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أحكام الإضافة الأساسية",
+        "Annexation rule card",
+        "idafa",
+        "idaafa",
+        "mudaf",
+        "possessive construction"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I02",
+      "arabic_name": "مطابقة النعت",
+      "english_name": "Adjective-agreement table",
+      "stage": "Foundation",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the principal agreement dimensions and the common nonhuman-plural pattern.",
+      "prerequisites": [
+        "A02",
+        "S04",
+        "S05"
+      ],
+      "related": [
+        "A08",
+        "I03"
+      ],
+      "page": "adjective-agreement",
+      "editorial_note": "Restrict the core to direct attributive agreement; النعت السببي is an extension.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "First release",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. Restrict the core to direct attributive agreement; النعت السببي is an extension.",
+      "source_ids": [
+        "R09"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/adjective.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مطابقة النعت",
+        "Adjective-agreement table"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I03",
+      "arabic_name": "مطابقة الفعل والفاعل",
+      "english_name": "Verb–subject agreement table",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the standard contrasts by subject order, number, and gender in selected constructions.",
+      "prerequisites": [
+        "F01",
+        "F02",
+        "S03",
+        "S05"
+      ],
+      "related": [
+        "I02"
+      ],
+      "page": "verb-subject-agreement",
+      "editorial_note": "A reference grid with named limits, not every classical agreement exception.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + conditions to recall. A reference grid with named limits, not every classical agreement exception.",
+      "source_ids": [
+        "R14"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/verb.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مطابقة الفعل والفاعل",
+        "Verb–subject agreement table"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I04",
+      "arabic_name": "ألفاظ التوكيد المعنوي",
+      "english_name": "Semantic-emphasis word set",
+      "stage": "Core",
+      "memory_type": "List + Conditions",
+      "target": "Recall the principal emphasis words and their pronoun/agreement requirements.",
+      "prerequisites": [
+        "A08",
+        "B03"
+      ],
+      "related": [
+        "I05"
+      ],
+      "page": "semantic-emphasis",
+      "editorial_note": "Separate the core words from extended traditional follow-on forms.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. Separate the core words from extended traditional follow-on forms.",
+      "source_ids": [
+        "R01"
+      ],
+      "source_urls": [
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "ألفاظ التوكيد المعنوي",
+        "Semantic-emphasis word set"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I05",
+      "arabic_name": "أنواع البدل",
+      "english_name": "Substitution/apposition categories",
+      "stage": "Core",
+      "memory_type": "List + Table",
+      "target": "Recall the adopted category inventory and a distinguishing model for each.",
+      "prerequisites": [
+        "A08",
+        "S03"
+      ],
+      "related": [
+        "I04"
+      ],
+      "page": "badal-types",
+      "editorial_note": "A classification aid; detailed sentence analysis remains out of scope.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table to recall. A classification aid; detailed sentence analysis remains out of scope.",
+      "source_ids": [
+        "R11",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/apposition.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أنواع البدل",
+        "Substitution/apposition categories"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I06",
+      "arabic_name": "أدوات الاستثناء وأحكامه",
+      "english_name": "Exception tools and case table",
+      "stage": "Core",
+      "memory_type": "List + Table + Conditions",
+      "target": "Recall the principal tools and the complete/elliptical, positive/negative decision table.",
+      "prerequisites": [
+        "A02",
+        "C11",
+        "S03"
+      ],
+      "related": [
+        "C02"
+      ],
+      "page": "exception",
+      "editorial_note": "Separate إلا from nominal and verbal alternatives rather than assigning them one rule.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + table + conditions to recall. Separate إلا from nominal and verbal alternatives rather than assigning them one rule.",
+      "source_ids": [
+        "R12",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/exceptive.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أدوات الاستثناء وأحكامه",
+        "Exception tools and case table"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I07",
+      "arabic_name": "أنواع المنادى وأحكامه",
+      "english_name": "Vocative types and endings",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the principal addressee categories and their inflected versus locally accusative treatment.",
+      "prerequisites": [
+        "C12",
+        "A02",
+        "A03",
+        "I01",
+        "S02"
+      ],
+      "related": [
+        "D06"
+      ],
+      "page": "vocative",
+      "editorial_note": "The advanced section of the vocative page; not a second copy of the particles.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with C12 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R13",
+        "R01"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/vocative.jsp",
+        "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أنواع المنادى وأحكامه",
+        "Vocative types and endings"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I08",
+      "arabic_name": "أسماء الأفعال الشائعة",
+      "english_name": "Selected verb-nouns",
+      "stage": "Further",
+      "memory_type": "List + Rule",
+      "target": "Recall a small declared selection with meanings and the associated tense/function.",
+      "prerequisites": [
+        "A01",
+        "A04"
+      ],
+      "related": [
+        "B03"
+      ],
+      "page": "verb-nouns",
+      "editorial_note": "This is a curated selection, not a closed list of every اسم فعل.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + rule to recall. This is a curated selection, not a closed list of every اسم فعل.",
+      "source_ids": [
+        "R03"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/tagset.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "أسماء الأفعال الشائعة",
+        "Selected verb-nouns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I09",
+      "arabic_name": "صيغ التعجب القياسية",
+      "english_name": "Regular exclamatory formulas",
+      "stage": "Further",
+      "memory_type": "Pattern + Conditions",
+      "target": "Recall the two standard formulas and the conditions for direct formation.",
+      "prerequisites": [
+        "G12",
+        "S03"
+      ],
+      "related": [
+        "G01"
+      ],
+      "page": "exclamatory-formulas",
+      "editorial_note": "Keep rhetorical interpretation and literary appreciation out of scope.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded pattern + conditions to recall. Keep rhetorical interpretation and literary appreciation out of scope.",
+      "source_ids": [
+        "R15"
+      ],
+      "source_urls": [
+        "https://madinaharabic.com/free-content/grammar"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "صيغ التعجب القياسية",
+        "Regular exclamatory formulas"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "I10",
+      "arabic_name": "اقتران جواب الشرط بالفاء",
+      "english_name": "When a conditional response takes fa",
+      "stage": "Further",
+      "memory_type": "List + Conditions",
+      "target": "Recall a source-defined set of response types requiring the connecting fa.",
+      "prerequisites": [
+        "C08",
+        "C09",
+        "S08"
+      ],
+      "related": [
+        "C06"
+      ],
+      "page": "conditional-response-fa",
+      "editorial_note": "Review the mnemonic against the actual conditions; the mnemonic is not the rule.",
+      "category": "Compact construction rules",
+      "discipline": "نحو",
+      "release": "Later specialist",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded list + conditions to recall. Review the mnemonic against the actual conditions; the mnemonic is not the rule.",
+      "source_ids": [
+        "R10",
+        "R04"
+      ],
+      "source_urls": [
+        "https://corpus.quran.com/documentation/condition.jsp",
+        "https://corpus.quran.com/documentation/mood.jsp"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "اقتران جواب الشرط بالفاء",
+        "When a conditional response takes fa"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "J01",
+      "arabic_name": "العددان واحد واثنان",
+      "english_name": "Numbers one and two",
+      "stage": "Foundation",
+      "memory_type": "Table + Rule",
+      "target": "Recall gender agreement and the principal one/two forms in counted-noun constructions.",
+      "prerequisites": [
+        "S05",
+        "E02",
+        "I02"
+      ],
+      "related": [
+        "J02",
+        "J06"
+      ],
+      "page": "cardinal-numbers",
+      "editorial_note": "A unit within one number reference; lexical counting vocabulary is supporting material.",
+      "category": "Numbers and counted nouns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with J02, J03, J04, J05 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R21",
+        "R32"
+      ],
+      "source_urls": [
+        "https://learning.aljazeera.net/ar/node/19761",
+        "https://www.learnarabiconline.com/arabic-numbers/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "العددان واحد واثنان",
+        "Numbers one and two"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "J02",
+      "arabic_name": "الأعداد من ثلاثة إلى عشرة",
+      "english_name": "Numbers three to ten",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the principal gender relationship and counted-noun number/case pattern.",
+      "prerequisites": [
+        "J01",
+        "I01"
+      ],
+      "related": [
+        "J03",
+        "J04"
+      ],
+      "page": "cardinal-numbers",
+      "editorial_note": "A dedicated checkable rule within the shared table.",
+      "category": "Numbers and counted nouns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with J01, J03, J04, J05 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R21",
+        "R32"
+      ],
+      "source_urls": [
+        "https://learning.aljazeera.net/ar/node/19761",
+        "https://www.learnarabiconline.com/arabic-numbers/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الأعداد من ثلاثة إلى عشرة",
+        "Numbers three to ten"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "J03",
+      "arabic_name": "الأعداد من أحد عشر إلى تسعة عشر",
+      "english_name": "Numbers eleven to nineteen",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the distinctions among eleven, twelve, and thirteen–nineteen, plus counted-noun treatment.",
+      "prerequisites": [
+        "J02",
+        "A02"
+      ],
+      "related": [
+        "J04"
+      ],
+      "page": "cardinal-numbers",
+      "editorial_note": "Use separately revealable subrows so twelve is not hidden under an overgeneralization.",
+      "category": "Numbers and counted nouns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with J01, J02, J04, J05 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R21",
+        "R32"
+      ],
+      "source_urls": [
+        "https://learning.aljazeera.net/ar/node/19761",
+        "https://www.learnarabiconline.com/arabic-numbers/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الأعداد من أحد عشر إلى تسعة عشر",
+        "Numbers eleven to nineteen"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "J04",
+      "arabic_name": "ألفاظ العقود والأعداد المعطوفة",
+      "english_name": "Decades and compound numbers 21–99",
+      "stage": "Core",
+      "memory_type": "Table + Conditions",
+      "target": "Recall the tens ending pattern and agreement/coordination rules for the units.",
+      "prerequisites": [
+        "J03",
+        "E03",
+        "C04"
+      ],
+      "related": [
+        "J05"
+      ],
+      "page": "cardinal-numbers",
+      "editorial_note": "Separate the decade component from the unit component in the table.",
+      "category": "Numbers and counted nouns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with J01, J02, J03, J05 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R21",
+        "R32"
+      ],
+      "source_urls": [
+        "https://learning.aljazeera.net/ar/node/19761",
+        "https://www.learnarabiconline.com/arabic-numbers/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "ألفاظ العقود والأعداد المعطوفة",
+        "Decades and compound numbers 21–99"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "J05",
+      "arabic_name": "مئة وألف ومضاعفاتهما",
+      "english_name": "Hundreds, thousands, and their multiples",
+      "stage": "Core",
+      "memory_type": "Table + Rule",
+      "target": "Recall the core counted-noun construction and case behavior in reviewed numerical models.",
+      "prerequisites": [
+        "J02",
+        "I01",
+        "E02"
+      ],
+      "related": [
+        "J04"
+      ],
+      "page": "cardinal-numbers",
+      "editorial_note": "A bounded grammatical rule package, not every possible large-number expression.",
+      "category": "Numbers and counted nouns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Shared-page section",
+      "placement_rationale": "Keep with J01, J02, J03, J04 because the lookup topic is shared; retain this as a separately checkable target.",
+      "source_ids": [
+        "R21",
+        "R32"
+      ],
+      "source_urls": [
+        "https://learning.aljazeera.net/ar/node/19761",
+        "https://www.learnarabiconline.com/arabic-numbers/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "مئة وألف ومضاعفاتهما",
+        "Hundreds, thousands, and their multiples"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    },
+    {
+      "id": "J06",
+      "arabic_name": "الأعداد الترتيبية",
+      "english_name": "Ordinal-number patterns",
+      "stage": "Core",
+      "memory_type": "Table + Pattern",
+      "target": "Recall core masculine/feminine ordinal forms and their adjective-like agreement.",
+      "prerequisites": [
+        "G01",
+        "I02",
+        "J01"
+      ],
+      "related": [
+        "J03",
+        "J04"
+      ],
+      "page": "ordinal-numbers",
+      "editorial_note": "Specify the range covered; larger ordinals are an extension rather than implied coverage.",
+      "category": "Numbers and counted nouns",
+      "discipline": "نحو / صرف",
+      "release": "Next expansion",
+      "placement": "Own page",
+      "placement_rationale": "Dedicated lookup target with a bounded table + pattern to recall. Specify the range covered; larger ordinals are an extension rather than implied coverage.",
+      "source_ids": [
+        "R32"
+      ],
+      "source_urls": [
+        "https://www.learnarabiconline.com/arabic-numbers/"
+      ],
+      "review_status": "Scope draft; content review pending",
+      "search_aliases": [
+        "الأعداد الترتيبية",
+        "Ordinal-number patterns"
+      ],
+      "tracking_scope": "Self-reported recall of the stated target; not evidence of application mastery."
+    }
+  ],
+  "sources": {
+    "R01": {
+      "id": "R01",
+      "provider": "Ibn Ajurrum / Wikisource",
+      "title": "Al-Ajurrumiyyah: primary text",
+      "url": "https://ar.wikisource.org/wiki/الآجرومية_في_قواعد_علم_العربية",
+      "note": "Traditional category inventories; preserve source-specific counts and terminology.",
+      "accessed": "2026-09-27"
+    },
+    "R02": {
+      "id": "R02",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Morphological features",
+      "url": "https://corpus.quran.com/documentation/morphologicalfeatures.jsp",
+      "note": "Case versus mood, pronoun segmentation, person/gender/number, and form labels.",
+      "accessed": "2026-09-27"
+    },
+    "R03": {
+      "id": "R03",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Part-of-speech tagset",
+      "url": "https://corpus.quran.com/documentation/tagset.jsp",
+      "note": "Nominal and particle categories; corpus-specific tagging is not a universal school taxonomy.",
+      "accessed": "2026-09-27"
+    },
+    "R04": {
+      "id": "R04",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Subjunctive and jussive moods",
+      "url": "https://corpus.quran.com/documentation/mood.jsp",
+      "note": "Verb-governing tools and mood distinctions.",
+      "accessed": "2026-09-27"
+    },
+    "R05": {
+      "id": "R05",
+      "provider": "Quranic Arabic Corpus",
+      "title": "The particle inna",
+      "url": "https://corpus.quran.com/documentation/particleinna.jsp",
+      "note": "Core family and governing effect.",
+      "accessed": "2026-09-27"
+    },
+    "R06": {
+      "id": "R06",
+      "provider": "Quranic Arabic Corpus",
+      "title": "The verb kana",
+      "url": "https://corpus.quran.com/documentation/verbkaana.jsp",
+      "note": "Kana-family reference basis.",
+      "accessed": "2026-09-27"
+    },
+    "R07": {
+      "id": "R07",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Verb forms",
+      "url": "https://corpus.quran.com/documentation/verbforms.jsp",
+      "note": "Derived triliteral templates and non-mechanical semantic associations.",
+      "accessed": "2026-09-27"
+    },
+    "R08": {
+      "id": "R08",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Possessive construction",
+      "url": "https://corpus.quran.com/documentation/possessiveconstruction.jsp",
+      "note": "Core idafa relationships; advanced exceptions require an additional reference.",
+      "accessed": "2026-09-27"
+    },
+    "R09": {
+      "id": "R09",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Adjectives",
+      "url": "https://corpus.quran.com/documentation/adjective.jsp",
+      "note": "Core agreement and nonhuman-plural contrast.",
+      "accessed": "2026-09-27"
+    },
+    "R10": {
+      "id": "R10",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Conditional expressions",
+      "url": "https://corpus.quran.com/documentation/condition.jsp",
+      "note": "Conditional construction overview; detailed fa conditions require further review.",
+      "accessed": "2026-09-27"
+    },
+    "R11": {
+      "id": "R11",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Apposition",
+      "url": "https://corpus.quran.com/documentation/apposition.jsp",
+      "note": "Badal relationship and scope.",
+      "accessed": "2026-09-27"
+    },
+    "R12": {
+      "id": "R12",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Exceptive particles",
+      "url": "https://corpus.quran.com/documentation/exceptive.jsp",
+      "note": "Exception tools and core construction distinctions.",
+      "accessed": "2026-09-27"
+    },
+    "R13": {
+      "id": "R13",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Vocative particles",
+      "url": "https://corpus.quran.com/documentation/vocative.jsp",
+      "note": "Vocative forms and overview.",
+      "accessed": "2026-09-27"
+    },
+    "R14": {
+      "id": "R14",
+      "provider": "Quranic Arabic Corpus",
+      "title": "Verbs, subjects and objects",
+      "url": "https://corpus.quran.com/documentation/verb.jsp",
+      "note": "Core sentence roles and agreement.",
+      "accessed": "2026-09-27"
+    },
+    "R15": {
+      "id": "R15",
+      "provider": "Madinah Arabic",
+      "title": "Grammar course index",
+      "url": "https://madinaharabic.com/free-content/grammar",
+      "note": "Coverage comparison only; an index does not validate every detailed rule.",
+      "accessed": "2026-09-27"
+    },
+    "R16": {
+      "id": "R16",
+      "provider": "Madinah Arabic",
+      "title": "Lesson 57: The six nouns",
+      "url": "https://madinaharabic.com/free-content/grammar/lesson-57/part-1",
+      "note": "Evidence for the six-noun convention and letter-based inflection.",
+      "accessed": "2026-09-27"
+    },
+    "R17": {
+      "id": "R17",
+      "provider": "Madinah Arabic",
+      "title": "Lesson 62: Kada and its sisters",
+      "url": "https://madinaharabic.com/free-content/grammar/lesson-62/part-1",
+      "note": "Approximation, hope, and inception subgroups.",
+      "accessed": "2026-09-27"
+    },
+    "R18": {
+      "id": "R18",
+      "provider": "Madinah Arabic",
+      "title": "Lesson 63: Dhanna and its sisters",
+      "url": "https://madinaharabic.com/free-content/grammar/lesson-63/part-1",
+      "note": "Cognition/transformation family structure.",
+      "accessed": "2026-09-27"
+    },
+    "R19": {
+      "id": "R19",
+      "provider": "Madinah Arabic",
+      "title": "Lesson 27: Maqsur, manqus, and mamdud",
+      "url": "https://madinaharabic.com/free-content/grammar/lesson-27/part-1",
+      "note": "Topic and transformation coverage; detailed examples still need editorial checking.",
+      "accessed": "2026-09-27"
+    },
+    "R20": {
+      "id": "R20",
+      "provider": "Al Jazeera Learning Arabic",
+      "title": "Sound masculine plural",
+      "url": "https://learning.aljazeera.net/ar/node/19630",
+      "note": "Formation conditions and case endings.",
+      "accessed": "2026-09-27"
+    },
+    "R21": {
+      "id": "R21",
+      "provider": "Al Jazeera Learning Arabic",
+      "title": "Number and counted-noun rules",
+      "url": "https://learning.aljazeera.net/ar/node/19761",
+      "note": "Cardinal-number agreement and counted-noun behavior.",
+      "accessed": "2026-09-27"
+    },
+    "R22": {
+      "id": "R22",
+      "provider": "Learn Arabic Online",
+      "title": "Definiteness and pronouns",
+      "url": "https://www.learnarabiconline.com/arabic-pronouns/",
+      "note": "Pronoun, demonstrative, and relative tables; category groupings are source-specific.",
+      "accessed": "2026-09-27"
+    },
+    "R23": {
+      "id": "R23",
+      "provider": "Learn Arabic Online",
+      "title": "Arabic morphology introduction",
+      "url": "https://www.learnarabiconline.com/arabic-morphology-introduction/",
+      "note": "Morphology coverage and augmentation letters; terminology requires normalization.",
+      "accessed": "2026-09-27"
+    },
+    "R24": {
+      "id": "R24",
+      "provider": "Learn Arabic Online",
+      "title": "Verb conjugation",
+      "url": "https://www.learnarabiconline.com/verb-conjugation/",
+      "note": "Regular conjugation and inflectional tables.",
+      "accessed": "2026-09-27"
+    },
+    "R25": {
+      "id": "R25",
+      "provider": "Learn Arabic Online",
+      "title": "Derived nouns",
+      "url": "https://www.learnarabiconline.com/derived-nouns/",
+      "note": "Derived-noun pattern families; not support for every advanced proposed rule.",
+      "accessed": "2026-09-27"
+    },
+    "R26": {
+      "id": "R26",
+      "provider": "Learn Arabic Online",
+      "title": "Verbal paradigms",
+      "url": "https://www.learnarabiconline.com/verbal-paradigms/",
+      "note": "Triliteral and quadriliteral template tables.",
+      "accessed": "2026-09-27"
+    },
+    "R27": {
+      "id": "R27",
+      "provider": "Learn Arabic Online",
+      "title": "Hollow verbs",
+      "url": "https://www.learnarabiconline.com/hollow-verbs/",
+      "note": "Hollow-verb model differences.",
+      "accessed": "2026-09-27"
+    },
+    "R28": {
+      "id": "R28",
+      "provider": "Learn Arabic Online",
+      "title": "Assimilated / initial-weak verbs",
+      "url": "https://www.learnarabiconline.com/assimilated-verbs/",
+      "note": "Initial-weak verb models.",
+      "accessed": "2026-09-27"
+    },
+    "R29": {
+      "id": "R29",
+      "provider": "Learn Arabic Online",
+      "title": "Deficient / final-weak verbs",
+      "url": "https://www.learnarabiconline.com/deficient-verbs/",
+      "note": "Final-weak models and restrictions.",
+      "accessed": "2026-09-27"
+    },
+    "R30": {
+      "id": "R30",
+      "provider": "Learn Arabic Online",
+      "title": "Highly deficient / doubly weak verbs",
+      "url": "https://www.learnarabiconline.com/highly-deficient-verbs/",
+      "note": "Doubly weak categories and representative models.",
+      "accessed": "2026-09-27"
+    },
+    "R31": {
+      "id": "R31",
+      "provider": "Learn Arabic Online",
+      "title": "Doubled verbs",
+      "url": "https://www.learnarabiconline.com/duplicated-verbs/",
+      "note": "Gemination and model distinctions.",
+      "accessed": "2026-09-27"
+    },
+    "R32": {
+      "id": "R32",
+      "provider": "Learn Arabic Online",
+      "title": "Arabic numbers",
+      "url": "https://www.learnarabiconline.com/arabic-numbers/",
+      "note": "Grouping and ordinal-pattern coverage; do not copy example tables without checking.",
+      "accessed": "2026-09-27"
+    }
+  },
+  "supporting_concepts": [
+    {
+      "id": "S01",
+      "arabic_name": "الاسم والفعل والحرف",
+      "english_name": "Parts of speech",
+      "scope": "Definitions and simple examples; A01 owns the memorized recognition signs."
+    },
+    {
+      "id": "S02",
+      "arabic_name": "المعرب والمبني",
+      "english_name": "Inflecting and fixed forms",
+      "scope": "Explain visible, estimated, and local grammatical status without a separate mastery checkbox."
+    },
+    {
+      "id": "S03",
+      "arabic_name": "الجملة ووظائف الكلمات",
+      "english_name": "Sentence and role glossary",
+      "scope": "Brief entries for subject, predicate, agent, object, and related roles; no full syntax course."
+    },
+    {
+      "id": "S04",
+      "arabic_name": "المعرفة والنكرة",
+      "english_name": "Definite and indefinite",
+      "scope": "Clarify the concept; A03 owns the category inventory."
+    },
+    {
+      "id": "S05",
+      "arabic_name": "الشخص والجنس والعدد",
+      "english_name": "Person, gender, and number",
+      "scope": "Explain the labels used in every paradigm, including repeated forms."
+    },
+    {
+      "id": "S06",
+      "arabic_name": "الإضافة والضمائر المتصلة",
+      "english_name": "Annexation and attachment",
+      "scope": "Minimum background on a possessive construction and attached segments."
+    },
+    {
+      "id": "S07",
+      "arabic_name": "الجملة التابعة والصلة",
+      "english_name": "Relative and embedded clauses",
+      "scope": "Minimum background needed to read relative-pronoun and complement references."
+    },
+    {
+      "id": "S08",
+      "arabic_name": "الشرط والجواب",
+      "english_name": "Condition and response",
+      "scope": "Define the two parts and clarify that أدوات can include nouns and particles."
+    },
+    {
+      "id": "S09",
+      "arabic_name": "الجذر والوزن",
+      "english_name": "Root and pattern",
+      "scope": "Define the concepts; G01 owns the compact notation to retain."
+    },
+    {
+      "id": "S10",
+      "arabic_name": "الوظيفة والحالة والعلامة",
+      "english_name": "Role, state, and sign",
+      "scope": "Separate what a word does, its case/mood, and how this is marked."
+    },
+    {
+      "id": "S11",
+      "arabic_name": "اختلاف الاصطلاح والتقسيم",
+      "english_name": "Terminology and reference conventions",
+      "scope": "Explain scope labels, alternative names, counts, and source-dependent analyses."
+    },
+    {
+      "id": "S12",
+      "arabic_name": "المصطلحات والبحث",
+      "english_name": "Bilingual terminology and search guide",
+      "scope": "Search aliases and Arabic/English labels; not a language-learning unit."
+    }
+  ],
+  "scope_decisions": [
+    {
+      "id": "P01",
+      "decision": "Candidate extension",
+      "arabic_name": "الجمل التي لها محل والتي لا محل لها",
+      "english_name": "Clauses with or without syntactic position",
+      "rationale": "A finite classification chart may fit; accept only after defining the convention and prerequisites.",
+      "status": "Later; not included in the 100 units"
+    },
+    {
+      "id": "P02",
+      "decision": "Candidate extension",
+      "arabic_name": "إعمال المشتقات",
+      "english_name": "Conditions for derived nouns to govern complements",
+      "rationale": "Compact conditions could extend participle pages; full theory of governing nouns is out of scope.",
+      "status": "Later; specialist sourcing required"
+    },
+    {
+      "id": "P03",
+      "decision": "Candidate extension",
+      "arabic_name": "المضاف إلى ياء المتكلم",
+      "english_name": "Noun endings before first-person possessive yāʾ",
+      "rationale": "Useful compact ending table; different analyses must be identified rather than silently standardized.",
+      "status": "Later; specialist sourcing required"
+    },
+    {
+      "id": "P04",
+      "decision": "Candidate extension",
+      "arabic_name": "مسوغات الابتداء بالنكرة وتقديم الخبر",
+      "english_name": "Indefinite subjects and predicate fronting",
+      "rationale": "Accept a selected, source-labelled conditions table only; avoid turning this into sentence-structure lessons.",
+      "status": "Scope decision pending"
+    },
+    {
+      "id": "P05",
+      "decision": "Candidate extension",
+      "arabic_name": "نون التوكيد",
+      "english_name": "Emphatic nūn and its effects",
+      "rationale": "Potential extension of verb-ending tables; requires its own tightly bounded target.",
+      "status": "Later; specialist sourcing required"
+    },
+    {
+      "id": "P06",
+      "decision": "Candidate extension",
+      "arabic_name": "النعت السببي",
+      "english_name": "Indirect adjective agreement",
+      "rationale": "Potential advanced subsection of adjective agreement, not a new major category.",
+      "status": "Later; specialist sourcing required"
+    },
+    {
+      "id": "P07",
+      "decision": "Candidate extension",
+      "arabic_name": "نعم وبئس والتحذير والإغراء والاختصاص",
+      "english_name": "Formulaic praise, blame, warning and specification",
+      "rationale": "Selected construction formula cards may qualify; full syntactic chapters do not.",
+      "status": "Scope decision pending"
+    },
+    {
+      "id": "P08",
+      "decision": "Optional appendix",
+      "arabic_name": "الإملاء",
+      "english_name": "Spelling memory tables",
+      "rationale": "Sun/moon letters, hamzah and similar tables only if spelling becomes an explicit secondary scope.",
+      "status": "Outside initial grammar scope"
+    },
+    {
+      "id": "X01",
+      "decision": "Exclude",
+      "arabic_name": "المفردات العامة",
+      "english_name": "General vocabulary banks",
+      "rationale": "An unbounded lexical collection would overwhelm the grammatical reference.",
+      "status": "Outside product scope"
+    },
+    {
+      "id": "X02",
+      "decision": "Exclude",
+      "arabic_name": "دروس النحو الكاملة",
+      "english_name": "Full lessons for every syntactic role",
+      "rationale": "Brief supporting definitions are allowed; complete lessons are not memorization units.",
+      "status": "Outside product scope"
+    },
+    {
+      "id": "X03",
+      "decision": "Exclude",
+      "arabic_name": "الإعراب التطبيقي",
+      "english_name": "Sentence-parsing and answer-checking platform",
+      "rationale": "A separate potential product; this inventory does not require exercise generation or free-text grading.",
+      "status": "Separate future product"
+    },
+    {
+      "id": "X04",
+      "decision": "Exclude",
+      "arabic_name": "المحادثة واللهجات والاستماع",
+      "english_name": "Conversation, dialects and listening",
+      "rationale": "These require different content and interactions from the formal-grammar memory reference.",
+      "status": "Outside product scope"
+    },
+    {
+      "id": "X05",
+      "decision": "Exclude",
+      "arabic_name": "البلاغة والعروض والتجويد",
+      "english_name": "Rhetoric, prosody and recitation rules",
+      "rationale": "Other disciplines may have memorization material but do not belong by default.",
+      "status": "Outside initial product scope"
+    },
+    {
+      "id": "X06",
+      "decision": "Exclude",
+      "arabic_name": "المتون والمعاجم الاستقصائية",
+      "english_name": "Complete memorized texts and exhaustive dictionaries",
+      "rationale": "Link to external references rather than reproduce a curriculum or promise exhaustive lexical coverage.",
+      "status": "Outside product scope"
+    }
+  ],
+  "tracking_specification": [
+    {
+      "field": "unit_id",
+      "definition": "Stable identifier, such as D01.",
+      "constraint": "Progress attaches to the unit, not each place it appears in navigation."
+    },
+    {
+      "field": "unit_version",
+      "definition": "Version of the specific memorization target.",
+      "constraint": "When a list or rule changes, retain history and flag that review is needed."
+    },
+    {
+      "field": "status",
+      "definition": "Not started / Learning / Memorized.",
+      "constraint": "Self-reported recall only; never presented as verified grammatical competence."
+    },
+    {
+      "field": "last_reviewed_at",
+      "definition": "Optional date of the most recent self-review.",
+      "constraint": "A factual date, not a claim about retention."
+    },
+    {
+      "field": "scope_label",
+      "definition": "Core list / Extended list / Selected patterns / Conditions.",
+      "constraint": "Define exactly what the checkbox covers; never 'all Arabic plurals'."
+    },
+    {
+      "field": "subtargets",
+      "definition": "Optional list / meanings / effect / conditions.",
+      "constraint": "Use only where a unit is too coarse; do not require a quiz engine."
+    },
+    {
+      "field": "source_convention",
+      "definition": "Identified source and editorial convention.",
+      "constraint": "A student can see why their teacher's list or terminology differs."
+    },
+    {
+      "field": "language_preference",
+      "definition": "Arabic / English / Both.",
+      "constraint": "Independent of Foundation, Core or Further stage."
+    },
+    {
+      "field": "page_slug",
+      "definition": "Stable parent page.",
+      "constraint": "A page can contain multiple separately trackable units."
+    },
+    {
+      "field": "prerequisites",
+      "definition": "Helpful knowledge links, not mandatory locks.",
+      "constraint": "This is not a sequential course or a required learning path."
+    },
+    {
+      "field": "related_unit_ids",
+      "definition": "Cross-links to the same underlying units.",
+      "constraint": "Do not duplicate progress across indexes or case-sign views."
+    }
+  ]
+}
