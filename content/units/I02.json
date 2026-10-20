@@ -1,0 +1,119 @@
+{
+  "id": "I02",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "rule",
+  "scope_label": "conditions",
+  "transliteration": "muṭābaqat an-naʿt",
+  "summary": {
+    "en": "Attributive adjective agreement in case, definiteness, gender and number, and the feminine-singular adjective for nonhuman plurals.",
+    "ar": "مطابقة النعت الحقيقي لمنعوته في الإعراب والتعريف والتذكير والعدد، ونعت جمع غير العاقل بالمفرد المؤنث."
+  },
+  "target": {
+    "en": "Recall the principal agreement dimensions of a direct attributive adjective (case, definiteness, gender, number) and the common nonhuman-plural pattern.",
+    "ar": "استحضار أوجه مطابقة النعت الحقيقي لمنعوته (الإعراب، والتعريف والتنكير، والتذكير والتأنيث، والإفراد والتثنية والجمع)، والنمط الشائع في نعت جمع غير العاقل."
+  },
+  "blocks": [
+    {
+      "id": "dimensions",
+      "kind": "table",
+      "title": { "en": "The four agreement dimensions", "ar": "أوجه المطابقة الأربعة" },
+      "row_header": "dimension",
+      "columns": [
+        { "key": "dimension", "lang": "bi", "label": { "en": "Dimension", "ar": "الوجه" } },
+        { "key": "rule", "lang": "bi", "label": { "en": "Rule", "ar": "الحكم" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "dimension": { "en": "Case", "ar": "الإعراب" }, "rule": { "en": "Same case as the noun", "ar": "يتبعه في الرفع والنصب والجر" }, "example": "جَاءَ رَجُلٌ كَرِيمٌ، رَأَيْتُ رَجُلًا كَرِيمًا، مَرَرْتُ بِرَجُلٍ كَرِيمٍ" },
+        { "dimension": { "en": "Definiteness", "ar": "التعريف والتنكير" }, "rule": { "en": "Definite noun (by ال, name, or إضافة) → adjective with ال; indefinite → no ال", "ar": "المعرفة (بـ«ال» أو العلمية أو الإضافة) تُنعت بمعرّف بـ«ال»، والنكرة بنكرة" }, "example": "الْبَيْتُ الْجَدِيدُ، بَيْتٌ جَدِيدٌ، بَيْتُ الْمُدِيرِ الْجَدِيدُ" },
+        { "dimension": { "en": "Gender", "ar": "التذكير والتأنيث" }, "rule": { "en": "Masculine noun → masculine adjective; feminine → feminine", "ar": "يُذكَّر مع المذكر ويُؤنَّث مع المؤنث" }, "example": "طَالِبٌ مُجْتَهِدٌ، طَالِبَةٌ مُجْتَهِدَةٌ" },
+        { "dimension": { "en": "Number", "ar": "الإفراد والتثنية والجمع" }, "rule": { "en": "Singular, dual or plural like the noun (but see nonhuman plurals)", "ar": "يُفرد ويُثنّى ويُجمع تبعًا للمنعوت (مع استثناء جمع غير العاقل)" }, "example": "طَالِبَانِ مُجْتَهِدَانِ، طُلَّابٌ مُجْتَهِدُونَ" }
+      ],
+      "notes": {
+        "en": ["The adjective follows its noun. In an إضافة, an adjective of the first term comes after the second term and agrees with the first (بَيْتُ الْمُدِيرِ الْجَدِيدُ “the director's new house”)."],
+        "ar": ["النعت يأتي بعد المنعوت. وفي الإضافة يتأخّر نعت المضاف عن المضاف إليه ويتبع المضاف (بَيْتُ الْمُدِيرِ الْجَدِيدُ)."]
+      }
+    },
+    {
+      "id": "plurals",
+      "kind": "table",
+      "title": { "en": "Plural and dual nouns: which adjective form", "ar": "نعت المثنى والجمع" },
+      "row_header": "noun",
+      "columns": [
+        { "key": "noun", "lang": "bi", "label": { "en": "Noun", "ar": "المنعوت" } },
+        { "key": "adj", "lang": "bi", "label": { "en": "Adjective form", "ar": "صورة النعت" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "noun": { "en": "Human, masculine plural", "ar": "جمع مذكر عاقل" }, "adj": { "en": "masculine plural (sound or broken)", "ar": "جمع مذكر (سالم أو تكسير)" }, "example": "الْمُهَنْدِسُونَ الْمَاهِرُونَ، رِجَالٌ كِرَامٌ" },
+        { "noun": { "en": "Human, feminine plural", "ar": "جمع مؤنث عاقل" }, "adj": { "en": "feminine plural", "ar": "جمع مؤنث" }, "example": "الطَّالِبَاتُ الْمُجْتَهِدَاتُ" },
+        { "noun": { "en": "Nonhuman plural (any gender)", "ar": "جمع غير العاقل" }, "adj": { "en": "feminine singular (usual)", "ar": "مفرد مؤنث (الغالب)" }, "example": "الْكُتُبُ الْمُفِيدَةُ، سَيَّارَاتٌ سَرِيعَةٌ، أَقْلَامٌ جَدِيدَةٌ" },
+        { "noun": { "en": "Any dual (human or not)", "ar": "المثنى (عاقلًا أو غيره)" }, "adj": { "en": "dual, same gender", "ar": "مثنى مطابق" }, "example": "الْكِتَابَانِ الْجَدِيدَانِ، الْبِنْتَانِ الصَّغِيرَتَانِ" }
+      ]
+    },
+    {
+      "id": "nonhuman",
+      "kind": "rules",
+      "title": { "en": "The nonhuman-plural pattern", "ar": "قاعدة جمع غير العاقل" },
+      "items": [
+        {
+          "label": { "en": "Plural of things or animals → feminine singular adjective", "ar": "جمع غير العاقل يُنعت بالمفرد المؤنث" },
+          "text": { "en": "Whether the singular is masculine or feminine, the plural of a nonhuman noun is treated as a feminine singular. The adjective still agrees in case and definiteness.", "ar": "يُعامل جمع غير العاقل معاملة المفرد المؤنث، سواء أكان مفرده مذكرًا أم مؤنثًا، ويبقى النعت مطابقًا في الإعراب والتعريف." },
+          "ar_example": "زُرْنَا الْمُدُنَ الْقَدِيمَةَ"
+        },
+        {
+          "label": { "en": "Only plurals, not duals", "ar": "يختص بالجمع دون المثنى" },
+          "text": { "en": "A nonhuman dual takes a dual adjective.", "ar": "مثنى غير العاقل يُنعت بالمثنى." },
+          "ar_example": "اشْتَرَيْتُ قَمِيصَيْنِ جَدِيدَيْنِ"
+        },
+        {
+          "label": { "en": "Less common alternative", "ar": "وجه أقل شيوعًا" },
+          "text": { "en": "A feminine plural adjective is also found, especially in literary style.", "ar": "يجوز نعته بجمع المؤنث أيضًا، وهو أقل في الاستعمال الحديث." },
+          "ar_example": "جِبَالٌ شَاهِقَاتٌ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "A direct attributive adjective (النعت الحقيقي) describes the noun before it and copies its features: one of the three cases, one of the two definiteness states, one of the two genders, and one of the three numbers.",
+      "The one major exception in everyday Arabic is the nonhuman plural: كُتُب، سَيَّارَات، مُدُن take a feminine singular adjective, even when the singular noun is masculine."
+    ],
+    "ar": [
+      "النعت الحقيقي يصف المنعوت قبله ويطابقه في أربعة من عشرة: واحد من أوجه الإعراب الثلاثة، وواحد من التعريف والتنكير، وواحد من التذكير والتأنيث، وواحد من الإفراد والتثنية والجمع.",
+      "وأشهر ما يخرج عن المطابقة في العدد جمع غير العاقل؛ فيُنعت غالبًا بالمفرد المؤنث وإن كان مفرده مذكرًا."
+    ]
+  },
+  "examples": [
+    { "ar": "سَكَنْتُ فِي بَيْتٍ وَاسِعٍ", "en": "I lived in a spacious house.", "note": { "en": "Indefinite, masculine, singular, genitive: full match.", "ar": "النعت مطابق: نكرة، مذكر، مفرد، مجرور." } },
+    { "ar": "حَضَرَتِ الطَّالِبَاتُ الْمُتَفَوِّقَاتُ", "en": "The outstanding (female) students attended.", "note": { "en": "Human feminine plural → feminine plural adjective.", "ar": "جمع مؤنث عاقل فنُعت بجمع مؤنث." } },
+    { "ar": "اشْتَرَيْتُ كُتُبًا مُفِيدَةً", "en": "I bought useful books.", "note": { "en": "Nonhuman plural → feminine singular, still accusative and indefinite.", "ar": "جمع غير عاقل فنُعت بمفرد مؤنث منصوب نكرة." } },
+    { "ar": "هٰذَا بَيْتُ الْمُدِيرِ الْجَدِيدُ", "en": "This is the director's new house.", "note": { "en": "الْجَدِيدُ is nominative, so it describes بَيْتُ, not الْمُدِيرِ.", "ar": "الْجَدِيدُ مرفوع، فهو نعت لـ«بَيْتُ» لا لـ«الْمُدِيرِ»." } }
+  ],
+  "caveats": {
+    "en": [
+      "The “causal” adjective (النعت السببي), which describes something related to the noun (رَأَيْتُ رَجُلًا كَرِيمًا أَبُوهُ), agrees only in case and definiteness; it is an extension outside this card.",
+      "Some adjective patterns serve both genders without ة (فَعُول meaning فاعل and فَعِيل meaning مفعول: امْرَأَةٌ صَبُورٌ، فَتَاةٌ جَرِيحٌ).",
+      "Human plurals can take broken-plural adjectives (رِجَالٌ كِرَامٌ); adjective plural patterns are a separate topic."
+    ],
+    "ar": [
+      "النعت السببي (رَأَيْتُ رَجُلًا كَرِيمًا أَبُوهُ) يطابق في الإعراب والتعريف فقط، وهو خارج هذه البطاقة.",
+      "بعض الصفات يستوي فيها المذكر والمؤنث بلا تاء (فَعُول بمعنى فاعل، وفَعِيل بمعنى مفعول): امْرَأَةٌ صَبُورٌ، فَتَاةٌ جَرِيحٌ.",
+      "جمع العاقل قد يُنعت بجمع تكسير (رِجَالٌ كِرَامٌ)، وأوزان جموع الصفات موضوع مستقل."
+    ]
+  },
+  "convention": {
+    "en": "The Ājurrūmiyya names only case and definiteness (النعت تابع للمنعوت في رفعه ونصبه وخفضه وتعريفه وتنكيره); later commentaries add gender and number for the direct adjective, giving the school formula “four out of ten”. For nonhuman plurals, modern usage strongly prefers the feminine singular; classical texts also use feminine plural adjectives.",
+    "ar": "اقتصرت الآجرومية على الإعراب والتعريف (النعت تابع للمنعوت في رفعه ونصبه وخفضه وتعريفه وتنكيره)، وزادت الشروح التذكير والتأنيث والإفراد وفرعيه في النعت الحقيقي، فصار المشهور «أربعة من عشرة». وفي جمع غير العاقل يغلب في الاستعمال الحديث النعت بالمفرد المؤنث، وورد في الفصيح النعت بجمع المؤنث أيضًا."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "In which four respects does an attributive adjective agree with its noun?", "ar": "في أيّ أربعة أوجه يطابق النعتُ الحقيقيُّ منعوتَه؟" }, "answer_blocks": ["dimensions"] },
+    { "id": "r2", "prompt": { "en": "How is a plural of nonhuman things described, and does the same apply to duals?", "ar": "بمَ يُنعت جمع غير العاقل؟ وهل ينطبق ذلك على المثنى؟" }, "answer_blocks": ["plurals", "nonhuman"] }
+  ],
+  "sources": [
+    { "id": "R09", "locator": "Adjectives: agreement" }
+  ],
+  "extra_aliases": ["adjective agreement", "na't", "النعت الحقيقي", "الصفة والموصوف", "nonhuman plural", "broken plural adjective feminine singular", "أربعة من عشرة", "جمع غير العاقل"]
+}

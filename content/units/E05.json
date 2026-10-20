@@ -1,0 +1,123 @@
+{
+  "id": "E05",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "al-asmāʾ al-khamsa",
+  "summary": {
+    "en": "The five nouns أَب، أَخ، حَم، فُو، ذُو: inflection with wāw/alif/yāʾ and every condition for it.",
+    "ar": "الأسماء الخمسة (أب، أخ، حم، فو، ذو): إعرابها بالواو والألف والياء وشروط ذلك كلها."
+  },
+  "target": {
+    "en": "Recall the five core members, their letter-based endings (wāw, alif, yāʾ), and all conditions for that inflection.",
+    "ar": "استحضار الأسماء الخمسة، وإعرابها بالحروف (الواو والألف والياء)، وجميع شروط هذا الإعراب."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The five nouns in the three cases", "ar": "الأسماء الخمسة في الأحوال الثلاث" },
+      "row_header": "noun",
+      "columns": [
+        { "key": "noun", "lang": "ar", "label": { "en": "Noun", "ar": "الاسم" } },
+        { "key": "meaning", "lang": "bi", "label": { "en": "Meaning", "ar": "المعنى" } },
+        { "key": "raf", "lang": "ar", "label": { "en": "Nominative (و)", "ar": "الرفع (بالواو)" } },
+        { "key": "nasb", "lang": "ar", "label": { "en": "Accusative (ا)", "ar": "النصب (بالألف)" } },
+        { "key": "jarr", "lang": "ar", "label": { "en": "Genitive (ي)", "ar": "الجر (بالياء)" } }
+      ],
+      "rows": [
+        { "noun": "أَبٌ", "meaning": { "en": "father", "ar": "الوالد" }, "raf": "أَبُوكَ", "nasb": "أَبَاكَ", "jarr": "أَبِيكَ" },
+        { "noun": "أَخٌ", "meaning": { "en": "brother", "ar": "الأخ" }, "raf": "أَخُوكَ", "nasb": "أَخَاكَ", "jarr": "أَخِيكَ" },
+        { "noun": "حَمٌ", "meaning": { "en": "in-law (classically, a relative of a woman's husband)", "ar": "قريب الزوج (كأبيه وأخيه)" }, "raf": "حَمُوكِ", "nasb": "حَمَاكِ", "jarr": "حَمِيكِ" },
+        { "noun": "فُو", "meaning": { "en": "mouth", "ar": "الفم" }, "raf": "فُوكَ", "nasb": "فَاكَ", "jarr": "فِيكَ" },
+        { "noun": "ذُو", "meaning": { "en": "possessor of, having", "ar": "صاحب" }, "raf": "ذُو مَالٍ", "nasb": "ذَا مَالٍ", "jarr": "ذِي مَالٍ" }
+      ],
+      "notes": {
+        "en": ["The letters stand in for the vowels: wāw for ḍamma, alif for fatḥa, yāʾ for kasra. حَمُوكِ is addressed to a woman, since حَم is her husband's relative."],
+        "ar": ["الواو نائبة عن الضمة، والألف عن الفتحة، والياء عن الكسرة. والكاف في «حَمُوكِ» مكسورة لأن الحَم قريب زوج المرأة."]
+      }
+    },
+    {
+      "id": "conditions",
+      "kind": "rules",
+      "title": { "en": "Conditions for letter inflection", "ar": "شروط إعرابها بالحروف" },
+      "notes": {
+        "en": ["If any condition fails, the noun takes ordinary vowels (or estimated vowels with ياء المتكلم). Each example below shows the failing case."],
+        "ar": ["إذا تخلّف شرط أُعربت بالحركات (أو بحركات مقدّرة مع ياء المتكلم). وكل مثال أدناه يبيّن حالة تخلّف الشرط."]
+      },
+      "items": [
+        {
+          "label": { "en": "1. Singular", "ar": "١. أن تكون مفردة" },
+          "text": { "en": "Duals and plurals follow their own rules.", "ar": "فإن ثُنّيت أو جُمعت أُعربت إعراب المثنى أو الجمع." },
+          "ar_example": "جَاءَ أَخَوَاكَ، وَجَاءَ إِخْوَتُكَ"
+        },
+        {
+          "label": { "en": "2. Not diminutive", "ar": "٢. أن تكون مكبّرة" },
+          "text": { "en": "A diminutive (أُبَيّ، أُخَيّ) takes vowels.", "ar": "فإن صُغّرت أُعربت بالحركات." },
+          "ar_example": "هٰذَا أُخَيُّكَ"
+        },
+        {
+          "label": { "en": "3. Annexed", "ar": "٣. أن تكون مضافة" },
+          "text": { "en": "Unannexed, they take vowels with tanwīn.", "ar": "فإن لم تُضَف أُعربت بالحركات الظاهرة." },
+          "ar_example": "هٰذَا أَبٌ رَحِيمٌ، وَرَأَيْتُ أَخًا"
+        },
+        {
+          "label": { "en": "4. Not annexed to ياء المتكلم", "ar": "٤. أن تكون إضافتها لغير ياء المتكلم" },
+          "text": { "en": "With “my” the vowels are estimated (مقدّرة) before the yāʾ.", "ar": "فإن أُضيفت إلى ياء المتكلم أُعربت بحركات مقدّرة." },
+          "ar_example": "جَاءَ أَبِي، وَرَأَيْتُ أَبِي"
+        },
+        {
+          "label": { "en": "فُو: without its mīm", "ar": "«فو»: أن تخلو من الميم" },
+          "text": { "en": "فَم keeps its mīm and takes ordinary vowels.", "ar": "فإن بقيت الميم (فَم) أُعربت بالحركات." },
+          "ar_example": "هٰذَا فَمُكَ ← هٰذَا فُوكَ"
+        },
+        {
+          "label": { "en": "ذُو: meaning “possessor of”, annexed to an explicit noun", "ar": "«ذو»: بمعنى صاحب، مضافة إلى اسم ظاهر" },
+          "text": { "en": "It must mean “possessor of” and be annexed to an explicit noun (not a pronoun), normally a generic noun such as مَال or عِلْم. The relative ذُو (“who”, in the Ṭayyiʾ dialect) is indeclinable and does not count.", "ar": "يُشترط أن تكون بمعنى «صاحب»، وأن تُضاف إلى اسم ظاهر لا إلى ضمير، والغالب أن يكون اسم جنس كالمال والعلم. أمّا «ذو» الطائية الموصولة فمبنية وليست منها." },
+          "ar_example": "جَاءَ ذُو عِلْمٍ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "These five nouns, when they meet all the conditions, show their case with a long vowel letter instead of a short vowel: wāw (nominative), alif (accusative), yāʾ (genitive).",
+      "Conditions 1–4 apply to all five; فُو and ذُو add one more each. In practice, condition 3 (annexed) is the one learners most often miss: أَبٌ on its own is inflected like any regular noun (E01)."
+    ],
+    "ar": [
+      "تُرفع هذه الأسماء بالواو نيابةً عن الضمة، وتُنصب بالألف نيابةً عن الفتحة، وتُجرّ بالياء نيابةً عن الكسرة، إذا استوفت شروطها.",
+      "الشروط الأربعة الأولى عامة في الخمسة، وتنفرد «فو» و«ذو» بشرط خاص لكلٍّ منهما. وأكثر ما يُغفَل عنه شرط الإضافة: فـ«أَبٌ» غير المضافة تُعرب بالحركات كسائر الأسماء (E01)."
+    ]
+  },
+  "examples": [
+    { "ar": "جَاءَ أَبُو مُحَمَّدٍ", "en": "Abu Muhammad came.", "note": { "en": "أَبُو: nominative with wāw.", "ar": "أَبُو: فاعل مرفوع بالواو لأنه من الأسماء الخمسة." } },
+    { "ar": "إِنَّ أَخَاكَ صَادِقٌ", "en": "Your brother is truthful.", "note": { "en": "أَخَا: accusative with alif (اسم إنّ).", "ar": "أَخَا: اسم إنّ منصوب بالألف." } },
+    { "ar": "اسْتَشِرْ ذَا خِبْرَةٍ قَبْلَ أَنْ تُقَرِّرَ", "en": "Consult someone with experience before you decide.", "note": { "en": "ذَا: accusative with alif, annexed to خِبْرَةٍ.", "ar": "ذَا: مفعول به منصوب بالألف، وهو مضاف." } },
+    { "ar": "لَا تَتَكَلَّمْ وَالطَّعَامُ فِي فِيكَ", "en": "Don't speak with food in your mouth.", "note": { "en": "فِي: genitive with yāʾ after the preposition فِي.", "ar": "فِي (الثانية): اسم مجرور بالياء لأنه من الأسماء الخمسة." } }
+  ],
+  "caveats": {
+    "en": [
+      "Duals and plurals of these nouns (أَبَوَانِ، آبَاء، إِخْوَة) follow E02 and E01.",
+      "Beside the letter inflection, Arabic also reports, for أَب، أَخ، حَم, inflection with vowels on the short form (أَبُكَ) and a form with fixed alif in all cases (أَبَاكَ). These are recognised dialectal variants, not the school norm."
+    ],
+    "ar": [
+      "مثنى هذه الأسماء وجمعها (أَبَوَانِ، آبَاء، إِخْوَة) يُعرب إعراب المثنى أو الجمع.",
+      "رُوي في «أب، أخ، حم» إلى جانب الإعراب بالحروف لغتان: النقص (أَبُكَ بالحركات)، والقصر (أَبَاكَ بالألف في الأحوال كلها)، وليستا المعتمد في التعليم."
+    ]
+  },
+  "convention": {
+    "en": "The Ājurrūmiyya lists five (أبوك، أخوك، حموك، فوك، ذو مال). Other books, following the Alfiyya tradition, count six by adding هَنٌ (“a thing”, a euphemism). Those books themselves note that هَن is more often inflected with vowels (هَنُكَ، هَنَكَ، هَنِكَ), which is why the school list drops it. Searching “six nouns” leads here; the five above are the same members minus هَن.",
+    "ar": "تعدّها الآجرومية خمسة (أبوك، وأخوك، وحموك، وفوك، وذو مال). وتعدّها كتب أخرى على طريقة الألفية ستة بزيادة «هَنٌ» (كناية عن الشيء)، وتنصّ هي نفسها على أن الأفصح في «هن» الإعراب بالحركات (هَنُكَ، هَنَكَ، هَنِكَ)، ولذلك يُسقطها العدّ المدرسي. فـ«الأسماء الستة» هي هذه الخمسة مع «هن»."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the five nouns and give each in the nominative, accusative and genitive.", "ar": "اذكر الأسماء الخمسة، وصرّف كلًّا منها في الرفع والنصب والجر." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "State every condition for inflecting these nouns with letters, including the special ones for فو and ذو.", "ar": "اذكر شروط إعراب الأسماء الخمسة بالحروف، ومنها الشرطان الخاصان بـ«فو» و«ذو»." }, "answer_blocks": ["conditions"] }
+  ],
+  "sources": [
+    { "id": "R16", "locator": "Lesson 57: the six nouns" },
+    { "id": "R01", "locator": "باب معرفة علامات الإعراب: الواو والألف والياء" }
+  ],
+  "extra_aliases": ["five nouns", "al-asma' al-khamsa", "asma khamsa", "abu akhu dhu", "أبو أخو ذو", "letter inflection", "الإعراب بالحروف", "هن"]
+}

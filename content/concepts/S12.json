@@ -1,0 +1,22 @@
+{
+  "id": "S12",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "You can search in Arabic or English. Arabic works with or without diacritics: إن وأخواتها and إِنَّ وَأَخَوَاتُهَا find the same unit, and so do common spelling variants of hamza and tā’ marbūṭa.",
+      "In English, search by the usual textbook name (“five nouns”, “prepositions”, “imperative”) or by a transliteration (“inna wa akhawatuha”, “huruf al-jarr”, “mudari”). Transliterations do not need special letters: a plain spelling without dots or macrons is enough.",
+      "Each unit lists its Arabic and English names and extra search terms. If a topic is not found, it may be outside the current release; try another spelling or browse by category. This guide explains terminology for searching; it is not a language lesson."
+    ],
+    "ar": [
+      "يمكنك البحث بالعربية أو الإنجليزية. والبحث العربي يعمل بالتشكيل وبدونه: «إن وأخواتها» و«إِنَّ وَأَخَوَاتُهَا» تؤدّيان إلى الوحدة نفسها، وكذلك صور الهمزة والتاء المربوطة الشائعة.",
+      "وبالإنجليزية ابحث بالاسم المعروف في الكتب (five nouns، prepositions، imperative) أو بالكتابة اللاتينية للمصطلح العربي (inna wa akhawatuha، huruf al-jarr، mudari)، ولا يلزم استعمال الرموز الخاصة.",
+      "تعرض كل وحدة اسمها العربي والإنجليزي وكلمات بحث إضافية. فإن لم تجد موضوعًا فقد يكون خارج الإصدار الحالي، فجرّب كتابة أخرى أو تصفّح الأقسام. وهذا الدليل للمصطلحات والبحث، لا درس في اللغة."
+    ]
+  },
+  "terms": [
+    { "ar": "تَشْكِيلٌ", "gloss": { "en": "diacritics (vowel marks); optional in search", "ar": "الحركات والسكون والشدّة والتنوين" } },
+    { "ar": "حُرُوفُ الْجَرِّ", "gloss": { "en": "prepositions — huruf al-jarr", "ar": "مثال للبحث بالمصطلح العربي" } },
+    { "ar": "الْفِعْلُ الْمُضَارِعُ", "gloss": { "en": "imperfect / present verb — al-mudari", "ar": "مثال لاختلاف التسمية الإنجليزية" } },
+    { "ar": "الْأَسْمَاءُ الْخَمْسَةُ", "gloss": { "en": "five nouns — al-asma al-khamsa", "ar": "مثال للبحث بالكتابة اللاتينية" } }
+  ]
+}

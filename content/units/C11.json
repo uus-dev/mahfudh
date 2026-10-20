@@ -1,0 +1,107 @@
+{
+  "id": "C11",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "rule",
+  "scope_label": "rule_package",
+  "transliteration": "adawāt an-nafy",
+  "summary": {
+    "en": "Contrast table of the principal negators — لا، ما، لم، لمّا، لن، ليس — by what they enter (verb or noun), time reference, and whether they change endings.",
+    "ar": "جدول مقارنة لأدوات النفي الرئيسة — لا، ما، لم، لمّا، لن، ليس — بحسب ما تدخل عليه (فعل أو اسم)، وزمنها، وهل تعمل في الإعراب."
+  },
+  "target": {
+    "en": "Recall the principal negators, whether each enters a verb or a noun, and whether it governs endings.",
+    "ar": "استحضار أدوات النفي الرئيسة، وهل تدخل كلٌّ منها على الفعل أو الاسم، وهل تعمل في الإعراب."
+  },
+  "blocks": [
+    {
+      "id": "contrast",
+      "kind": "table",
+      "title": { "en": "The principal negators compared", "ar": "مقارنة أدوات النفي الرئيسة" },
+      "row_header": "tool",
+      "columns": [
+        { "key": "tool", "lang": "ar", "label": { "en": "Negator", "ar": "الأداة" } },
+        { "key": "enters", "lang": "bi", "label": { "en": "Enters", "ar": "تدخل على" } },
+        { "key": "time", "lang": "bi", "label": { "en": "Time negated", "ar": "زمن النفي" } },
+        { "key": "governs", "lang": "bi", "label": { "en": "Effect on endings", "ar": "العمل" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "tool": "لَا", "enters": { "en": "imperfect verb (also nouns)", "ar": "المضارع (وتدخل على الاسم)" }, "time": { "en": "present / future", "ar": "الحال أو الاستقبال" }, "governs": { "en": "none with a verb: verb stays indicative", "ar": "لا تعمل في الفعل، فيبقى مرفوعًا" }, "example": "لَا يَكْذِبُ الصَّادِقُ" },
+        { "tool": "مَا", "enters": { "en": "past or imperfect verb; nominal sentence", "ar": "الماضي والمضارع والجملة الاسمية" }, "time": { "en": "past (with past verb); present (with imperfect)", "ar": "الماضي مع الماضي، والحال مع المضارع" }, "governs": { "en": "none with a verb", "ar": "لا تعمل في الفعل" }, "example": "مَا سَافَرَ أَخِي" },
+        { "tool": "لَمْ", "enters": { "en": "imperfect verb only", "ar": "المضارع فقط" }, "time": { "en": "past", "ar": "الماضي" }, "governs": { "en": "jussive", "ar": "تجزم" }, "example": "لَمْ يُسَافِرْ أَخِي" },
+        { "tool": "لَمَّا", "enters": { "en": "imperfect verb only", "ar": "المضارع فقط" }, "time": { "en": "past up to now ('not yet')", "ar": "الماضي المتصل بالحاضر" }, "governs": { "en": "jussive", "ar": "تجزم" }, "example": "لَمَّا يُسَافِرْ أَخِي" },
+        { "tool": "لَنْ", "enters": { "en": "imperfect verb only", "ar": "المضارع فقط" }, "time": { "en": "future", "ar": "الاستقبال" }, "governs": { "en": "subjunctive", "ar": "تنصب" }, "example": "لَنْ يُسَافِرَ أَخِي" },
+        { "tool": "لَيْسَ", "enters": { "en": "nominal sentence", "ar": "الجملة الاسمية" }, "time": { "en": "present (by default)", "ar": "الحال عند الإطلاق" }, "governs": { "en": "like كان: اسم nominative, خبر accusative", "ar": "ترفع الاسم وتنصب الخبر (كـ«كان»)" }, "example": "لَيْسَ الطَّقْسُ بَارِدًا" }
+      ],
+      "notes": {
+        "en": ["ليس is a verb (D03); the others are particles. لم، لمّا and لن reuse their entries from C07 and C05."],
+        "ar": ["«ليس» فعل جامد (D03)، والبقية حروف. وتفصيل «لم» و«لمّا» في C07، و«لن» في C05."]
+      }
+    },
+    {
+      "id": "rules",
+      "kind": "rules",
+      "title": { "en": "Contrasts to remember", "ar": "فروق ينبغي حفظها" },
+      "items": [
+        {
+          "label": { "en": "Same event, three times", "ar": "حدث واحد بثلاثة أزمنة" },
+          "text": { "en": "To negate the past use لم + jussive (or ما + past verb); the present, لا or ما + indicative; the future, لن + subjunctive.", "ar": "لنفي الماضي: «لم» + المضارع المجزوم (أو «ما» + الماضي)، ولنفي الحال: «لا» أو «ما» + المضارع المرفوع، ولنفي المستقبل: «لن» + المضارع المنصوب." },
+          "ar_example": "لَمْ يَكْتُبْ — لَا يَكْتُبُ — لَنْ يَكْتُبَ"
+        },
+        {
+          "label": { "en": "Negating لا vs prohibitive لا", "ar": "لا النافية ولا الناهية" },
+          "text": { "en": "Negating لا states a fact and leaves the verb indicative; prohibitive لا is a request and makes it jussive (C07).", "ar": "«لا» النافية خبرية لا تعمل في المضارع، و«لا» الناهية طلبية تجزمه (C07)." },
+          "ar_example": "لَا تَكْذِبُ (نفي) ≠ لَا تَكْذِبْ (نهي)"
+        },
+        {
+          "label": { "en": "Before nouns", "ar": "مع الأسماء" },
+          "text": { "en": "With a nominal sentence, ليس always governs. لا and ما may also govern a nominal sentence in specific uses — لا of categorical negation (D06) and ما / لا working like ليس (D07); otherwise they do not.", "ar": "«ليس» عاملة دائمًا في الجملة الاسمية. وقد تعمل «لا» و«ما» فيها في استعمالات مخصوصة: «لا» النافية للجنس (D06)، و«ما» و«لا» العاملتان عمل «ليس» (D07)، وإلا فهما مهملتان." },
+          "ar_example": "مَا هٰذَا بَشَرًا"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "Arabic chooses its negator by two questions: what follows (a verb or a nominal sentence) and which time is meant. The choice then fixes the ending of an imperfect verb: لا/ما leave it indicative, لم/لمّا make it jussive, لن makes it subjunctive.",
+      "Detailed rules for each governor live on its own family page; this page owns only the contrast."
+    ],
+    "ar": [
+      "تُختار أداة النفي بحسب أمرين: ما يليها (فعل أم جملة اسمية)، والزمن المراد. ويترتّب على ذلك إعراب المضارع: يبقى مرفوعًا بعد «لا» و«ما»، ويُجزم بعد «لم» و«لمّا»، ويُنصب بعد «لن».",
+      "وتفصيل أحكام كلّ أداة في صفحة بابها، وهذه الصفحة للمقارنة بينها."
+    ]
+  },
+  "examples": [
+    { "ar": "مَا هٰذَا بَشَرًا", "en": "This is not a human being. (Qur'an 12:31)", "note": { "en": "ما working like ليس (Ḥijāzī usage): بَشَرًا is accusative. See D07.", "ar": "«ما» الحجازية العاملة عمل «ليس»، و«بشرًا» خبرها منصوب (D07)." } },
+    { "ar": "لَمْ أَفْهَمِ السُّؤَالَ، وَلَا أَفْهَمُهُ الْآنَ، وَلَنْ أُجِيبَ عَنْهُ", "en": "I did not understand the question, I do not understand it now, and I will not answer it.", "note": { "en": "Three times, three negators, three moods.", "ar": "ثلاثة أزمنة بثلاث أدوات وثلاث حالات إعرابية." } },
+    { "ar": "لَيْسَ الْمُجْتَهِدُ نَادِمًا", "en": "The diligent one is not regretful.", "note": { "en": "ليس: اسم nominative, خبر accusative.", "ar": "«المجتهدُ» اسم ليس مرفوع، و«نادمًا» خبرها منصوب." } },
+    { "ar": "دَرَسْتُ الْبَابَ وَلَمَّا أَحْفَظْهُ", "en": "I have studied the chapter but have not yet memorised it.", "note": { "en": "لمّا: not yet, but expected.", "ar": "نفي مستمرّ إلى الآن مع توقّع الحفظ." } }
+  ],
+  "caveats": {
+    "en": [
+      "إنْ can also negate (إنْ أنا إلا ناصحٌ 'I am only an adviser'), usually followed by إلّا; لات negates with time words only. Both are covered in D07.",
+      "ما may also be interrogative, relative or conditional; only negating ما is meant here.",
+      "لا can precede a past verb in set uses such as prayers (لا فُضَّ فوك); the table gives the usual environment."
+    ],
+    "ar": [
+      "تأتي «إنْ» نافية (إنْ أنا إلّا ناصحٌ) ويكثر بعدها «إلّا»، و«لات» تنفي مع أسماء الزمان خاصة؛ وتفصيلهما في D07.",
+      "لـ«ما» معانٍ أخرى (استفهامية، موصولة، شرطية)، والمقصود هنا النافية.",
+      "قد تدخل «لا» على الماضي في الدعاء ونحوه (لا فُضَّ فوك)؛ والجدول يذكر الاستعمال الغالب."
+    ]
+  },
+  "convention": {
+    "en": "This table follows the usual school grouping of six principal negators. Whether ما before a nominal sentence governs depends on dialect: Ḥijāzī usage makes the خبر accusative, Tamīmī usage leaves it nominative. Some lists also include غير and لات or إنْ; they are mentioned here only as pointers.",
+    "ar": "يتبع الجدول التقسيم المدرسي المعتاد لست أدوات رئيسة. وإعمال «ما» في الجملة الاسمية لغة الحجازيين، وإهمالها لغة بني تميم. وبعض القوائم تزيد «غير» و«لات» و«إنْ»، وقد أُشير إليها هنا إشارة فقط."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "For لا، ما، لم، لمّا، لن، ليس: what does each enter, and what does it do to the ending?", "ar": "بيّن لكلٍّ من: لا، ما، لم، لمّا، لن، ليس ما تدخل عليه وأثرها في الإعراب." }, "answer_blocks": ["contrast"] },
+    { "id": "r2", "prompt": { "en": "Negate يَكْتُبُ for past, present and future.", "ar": "انفِ «يكتبُ» في الماضي والحال والمستقبل." }, "answer_blocks": ["rules"] }
+  ],
+  "sources": [
+    { "id": "R03", "locator": "Negative particle (NEG) tag" },
+    { "id": "R02", "locator": "Mood features (indicative / subjunctive / jussive)" }
+  ],
+  "extra_aliases": ["حروف النفي", "النفي", "negation particles", "negative particles", "negators", "la ma lam lan laysa", "huruf an-nafy"]
+}

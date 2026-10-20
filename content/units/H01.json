@@ -1,0 +1,112 @@
+{
+  "id": "H01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "aṣ-ṣaḥīḥ wa-l-muʿtall",
+  "summary": {
+    "en": "Verbs are classed by their root letters: sound (sālim, hamzated, doubled) or weak (initial-, middle-, final- or doubly weak).",
+    "ar": "يُقسم الفعل بحسب أصوله إلى صحيح (سالم، مهموز، مضعّف) ومعتل (مثال، أجوف، ناقص، لفيف)."
+  },
+  "target": {
+    "en": "Recall the sound categories (sālim, hamzated, doubled) and the weak categories (initial-weak, hollow, final-weak, and the two doubly weak types), with one model each.",
+    "ar": "استحضار أقسام الصحيح (السالم والمهموز والمضعّف) وأقسام المعتل (المثال والأجوف والناقص واللفيف بنوعيه)، مع مثال لكل قسم."
+  },
+  "blocks": [
+    {
+      "id": "classes",
+      "kind": "table",
+      "title": { "en": "The verb root classes", "ar": "أقسام الفعل بحسب أصوله" },
+      "row_header": "name",
+      "columns": [
+        { "key": "name", "lang": "ar", "label": { "en": "Class", "ar": "القسم" } },
+        { "key": "group", "lang": "bi", "label": { "en": "Group", "ar": "النوع" } },
+        { "key": "definition", "lang": "bi", "label": { "en": "Root contains", "ar": "ضابطه" } },
+        { "key": "model", "lang": "ar", "label": { "en": "Model", "ar": "المثال" } },
+        { "key": "root", "lang": "ar", "label": { "en": "Root", "ar": "الأصول" } }
+      ],
+      "rows": [
+        { "name": "السَّالِمُ", "group": { "en": "sound", "ar": "صحيح" }, "definition": { "en": "no weak letter, no hamza, no doubling", "ar": "خلت أصوله من حروف العلة والهمز والتضعيف" }, "model": "كَتَبَ", "root": "ك ت ب" },
+        { "name": "الْمَهْمُوزُ", "group": { "en": "sound", "ar": "صحيح" }, "definition": { "en": "a hamza as a root letter", "ar": "أحد أصوله همزة" }, "model": "أَخَذَ", "root": "ء خ ذ" },
+        { "name": "الْمُضَعَّفُ", "group": { "en": "sound", "ar": "صحيح" }, "definition": { "en": "2nd and 3rd root letters identical", "ar": "عينه ولامه من جنس واحد" }, "model": "مَدَّ", "root": "م د د" },
+        { "name": "الْمِثَالُ", "group": { "en": "weak", "ar": "معتل" }, "definition": { "en": "1st root letter weak", "ar": "فاؤه حرف علة" }, "model": "وَعَدَ", "root": "و ع د" },
+        { "name": "الْأَجْوَفُ", "group": { "en": "weak", "ar": "معتل" }, "definition": { "en": "2nd root letter weak", "ar": "عينه حرف علة" }, "model": "قَالَ", "root": "ق و ل" },
+        { "name": "النَّاقِصُ", "group": { "en": "weak", "ar": "معتل" }, "definition": { "en": "3rd root letter weak", "ar": "لامه حرف علة" }, "model": "دَعَا", "root": "د ع و" },
+        { "name": "اللَّفِيفُ الْمَفْرُوقُ", "group": { "en": "doubly weak", "ar": "معتل" }, "definition": { "en": "1st and 3rd root letters weak", "ar": "فاؤه ولامه حرفا علة" }, "model": "وَقَى", "root": "و ق ي" },
+        { "name": "اللَّفِيفُ الْمَقْرُونُ", "group": { "en": "doubly weak", "ar": "معتل" }, "definition": { "en": "2nd and 3rd root letters weak", "ar": "عينه ولامه حرفا علة" }, "model": "طَوَى", "root": "ط و ي" }
+      ],
+      "notes": {
+        "en": [
+          "The hamza may be in any slot: أَخَذَ (1st), سَأَلَ (2nd), قَرَأَ (3rd).",
+          "English names: mithāl = assimilated / initial-weak; ajwaf = hollow; nāqiṣ = defective / final-weak; lafīf = doubly weak (mafrūq “separated”, maqrūn “joined”)."
+        ],
+        "ar": [
+          "تكون الهمزة في أي موضع: مهموز الفاء «أَخَذَ»، ومهموز العين «سَأَلَ»، ومهموز اللام «قَرَأَ».",
+          "سُمّي اللفيف مفروقًا لأن حرفي العلة فيه فرّق بينهما حرف صحيح، ومقرونًا لاقترانهما."
+        ]
+      }
+    },
+    {
+      "id": "key-points",
+      "kind": "rules",
+      "title": { "en": "How to classify", "ar": "ضوابط التصنيف" },
+      "items": [
+        {
+          "label": { "en": "Weak letters", "ar": "حروف العلة" },
+          "text": { "en": "The weak letters are و، ي، ا. An alif in a verb is never a root letter on its own: it comes from و or ي, so check the root, not the spelling.", "ar": "حروف العلة: الواو والياء والألف، والألف في الفعل منقلبة عن واو أو ياء، فالعبرة بالأصل لا بالصورة." },
+          "ar_example": "قَالَ ← يَقُولُ (و)، بَاعَ ← يَبِيعُ (ي)"
+        },
+        {
+          "label": { "en": "Roots only", "ar": "العبرة بالأصول" },
+          "text": { "en": "Classify by the root letters, ignoring added letters: أَكْرَمَ and اِسْتَخْرَجَ are sālim.", "ar": "يُصنَّف الفعل بأصوله دون زوائده، فـ«أَكْرَمَ» و«اسْتَخْرَجَ» سالمان." },
+          "ar_example": "أَكْرَمَ (ك ر م)"
+        },
+        {
+          "label": { "en": "Sound ≠ sālim", "ar": "الصحيح أعمّ من السالم" },
+          "text": { "en": "Hamzated and doubled verbs are صحيح (no weak letter) but not سالم. They have their own peculiarities, but not the weak-letter changes of معتل.", "ar": "المهموز والمضعّف من الصحيح لخلوّهما من حروف العلة، وليسا من السالم، ولهما أحكام خاصة غير أحكام الإعلال." },
+          "ar_example": "سَأَلَ، مَدَّ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The class tells you which conjugation model a verb follows. Sālim verbs follow the regular tables (F01, F02, F03) exactly; the other classes change in predictable places, covered in the H-units.",
+      "A verb can belong to two classes at once, e.g. أَتَى is hamzated in its first letter and final-weak (ء ت ي)."
+    ],
+    "ar": [
+      "يدلّ القسم على النموذج الذي يُصرَّف عليه الفعل؛ فالسالم يجري على الجداول الصحيحة (F01، F02، F03) تمامًا، وتتغيّر الأقسام الأخرى في مواضع مضبوطة تتناولها وحدات القسم H.",
+      "وقد يجتمع في الفعل قسمان، نحو «أَتَى»: مهموز الفاء ناقص (ء ت ي)."
+    ]
+  },
+  "examples": [
+    { "ar": "وَعَدَ الْأَبُ ابْنَهُ بِهَدِيَّةٍ", "en": "The father promised his son a gift.", "note": { "en": "وَعَدَ is mithāl: first root letter و.", "ar": "«وَعَدَ» مثال واوي." } },
+    { "ar": "قَالَ الْمُعَلِّمُ كَلِمَةً جَمِيلَةً", "en": "The teacher said a beautiful word.", "note": { "en": "قَالَ is hollow; its alif is a و (يَقُولُ).", "ar": "«قَالَ» أجوف واوي، والألف منقلبة عن واو." } },
+    { "ar": "رَمَى الطِّفْلُ الْكُرَةَ", "en": "The child threw the ball.", "note": { "en": "رَمَى is final-weak; its alif is a ي (يَرْمِي).", "ar": "«رَمَى» ناقص يائي." } },
+    { "ar": "مَدَّ الرَّجُلُ يَدَهُ لِلْمُصَافَحَةِ", "en": "The man held out his hand to shake hands.", "note": { "en": "مَدَّ is doubled: root م د د.", "ar": "«مَدَّ» مضعّف أصله «مَدَدَ»." } }
+  ],
+  "caveats": {
+    "en": [
+      "Four-letter roots can also be doubled (زَلْزَلَ: 1st = 3rd and 2nd = 4th); this unit uses the three-letter model.",
+      "The detailed conjugation of each class is outside this target; see H02–H07 and F07."
+    ],
+    "ar": [
+      "يكون المضعّف رباعيًّا أيضًا (زَلْزَلَ: فاؤه ولامه الأولى من جنس، وعينه ولامه الثانية من جنس)، والمثال هنا للثلاثي.",
+      "تصريف كل قسم بالتفصيل خارج هذا الهدف، وانظر H02–H07 وF07."
+    ]
+  },
+  "convention": {
+    "en": "This follows the common school division: صحيح = سالم + مهموز + مضعّف; معتل = مثال + أجوف + ناقص + لفيف (مفروق / مقرون). Some books treat المهموز as a third main group beside صحيح and معتل, and some use “صحيح” and “سالم” as synonyms. English labels vary (assimilated / initial-weak, hollow / middle-weak, defective / final-weak).",
+    "ar": "يتبع هذا التقسيم المدرسي الشائع: الصحيح سالم ومهموز ومضعّف، والمعتل مثال وأجوف وناقص ولفيف مفروق ومقرون. ومن الكتب ما يجعل المهموز قسمًا ثالثًا مستقلًّا، ومنها ما يسوّي بين الصحيح والسالم. وتختلف التسميات الإنجليزية أيضًا."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the three sound and the five weak classes, with a model verb for each.", "ar": "اذكر أقسام الصحيح الثلاثة وأقسام المعتل الخمسة مع مثال لكل منها." }, "answer_blocks": ["classes"] },
+    { "id": "r2", "prompt": { "en": "Why are hamzated and doubled verbs not called weak?", "ar": "لماذا لا يُعدّ المهموز والمضعّف من المعتل؟" }, "answer_blocks": ["key-points"] }
+  ],
+  "sources": [
+    { "id": "R23", "locator": "Sound and weak root types" }
+  ],
+  "extra_aliases": ["الفعل المعتل", "الفعل الصحيح", "المثال والأجوف والناقص", "اللفيف", "المهموز", "المضعف", "weak verbs", "hollow verb", "defective verb", "assimilated verb", "doubled verb", "hamzated verb", "ajwaf", "naqis", "lafif"]
+}

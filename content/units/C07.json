@@ -1,0 +1,105 @@
+{
+  "id": "C07",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "jawāzim fiʿl wāḥid",
+  "summary": {
+    "en": "The four governors (particles) that make a single imperfect verb jussive — لم، لمّا، لام الأمر، لا الناهية — and their uses; the jussive endings themselves are in F05.",
+    "ar": "الأدوات الأربع الجازمة لفعل واحد — لم، لمّا، لام الأمر، لا الناهية — واستعمالاتها؛ أمّا علامات الجزم نفسها ففي الوحدة F05."
+  },
+  "target": {
+    "en": "Recall لم، لمّا، لام الأمر and لا الناهية as the particles that make one imperfect verb jussive, and the grammatical use of each.",
+    "ar": "استحضار «لم، لمّا، لام الأمر، لا الناهية» بوصفها الأدوات التي تجزم فعلًا مضارعًا واحدًا، والاستعمال النحوي لكلٍّ منها."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The four single-verb governors", "ar": "الجوازم الأربعة لفعل واحد" },
+      "row_header": "particle",
+      "columns": [
+        { "key": "particle", "lang": "ar", "label": { "en": "Particle", "ar": "الأداة" } },
+        { "key": "use", "lang": "bi", "label": { "en": "Use", "ar": "الاستعمال" } },
+        { "key": "time", "lang": "bi", "label": { "en": "Time reference", "ar": "الزمن" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "particle": "لَمْ", "use": { "en": "negation", "ar": "النفي" }, "time": { "en": "shifts the imperfect to past: 'did not'", "ar": "تقلب زمنه إلى الماضي" }, "example": "لَمْ يَحْضُرْ أَحَدٌ" },
+        { "particle": "لَمَّا", "use": { "en": "negation, with the event still expected", "ar": "النفي مع توقّع الحصول" }, "time": { "en": "past continuing up to now: 'has not yet'", "ar": "الماضي المتصل بالحاضر" }, "example": "لَمَّا يَصِلْ أَبِي" },
+        { "particle": "لِـ (لَامُ الْأَمْرِ)", "use": { "en": "command, usually 3rd person: 'let him …'", "ar": "الطلب (الأمر)، وأكثره للغائب" }, "time": { "en": "future", "ar": "المستقبل" }, "example": "لِيَكْتُبْ كُلُّ طَالِبٍ اسْمَهُ" },
+        { "particle": "لَا (النَّاهِيَةُ)", "use": { "en": "prohibition: 'do not'", "ar": "طلب الكفّ (النهي)" }, "time": { "en": "future", "ar": "المستقبل" }, "example": "لَا تَتَأَخَّرْ" }
+      ]
+    },
+    {
+      "id": "rules",
+      "kind": "rules",
+      "title": { "en": "Key rules and contrasts", "ar": "أحكام وفروق" },
+      "items": [
+        {
+          "label": { "en": "Effect", "ar": "العمل" },
+          "text": { "en": "Each makes the one imperfect verb after it jussive (مجزوم). The marker — sukūn, dropping the weak final letter, or dropping nūn — is in F05/F06.", "ar": "تجزم كلٌّ منها فعلًا مضارعًا واحدًا. وعلامة الجزم (السكون، أو حذف حرف العلة، أو حذف النون) مفصّلة في F05 وF06." },
+          "ar_example": "لَمْ يَكْتُبْ، لَمْ يَدْعُ، لَمْ يَكْتُبُوا"
+        },
+        {
+          "label": { "en": "لم vs لمّا", "ar": "الفرق بين لم ولمّا" },
+          "text": { "en": "لمّا implies the negation lasts until now and the event is expected; لم does not. لم may follow a conditional tool (إنْ لم); لمّا may not, but its verb may be left unsaid.", "ar": "نفي «لمّا» مستمرّ إلى زمن التكلّم ومتوقَّع الحصول، بخلاف «لم». وتقع «لم» بعد أداة الشرط (إنْ لم) دون «لمّا»، ويجوز حذف مجزوم «لمّا» دون «لم»." },
+          "ar_example": "قَارَبْتُ الْمَدِينَةَ وَلَمَّا"
+        },
+        {
+          "label": { "en": "Vowel of لام الأمر", "ar": "حركة لام الأمر" },
+          "text": { "en": "The lām is kasra; after وَ or فَـ it is usually given sukūn.", "ar": "لام الأمر مكسورة، وتُسكَّن غالبًا بعد الواو والفاء." },
+          "ar_example": "فَلْيَقُمْ كُلٌّ إِلَى عَمَلِهِ"
+        },
+        {
+          "label": { "en": "Prohibitive لا ≠ negating لا", "ar": "لا الناهية ولا النافية" },
+          "text": { "en": "Prohibitive لا issues a request not to act and makes the verb jussive. Negating لا merely states that something does not happen and leaves the verb indicative.", "ar": "«لا» الناهية تطلب ترك الفعل وتجزمه، و«لا» النافية تخبر بعدم وقوعه ولا تعمل فيه، فيبقى مرفوعًا." },
+          "ar_example": "لَا تَكْتُبْ (نهي) ≠ لَا تَكْتُبُ (نفي)"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "Two of these negate (لم، لمّا) and two make a request (لام الأمر for 'let …', لا الناهية for 'don't'). Each governs one verb, in contrast to the conditional tools (C08), which govern two.",
+      "This unit is about the governors. The resulting jussive endings belong to F05 and F06."
+    ],
+    "ar": [
+      "اثنتان منها للنفي (لم ولمّا)، واثنتان للطلب (لام الأمر، ولا الناهية). وكلٌّ منها يجزم فعلًا واحدًا، بخلاف أدوات الشرط (C08) التي تجزم فعلين.",
+      "هذه الوحدة خاصة بالأدوات الجازمة، أمّا علامات الجزم فموضعها F05 وF06."
+    ]
+  },
+  "examples": [
+    { "ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ", "en": "He neither begets nor was begotten. (Qur'an 112:3)", "note": { "en": "لم with two verbs, each jussive with sukūn.", "ar": "فعلان مجزومان بـ«لم» وعلامة جزمهما السكون." } },
+    { "ar": "لَمَّا يَنْضَجِ الطَّعَامُ", "en": "The food has not cooked yet.", "note": { "en": "Not yet, but expected soon. The sukūn becomes kasra before الـ.", "ar": "لم ينضج إلى الآن ويُتوقَّع نضجه، وحُرّك بالكسر لالتقاء الساكنين." } },
+    { "ar": "لِيُنْفِقْ كُلُّ وَاحِدٍ مِمَّا يَمْلِكُ", "en": "Let everyone spend from what he owns.", "note": { "en": "لام الأمر with a third-person verb.", "ar": "لام الأمر مع فعل الغائب." } },
+    { "ar": "لَا تَنْسَوْا وَاجِبَاتِكُمْ", "en": "Do not forget your homework.", "note": { "en": "Prohibitive لا; the five-verb form drops its nūn (تَنْسَوْنَ → تَنْسَوْا).", "ar": "«تنسوا» مجزوم بلا الناهية وعلامة جزمه حذف النون." } }
+  ],
+  "caveats": {
+    "en": [
+      "لمّا followed by a past verb (لَمَّا جَاءَ … 'when he came …') is a different word (لمّا الحينية) and governs nothing.",
+      "When the request is addressed to God, لام الأمر and لا الناهية are conventionally called لام الدعاء and لا الدعائية; the grammar is the same.",
+      "The interrogative hamza may precede لم and لمّا (أَلَمْ، أَلَمَّا) without changing their effect."
+    ],
+    "ar": [
+      "«لمّا» التي يليها فعل ماضٍ (لمّا جاءَ…) هي «لمّا» الحينية، وهي غير عاملة.",
+      "إذا كان الطلب من الأدنى إلى الأعلى (كالدعاء) سُمّيت اللام «لام الدعاء» و«لا» «لا الدعائية»، والعمل واحد.",
+      "قد تدخل همزة الاستفهام على «لم» و«لمّا» (ألم، ألمّا) ولا يتغيّر عملهما."
+    ]
+  },
+  "convention": {
+    "en": "Following the Ājurrūmiyya tradition, the jussive governors are split into those that govern one verb (this unit) and those that govern two (C08). The Ājurrūmiyya lists أَلَمْ and أَلَمَّا separately; here they are treated as لم/لمّا with the interrogative hamza.",
+    "ar": "تُقسَم الجوازم على طريقة الآجرومية إلى ما يجزم فعلًا واحدًا (هذه الوحدة) وما يجزم فعلين (C08). وتعدّ الآجرومية «ألم» و«ألمّا» مستقلتين، وهما هنا «لم» و«لمّا» دخلت عليهما همزة الاستفهام."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the four particles that make one verb jussive and the use of each.", "ar": "اذكر الأدوات الأربع التي تجزم فعلًا واحدًا واستعمال كلٍّ منها." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "How does لمّا differ from لم, and prohibitive لا from negating لا?", "ar": "ما الفرق بين «لم» و«لمّا»؟ وبين «لا» الناهية و«لا» النافية؟" }, "answer_blocks": ["rules"] }
+  ],
+  "sources": [
+    { "id": "R04", "locator": "Jussive mood: governing particles" },
+    { "id": "R01", "locator": "باب جوازم الفعل" }
+  ],
+  "extra_aliases": ["جوازم المضارع", "الجوازم", "لم ولما", "لام الأمر", "لا الناهية", "jussive governors", "lam lamma", "prohibitive la", "jazm particles"]
+}

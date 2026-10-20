@@ -1,0 +1,23 @@
+{
+  "id": "S10",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "Three different things are easy to confuse. The role (وظيفة, موقع) is what a word does in the sentence: subject, object, predicate. The state (حالة الإعراب) is the grammatical category that role requires: nominative (رفع), accusative (نصب), genitive (جرّ) for nouns; indicative, subjunctive, jussive for the imperfect verb. The sign (علامة) is how the state is shown on this particular word.",
+      "One state can have different signs. The nominative is ḍamma in الْمُعَلِّمُ, alif in الْمُعَلِّمَانِ, wāw in الْمُعَلِّمُونَ, and implied in الْفَتَى. So “nominative” is not the same thing as “ḍamma”.",
+      "Units in this reference keep the three apart: governing units (C, D) say which state a word takes; ending units (E, F) say which sign shows it."
+    ],
+    "ar": [
+      "ثلاثة أمور يكثر الخلط بينها: الوظيفة أو الموقع، وهي عمل الكلمة في الجملة (فاعل، مفعول به، خبر)؛ وحالة الإعراب التي يقتضيها الموقع (الرفع والنصب والجر في الاسم، والرفع والنصب والجزم في المضارع)؛ والعلامة التي تظهر بها الحالة على الكلمة.",
+      "وقد تتعدّد علامات الحالة الواحدة: فالرفع بالضمة في «الْمُعَلِّمُ»، وبالألف في «الْمُعَلِّمَانِ»، وبالواو في «الْمُعَلِّمُونَ»، ومقدّر في «الْفَتَى». فالرفع غير الضمة.",
+      "ويفصل المرجع بينها: وحدات العوامل (C، D) تبيّن الحالة، ووحدات العلامات (E، F) تبيّن العلامة."
+    ]
+  },
+  "terms": [
+    { "ar": "الْمَوْقِعُ الْإِعْرَابِيُّ", "gloss": { "en": "syntactic role / position", "ar": "وظيفة الكلمة في الجملة" } },
+    { "ar": "حَالَةُ الْإِعْرَابِ", "gloss": { "en": "case (nouns) or mood (imperfect verb)", "ar": "الرفع أو النصب أو الجر أو الجزم" } },
+    { "ar": "عَلَامَةُ الْإِعْرَابِ", "gloss": { "en": "the sign that marks the state", "ar": "حركة أو حرف أو حذف يدلّ على الحالة" } },
+    { "ar": "عَلَامَةٌ أَصْلِيَّةٌ / فَرْعِيَّةٌ", "gloss": { "en": "primary sign (vowel, sukūn) / secondary sign (letter, deletion)", "ar": "الحركات والسكون / ما ناب عنها من حروف أو حذف" } },
+    { "ar": "عَامِلٌ", "gloss": { "en": "governor: the word that causes the state", "ar": "ما يقتضي الحالة الإعرابية" } }
+  ]
+}

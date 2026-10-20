@@ -1,0 +1,106 @@
+{
+  "id": "F06",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "al-afʿāl al-khamsa",
+  "summary": {
+    "en": "The five imperfect templates (يَفْعَلَانِ، تَفْعَلَانِ، يَفْعَلُونَ، تَفْعَلُونَ، تَفْعَلِينَ): nun kept in the indicative, dropped in the subjunctive and jussive.",
+    "ar": "الأفعال الخمسة (يفعلان، تفعلان، يفعلون، تفعلون، تفعلين): ثبوت النون في الرفع، وحذفها في النصب والجزم."
+  },
+  "target": {
+    "en": "Recall the five templates and the retention of nun (indicative) versus its deletion (subjunctive and jussive).",
+    "ar": "استحضار الصيغ الخمس، وثبوت النون في حال الرفع وحذفها في حالَي النصب والجزم."
+  },
+  "blocks": [
+    {
+      "id": "templates",
+      "kind": "table",
+      "title": { "en": "The five templates across the moods (model: كَتَبَ)", "ar": "الصيغ الخمس في الأحوال الثلاث (نموذج: كَتَبَ)" },
+      "row_header": "template",
+      "columns": [
+        { "key": "template", "lang": "ar", "label": { "en": "Template", "ar": "الصيغة" } },
+        { "key": "who", "lang": "bi", "label": { "en": "Subject", "ar": "الفاعل" } },
+        { "key": "ind", "lang": "ar", "label": { "en": "Indicative: nun kept", "ar": "الرفع: ثبوت النون" } },
+        { "key": "subj", "lang": "ar", "label": { "en": "Subjunctive: nun dropped", "ar": "النصب: حذف النون" } },
+        { "key": "juss", "lang": "ar", "label": { "en": "Jussive: nun dropped", "ar": "الجزم: حذف النون" } }
+      ],
+      "rows": [
+        { "template": "يَفْعَلَانِ", "who": { "en": "they two (m.)", "ar": "هُمَا (للغائبَين)" }, "ind": "يَكْتُبَانِ", "subj": "لَنْ يَكْتُبَا", "juss": "لَمْ يَكْتُبَا" },
+        { "template": "تَفْعَلَانِ", "who": { "en": "you two (m./f.); they two (f.)", "ar": "أَنْتُمَا، وهُمَا (للغائبتين)" }, "ind": "تَكْتُبَانِ", "subj": "لَنْ تَكْتُبَا", "juss": "لَمْ تَكْتُبَا" },
+        { "template": "يَفْعَلُونَ", "who": { "en": "they (m. pl.)", "ar": "هُمْ" }, "ind": "يَكْتُبُونَ", "subj": "لَنْ يَكْتُبُوا", "juss": "لَمْ يَكْتُبُوا" },
+        { "template": "تَفْعَلُونَ", "who": { "en": "you (m. pl.)", "ar": "أَنْتُمْ" }, "ind": "تَكْتُبُونَ", "subj": "لَنْ تَكْتُبُوا", "juss": "لَمْ تَكْتُبُوا" },
+        { "template": "تَفْعَلِينَ", "who": { "en": "you (f. sg.)", "ar": "أَنْتِ" }, "ind": "تَكْتُبِينَ", "subj": "لَنْ تَكْتُبِي", "juss": "لَمْ تَكْتُبِي" }
+      ],
+      "notes": {
+        "en": ["These are templates, not five particular verbs: every imperfect verb has these five forms."],
+        "ar": ["هي صيغ وليست أفعالًا بأعيانها؛ فكل فعل مضارع له هذه الصيغ الخمس."]
+      }
+    },
+    {
+      "id": "nun-rule",
+      "kind": "rules",
+      "title": { "en": "The nun rule", "ar": "حكم النون" },
+      "items": [
+        {
+          "label": { "en": "Indicative: nun retained", "ar": "الرفع: ثبوت النون" },
+          "text": { "en": "With no governing particle, the nun stays; its presence is the sign of the indicative (in place of ḍamma).", "ar": "إذا لم يسبقه ناصب ولا جازم ثبتت النون، وثبوتها علامة رفعه نيابةً عن الضمة." },
+          "ar_example": "الطُّلَّابُ يَكْتُبُونَ"
+        },
+        {
+          "label": { "en": "Subjunctive and jussive: nun deleted", "ar": "النصب والجزم: حذف النون" },
+          "text": { "en": "After a subjunctive particle (أَنْ، لَنْ، كَيْ …) or a jussive particle (لَمْ، لَا الناهية، لام الأمر …) the nun is dropped; the deletion is the case sign.", "ar": "إذا سبقه ناصب (أَنْ، لَنْ، كَيْ…) أو جازم (لَمْ، لا الناهية، لام الأمر…) حُذفت النون، وحذفها علامة النصب أو الجزم." },
+          "ar_example": "لَنْ يَكْتُبُوا، لَمْ يَكْتُبُوا"
+        },
+        {
+          "label": { "en": "Spelling and vowel of the nun", "ar": "رسم النون وحركتها" },
+          "text": { "en": "The nun has kasra after alif (ـَانِ) and fatḥa after wāw or yāʾ (ـُونَ، ـِينَ). When the nun of ـُونَ is dropped, an extra alif is written after the wāw (يَكْتُبُوا).", "ar": "النون مكسورة بعد الألف (ـَانِ)، مفتوحة بعد الواو والياء (ـُونَ، ـِينَ). وإذا حُذفت النون بعد واو الجماعة زيدت ألف فارقة (يَكْتُبُوا)." },
+          "ar_example": "يَكْتُبَانِ، يَكْتُبُونَ، تَكْتُبِينَ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "Each of the five templates is an imperfect verb with an attached subject pronoun: the alif of the dual, the wāw of the plural, or the yāʾ of the addressed woman. Because the pronoun sits at the end, the verb cannot show mood with a vowel; the following nun does that job instead.",
+      "So the whole mood system reduces to one switch: nun present = indicative; nun absent = subjunctive or jussive (the particle tells you which)."
+    ],
+    "ar": [
+      "الأفعال الخمسة كل فعل مضارع اتصلت به ألف الاثنين أو واو الجماعة أو ياء المخاطبة، ولمّا شغل الضميرُ آخرَ الفعل صارت النون بعده هي التي تدلّ على الإعراب.",
+      "فالقاعدة كلها: ثبوت النون علامة الرفع، وحذفها علامة النصب أو الجزم، ويُعرف أحدهما بالأداة السابقة."
+    ]
+  },
+  "examples": [
+    { "ar": "الطُّلَّابُ يَدْرُسُونَ فِي الْمَكْتَبَةِ", "en": "The students study in the library.", "note": { "en": "Indicative: nun retained.", "ar": "يَدْرُسُونَ: فعل مضارع مرفوع بثبوت النون." } },
+    { "ar": "لَنْ تَنْجَحُوا إِلَّا بِالْعَمَلِ", "en": "You will not succeed except through hard work.", "note": { "en": "Subjunctive after لَنْ: nun dropped, alif added.", "ar": "تَنْجَحُوا: منصوب بـ«لن» وعلامة نصبه حذف النون." } },
+    { "ar": "لِمَاذَا لَمْ تَحْضُرِي الدَّرْسَ؟", "en": "Why didn't you (f.) attend the lesson?", "note": { "en": "Jussive after لَمْ: nun dropped.", "ar": "تَحْضُرِي: مجزوم بـ«لم» وعلامة جزمه حذف النون." } },
+    { "ar": "يَجِبُ أَنْ تَتَعَاوَنَا", "en": "You two must cooperate.", "note": { "en": "Subjunctive after أَنْ: تَتَعَاوَنَانِ → تَتَعَاوَنَا.", "ar": "تَتَعَاوَنَا: منصوب بـ«أن» وعلامة نصبه حذف النون." } }
+  ],
+  "caveats": {
+    "en": [
+      "The feminine plural forms (يَكْتُبْنَ، تَكْتُبْنَ) are not among the five: their nun is a pronoun (نون النسوة), the verb is indeclinable and the nun is never dropped (لَنْ يَكْتُبْنَ).",
+      "The imperative of these persons (اُكْتُبَا، اُكْتُبُوا، اُكْتُبِي) also lacks the nun, but it is described as built (مبني) on the deletion of the nun, not as a mood ending.",
+      "Before the emphatic nun or a pronoun-nun, extra spelling and assimilation rules apply; they are outside this card."
+    ],
+    "ar": [
+      "صيغتا جمع المؤنث (يَكْتُبْنَ، تَكْتُبْنَ) ليستا من الأفعال الخمسة؛ فالنون فيهما ضمير (نون النسوة)، والفعل مبني، ولا تُحذف النون (لَنْ يَكْتُبْنَ).",
+      "الأمر من هذه الصيغ (اُكْتُبَا، اُكْتُبُوا، اُكْتُبِي) يُحذف منه النون أيضًا، لكنه مبني على حذف النون لا معرب.",
+      "لاتصالها بنون التوكيد أو نون الوقاية أحكام أخرى خارج هذه البطاقة."
+    ]
+  },
+  "convention": {
+    "en": "The Ājurrūmiyya gives the nun as the indicative sign of the verb with a dual, plural or addressed-feminine pronoun, and its deletion as the sign of the subjunctive and jussive. Ibn Hishām and others prefer the name الأمثلة الخمسة (“the five patterns”) to stress they are templates. Some books count six by separating تَفْعَلَانِ (you two) from تَفْعَلَانِ (they two, f.).",
+    "ar": "في الآجرومية أن النون علامة الرفع في المضارع المتصل بضمير تثنية أو جمع أو ضمير المؤنثة المخاطبة، وأن حذفها علامة النصب والجزم. ويُسمّيها ابن هشام وغيره «الأمثلة الخمسة» تنبيهًا على أنها صيغ لا أفعال معيّنة. وبعض الكتب يعدّها ستة بالتفريق بين «تفعلان» للمخاطبَين و«تفعلان» للغائبتين."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Write the five templates and give كَتَبَ in each, in the indicative, subjunctive and jussive.", "ar": "اكتب الصيغ الخمس وصرّف «كَتَبَ» عليها في الرفع والنصب والجزم." }, "answer_blocks": ["templates"] },
+    { "id": "r2", "prompt": { "en": "What marks the indicative, the subjunctive and the jussive in the five verbs?", "ar": "ما علامة رفع الأفعال الخمسة ونصبها وجزمها؟" }, "answer_blocks": ["nun-rule"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب معرفة علامات الإعراب: النون وحذفها" },
+    { "id": "R15", "locator": "Grammar course index: imperfect mood lessons" }
+  ],
+  "extra_aliases": ["five verbs", "al-af'al al-khamsa", "الأمثلة الخمسة", "al-amthila al-khamsa", "ثبوت النون", "حذف النون", "nun deletion", "imperfect dual plural"]
+}

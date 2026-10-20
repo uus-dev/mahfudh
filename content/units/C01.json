@@ -1,0 +1,108 @@
+{
+  "id": "C01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "selected_list",
+  "transliteration": "ḥurūf al-jarr al-asāsiyya",
+  "summary": {
+    "en": "A selected core set of eight prepositions with basic meanings, and the rule that the following noun is genitive.",
+    "ar": "مجموعة مختارة من ثمانية حروف جرّ أساسية بمعانيها، وقاعدة جرّ الاسم بعدها."
+  },
+  "target": {
+    "en": "Recall the selected core set of prepositions (مِنْ، إلى، عَنْ، على، في، الباء، الكاف، اللام), a basic gloss for each, and the rule that they put the following noun in the genitive.",
+    "ar": "استحضار المجموعة الأساسية المختارة من حروف الجرّ (مِنْ، إلى، عَنْ، على، في، الباء، الكاف، اللام)، ومعنًى أساسيٍّ لكلٍّ منها، وقاعدة أنّها تجرّ الاسم الذي يليها."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The selected core set (8 of the full inventory)", "ar": "المجموعة الأساسية المختارة (ثمانية من القائمة الكاملة)" },
+      "row_header": "particle",
+      "columns": [
+        { "key": "particle", "lang": "ar", "label": { "en": "Preposition", "ar": "الحرف" } },
+        { "key": "meaning", "lang": "bi", "label": { "en": "Basic meaning", "ar": "المعنى الأساسي" } },
+        { "key": "gloss", "lang": "bi", "label": { "en": "Typical English", "ar": "المقابل الإنجليزي" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "particle": "مِنْ", "meaning": { "en": "starting point; also 'part of'", "ar": "ابتداء الغاية، والتبعيض" }, "gloss": { "en": "from; (some) of", "ar": "from" }, "example": "خَرَجْتُ مِنَ الْبَيْتِ" },
+        { "particle": "إِلَى", "meaning": { "en": "end point", "ar": "انتهاء الغاية" }, "gloss": { "en": "to, until", "ar": "to" }, "example": "مَشَيْتُ إِلَى الْمَسْجِدِ" },
+        { "particle": "عَنْ", "meaning": { "en": "moving away, passing beyond", "ar": "المجاوزة" }, "gloss": { "en": "away from; about", "ar": "from, about" }, "example": "رَحَلَ عَنِ الْمَدِينَةِ" },
+        { "particle": "عَلَى", "meaning": { "en": "being over / upon", "ar": "الاستعلاء" }, "gloss": { "en": "on, upon; against", "ar": "on" }, "example": "الْكِتَابُ عَلَى الْمَكْتَبِ" },
+        { "particle": "فِي", "meaning": { "en": "containment in place or time", "ar": "الظرفية" }, "gloss": { "en": "in, at", "ar": "in" }, "example": "الْمَاءُ فِي الْكُوبِ" },
+        { "particle": "بِـ", "meaning": { "en": "contact; instrument", "ar": "الإلصاق، والاستعانة" }, "gloss": { "en": "with, by, at", "ar": "with, by" }, "example": "كَتَبْتُ بِالْقَلَمِ" },
+        { "particle": "كَـ", "meaning": { "en": "likeness", "ar": "التشبيه" }, "gloss": { "en": "like, as", "ar": "like" }, "example": "الْعِلْمُ كَالنُّورِ" },
+        { "particle": "لِـ", "meaning": { "en": "possession / belonging; purpose", "ar": "الملك والاختصاص، والتعليل" }, "gloss": { "en": "for, belonging to", "ar": "for" }, "example": "الْبَيْتُ لِأَبِي" }
+      ],
+      "notes": {
+        "en": ["Each preposition has further meanings; the table gives the one usually memorised first."],
+        "ar": ["لكلّ حرف معانٍ أخرى، والجدول يذكر المعنى الذي يُحفظ أولًا في العادة."]
+      }
+    },
+    {
+      "id": "rule",
+      "kind": "rules",
+      "title": { "en": "Governing rule", "ar": "العمل" },
+      "items": [
+        {
+          "label": { "en": "Genitive after the preposition", "ar": "جرّ ما بعدها" },
+          "text": { "en": "The noun after a preposition is genitive (مجرور): kasra in the regular noun, yā' in the dual and sound masculine plural, fatḥa in a diptote.", "ar": "الاسم بعد حرف الجرّ مجرور: بالكسرة في الاسم المفرد، وبالياء في المثنى وجمع المذكر السالم، وبالفتحة نيابةً عن الكسرة في الممنوع من الصرف." },
+          "ar_example": "سَلَّمْتُ عَلَى الْمُعَلِّمِينَ فِي مَسَاجِدَ كَثِيرَةٍ"
+        },
+        {
+          "label": { "en": "With a pronoun", "ar": "مع الضمير" },
+          "text": { "en": "An attached pronoun after a preposition is indeclinable and is said to be in the position of the genitive (في محلّ جرّ). Spelling changes: لِـ becomes لَـ before pronouns except لِي; إلى and على become إليـ / عليـ.", "ar": "الضمير المتصل بعد حرف الجرّ مبنيّ في محلّ جرّ. وتُفتح اللام مع الضمائر (لَهُ، لَكَ) إلا مع ياء المتكلم (لِي)، وتنقلب ألف «إلى» و«على» ياءً (إِلَيْهِ، عَلَيْهِ)." },
+          "ar_example": "هٰذَا الْكِتَابُ لَكَ، فَانْظُرْ إِلَيْهِ"
+        },
+        {
+          "label": { "en": "Prepositions are particles", "ar": "حروف لا محلّ لها" },
+          "text": { "en": "The preposition itself is an indeclinable particle; the preposition + noun together form a شبه جملة that attaches to a verb or verb-like word, or serves as a predicate.", "ar": "حرف الجرّ مبنيّ لا محلّ له من الإعراب، ويكوّن مع مجروره شبه جملة تتعلّق بفعل أو ما يشبهه، أو تقع خبرًا." },
+          "ar_example": "الطَّالِبُ فِي الْفَصْلِ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "A preposition (حرف جرّ) links a noun to the rest of the sentence and makes that noun genitive. This is the most frequent cause of the genitive alongside إضافة.",
+      "The one-letter prepositions بِـ، كَـ، لِـ are written joined to the following word."
+    ],
+    "ar": [
+      "حرف الجرّ يربط الاسم بما قبله ويجرّه، وهو مع الإضافة أكثر أسباب الجرّ شيوعًا.",
+      "حروف الجرّ الأحادية (الباء والكاف واللام) تُكتب متصلةً بما بعدها."
+    ]
+  },
+  "examples": [
+    { "ar": "سَافَرْتُ مِنْ مَكَّةَ إِلَى الْمَدِينَةِ", "en": "I travelled from Mecca to Medina.", "note": { "en": "مَكَّةَ is a diptote, so its genitive is shown by fatḥa.", "ar": "«مكّةَ» ممنوعة من الصرف، فجُرّت بالفتحة نيابةً عن الكسرة." } },
+    { "ar": "سَأَلْتُهُ عَنْ أَخِيهِ", "en": "I asked him about his brother.", "note": { "en": "أَخِي- is genitive with yā' as one of the five nouns.", "ar": "«أخي» مجرور بالياء لأنه من الأسماء الخمسة." } },
+    { "ar": "يَكْتُبُ الطِّفْلُ بِالْقَلَمِ عَلَى الْوَرَقَةِ", "en": "The child writes with the pen on the paper.", "note": { "en": "Two prepositional phrases, each noun genitive with kasra.", "ar": "شبها جملة، والاسمان مجروران بالكسرة." } },
+    { "ar": "الْجَائِزَةُ لِلْفَائِزِينَ", "en": "The prize is for the winners.", "note": { "en": "Sound masculine plural: genitive with yā'. لِـ + الـ is written لِلْـ.", "ar": "جمع مذكر سالم مجرور بالياء، وتُحذف ألف «ال» بعد اللام كتابةً." } }
+  ],
+  "caveats": {
+    "en": [
+      "This is a selected core set, not the full inventory. Other prepositions (مُذْ، مُنْذُ، رُبَّ، حَتَّى، and others) belong to C02; the oath letters (وَ، تَ، بِـ in oaths) belong to C03.",
+      "The kāf of likeness normally attaches to nouns, not to attached pronouns.",
+      "A genitive noun after a preposition can also be followed by a further إضافة chain; the preposition governs only the first noun."
+    ],
+    "ar": [
+      "هذه مجموعة أساسية مختارة لا جميع حروف الجرّ؛ فبقيتها (مُذْ، مُنْذُ، رُبَّ، حَتَّى، وغيرها) في الوحدة C02، وحروف القسم في الوحدة C03.",
+      "كاف التشبيه تدخل في الغالب على الاسم الظاهر دون الضمير المتصل.",
+      "حرف الجرّ يعمل في الاسم الذي يليه مباشرةً، وما بعده من مضاف إليه مجرور بالإضافة."
+    ]
+  },
+  "convention": {
+    "en": "The Ājurrūmiyya lists من، إلى، عن، على، في، رُبّ، الباء، الكاف، اللام، the oath letters, مذ and منذ. This unit isolates the eight most frequent as a first-release core; it does not claim they are the only prepositions.",
+    "ar": "تعدّ الآجرومية: من، وإلى، وعن، وعلى، وفي، ورُبّ، والباء، والكاف، واللام، وحروف القسم، ومذ ومنذ. وتقتصر هذه الوحدة على الثمانية الأكثر استعمالًا بوصفها مجموعة أساسية، ولا تدّعي أنها كلّ حروف الجرّ."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the eight core prepositions with a basic meaning for each.", "ar": "اذكر حروف الجرّ الثمانية الأساسية مع معنًى لكلٍّ منها." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "What case does a noun take after a preposition, and how is it marked in the dual, the sound masculine plural, and a diptote?", "ar": "ما حكم الاسم بعد حرف الجرّ؟ وما علامته في المثنى وجمع المذكر السالم والممنوع من الصرف؟" }, "answer_blocks": ["rule"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب مخفوضات الأسماء" },
+    { "id": "R03", "locator": "Preposition (P) tag" }
+  ],
+  "extra_aliases": ["حروف الجر", "حرف جر", "prepositions", "harf jarr", "huruf al-jarr", "genitive prepositions", "من إلى عن على في"]
+}

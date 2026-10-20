@@ -1,0 +1,132 @@
+{
+  "id": "E02",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "conditions",
+  "transliteration": "al-muthannā",
+  "summary": {
+    "en": "The dual: ـَانِ / ـَيْنِ endings, how it is formed, which nouns can be dualized, and nun loss when annexed.",
+    "ar": "المثنى: علامتا ـَانِ / ـَيْنِ، وطريقة صوغه، وشروطه، وحذف نونه عند الإضافة."
+  },
+  "target": {
+    "en": "Recall formation, case endings, eligibility, and loss of the final nun in annexation.",
+    "ar": "استحضار طريقة صوغ المثنى، وعلامات إعرابه، وشروط ما يُثنّى، وحذف نونه عند الإضافة."
+  },
+  "blocks": [
+    {
+      "id": "endings",
+      "kind": "table",
+      "title": { "en": "Case endings", "ar": "علامات الإعراب" },
+      "row_header": "case",
+      "columns": [
+        { "key": "case", "lang": "bi", "label": { "en": "Case", "ar": "الحالة" } },
+        { "key": "sign", "lang": "bi", "label": { "en": "Sign", "ar": "العلامة" } },
+        { "key": "masc", "lang": "ar", "label": { "en": "Model: كِتَاب", "ar": "نموذج: كِتَاب" } },
+        { "key": "fem", "lang": "ar", "label": { "en": "Model with ة: شَجَرَة", "ar": "نموذج بالتاء: شَجَرَة" } },
+        { "key": "def", "lang": "ar", "label": { "en": "With ال", "ar": "مع «ال»" } },
+        { "key": "mudaf", "lang": "ar", "label": { "en": "As مضاف (nun dropped)", "ar": "مضاف (بحذف النون)" } }
+      ],
+      "rows": [
+        { "case": { "en": "Nominative", "ar": "الرفع" }, "sign": { "en": "alif: ـَانِ", "ar": "الألف" }, "masc": "كِتَابَانِ", "fem": "شَجَرَتَانِ", "def": "الْكِتَابَانِ", "mudaf": "كِتَابَا الطَّالِبِ" },
+        { "case": { "en": "Accusative", "ar": "النصب" }, "sign": { "en": "yāʾ: ـَيْنِ", "ar": "الياء" }, "masc": "كِتَابَيْنِ", "fem": "شَجَرَتَيْنِ", "def": "الْكِتَابَيْنِ", "mudaf": "كِتَابَيِ الطَّالِبِ" },
+        { "case": { "en": "Genitive", "ar": "الجر" }, "sign": { "en": "yāʾ: ـَيْنِ", "ar": "الياء" }, "masc": "كِتَابَيْنِ", "fem": "شَجَرَتَيْنِ", "def": "الْكِتَابَيْنِ", "mudaf": "كِتَابَيِ الطَّالِبِ" }
+      ],
+      "notes": {
+        "en": ["The dual nun is always vowelled with kasra (ـَانِ، ـَيْنِ) and never takes tanwīn. The yāʾ is preceded by fatḥa (ـَيْنِ), which distinguishes it from the plural ـِينَ."],
+        "ar": ["نون المثنى مكسورة دائمًا (ـَانِ، ـَيْنِ) ولا تنوين فيه، وما قبل الياء مفتوح (ـَيْنِ) تمييزًا له من جمع المذكر السالم (ـِينَ)."]
+      }
+    },
+    {
+      "id": "formation",
+      "kind": "rules",
+      "title": { "en": "Formation and annexation", "ar": "الصوغ والإضافة" },
+      "items": [
+        {
+          "label": { "en": "Add the suffix to the singular", "ar": "تُزاد العلامة على المفرد" },
+          "text": { "en": "Take the singular unchanged and add ـَانِ (nominative) or ـَيْنِ (accusative/genitive). A final ة is written as an open ت.", "ar": "يُؤخذ المفرد بلا تغيير وتُزاد عليه ألف ونون أو ياء ونون، وتُكتب التاء المربوطة مفتوحة." },
+          "ar_example": "مُعَلِّمٌ ← مُعَلِّمَانِ، مُعَلِّمَةٌ ← مُعَلِّمَتَانِ"
+        },
+        {
+          "label": { "en": "Nun drops in annexation", "ar": "حذف النون عند الإضافة" },
+          "text": { "en": "When the dual is a مضاف, its nun is deleted (to a noun or to an attached pronoun). Before ال the yāʾ takes kasra to avoid two sukūns.", "ar": "إذا أُضيف المثنى حُذفت نونه، سواء أُضيف إلى اسم ظاهر أم إلى ضمير، وتُكسر الياء إذا وليتها «ال» منعًا لالتقاء الساكنين." },
+          "ar_example": "كِتَابَاهُ، كِتَابَيْهِ، عَيْنَيِ الطِّفْلِ"
+        }
+      ]
+    },
+    {
+      "id": "conditions",
+      "kind": "rules",
+      "title": { "en": "Which nouns can be dualized", "ar": "شروط ما يُثنّى" },
+      "items": [
+        {
+          "label": { "en": "Singular", "ar": "الإفراد" },
+          "text": { "en": "Only a singular is dualized, not a dual or a plural.", "ar": "لا يُثنّى إلا المفرد، فلا يُثنّى المثنى ولا الجمع." }
+        },
+        {
+          "label": { "en": "Declinable", "ar": "الإعراب" },
+          "text": { "en": "Built (مبني) words are not dualized by this rule; forms such as هٰذَانِ and اللَّذَانِ are treated separately (B05, B06).", "ar": "لا يُثنّى المبني بهذه الطريقة، وأمّا «هٰذَانِ» و«اللَّذَانِ» فلهما باب خاص (B05، B06)." }
+        },
+        {
+          "label": { "en": "Not compound", "ar": "عدم التركيب" },
+          "text": { "en": "A compound name (e.g. بَعْلَبَكّ) is not dualized directly; one says ذَوَا بَعْلَبَكَّ (“the two named Baalbek”).", "ar": "لا يُثنّى المركّب (مثل: بَعْلَبَكّ) مباشرة، بل يُقال: ذَوَا بَعْلَبَكَّ." }
+        },
+        {
+          "label": { "en": "Indefinite", "ar": "التنكير" },
+          "text": { "en": "A proper name is dualized as if indefinite, then made definite with ال if needed.", "ar": "العَلَم يُثنّى بعد تقدير تنكيره، ثم يُعرَّف بـ«ال» عند الحاجة." },
+          "ar_example": "جَاءَ الزَّيْدَانِ"
+        },
+        {
+          "label": { "en": "Same form and same meaning", "ar": "اتفاق اللفظ والمعنى" },
+          "text": { "en": "The two items must share the same word and meaning; a pair of different words (the sun and the moon → الْقَمَرَانِ) is a تغليب form, not a regular dual (E06).", "ar": "يُشترط اتفاق المفردين لفظًا ومعنى، فنحو «الْقَمَرَانِ» للشمس والقمر من باب التغليب، وهو ملحق بالمثنى (E06)." }
+        },
+        {
+          "label": { "en": "Has a second", "ar": "وجود ثانٍ له" },
+          "text": { "en": "There must be a second of the same kind to count.", "ar": "أن يكون له ثانٍ في الوجود." }
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The dual (المثنى) denotes two of something by adding a suffix to the singular. It does not use the vowels ḍamma/fatḥa/kasra: alif marks the nominative and yāʾ marks both the accusative and the genitive.",
+      "The nun after the alif or yāʾ stands in for tanwīn, so it disappears wherever tanwīn would: above all when the dual becomes a مضاف."
+    ],
+    "ar": [
+      "المثنى اسم دلّ على اثنين بزيادة ألف ونون أو ياء ونون على مفرده، ويُرفع بالألف نيابةً عن الضمة، ويُنصب ويُجرّ بالياء نيابةً عن الفتحة والكسرة.",
+      "والنون بعد الألف أو الياء عِوَضٌ عن التنوين في الاسم المفرد، ولذلك تُحذف عند الإضافة."
+    ]
+  },
+  "examples": [
+    { "ar": "حَضَرَ طَالِبَانِ مُجْتَهِدَانِ", "en": "Two diligent students attended.", "note": { "en": "Nominative dual with alif; the adjective agrees.", "ar": "طَالِبَانِ: فاعل مرفوع بالألف لأنه مثنى، ونعته مثله." } },
+    { "ar": "رَأَيْتُ الْمُعَلِّمَيْنِ فِي الْمَكْتَبَةِ", "en": "I saw the two teachers in the library.", "note": { "en": "Accusative dual -ayni; compare the plural الْمُعَلِّمِينَ (-īna).", "ar": "الْمُعَلِّمَيْنِ: مفعول به منصوب بالياء، وقارنه بالجمع «الْمُعَلِّمِينَ»." } },
+    { "ar": "هٰذَانِ كِتَابَا أَخِي", "en": "These are my brother's two books.", "note": { "en": "كِتَابَا is a nominative مضاف, so its nun is dropped.", "ar": "كِتَابَا: خبر مرفوع بالألف، وحُذفت النون للإضافة." } },
+    { "ar": "نَظَرْتُ إِلَى عَيْنَيِ الطِّفْلِ", "en": "I looked at the child's eyes.", "note": { "en": "Genitive مضاف: nun dropped, yāʾ given kasra before ال.", "ar": "عَيْنَيِ: اسم مجرور بالياء، وحُذفت النون للإضافة، وكُسرت الياء لالتقاء الساكنين." } }
+  ],
+  "caveats": {
+    "en": [
+      "Words inflected like the dual without being regular duals (اثْنَانِ، اثْنَتَانِ، كِلَا، كِلْتَا، تغليب forms such as الْوَالِدَانِ) belong to E06.",
+      "Nouns ending in alif or hamza change before the suffix (e.g. عَصًا ← عَصَوَانِ، صَحْرَاءُ ← صَحْرَاوَانِ); these spelling rules belong with E08–E10.",
+      "Annexed to ياء المتكلم: كِتَابَايَ (nominative), كِتَابَيَّ (accusative/genitive)."
+    ],
+    "ar": [
+      "ما يُعرب إعراب المثنى وليس مثنى حقيقيًا (اثْنَانِ، اثْنَتَانِ، كِلَا، كِلْتَا، وألفاظ التغليب كالْوَالِدَانِ) موضعه E06.",
+      "يتغيّر آخر المقصور والممدود عند التثنية (عَصًا ← عَصَوَانِ، صَحْرَاءُ ← صَحْرَاوَانِ)، وتفصيله في E08–E10.",
+      "عند الإضافة إلى ياء المتكلم: كِتَابَايَ رفعًا، وكِتَابَيَّ نصبًا وجرًّا."
+    ]
+  },
+  "convention": {
+    "en": "The endings follow the Ājurrūmiyya (alif for the nominative, yāʾ for the accusative and genitive). The list of eligibility conditions varies between books (six to eight items); this unit gives the commonly taught core. A dialectal usage that keeps the alif in all cases is reported but is not the school norm.",
+    "ar": "العلامات على ما في الآجرومية (الرفع بالألف، والنصب والخفض بالياء). ويختلف عدد شروط التثنية بين الكتب (من ستة إلى ثمانية)، وهذه الوحدة تذكر الشروط الشائعة في التعليم. وتُروى لغة تلزم الألف في الأحوال كلها، وليست هي المعتمدة في التعليم."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give the dual of كِتَاب in all three cases, alone and as a مضاف.", "ar": "ثنِّ «كتاب» في الحالات الثلاث مفردًا ومضافًا." }, "answer_blocks": ["endings", "formation"] },
+    { "id": "r2", "prompt": { "en": "List the conditions a noun must meet to be dualized.", "ar": "اذكر شروط الاسم الذي يُثنّى." }, "answer_blocks": ["conditions"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب معرفة علامات الإعراب: الألف والياء" },
+    { "id": "R15", "locator": "Grammar course index: dual lessons" }
+  ],
+  "extra_aliases": ["dual", "muthanna", "two of", "ـان ـين", "تثنية", "شروط التثنية", "dual nun"]
+}

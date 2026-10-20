@@ -1,0 +1,14 @@
+{
+  "name": "rasikh",
+  "private": true,
+  "type": "module",
+  "description": "Rasikh — bilingual Arabic grammar memory reference (static site).",
+  "scripts": {
+    "validate": "node src/validate.mjs",
+    "build": "node src/build.mjs",
+    "preview": "node src/serve.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/noto-naskh-arabic": "5.2.5"
+  }
+}

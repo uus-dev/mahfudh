@@ -1,0 +1,117 @@
+{
+  "id": "F01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "taṣrīf al-māḍī aṣ-ṣaḥīḥ",
+  "summary": {
+    "en": "The full past-tense paradigm of a regular verb (كَتَبَ): one fixed stem plus a subject suffix for each person, gender and number.",
+    "ar": "تصريف الفعل الماضي الصحيح (كَتَبَ) كاملًا: جذع ثابت تلحقه لاحقة الفاعل بحسب الشخص والجنس والعدد."
+  },
+  "target": {
+    "en": "Recall every slot of a regular past-tense model by person, gender and number (13 distinct forms for the 14 traditional slots).",
+    "ar": "استحضار جميع صيغ الماضي الصحيح في نموذج واحد بحسب الشخص والجنس والعدد (13 صيغة مختلفة للمواضع الأربعة عشر المعروفة)."
+  },
+  "blocks": [
+    {
+      "id": "paradigm",
+      "kind": "table",
+      "title": { "en": "Past tense of كَتَبَ “to write”", "ar": "تصريف «كَتَبَ» في الماضي" },
+      "row_header": "pronoun",
+      "columns": [
+        { "key": "pronoun", "lang": "ar", "label": { "en": "Pronoun", "ar": "الضمير" } },
+        { "key": "slot", "lang": "bi", "label": { "en": "Slot", "ar": "الموضع" } },
+        { "key": "form", "lang": "ar", "label": { "en": "Form", "ar": "الصيغة" } },
+        { "key": "suffix", "lang": "ar", "label": { "en": "Suffix", "ar": "اللاحقة" } }
+      ],
+      "rows": [
+        { "pronoun": "هُوَ", "slot": { "en": "3rd m. sg.", "ar": "غائب مفرد مذكّر" }, "form": "كَتَبَ", "suffix": "" },
+        { "pronoun": "هِيَ", "slot": { "en": "3rd f. sg.", "ar": "غائبة مفردة" }, "form": "كَتَبَتْ", "suffix": "ـَتْ" },
+        { "pronoun": "هُمَا", "slot": { "en": "3rd m. dual", "ar": "مثنّى غائب مذكّر" }, "form": "كَتَبَا", "suffix": "ـَا" },
+        { "pronoun": "هُمَا", "slot": { "en": "3rd f. dual", "ar": "مثنّى غائب مؤنّث" }, "form": "كَتَبَتَا", "suffix": "ـَتَا" },
+        { "pronoun": "هُمْ", "slot": { "en": "3rd m. pl.", "ar": "جمع غائب مذكّر" }, "form": "كَتَبُوا", "suffix": "ـُوا" },
+        { "pronoun": "هُنَّ", "slot": { "en": "3rd f. pl.", "ar": "جمع غائب مؤنّث" }, "form": "كَتَبْنَ", "suffix": "ـْنَ" },
+        { "pronoun": "أَنْتَ", "slot": { "en": "2nd m. sg.", "ar": "مخاطَب مفرد مذكّر" }, "form": "كَتَبْتَ", "suffix": "ـْتَ" },
+        { "pronoun": "أَنْتِ", "slot": { "en": "2nd f. sg.", "ar": "مخاطَبة مفردة" }, "form": "كَتَبْتِ", "suffix": "ـْتِ" },
+        { "pronoun": "أَنْتُمَا", "slot": { "en": "2nd dual (m. and f.)", "ar": "مثنّى مخاطَب (مذكّر ومؤنّث)" }, "form": "كَتَبْتُمَا", "suffix": "ـْتُمَا" },
+        { "pronoun": "أَنْتُمْ", "slot": { "en": "2nd m. pl.", "ar": "جمع مخاطَب مذكّر" }, "form": "كَتَبْتُمْ", "suffix": "ـْتُمْ" },
+        { "pronoun": "أَنْتُنَّ", "slot": { "en": "2nd f. pl.", "ar": "جمع مخاطَب مؤنّث" }, "form": "كَتَبْتُنَّ", "suffix": "ـْتُنَّ" },
+        { "pronoun": "أَنَا", "slot": { "en": "1st sg. (m. and f.)", "ar": "متكلّم مفرد" }, "form": "كَتَبْتُ", "suffix": "ـْتُ" },
+        { "pronoun": "نَحْنُ", "slot": { "en": "1st dual/pl. (m. and f.)", "ar": "متكلّم مثنّى أو جمع" }, "form": "كَتَبْنَا", "suffix": "ـْنَا" }
+      ],
+      "notes": {
+        "en": [
+          "One form serves more than one slot: كَتَبْتُمَا covers both 2nd-person duals, and كَتَبْنَا covers every “we” (dual or plural, masculine or feminine). These are shared spellings, not extra pronouns.",
+          "Unvocalized كتبت can be four different slots: كَتَبْتُ (I), كَتَبْتَ (you m.), كَتَبْتِ (you f.), كَتَبَتْ (she)."
+        ],
+        "ar": [
+          "تشترك بعض المواضع في صيغة واحدة: «كَتَبْتُمَا» للمثنّى المخاطَب مذكّرًا ومؤنّثًا، و«كَتَبْنَا» للمتكلّمين مطلقًا. وهذا اشتراك في اللفظ لا زيادة في الضمائر.",
+          "قد تحتمل «كتبت» بلا ضبط أربعة مواضع: كَتَبْتُ، كَتَبْتَ، كَتَبْتِ، كَتَبَتْ."
+        ]
+      }
+    },
+    {
+      "id": "stem-rules",
+      "kind": "rules",
+      "title": { "en": "What happens to the last root letter", "ar": "حركة آخر الفعل" },
+      "items": [
+        {
+          "label": { "en": "Fatḥa", "ar": "الفتح" },
+          "text": { "en": "With no suffix, with the feminine تْ, and with the dual alif, the last root letter keeps fatḥa.", "ar": "يبقى آخر الفعل مفتوحًا إذا لم تتصل به لاحقة، أو اتصلت به تاء التأنيث أو ألف الاثنين." },
+          "ar_example": "كَتَبَ، كَتَبَتْ، كَتَبَا"
+        },
+        {
+          "label": { "en": "Ḍamma", "ar": "الضم" },
+          "text": { "en": "Before the plural و (واو الجماعة) the last root letter takes ḍamma. The silent alif written after it (الألف الفارقة) is spelling only.", "ar": "يُضمّ آخر الفعل قبل واو الجماعة، والألف بعدها ألف فارقة تُكتب ولا تُنطق." },
+          "ar_example": "كَتَبُوا"
+        },
+        {
+          "label": { "en": "Sukūn", "ar": "السكون" },
+          "text": { "en": "Before every suffix that begins a syllable with a consonant (تُ، تَ، تِ، تُمَا، تُمْ، تُنَّ، نَا، نَ) the last root letter takes sukūn.", "ar": "يُسكَّن آخر الفعل إذا اتصلت به تاء الفاعل أو «نا» الفاعلين أو نون النسوة." },
+          "ar_example": "كَتَبْتُ، كَتَبْنَا، كَتَبْنَ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The past tense (الماضي) uses a single stem, here كَتَب, and shows the subject only by a suffix. There are no prefixes in the past tense.",
+      "The same suffixes apply to every regular (sound) verb whatever its middle vowel: فَتَحَ → فَتَحْتُ، شَرِبَ → شَرِبْتُ، كَرُمَ → كَرُمْتُ. Learning one model is enough; there is no need for a separate table for each verb."
+    ],
+    "ar": [
+      "يُبنى الماضي على جذع واحد هو هنا «كَتَب»، ويُعرف الفاعل باللاحقة وحدها، ولا تدخل الماضيَ سوابقُ.",
+      "وتلحق هذه اللواحق نفسها كلَّ فعل صحيح أيًّا كانت حركة عينه: فَتَحْتُ، شَرِبْتُ، كَرُمْتُ؛ فيكفي حفظ نموذج واحد بدل جدول لكل فعل."
+    ]
+  },
+  "examples": [
+    { "ar": "كَتَبَتِ الطَّالِبَةُ الدَّرْسَ", "en": "The (female) student wrote the lesson.", "note": { "en": "The sukūn of تْ becomes kasra before the next word's hamzat al-waṣl, to avoid two sukūns.", "ar": "حُرِّكت التاء الساكنة بالكسر لالتقاء الساكنين." } },
+    { "ar": "ذَهَبْنَا إِلَى السُّوقِ أَمْسِ", "en": "We went to the market yesterday.", "note": { "en": "نَا = “we” for any number above one and either gender.", "ar": "«نا» للمتكلّمين مذكّرين ومؤنّثين." } },
+    { "ar": "هَلْ فَهِمْتُمُ السُّؤَالَ؟", "en": "Did you (pl.) understand the question?", "note": { "en": "فَهِمَ has kasra in the middle but the same suffixes; the م of تُمْ takes ḍamma before hamzat al-waṣl.", "ar": "«فَهِمَ» مكسور العين ولواحقه هي نفسها، وضُمّت ميم «تُمْ» لالتقاء الساكنين." } },
+    { "ar": "الْبَنَاتُ رَجَعْنَ مِنَ الْمَدْرَسَةِ", "en": "The girls came back from school.", "note": { "en": "ـْنَ is the feminine plural subject (نون النسوة).", "ar": "النون نون النسوة، وهي الفاعل." } }
+  ],
+  "caveats": {
+    "en": [
+      "The table shows the verb with its own pronoun subject. When an explicit noun subject follows the verb, the verb stays singular: كَتَبَ الطُّلَّابُ، كَتَبَتِ الطَّالِبَاتُ. Verb–subject agreement is a separate topic.",
+      "Weak and doubled verbs (قَالَ، دَعَا، مَدَّ) change their stem before some suffixes (قُلْتُ، دَعَوْتُ، مَدَدْتُ); see F07 and H01. This table is for the regular model only."
+    ],
+    "ar": [
+      "يعرض الجدول الفعل مسندًا إلى ضميره. فإذا جاء بعده فاعل اسم ظاهر لزم الإفراد: كَتَبَ الطُّلَّابُ، كَتَبَتِ الطَّالِبَاتُ. ومطابقة الفعل للفاعل موضوع مستقل.",
+      "يتغيّر جذع المعتل والمضعّف مع بعض اللواحق (قُلْتُ، دَعَوْتُ، مَدَدْتُ)، وهذا خارج النموذج الصحيح هنا."
+    ]
+  },
+  "convention": {
+    "en": "Arabic books traditionally count 14 slots and list them from the 3rd person (هو) to the 1st (أنا، نحن); many English textbooks start with “I”. The order does not change the forms. Books also differ in how they describe the ending of the past verb: the common school wording is “built on fatḥa, ḍamma or sukūn” according to the suffix, while some teachers say it is always built on fatḥa (apparent or implied).",
+    "ar": "تعدّ كتب الصرف المواضع أربعة عشر، وتبدأ عادة بالغائب (هو) وتنتهي بالمتكلّم، وتبدأ كتب إنجليزية كثيرة بالمتكلّم، ولا يغيّر الترتيب الصيغ. ويختلفون في وصف بناء الماضي: فالشائع مدرسيًّا أنه يُبنى على الفتح أو الضم أو السكون بحسب ما يتصل به، ومنهم من يجعله مبنيًّا على الفتح دائمًا ظاهرًا أو مقدّرًا."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Conjugate كَتَبَ in the past for all fourteen slots.", "ar": "صرّف «كَتَبَ» في الماضي مع الضمائر جميعها." }, "answer_blocks": ["paradigm"] },
+    { "id": "r2", "prompt": { "en": "When does the last root letter of a past verb take fatḥa, ḍamma or sukūn?", "ar": "متى يُفتح آخر الماضي ومتى يُضمّ ومتى يُسكَّن؟" }, "answer_blocks": ["stem-rules"] }
+  ],
+  "sources": [
+    { "id": "R24", "locator": "Past-tense conjugation table" },
+    { "id": "R02", "locator": "Person, gender and number features" }
+  ],
+  "extra_aliases": ["الفعل الماضي", "تصريف كتب", "past tense", "perfect tense", "perfective", "al-madi", "madi conjugation", "kataba conjugation"]
+}

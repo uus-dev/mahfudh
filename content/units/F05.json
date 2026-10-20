@@ -1,0 +1,137 @@
+{
+  "id": "F05",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "conditions",
+  "transliteration": "ʿalāmāt iʿrāb al-muḍāriʿ",
+  "summary": {
+    "en": "The signs of the three imperfect moods — indicative, subjunctive, jussive — for sound-final verbs and for verbs ending in و، ي or ا.",
+    "ar": "علامات الرفع والنصب والجزم في المضارع الصحيح الآخر والمعتل الآخر بالواو أو الياء أو الألف."
+  },
+  "target": {
+    "en": "Recall the indicative, subjunctive and jussive endings for a sound-final model and for the three weak-final models (يَدْعُو، يَرْمِي، يَسْعَى).",
+    "ar": "استحضار علامات الرفع والنصب والجزم للمضارع الصحيح الآخر، وللمعتل الآخر في نماذجه الثلاثة (يَدْعُو، يَرْمِي، يَسْعَى)."
+  },
+  "blocks": [
+    {
+      "id": "sound-final",
+      "kind": "table",
+      "title": { "en": "Sound-final verb (يَكْتُبُ)", "ar": "المضارع الصحيح الآخر (يَكْتُبُ)" },
+      "row_header": "mood",
+      "columns": [
+        { "key": "mood", "lang": "bi", "label": { "en": "Mood", "ar": "الحالة" } },
+        { "key": "sign", "lang": "bi", "label": { "en": "Sign", "ar": "العلامة" } },
+        { "key": "model", "lang": "ar", "label": { "en": "Model", "ar": "النموذج" } }
+      ],
+      "rows": [
+        { "mood": { "en": "Indicative", "ar": "الرفع" }, "sign": { "en": "ḍamma", "ar": "الضمة" }, "model": "يَكْتُبُ" },
+        { "mood": { "en": "Subjunctive", "ar": "النصب" }, "sign": { "en": "fatḥa", "ar": "الفتحة" }, "model": "لَنْ يَكْتُبَ" },
+        { "mood": { "en": "Jussive", "ar": "الجزم" }, "sign": { "en": "sukūn", "ar": "السكون" }, "model": "لَمْ يَكْتُبْ" }
+      ],
+      "notes": {
+        "en": ["لَنْ and لَمْ are only frames to show the mood; the governors themselves are C05 and C07."],
+        "ar": ["«لن» و«لم» هنا إطار لإظهار الحالة فقط، والنواصب والجوازم في الوحدتين C05 وC07."]
+      }
+    },
+    {
+      "id": "weak-final",
+      "kind": "table",
+      "title": { "en": "Weak-final verbs", "ar": "المضارع المعتل الآخر" },
+      "row_header": "model",
+      "columns": [
+        { "key": "model", "lang": "bi", "label": { "en": "Ends in", "ar": "آخره" } },
+        { "key": "ind", "lang": "ar", "label": { "en": "Indicative", "ar": "الرفع" } },
+        { "key": "subj", "lang": "ar", "label": { "en": "Subjunctive", "ar": "النصب" } },
+        { "key": "juss", "lang": "ar", "label": { "en": "Jussive", "ar": "الجزم" } }
+      ],
+      "rows": [
+        { "model": { "en": "و (wāw)", "ar": "الواو" }, "ind": "يَدْعُو", "subj": "لَنْ يَدْعُوَ", "juss": "لَمْ يَدْعُ" },
+        { "model": { "en": "ي (yāʾ)", "ar": "الياء" }, "ind": "يَرْمِي", "subj": "لَنْ يَرْمِيَ", "juss": "لَمْ يَرْمِ" },
+        { "model": { "en": "ا (alif)", "ar": "الألف" }, "ind": "يَسْعَى", "subj": "لَنْ يَسْعَى", "juss": "لَمْ يَسْعَ" }
+      ]
+    },
+    {
+      "id": "weak-signs",
+      "kind": "rules",
+      "title": { "en": "Signs on weak-final verbs", "ar": "علامات المعتل الآخر" },
+      "items": [
+        {
+          "label": { "en": "Indicative: implied ḍamma", "ar": "الرفع: ضمة مقدّرة" },
+          "text": { "en": "The ḍamma is implied (مقدّرة), not written, on all three: on و and ي because it is heavy to pronounce (للثقل), on ا because it is impossible (للتعذّر).", "ar": "يُرفع بضمة مقدّرة على الواو والياء للثقل، وعلى الألف للتعذّر." },
+          "ar_example": "يَدْعُو، يَرْمِي، يَسْعَى"
+        },
+        {
+          "label": { "en": "Subjunctive: fatḥa", "ar": "النصب: الفتحة" },
+          "text": { "en": "The fatḥa is visible on و and ي, but implied on ا (للتعذّر).", "ar": "يُنصب بفتحة ظاهرة على الواو والياء، ومقدّرة على الألف للتعذّر." },
+          "ar_example": "لَنْ يَدْعُوَ، لَنْ يَرْمِيَ، لَنْ يَسْعَى"
+        },
+        {
+          "label": { "en": "Jussive: drop the weak letter", "ar": "الجزم: حذف حرف العلة" },
+          "text": { "en": "The final و، ي or ا is deleted. The vowel before it stays as a reminder: ـُ for و, ـِ for ي, ـَ for ا.", "ar": "يُجزم بحذف حرف العلة، وتبقى الحركة قبله دليلًا عليه: الضمة على الواو، والكسرة على الياء، والفتحة على الألف." },
+          "ar_example": "لَمْ يَدْعُ، لَمْ يَرْمِ، لَمْ يَسْعَ"
+        }
+      ]
+    },
+    {
+      "id": "other-patterns",
+      "kind": "rules",
+      "title": { "en": "Forms that follow other patterns", "ar": "صيغ لها حكم آخر" },
+      "items": [
+        {
+          "label": { "en": "Five verbs → F06", "ar": "الأفعال الخمسة ← F06" },
+          "text": { "en": "Forms ending in ـانِ، ـونَ، ـينَ keep the نون in the indicative and drop it in the subjunctive and jussive. Details in F06.", "ar": "الصيغ المنتهية بـ«ـانِ، ـونَ، ـينَ» تُرفع بثبوت النون، وتُنصب وتُجزم بحذفها، وتفصيلها في F06." },
+          "ar_example": "يَكْتُبُونَ — لَنْ يَكْتُبُوا — لَمْ يَكْتُبُوا"
+        },
+        {
+          "label": { "en": "Feminine-plural نَ", "ar": "نون النسوة" },
+          "text": { "en": "With the feminine plural ـْنَ the verb is fixed (مبني) and does not change between moods.", "ar": "إذا اتصلت به نون النسوة بُني على السكون ولم يتغيّر في الأحوال الثلاث." },
+          "ar_example": "يَكْتُبْنَ — لَنْ يَكْتُبْنَ — لَمْ يَكْتُبْنَ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The imperfect is the only inflecting (معرب) verb. Its three states are رفع (indicative, the default), نصب (subjunctive, after a subjunctive particle) and جزم (jussive, after a jussive tool). This unit covers only the signs that show each state, not the words that cause it.",
+      "For a sound-final verb the signs are simply ḍamma, fatḥa and sukūn on the last letter. For a weak-final verb the long vowel at the end cannot carry every sign, so the sign is implied, visible, or replaced by deleting the letter."
+    ],
+    "ar": [
+      "المضارع هو الفعل المعرب وحده، وأحواله: الرفع إذا تجرّد من الناصب والجازم، والنصب بعد الناصب، والجزم بعد الجازم. وتتناول هذه الوحدة العلامات الدالّة على كل حالة، لا الأدوات العاملة.",
+      "علامات الصحيح الآخر: الضمة والفتحة والسكون. أمّا المعتل الآخر فلا يقبل حرفُ العلة كلَّ علامة، فتُقدَّر العلامة أو تظهر أو يُحذف الحرف."
+    ]
+  },
+  "examples": [
+    { "ar": "أُرِيدُ أَنْ أَدْعُوَ أَصْدِقَائِي", "en": "I want to invite my friends.", "note": { "en": "Visible fatḥa on the و in the subjunctive.", "ar": "«أَدْعُوَ» منصوب بالفتحة الظاهرة على الواو." } },
+    { "ar": "لَنْ نَنْسَى فَضْلَكَ", "en": "We will never forget your kindness.", "note": { "en": "Subjunctive with implied fatḥa on the alif.", "ar": "«نَنْسَى» منصوب بفتحة مقدّرة على الألف للتعذّر." } },
+    { "ar": "لَمْ يَرْمِ اللَّاعِبُ الْكُرَةَ", "en": "The player did not throw the ball.", "note": { "en": "Jussive by deleting the ي; the kasra remains.", "ar": "«يَرْمِ» مجزوم بحذف الياء، والكسرة قبلها دليل عليها." } },
+    { "ar": "لَمْ يَحْضُرِ الْمُعَلِّمُ الْيَوْمَ", "en": "The teacher did not come today.", "note": { "en": "The jussive sukūn becomes kasra before hamzat al-waṣl; the verb is still jussive.", "ar": "«يَحْضُرِ» مجزوم بالسكون، وحُرّك بالكسر لالتقاء الساكنين." } }
+  ],
+  "caveats": {
+    "en": [
+      "A jussive sukūn followed by a word beginning with hamzat al-waṣl is pronounced and written with kasra (لَمْ يَكْتُبِ الدَّرْسَ). This is not a change of mood.",
+      "The imperfect is also fixed (مبني) when the emphatic نون is attached directly to it; that topic is outside this unit.",
+      "Which particles cause the subjunctive or jussive is covered in C05 (subjunctive governors) and C07 (jussive governors)."
+    ],
+    "ar": [
+      "إذا وقع بعد المجزوم بالسكون همزةُ وصل كُسر آخره لالتقاء الساكنين (لَمْ يَكْتُبِ الدَّرْسَ)، وهو مجزوم مع ذلك.",
+      "يُبنى المضارع أيضًا إذا اتصلت به نون التوكيد مباشرة، وهذا خارج هذه الوحدة.",
+      "أدوات النصب والجزم في الوحدتين C05 (نواصب المضارع) وC07 (جوازم فعل واحد)."
+    ]
+  },
+  "convention": {
+    "en": "This unit uses the school analysis: implied ḍamma on و/ي “for heaviness” and on ا “for impossibility”, and jussive “by deleting the weak letter”. English sources call the three states indicative, subjunctive and jussive moods (Quranic Arabic Corpus: MOOD:IND, MOOD:SUBJ, MOOD:JUS). Rarely, in poetry or some readings, other treatments occur; they are outside this target.",
+    "ar": "تتبع الوحدة التحليل المدرسي: الضمة مقدّرة على الواو والياء للثقل وعلى الألف للتعذّر، والجزم بحذف حرف العلة. وتسمّي المصادر الإنجليزية الأحوال الثلاث indicative وsubjunctive وjussive. وما ورد بخلاف ذلك في الشعر أو بعض القراءات خارج هذا الهدف."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give the sign of each mood for a sound-final imperfect.", "ar": "ما علامة الرفع والنصب والجزم في المضارع الصحيح الآخر؟" }, "answer_blocks": ["sound-final"] },
+    { "id": "r2", "prompt": { "en": "Put يَدْعُو، يَرْمِي and يَسْعَى into all three moods and name each sign.", "ar": "اذكر «يَدْعُو، يَرْمِي، يَسْعَى» في الأحوال الثلاث مع العلامة." }, "answer_blocks": ["weak-final", "weak-signs"] },
+    { "id": "r3", "prompt": { "en": "Which imperfect forms do not follow these signs?", "ar": "ما صيغ المضارع التي لا تجري على هذه العلامات؟" }, "answer_blocks": ["other-patterns"] }
+  ],
+  "sources": [
+    { "id": "R04", "locator": "Subjunctive and jussive moods" },
+    { "id": "R02", "locator": "Mood feature (case versus mood)" }
+  ],
+  "extra_aliases": ["رفع المضارع", "نصب المضارع وجزمه", "المضارع المعتل الآخر", "حذف حرف العلة", "verb moods", "subjunctive ending", "jussive ending", "marfu mansub majzum"]
+}

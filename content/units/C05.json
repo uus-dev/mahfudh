@@ -1,0 +1,314 @@
+{
+  "id": "C05",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "conditions",
+  "transliteration": "nawāṣib al-muḍāriʿ aṣ-ṣarīḥa",
+  "summary": {
+    "en": "The four particles (governors) that make an imperfect verb subjunctive — أنْ، لنْ، كيْ، إذنْ — with their operating conditions; the endings themselves are in F05.",
+    "ar": "الأدوات الأربع الناصبة للمضارع بنفسها — أنْ، لنْ، كيْ، إذنْ — مع شروط عملها؛ أمّا علامات النصب نفسها ففي الوحدة F05."
+  },
+  "target": {
+    "en": "Recall أنْ، لنْ، كيْ، إذنْ as the particles that make the imperfect subjunctive by themselves (school-style analysis), with the operating conditions of each.",
+    "ar": "استحضار «أنْ، لنْ، كيْ، إذنْ» بوصفها الأدوات التي تنصب المضارع بنفسها (على التحليل المدرسي)، مع شروط عمل كلٍّ منها."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": {
+        "en": "The four explicit governors",
+        "ar": "النواصب الأربعة الصريحة"
+      },
+      "row_header": "particle",
+      "columns": [
+        {
+          "key": "particle",
+          "lang": "ar",
+          "label": {
+            "en": "Particle",
+            "ar": "الأداة"
+          }
+        },
+        {
+          "key": "meaning",
+          "lang": "bi",
+          "label": {
+            "en": "Meaning / function",
+            "ar": "المعنى"
+          }
+        },
+        {
+          "key": "condition",
+          "lang": "bi",
+          "label": {
+            "en": "Operating condition",
+            "ar": "شرط العمل"
+          }
+        },
+        {
+          "key": "example",
+          "lang": "ar",
+          "label": {
+            "en": "Example",
+            "ar": "مثال"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "particle": "أَنْ",
+          "meaning": {
+            "en": "infinitival 'to / that': verb + أنْ = a verbal noun (مصدر)",
+            "ar": "حرف مصدري: يُؤوَّل مع الفعل بمصدر"
+          },
+          "condition": {
+            "en": "not after a verb of certainty (عَلِمَ etc.)",
+            "ar": "ألّا تقع بعد فعل يدلّ على اليقين (كـ«علم»)"
+          },
+          "example": "أُرِيدُ أَنْ أَتَعَلَّمَ"
+        },
+        {
+          "particle": "لَنْ",
+          "meaning": {
+            "en": "negation of the future: 'will not'",
+            "ar": "نفي المستقبل"
+          },
+          "condition": {
+            "en": "always governs",
+            "ar": "تعمل دائمًا بلا شرط"
+          },
+          "example": "لَنْ أَتَأَخَّرَ"
+        },
+        {
+          "particle": "كَيْ",
+          "meaning": {
+            "en": "purpose: 'so that, in order to'",
+            "ar": "التعليل"
+          },
+          "condition": {
+            "en": "infinitival كي: preceded by لِـ, stated or understood",
+            "ar": "تكون مصدرية ناصبة إذا سبقتها اللام لفظًا أو تقديرًا"
+          },
+          "example": "جِئْتُ لِكَيْ أَتَعَلَّمَ"
+        },
+        {
+          "particle": "إِذَنْ",
+          "meaning": {
+            "en": "reply and consequence: 'then, in that case'",
+            "ar": "الجواب والجزاء"
+          },
+          "condition": {
+            "en": "see the three conditions below",
+            "ar": "بشروط ثلاثة مذكورة أدناه"
+          },
+          "example": "إِذَنْ تَنْجَحَ"
+        }
+      ]
+    },
+    {
+      "id": "idhan",
+      "kind": "rules",
+      "title": {
+        "en": "When إذنْ governs",
+        "ar": "شروط عمل إذنْ"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "1 · At the head of its sentence",
+            "ar": "١ · التصدّر"
+          },
+          "text": {
+            "en": "إذنْ must open the reply. If it is placed inside the clause (e.g. after the subject), it does not govern.",
+            "ar": "أن تكون في صدر جملة الجواب؛ فإن توسّطت (كأن تقع بعد المبتدأ) أُهملت."
+          },
+          "ar_example": "أَنَا إِذَنْ أُكْرِمُكَ"
+        },
+        {
+          "label": {
+            "en": "2 · Future verb",
+            "ar": "٢ · الاستقبال"
+          },
+          "text": {
+            "en": "The verb must refer to the future. If it refers to the present, it stays indicative.",
+            "ar": "أن يكون الفعل بعدها مستقبلًا؛ فإن كان للحال رُفع."
+          },
+          "ar_example": "إِذَنْ تَنْجَحَ"
+        },
+        {
+          "label": {
+            "en": "3 · Directly before the verb",
+            "ar": "٣ · الاتصال"
+          },
+          "text": {
+            "en": "Nothing may separate إذنْ from the verb except an oath or negating لا.",
+            "ar": "ألّا يُفصل بينها وبين الفعل بفاصل غير القسم أو «لا» النافية."
+          },
+          "ar_example": "إِذَنْ وَاللّٰهِ أُسَاعِدَكَ"
+        },
+        {
+          "label": {
+            "en": "After وَ or فَـ",
+            "ar": "بعد الواو والفاء"
+          },
+          "text": {
+            "en": "When وَ or فَـ comes immediately before إذنْ, both governing (subjunctive) and not governing (indicative) are allowed; non-governing is more common.",
+            "ar": "إذا سبقتها الواو أو الفاء جاز النصب والرفع، والرفع أكثر."
+          },
+          "ar_example": "وَإِذَنْ أُكْرِمُكَ"
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "kind": "rules",
+      "title": {
+        "en": "Effect on the verb",
+        "ar": "أثرها في الفعل"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "Subjunctive (منصوب)",
+            "ar": "النصب"
+          },
+          "text": {
+            "en": "Each of the four puts the following imperfect verb in the subjunctive. The marker (fatḥa, or loss of nūn in the five verbs) is covered in F05 and F06.",
+            "ar": "تنصب كلٌّ منها الفعل المضارع بعدها، وعلامة النصب (الفتحة، أو حذف النون في الأفعال الخمسة) مفصّلة في الوحدتين F05 وF06."
+          },
+          "ar_example": "لَنْ يَنْجَحَ الْكَسُولُ، وَلَنْ يَنْجَحُوا"
+        },
+        {
+          "label": {
+            "en": "أنْ after certainty",
+            "ar": "«أنْ» بعد اليقين"
+          },
+          "text": {
+            "en": "After verbs of certainty, أنْ is the lightened أنّ (المخففة من الثقيلة) and the verb stays indicative. After verbs of supposing (ظنّ، حسب) both readings occur.",
+            "ar": "بعد أفعال اليقين تكون «أنْ» مخففةً من الثقيلة ويُرفع الفعل بعدها، وبعد أفعال الظنّ يجوز الوجهان."
+          },
+          "ar_example": "عَلِمْتُ أَنْ سَيَنْجَحُ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "These four particles are called 'explicit' because they make the verb subjunctive by themselves, in the usual Basran school analysis. Other subjunctive environments (after لام التعليل، لام الجحود، حتّى، أو، and فاء/واو in reply) are analysed with an understood أنْ and form a separate unit (C06).",
+      "This unit is about the governors. The resulting endings (fatḥa, nūn dropped) belong to F05 and F06."
+    ],
+    "ar": [
+      "سُمّيت هذه الأدوات الأربع صريحةً لأنها تنصب المضارع بنفسها على المذهب البصري الشائع. أمّا النصب بعد لام التعليل ولام الجحود وحتّى وأو وفاء السببية وواو المعية فيُحمل على «أنْ» مضمرة، وهو موضوع الوحدة C06.",
+      "هذه الوحدة خاصة بالأدوات الناصبة، أمّا علامات النصب فموضعها الوحدتان F05 وF06."
+    ]
+  },
+  "examples": [
+    {
+      "ar": "يُحِبُّ الطُّلَّابُ أَنْ يَفْهَمُوا الدَّرْسَ",
+      "en": "The students like to understand the lesson.",
+      "note": {
+        "en": "يَفْهَمُوا is subjunctive: one of the five verbs, its nūn dropped.",
+        "ar": "«يفهموا» منصوب بأنْ وعلامة نصبه حذف النون."
+      }
+    },
+    {
+      "ar": "لَنْ أَنْسَى فَضْلَكَ",
+      "en": "I will never forget your kindness.",
+      "note": {
+        "en": "أَنْسَى ends in alif, so the fatḥa is only implied (مقدّرة).",
+        "ar": "«أنسى» منصوب بفتحة مقدّرة على الألف."
+      }
+    },
+    {
+      "ar": "اِقْرَأْ كَثِيرًا كَيْ تَتَعَلَّمَ",
+      "en": "Read a lot so that you learn.",
+      "note": {
+        "en": "No لِـ is written; in the school analysis it is understood, so كي is the governor.",
+        "ar": "اللام مقدّرة قبل «كي» على التحليل المدرسي، فهي الناصبة."
+      }
+    },
+    {
+      "ar": "— سَأَجْتَهِدُ هٰذَا الْعَامَ. — إِذَنْ تَنْجَحَ.",
+      "en": "— I will work hard this year. — Then you will succeed.",
+      "note": {
+        "en": "إذنْ opens the reply, the verb is future, and nothing intervenes: all three conditions are met.",
+        "ar": "تحقّقت الشروط الثلاثة: التصدّر، والاستقبال، والاتصال."
+      }
+    }
+  ],
+  "caveats": {
+    "en": [
+      "The subjunctive after لام التعليل، لام الجحود، حتّى، أو، فاء السببية and واو المعية is a separate later unit (C06, understood أنْ). Do not assume any word spelled حتّى always makes the next verb subjunctive.",
+      "لنْ negates the future; the claim that it negates 'forever' (التأبيد) is a minority view.",
+      "Writers differ on spelling إذنْ as إِذَنْ or إِذًا."
+    ],
+    "ar": [
+      "النصب بعد لام التعليل ولام الجحود وحتّى وأو وفاء السببية وواو المعية موضوع وحدة لاحقة (C06، إضمار أنْ)، ولا يصحّ القول بأنّ كلّ «حتّى» تنصب ما بعدها.",
+      "«لن» لنفي المستقبل، والقول بأنها تفيد التأبيد قولٌ مرجوح.",
+      "يختلف الكتّاب في رسم «إذن» بالنون أو بالتنوين (إذًا)."
+    ]
+  },
+  "convention": {
+    "en": "This unit follows the Basran grouping of four particles that govern by themselves. The Ājurrūmiyya lists ten نواصب in one list (adding لام كي، لام الجحود، حتّى، the reply فاء/واو، and أو); in this site those are covered by C06 as cases of an understood أنْ. كي without a preceding لِـ is analysed by some as a preposition with an understood أنْ; the school treatment here counts it as a governor.",
+    "ar": "تتبع هذه الوحدة التقسيم البصري للنواصب الأربعة التي تعمل بنفسها. وتسرد الآجرومية عشرة نواصب في قائمة واحدة (بزيادة لام كي، ولام الجحود، وحتى، والجواب بالفاء والواو، وأو)، وهذه في الموقع ضمن الوحدة C06 على أنها بأنْ مضمرة. و«كي» إذا لم تسبقها اللام يجعلها بعض النحاة جارّة والنصب بأنْ مضمرة، والمعتمد هنا عدّها ناصبة."
+  },
+  "recall": [
+    {
+      "id": "r1",
+      "prompt": {
+        "en": "Name the four explicit subjunctive governors and the meaning of each.",
+        "ar": "اذكر النواصب الأربعة الصريحة ومعنى كلٍّ منها."
+      },
+      "answer_blocks": [
+        "members"
+      ]
+    },
+    {
+      "id": "r2",
+      "prompt": {
+        "en": "Under what conditions does إذنْ make the verb subjunctive?",
+        "ar": "ما شروط نصب «إذن» للمضارع؟"
+      },
+      "answer_blocks": [
+        "idhan"
+      ]
+    },
+    {
+      "id": "r3",
+      "prompt": {
+        "en": "When is a verb after أنْ not subjunctive?",
+        "ar": "متى لا يُنصب الفعل بعد «أنْ»؟"
+      },
+      "answer_blocks": [
+        "effect",
+        "members"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "R04",
+      "locator": "Subjunctive mood: governing particles"
+    },
+    {
+      "id": "R01",
+      "locator": "باب نواصب الفعل"
+    }
+  ],
+  "extra_aliases": [
+    "نواصب الفعل المضارع",
+    "النواصب",
+    "أن لن كي إذن",
+    "subjunctive governors",
+    "mansub particles",
+    "nawasib",
+    "an lan kay idhan",
+    "نصب المضارع",
+    "نصب الفعل المضارع",
+    "nasb al mudari",
+    "nasb al-fi'l al-mudari'"
+  ]
+}

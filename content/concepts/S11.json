@@ -1,0 +1,25 @@
+{
+  "id": "S11",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "Each unit states exactly what it covers, and a scope label tells you what kind of set it is. Core list: the members commonly taught as the standard set. Extended list: a longer set that adds less common members. Selected list / selected patterns: a representative choice, not every possible item. Paradigm: a complete table of forms by person, gender and number. Conditions: the cases in which a rule applies. Rule package: a short rule card with its essential conditions.",
+      "Grammar books do not always agree. The same item may have several names (e.g. الحروف المشبهة بالفعل for إنّ وأخواتها), a family may be counted differently (five or six special nouns), and a word may be analysed in more than one way. Each unit names the convention it follows and notes the main alternatives under “Convention and sources”.",
+      "If your teacher or book differs from a unit, that is usually a convention difference rather than an error. Follow your course, and use the note to see how the two relate. Content marked “draft” has not yet been reviewed by a specialist."
+    ],
+    "ar": [
+      "تحدّد كل وحدة ما تشمله بدقّة، ويبيّن وسم النطاق نوع المادة: القائمة الأساسية هي العناصر المشهورة في التعليم؛ والقائمة الموسّعة تضيف عناصر أقلّ شيوعًا؛ والقائمة المختارة أو الأوزان المختارة عيّنة ممثّلة لا حصر كامل؛ وجدول التصريف جدول كامل بحسب الشخص والجنس والعدد؛ والشروط مواضع انطباق القاعدة؛ والقاعدة الموجزة بطاقة قاعدة مع شروطها الضرورية.",
+      "ولا تتّفق كتب النحو دائمًا: فقد يكون للباب أكثر من اسم (الحروف المشبّهة بالفعل = إنّ وأخواتها)، وقد يختلف العدّ (الأسماء الخمسة أو الستة)، وقد تُعرب الكلمة بأكثر من وجه. وتذكر كل وحدة الاصطلاح الذي تتّبعه وأهمّ ما يخالفه تحت «الاصطلاح والمصادر».",
+      "إذا خالف ما عند معلّمك أو في كتابك ما في الوحدة فالغالب أنه اختلاف اصطلاح لا خطأ؛ فاتبع منهجك، واستعن بالملاحظة لمعرفة العلاقة بين القولين. والمحتوى الموسوم «مسوّدة» لم يراجعه متخصص بعد."
+    ]
+  },
+  "terms": [
+    { "ar": "الْقَائِمَةُ الْأَسَاسِيَّةُ", "gloss": { "en": "core list", "ar": "العناصر المشهورة في التعليم" } },
+    { "ar": "الْقَائِمَةُ الْمُوَسَّعَةُ", "gloss": { "en": "extended list", "ar": "قائمة تضيف عناصر أقلّ شيوعًا" } },
+    { "ar": "قَائِمَةٌ مُخْتَارَةٌ / أَوْزَانٌ مُخْتَارَةٌ", "gloss": { "en": "selected list / selected patterns", "ar": "عيّنة ممثّلة لا حصر كامل" } },
+    { "ar": "جَدْوَلُ تَصْرِيفٍ", "gloss": { "en": "paradigm", "ar": "جدول كامل للصيغ" } },
+    { "ar": "شُرُوطٌ", "gloss": { "en": "conditions", "ar": "مواضع انطباق القاعدة" } },
+    { "ar": "قَاعِدَةٌ مُوجَزَةٌ", "gloss": { "en": "rule package", "ar": "قاعدة مختصرة مع شروطها" } },
+    { "ar": "اِصْطِلَاحٌ", "gloss": { "en": "convention, terminology choice", "ar": "ما اتّفق عليه أهل مذهب أو كتاب في التسمية والتقسيم" } }
+  ]
+}

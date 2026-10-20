@@ -1,0 +1,108 @@
+{
+  "id": "B08",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "asmāʾ al-istifhām",
+  "summary": {
+    "en": "The principal question nouns (مَن، ما، ماذا، متى، أيّان، أين، أنّى، كيف، كم، أيّ) and what each one asks about.",
+    "ar": "أسماء الاستفهام الرئيسة (مَن، ما، ماذا، متى، أيّان، أين، أنّى، كيف، كم، أيّ) وما يُسأل بكلٍّ منها."
+  },
+  "target": {
+    "en": "Recall the principal interrogative nouns and the kind of information each one requests, keeping them distinct from the interrogative particles.",
+    "ar": "استحضار أسماء الاستفهام الرئيسة ونوع ما يُطلب بكلٍّ منها، مع تمييزها من حرفَي الاستفهام."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The question nouns", "ar": "أسماء الاستفهام" },
+      "row_header": "noun",
+      "columns": [
+        { "key": "noun", "lang": "ar", "label": { "en": "Noun", "ar": "الاسم" } },
+        { "key": "asks", "lang": "bi", "label": { "en": "Asks about", "ar": "يُسأل به عن" } },
+        { "key": "gloss", "lang": "bi", "label": { "en": "Typical English", "ar": "المقابل الإنجليزي" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "noun": "مَنْ", "asks": { "en": "a person (rational being)", "ar": "العاقل" }, "gloss": { "en": "who?", "ar": "who?" }, "example": "مَنْ فِي الْبَيْتِ؟" },
+        { "noun": "مَا", "asks": { "en": "a thing (non-rational), or a definition", "ar": "غير العاقل، وحقيقة الشيء" }, "gloss": { "en": "what?", "ar": "what?" }, "example": "مَا اسْمُكَ؟" },
+        { "noun": "مَاذَا", "asks": { "en": "a thing, usually before a verb", "ar": "غير العاقل، ويكثر قبل الفعل" }, "gloss": { "en": "what?", "ar": "what?" }, "example": "مَاذَا تَقْرَأُ؟" },
+        { "noun": "مَتَى", "asks": { "en": "time (past or future)", "ar": "الزمان الماضي والمستقبل" }, "gloss": { "en": "when?", "ar": "when?" }, "example": "مَتَى وَصَلْتَ؟" },
+        { "noun": "أَيَّانَ", "asks": { "en": "time in the future, often of a weighty event", "ar": "الزمان المستقبل، ويكثر في الأمور العظيمة" }, "gloss": { "en": "when (will)?", "ar": "when?" }, "example": "أَيَّانَ مَوْعِدُ الرَّحِيلِ؟" },
+        { "noun": "أَيْنَ", "asks": { "en": "place", "ar": "المكان" }, "gloss": { "en": "where?", "ar": "where?" }, "example": "أَيْنَ تَسْكُنُ؟" },
+        { "noun": "أَنَّى", "asks": { "en": "manner, origin or time (by context)", "ar": "بمعنى كيف، أو من أين، أو متى" }, "gloss": { "en": "how? / from where? / when?", "ar": "how? / from where?" }, "example": "أَنَّى لَكَ هٰذَا الْمَالُ؟" },
+        { "noun": "كَيْفَ", "asks": { "en": "state or manner", "ar": "الحال" }, "gloss": { "en": "how?", "ar": "how?" }, "example": "كَيْفَ حَالُكَ؟" },
+        { "noun": "كَمْ", "asks": { "en": "number or quantity", "ar": "العدد" }, "gloss": { "en": "how many? / how much?", "ar": "how many?" }, "example": "كَمْ كِتَابًا قَرَأْتَ؟" },
+        { "noun": "أَيُّ", "asks": { "en": "one item out of a set (specification)", "ar": "تعيين واحد من متعدّد، وبحسب ما يُضاف إليه" }, "gloss": { "en": "which? / what?", "ar": "which?" }, "example": "أَيُّ الْكُتُبِ أَحَبُّ إِلَيْكَ؟" }
+      ]
+    },
+    {
+      "id": "rules",
+      "kind": "rules",
+      "title": { "en": "Points to keep straight", "ar": "تنبيهات" },
+      "items": [
+        {
+          "label": { "en": "Nouns vs particles", "ar": "الأسماء والحروف" },
+          "text": { "en": "These are nouns: each fills a role in the sentence (subject, object, adverb …). The yes/no question words هَلْ and أَ are particles and have no role (C10).", "ar": "هذه أسماء لها محلّ من الإعراب (مبتدأ أو مفعول به أو ظرف…)، أمّا «هل» والهمزة فحرفا استفهام لا محلّ لهما (C10)." },
+          "ar_example": "مَنْ جَاءَ؟ — هَلْ جَاءَ زَيْدٌ؟"
+        },
+        {
+          "label": { "en": "أيّ inflects", "ar": "«أيّ» معربة" },
+          "text": { "en": "All question nouns are fixed (مبنيّ) except أَيّ, which takes the case of its role and is annexed to a noun.", "ar": "أسماء الاستفهام مبنيّة إلا «أيّ» فتُعرب بحسب موقعها، وتُضاف إلى ما بعدها." },
+          "ar_example": "أَيُّ طَالِبٍ نَجَحَ؟ — أَيَّ كِتَابٍ قَرَأْتَ؟ — بِأَيِّ قَلَمٍ كَتَبْتَ؟"
+        },
+        {
+          "label": { "en": "كم + singular accusative", "ar": "تمييز «كم» الاستفهامية" },
+          "text": { "en": "The noun after interrogative كم is singular and accusative (تمييز). After a preposition, the genitive is also allowed.", "ar": "تمييز «كم» الاستفهامية مفرد منصوب، ويجوز جرّه إذا سُبقت «كم» بحرف جر." },
+          "ar_example": "كَمْ طَالِبًا حَضَرَ؟ — بِكَمْ دِرْهَمٍ اشْتَرَيْتَهُ؟"
+        },
+        {
+          "label": { "en": "ما after a preposition", "ar": "«ما» بعد حرف الجر" },
+          "text": { "en": "Interrogative ما loses its alif after a preposition: لِمَ، عَمَّ، فِيمَ، بِمَ. لِمَاذَا (لِـ + مَاذَا) means “why?”.", "ar": "تُحذف ألف «ما» الاستفهامية إذا جُرّت: لِمَ، عَمَّ، فِيمَ، بِمَ. و«لماذا» مركّبة من اللام و«ماذا» ومعناها السؤال عن السبب." },
+          "ar_example": "لِمَ تَأَخَّرْتَ؟ — عَمَّ تَبْحَثُ؟"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "A question noun stands for the missing information itself: مَنْ stands for the person, أَيْنَ for the place. That is why it is a noun with a grammatical role, and why it comes first in its clause.",
+      "Answers mirror the question: مَتَى → a time, أَيْنَ → a place, كَمْ → a number. هل and the hamza ask for yes or no instead."
+    ],
+    "ar": [
+      "اسم الاستفهام ينوب عن المعلومة المسؤول عنها: فـ«مَن» عن الشخص، و«أين» عن المكان؛ ولذلك كان اسمًا له محلّ من الإعراب، وله الصدارة في جملته.",
+      "ويكون الجواب من جنس السؤال: «متى» يُجاب بزمان، و«أين» بمكان، و«كم» بعدد، أمّا «هل» والهمزة فيُجاب عنهما بنعم أو لا."
+    ]
+  },
+  "examples": [
+    { "ar": "مَنْ كَتَبَ هٰذِهِ الرِّسَالَةَ؟", "en": "Who wrote this letter?", "note": { "en": "مَنْ is the subject (مبتدأ in school parsing).", "ar": "«مَن» مبتدأ مبنيّ في محلّ رفع." } },
+    { "ar": "مَتَى يَبْدَأُ الدَّرْسُ؟", "en": "When does the lesson begin?", "note": { "en": "مَتَى is an adverb of time.", "ar": "«متى» ظرف زمان مبنيّ في محلّ نصب." } },
+    { "ar": "كَمْ سَاعَةً تَنَامُ؟", "en": "How many hours do you sleep?", "note": { "en": "سَاعَةً: singular accusative after كم.", "ar": "«ساعةً» تمييز مفرد منصوب." } },
+    { "ar": "فِي أَيِّ مَدِينَةٍ وُلِدْتَ؟", "en": "In which city were you born?", "note": { "en": "أَيِّ is genitive after فِي — it inflects.", "ar": "«أيّ» اسم مجرور بـ«في»؛ لأنها معربة." } }
+  ],
+  "caveats": {
+    "en": [
+      "Several of these words also have non-question uses (مَنْ and مَا as relatives, مَتَى and أَيْنَ as conditionals, كَمْ as an exclamatory “how many!”). Those uses belong to B07 and C08.",
+      "مَنْ ذَا and مَاذَا are sometimes analysed as مَنْ / مَا + the relative ذَا (“who is it that …”); this does not change their meaning in the question."
+    ],
+    "ar": [
+      "لبعض هذه الكلمات استعمالات غير استفهامية («مَن» و«ما» موصولتان، و«متى» و«أين» شرطيتان، و«كم» خبرية)، وهي في وحدتي B07 وC08.",
+      "قد تُعرب «ماذا» و«مَن ذا» على أنّ «ذا» اسم موصول (مَن الذي…)، ولا يتغيّر بذلك معنى السؤال."
+    ]
+  },
+  "convention": {
+    "en": "This list of ten follows common school books. Some count مَنْ ذَا separately, or treat مَاذَا under مَا; أَيَّانَ is rare in modern prose. School parsing of each noun's role (مبتدأ، مفعول به، ظرف، حال …) depends on the sentence and is not part of this target.",
+    "ar": "القائمة العشرية مأخوذة من الكتب المدرسية الشائعة، ومنها ما يعدّ «مَن ذا» مستقلًّا أو يُدرج «ماذا» تحت «ما»، و«أيّان» قليلة في النثر المعاصر. وإعراب كل اسم (مبتدأ، مفعول به، ظرف، حال…) بحسب الجملة، وليس من هذا الهدف."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the ten question nouns and what each asks about.", "ar": "اذكر أسماء الاستفهام العشرة وما يُسأل بكلٍّ منها." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "Why are هل and the hamza not in the list, and which question noun inflects?", "ar": "لماذا لم تُذكر «هل» والهمزة؟ وأيّ أسماء الاستفهام معرب؟" }, "answer_blocks": ["rules"] }
+  ],
+  "sources": [
+    { "id": "R03", "locator": "Interrogative noun tag (INTG)" }
+  ],
+  "extra_aliases": ["الاستفهام", "أدوات الاستفهام", "question words", "wh-words", "interrogatives", "man mā matā ayna kayfa kam", "لماذا", "لِمَ"]
+}

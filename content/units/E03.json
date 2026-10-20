@@ -1,0 +1,122 @@
+{
+  "id": "E03",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "conditions",
+  "transliteration": "jamʿ al-mudhakkar as-sālim",
+  "summary": {
+    "en": "Sound masculine plural: ـُونَ / ـِينَ endings, which names and adjectives may take it, and nun loss when annexed.",
+    "ar": "جمع المذكر السالم: علامتا ـُونَ / ـِينَ، وشروط ما يُجمع عليه من الأعلام والصفات، وحذف نونه عند الإضافة."
+  },
+  "target": {
+    "en": "Recall formation conditions, case endings, and nun deletion in annexation.",
+    "ar": "استحضار شروط صوغ جمع المذكر السالم، وعلامات إعرابه، وحذف نونه عند الإضافة."
+  },
+  "blocks": [
+    {
+      "id": "endings",
+      "kind": "table",
+      "title": { "en": "Case endings (model: مُعَلِّم “teacher”)", "ar": "علامات الإعراب (نموذج: مُعَلِّم)" },
+      "row_header": "case",
+      "columns": [
+        { "key": "case", "lang": "bi", "label": { "en": "Case", "ar": "الحالة" } },
+        { "key": "sign", "lang": "bi", "label": { "en": "Sign", "ar": "العلامة" } },
+        { "key": "indef", "lang": "ar", "label": { "en": "Indefinite", "ar": "نكرة" } },
+        { "key": "def", "lang": "ar", "label": { "en": "With ال", "ar": "مع «ال»" } },
+        { "key": "mudaf", "lang": "ar", "label": { "en": "As مضاف (nun dropped)", "ar": "مضاف (بحذف النون)" } }
+      ],
+      "rows": [
+        { "case": { "en": "Nominative", "ar": "الرفع" }, "sign": { "en": "wāw: ـُونَ", "ar": "الواو" }, "indef": "مُعَلِّمُونَ", "def": "الْمُعَلِّمُونَ", "mudaf": "مُعَلِّمُو الْمَدْرَسَةِ" },
+        { "case": { "en": "Accusative", "ar": "النصب" }, "sign": { "en": "yāʾ: ـِينَ", "ar": "الياء" }, "indef": "مُعَلِّمِينَ", "def": "الْمُعَلِّمِينَ", "mudaf": "مُعَلِّمِي الْمَدْرَسَةِ" },
+        { "case": { "en": "Genitive", "ar": "الجر" }, "sign": { "en": "yāʾ: ـِينَ", "ar": "الياء" }, "indef": "مُعَلِّمِينَ", "def": "الْمُعَلِّمِينَ", "mudaf": "مُعَلِّمِي الْمَدْرَسَةِ" }
+      ],
+      "notes": {
+        "en": ["The plural nun is always vowelled with fatḥa (ـُونَ، ـِينَ) and never takes tanwīn. In annexation, no alif is written after the wāw (مُعَلِّمُو, not مُعَلِّمُوا): that alif belongs to verbs."],
+        "ar": ["نون الجمع مفتوحة دائمًا ولا تنوين فيه. وعند الإضافة لا تُكتب ألف بعد الواو (مُعَلِّمُو لا مُعَلِّمُوا)؛ فالألف الفارقة خاصة بالأفعال."]
+      }
+    },
+    {
+      "id": "annexation",
+      "kind": "rules",
+      "title": { "en": "Nun deletion in annexation", "ar": "حذف النون عند الإضافة" },
+      "items": [
+        {
+          "label": { "en": "Before a noun or pronoun", "ar": "مع الاسم الظاهر والضمير" },
+          "text": { "en": "As a مضاف the plural drops its nun: ـُو in the nominative, ـِي in the accusative and genitive.", "ar": "إذا أُضيف الجمع حُذفت نونه، فيبقى بالواو رفعًا وبالياء نصبًا وجرًّا." },
+          "ar_example": "مُهَنْدِسُو الشَّرِكَةِ، مُهَنْدِسِيهَا"
+        },
+        {
+          "label": { "en": "With ياء المتكلم", "ar": "مع ياء المتكلم" },
+          "text": { "en": "Before “my” the wāw turns into yāʾ and merges: one form for all three cases.", "ar": "عند الإضافة إلى ياء المتكلم تُقلب الواو ياءً وتُدغم، فيكون بلفظ واحد في الأحوال الثلاث." },
+          "ar_example": "جَاءَ مُعَلِّمِيَّ، وَرَأَيْتُ مُعَلِّمِيَّ"
+        }
+      ]
+    },
+    {
+      "id": "conditions",
+      "kind": "table",
+      "title": { "en": "Who takes this plural", "ar": "شروط ما يُجمع جمع مذكر سالمًا" },
+      "columns": [
+        { "key": "condition", "lang": "bi", "label": { "en": "Condition", "ar": "الشرط" } },
+        { "key": "yes", "lang": "ar", "label": { "en": "Qualifies", "ar": "يُجمع" } },
+        { "key": "no", "lang": "ar", "label": { "en": "Excluded", "ar": "لا يُجمع هذا الجمع" } }
+      ],
+      "rows": [
+        { "condition": { "en": "Must be a proper name (علم) or an adjective (صفة), not a generic noun", "ar": "أن يكون علمًا أو صفة، لا اسم جنس" }, "yes": "زَيْدٌ ← زَيْدُونَ، كَاتِبٌ ← كَاتِبُونَ", "no": "رَجُلٌ (← رِجَالٌ)" },
+        { "condition": { "en": "Name: of a rational male", "ar": "العلم: لمذكر عاقل" }, "yes": "سَعِيدٌ ← سَعِيدُونَ", "no": "زَيْنَبُ، وَاشِقٌ (اسم كلب)" },
+        { "condition": { "en": "Name: no feminine ة", "ar": "العلم: خالٍ من تاء التأنيث" }, "yes": "عَامِرٌ ← عَامِرُونَ", "no": "طَلْحَةُ، حَمْزَةُ" },
+        { "condition": { "en": "Name: not compound", "ar": "العلم: غير مركّب" }, "yes": "خَالِدٌ ← خَالِدُونَ", "no": "سِيبَوَيْهِ، مَعْدِيكَرِبُ" },
+        { "condition": { "en": "Adjective: of a rational male, no ة", "ar": "الصفة: لمذكر عاقل، خالية من التاء" }, "yes": "مُؤْمِنٌ ← مُؤْمِنُونَ", "no": "عَلَّامَةٌ، سَابِقٌ (صفة فرس)" },
+        { "condition": { "en": "Adjective: not أَفْعَل with feminine فَعْلَاء", "ar": "الصفة: ليست على «أفعل» الذي مؤنثه «فعلاء»" }, "yes": "أَكْبَرُ ← الْأَكْبَرُونَ", "no": "أَحْمَرُ (حَمْرَاءُ)" },
+        { "condition": { "en": "Adjective: not فَعْلَان with feminine فَعْلَى", "ar": "الصفة: ليست على «فعلان» الذي مؤنثه «فعلى»" }, "yes": "", "no": "عَطْشَانُ (عَطْشَى)" },
+        { "condition": { "en": "Adjective: not shared by both genders", "ar": "الصفة: لا يستوي فيها المذكر والمؤنث" }, "yes": "", "no": "صَبُورٌ، جَرِيحٌ" }
+      ],
+      "notes": {
+        "en": ["The suffix is not a general plural-maker: most generic nouns take a broken plural (E11)."],
+        "ar": ["ليست هذه العلامة طريقة عامة للجمع؛ فأكثر أسماء الأجناس تُجمع جمع تكسير (E11)."]
+      }
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The sound masculine plural keeps the singular intact (hence سالم “sound”) and adds ـُونَ in the nominative and ـِينَ in the accusative and genitive. The wāw and yāʾ themselves are the case signs, standing in for the vowels.",
+      "Only two kinds of word take it: names of rational males and adjectives describing rational males, each with its own exclusions (see the table). The final nun replaces tanwīn and is dropped when the plural is a مضاف."
+    ],
+    "ar": [
+      "جمع المذكر السالم ما سلم فيه بناء المفرد وزيد عليه واو ونون رفعًا، وياء ونون نصبًا وجرًّا، والواو والياء علامتا إعرابه نيابةً عن الحركات.",
+      "ولا يُجمع هذا الجمع إلا نوعان: العَلَم لمذكر عاقل، والصفة لمذكر عاقل، بالشروط المبيّنة في الجدول. والنون عِوَض عن التنوين، فتُحذف عند الإضافة."
+    ]
+  },
+  "examples": [
+    { "ar": "الْمُؤْمِنُونَ صَادِقُونَ فِي وُعُودِهِمْ", "en": "The believers are true to their promises.", "note": { "en": "Subject and predicate, both nominative with wāw.", "ar": "مبتدأ وخبر مرفوعان بالواو." } },
+    { "ar": "شَكَرَ الْمُدِيرُ الْمُوَظَّفِينَ الْمُخْلِصِينَ", "en": "The director thanked the loyal employees.", "note": { "en": "Accusative object with yāʾ; the adjective agrees.", "ar": "الْمُوَظَّفِينَ: مفعول به منصوب بالياء، والْمُخْلِصِينَ نعت منصوب بالياء." } },
+    { "ar": "سَافَرَ مُهَنْدِسُو الشَّرِكَةِ", "en": "The company's engineers travelled.", "note": { "en": "Nominative مضاف: nun dropped, no alif after wāw.", "ar": "مُهَنْدِسُو: فاعل مرفوع بالواو، وحُذفت النون للإضافة." } },
+    { "ar": "سَلَّمْتُ عَلَى لَاعِبِي الْفَرِيقِ", "en": "I greeted the team's players.", "note": { "en": "Genitive مضاف: لَاعِبِي (nun dropped).", "ar": "لَاعِبِي: اسم مجرور بالياء، وحُذفت النون للإضافة." } }
+  ],
+  "caveats": {
+    "en": [
+      "Words that take these endings without meeting the conditions (بَنُونَ، أَهْلُونَ، سِنُونَ، عِشْرُونَ …) are ملحق forms: see E06.",
+      "Nouns ending in -ā or -ī change before the suffix (مُصْطَفًى ← مُصْطَفَوْنَ، قَاضٍ ← قَاضُونَ): see E08–E09.",
+      "Superlative أَفْعَل (أَكْبَر، أَفْضَل) is allowed; only the colour/defect pattern أَفْعَل–فَعْلَاء is excluded."
+    ],
+    "ar": [
+      "ما يُعرب هذا الإعراب ولم يستوفِ الشروط (بَنُونَ، أَهْلُونَ، سِنُونَ، عِشْرُونَ…) ملحق بجمع المذكر السالم: انظر E06.",
+      "يتغيّر آخر المقصور والمنقوص عند الجمع (مُصْطَفًى ← مُصْطَفَوْنَ، قَاضٍ ← قَاضُونَ): انظر E08–E09.",
+      "يجوز جمع «أفعل» التفضيل (الْأَكْبَرُونَ، الْأَفْضَلُونَ)، والممنوع هو «أفعل» الذي مؤنثه «فعلاء» في الألوان والعيوب."
+    ]
+  },
+  "convention": {
+    "en": "The endings follow the Ājurrūmiyya (wāw for the nominative, yāʾ for the accusative and genitive); the conditions follow the Baṣran position as taught from the Alfiyya tradition. Kufans allow names ending in ة (e.g. طَلْحُونَ), and some modern usage extends the plural more loosely; school grammar keeps the conditions above.",
+    "ar": "العلامات على ما في الآجرومية (الرفع بالواو، والنصب والخفض بالياء)، والشروط على مذهب البصريين كما تُدرَّس في شروح الألفية. وأجاز الكوفيون جمع العلم المختوم بالتاء (طَلْحُونَ)، والمعتمد في التعليم الشروط المذكورة."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give مُعَلِّم in the sound masculine plural in all cases, alone and as a مضاف.", "ar": "اجمع «مُعَلِّم» جمع مذكر سالمًا في الأحوال الثلاث مفردًا ومضافًا." }, "answer_blocks": ["endings", "annexation"] },
+    { "id": "r2", "prompt": { "en": "Which names and adjectives can take the sound masculine plural, and which are excluded?", "ar": "ما شروط العلم والصفة اللذين يُجمعان جمع مذكر سالمًا؟" }, "answer_blocks": ["conditions"] }
+  ],
+  "sources": [
+    { "id": "R20", "locator": "جمع المذكر السالم: شروطه وإعرابه" }
+  ],
+  "extra_aliases": ["sound masculine plural", "jam' mudhakkar salim", "masculine plural -una -ina", "ـون ـين", "external plural", "شروط جمع المذكر السالم"]
+}

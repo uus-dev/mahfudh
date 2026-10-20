@@ -1,0 +1,101 @@
+{
+  "id": "E01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "iʿrāb al-ism al-munṣarif",
+  "summary": {
+    "en": "Nominative, accusative and genitive endings of a regular (fully declinable) noun: indefinite, with ال, and as the first term of an إضافة.",
+    "ar": "علامات الرفع والنصب والجر في الاسم المنصرف: نكرةً، ومعرّفًا بـ«ال»، ومضافًا."
+  },
+  "target": {
+    "en": "Recall the basic nominative (ḍamma), accusative (fatḥa) and genitive (kasra) endings in indefinite and definite models.",
+    "ar": "استحضار العلامات الأصلية للرفع (الضمة) والنصب (الفتحة) والجر (الكسرة) في نموذجَي النكرة والمعرفة."
+  },
+  "blocks": [
+    {
+      "id": "endings",
+      "kind": "table",
+      "title": { "en": "Model: كِتَاب “book”", "ar": "النموذج: كِتَاب" },
+      "row_header": "case",
+      "columns": [
+        { "key": "case", "lang": "bi", "label": { "en": "Case", "ar": "الحالة" } },
+        { "key": "sign", "lang": "bi", "label": { "en": "Sign", "ar": "العلامة" } },
+        { "key": "indef", "lang": "ar", "label": { "en": "Indefinite (tanwīn)", "ar": "نكرة (منوّنة)" } },
+        { "key": "def", "lang": "ar", "label": { "en": "Definite with ال", "ar": "معرّف بـ«ال»" } },
+        { "key": "mudaf", "lang": "ar", "label": { "en": "As مضاف (annexed)", "ar": "مضاف" } }
+      ],
+      "rows": [
+        { "case": { "en": "Nominative", "ar": "الرفع" }, "sign": { "en": "ḍamma (-u / -un)", "ar": "الضمة" }, "indef": "كِتَابٌ", "def": "الْكِتَابُ", "mudaf": "كِتَابُ الطَّالِبِ" },
+        { "case": { "en": "Accusative", "ar": "النصب" }, "sign": { "en": "fatḥa (-a / -an)", "ar": "الفتحة" }, "indef": "كِتَابًا", "def": "الْكِتَابَ", "mudaf": "كِتَابَ الطَّالِبِ" },
+        { "case": { "en": "Genitive", "ar": "الجر" }, "sign": { "en": "kasra (-i / -in)", "ar": "الكسرة" }, "indef": "كِتَابٍ", "def": "الْكِتَابِ", "mudaf": "كِتَابِ الطَّالِبِ" }
+      ],
+      "notes": {
+        "en": ["The same three vowels apply to a regular singular noun and to most broken plurals (e.g. رِجَالٌ، رِجَالًا، رِجَالٍ). Not every singular noun follows this model: see the caveats."],
+        "ar": ["تنطبق هذه الحركات الثلاث على الاسم المفرد المنصرف وعلى أكثر جموع التكسير (مثل: رِجَالٌ، رِجَالًا، رِجَالٍ). وليس كل اسم مفرد على هذا النموذج؛ انظر التنبيهات."]
+      }
+    },
+    {
+      "id": "tanwin",
+      "kind": "rules",
+      "title": { "en": "Tanwīn and spelling", "ar": "التنوين والرسم" },
+      "items": [
+        {
+          "label": { "en": "Tanwīn marks the bare indefinite", "ar": "التنوين علامة النكرة المجرّدة" },
+          "text": { "en": "The indefinite noun doubles its vowel (-un, -an, -in). Adding ال or making the noun a مضاف removes the tanwīn; the case vowel itself stays.", "ar": "يُنوَّن الاسم النكرة (ـٌ ـً ـٍ)، فإذا دخلته «ال» أو أُضيف حُذف التنوين وبقيت حركة الإعراب." },
+          "ar_example": "كِتَابٌ ← الْكِتَابُ ← كِتَابُ الطَّالِبِ"
+        },
+        {
+          "label": { "en": "Accusative tanwīn is written with alif", "ar": "تنوين النصب يُكتب بعده ألف" },
+          "text": { "en": "Indefinite accusative adds a written alif: كِتَابًا. No alif is added after ة, nor after a hamza preceded by alif.", "ar": "يُزاد ألف بعد تنوين النصب: كِتَابًا، ولا يُزاد بعد التاء المربوطة، ولا بعد الهمزة المسبوقة بألف." },
+          "ar_example": "رَأَيْتُ شَجَرَةً، وَنَظَرْتُ إِلَى السَّمَاءِ فَرَأَيْتُ سَمَاءً صَافِيَةً"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "A fully declinable noun (اسم منصرف) shows its case with the three original signs (العلامات الأصلية): ḍamma for the nominative, fatḥa for the accusative, kasra for the genitive. The stem never changes; only the last vowel, plus tanwīn when the noun is indefinite and unannexed.",
+      "The sentence decides the case (subject, object, after a preposition, etc.); this table only tells you how each case is spelled on a regular noun."
+    ],
+    "ar": [
+      "يُعرَب الاسم المنصرف بالعلامات الأصلية: الضمة في الرفع، والفتحة في النصب، والكسرة في الجر، ولا يتغيّر من الكلمة إلا حركة آخرها، مع التنوين إذا كانت نكرةً غير مضافة.",
+      "موقع الكلمة في الجملة هو الذي يحدّد حالتها الإعرابية (فاعل، مفعول به، مجرور بحرف…)، أمّا هذا الجدول فيبيّن صورة كل حالة في الاسم المنصرف."
+    ]
+  },
+  "examples": [
+    { "ar": "جَاءَ طَالِبٌ جَدِيدٌ", "en": "A new student came.", "note": { "en": "طَالِبٌ: indefinite nominative (subject).", "ar": "طَالِبٌ: فاعل مرفوع بالضمة الظاهرة، وهو نكرة منوّنة." } },
+    { "ar": "قَرَأْتُ الْكِتَابَ", "en": "I read the book.", "note": { "en": "الْكِتَابَ: definite accusative (object), no tanwīn.", "ar": "الْكِتَابَ: مفعول به منصوب بالفتحة، ولا تنوين مع «ال»." } },
+    { "ar": "نَظَرْتُ إِلَى شَجَرَةٍ عَالِيَةٍ", "en": "I looked at a tall tree.", "note": { "en": "شَجَرَةٍ: indefinite genitive after the preposition إلى.", "ar": "شَجَرَةٍ: اسم مجرور بـ«إلى» وعلامة جره الكسرة." } },
+    { "ar": "بَابُ الْبَيْتِ مَفْتُوحٌ", "en": "The door of the house is open.", "note": { "en": "بَابُ is a مضاف: nominative ḍamma without tanwīn.", "ar": "بَابُ: مبتدأ مرفوع بالضمة، وهو مضاف فلا يُنوَّن." } }
+  ],
+  "caveats": {
+    "en": [
+      "Diptotes (الممنوع من الصرف, e.g. مَسَاجِدُ، أَحْمَدُ) take no tanwīn and use fatḥa for the genitive when they lack ال and إضافة: see E07.",
+      "Nouns ending in a long vowel (المقصور, المنقوص, E08–E09) have estimated (مقدّرة) vowels, and a noun annexed to ياء المتكلم (كِتَابِي) has estimated vowels too.",
+      "The dual, sound plurals and the five nouns use other signs: see E02–E05.",
+      "In pause (الوقف) the final short vowel and tanwīn are dropped, except that accusative -an is read as -ā (كِتَابَا), and ة is read as h."
+    ],
+    "ar": [
+      "الممنوع من الصرف (مثل: مَسَاجِدُ، أَحْمَدُ) لا يُنوَّن، ويُجرّ بالفتحة إذا لم يُعرَّف بـ«ال» ولم يُضَف: انظر E07.",
+      "الاسم المقصور والمنقوص (E08–E09) تُقدَّر عليهما الحركات، وكذلك الاسم المضاف إلى ياء المتكلم (كِتَابِي).",
+      "المثنى والجمعان السالمان والأسماء الخمسة تُعرَب بعلامات أخرى: انظر E02–E05.",
+      "عند الوقف تُحذف الحركة القصيرة والتنوين، إلا تنوين النصب فيُوقف عليه بالألف (كِتَابَا)، وتُقرأ التاء المربوطة هاءً."
+    ]
+  },
+  "convention": {
+    "en": "The Ājurrūmiyya calls the genitive الخفض (Kufan term); most modern books say الجر. Both name the same case. The ḍamma/fatḥa/kasra set is what school books call the “original signs” (العلامات الأصلية), as opposed to the substitute signs used by the dual, plurals, five nouns and diptotes.",
+    "ar": "تسمّي الآجرومية الجرَّ «الخفض» (وهو اصطلاح كوفي)، وأكثر الكتب الحديثة تقول «الجر»، والمعنى واحد. وتُسمّى الضمة والفتحة والكسرة «العلامات الأصلية» في مقابل العلامات الفرعية في المثنى والجموع والأسماء الخمسة والممنوع من الصرف."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give كِتَاب in all three cases, indefinite and with ال.", "ar": "صرّف «كتاب» في الحالات الثلاث نكرةً ومعرّفًا بـ«ال»." }, "answer_blocks": ["endings"] },
+    { "id": "r2", "prompt": { "en": "When does a regular noun lose its tanwīn, and when is the accusative written without an extra alif?", "ar": "متى يُحذف التنوين من الاسم المنصرف؟ ومتى لا يُكتب ألف بعد تنوين النصب؟" }, "answer_blocks": ["tanwin"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب معرفة علامات الإعراب" },
+    { "id": "R15", "locator": "Grammar course index: case endings lessons" }
+  ],
+  "extra_aliases": ["case endings", "i'rab", "nominative accusative genitive", "ضمة فتحة كسرة", "تنوين", "tanwin", "العلامات الأصلية", "triptote", "munsarif"]
+}

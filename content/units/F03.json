@@ -1,0 +1,113 @@
+{
+  "id": "F03",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "taṣrīf al-amr aṣ-ṣaḥīḥ",
+  "summary": {
+    "en": "The five imperative forms of a regular verb (اُكْتُبْ …) and how to build them from the jussive.",
+    "ar": "صيغ الأمر الخمس من الفعل الصحيح (اُكْتُبْ…) وطريقة صوغها من المضارع المجزوم."
+  },
+  "target": {
+    "en": "Recall the imperative forms for each addressee and the core procedure: start from the jussive, drop the prefix, add hamzat al-waṣl if needed.",
+    "ar": "استحضار صيغ الأمر لكل مخاطَب، وطريقة الصوغ: من المضارع المجزوم بحذف حرف المضارعة وزيادة همزة الوصل عند الحاجة."
+  },
+  "blocks": [
+    {
+      "id": "forms",
+      "kind": "table",
+      "title": { "en": "Imperative of كَتَبَ", "ar": "الأمر من «كَتَبَ»" },
+      "row_header": "pronoun",
+      "columns": [
+        { "key": "pronoun", "lang": "ar", "label": { "en": "Addressee", "ar": "المخاطَب" } },
+        { "key": "slot", "lang": "bi", "label": { "en": "Slot", "ar": "الموضع" } },
+        { "key": "jussive", "lang": "ar", "label": { "en": "Jussive", "ar": "المضارع المجزوم" } },
+        { "key": "imperative", "lang": "ar", "label": { "en": "Imperative", "ar": "الأمر" } }
+      ],
+      "rows": [
+        { "pronoun": "أَنْتَ", "slot": { "en": "m. sg.", "ar": "مفرد مذكّر" }, "jussive": "تَكْتُبْ", "imperative": "اُكْتُبْ" },
+        { "pronoun": "أَنْتِ", "slot": { "en": "f. sg.", "ar": "مفردة مؤنّثة" }, "jussive": "تَكْتُبِي", "imperative": "اُكْتُبِي" },
+        { "pronoun": "أَنْتُمَا", "slot": { "en": "dual (m. and f.)", "ar": "مثنّى (مذكّر ومؤنّث)" }, "jussive": "تَكْتُبَا", "imperative": "اُكْتُبَا" },
+        { "pronoun": "أَنْتُمْ", "slot": { "en": "m. pl.", "ar": "جمع مذكّر" }, "jussive": "تَكْتُبُوا", "imperative": "اُكْتُبُوا" },
+        { "pronoun": "أَنْتُنَّ", "slot": { "en": "f. pl.", "ar": "جمع مؤنّث" }, "jussive": "تَكْتُبْنَ", "imperative": "اُكْتُبْنَ" }
+      ],
+      "notes": {
+        "en": ["Five forms for six addressee slots: اُكْتُبَا serves both the masculine and the feminine dual."],
+        "ar": ["خمس صيغ لستة مواضع، فـ«اُكْتُبَا» للمثنّى المذكّر والمؤنّث."]
+      }
+    },
+    {
+      "id": "procedure",
+      "kind": "rules",
+      "title": { "en": "Formation procedure", "ar": "طريقة الصوغ" },
+      "items": [
+        {
+          "label": { "en": "1. Take the 2nd-person jussive", "ar": "١. خذ المضارع المجزوم للمخاطَب" },
+          "text": { "en": "The imperative ends exactly as the jussive does: sukūn (اُكْتُبْ، اُكْتُبْنَ) or with the نون dropped (اُكْتُبِي، اُكْتُبَا، اُكْتُبُوا).", "ar": "آخر الأمر كآخر المضارع المجزوم: السكون (اُكْتُبْ، اُكْتُبْنَ) أو حذف النون (اُكْتُبِي، اُكْتُبَا، اُكْتُبُوا)." },
+          "ar_example": "تَكْتُبْ ← كْتُبْ"
+        },
+        {
+          "label": { "en": "2. Drop the prefix تـ", "ar": "٢. احذف حرف المضارعة" },
+          "text": { "en": "If what remains starts with a vowelled letter, you are done.", "ar": "فإن كان ما بعده متحرّكًا فهو الأمر." },
+          "ar_example": "تُدَحْرِجْ ← دَحْرِجْ، تَتَعَلَّمْ ← تَعَلَّمْ"
+        },
+        {
+          "label": { "en": "3. Add hamzat al-waṣl if it starts with sukūn", "ar": "٣. زد همزة الوصل إن بدأ بساكن" },
+          "text": { "en": "A word cannot begin with sukūn, so add hamzat al-waṣl (ا).", "ar": "لا يُبدأ بساكن، فتُزاد همزة الوصل." },
+          "ar_example": "كْتُبْ ← اُكْتُبْ"
+        },
+        {
+          "label": { "en": "Hamza vowel: ـُ or ـِ", "ar": "حركة همزة الوصل: ضم أو كسر" },
+          "text": { "en": "Ḍamma if the third letter (counting the hamza) has an original ḍamma; otherwise kasra.", "ar": "تُضمّ إذا كان ثالث الفعل مضمومًا ضمًّا أصليًّا، وتُكسر فيما سوى ذلك." },
+          "ar_example": "اُكْتُبْ، اُدْخُلْ — اِفْتَحْ، اِجْلِسْ"
+        },
+        {
+          "label": { "en": "Form IV (أَفْعَلَ)", "ar": "وزن «أَفْعَلَ»" },
+          "text": { "en": "Verbs on أَفْعَلَ restore their own hamza (hamzat al-qaṭʿ) with fatḥa instead of adding hamzat al-waṣl.", "ar": "ما كان على «أَفْعَلَ» تعود إليه همزة القطع مفتوحةً." },
+          "ar_example": "تُكْرِمْ ← أَكْرِمْ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The imperative (الأمر) is addressed to “you” only, so it has five forms. It is built from the 2nd-person jussive, which is why its endings mirror the jussive endings.",
+      "Hamzat al-waṣl is pronounced only at the start of speech. After a preceding word it is written but silent: وَاكْتُبْ (wa-ktub)."
+    ],
+    "ar": [
+      "الأمر لا يكون إلا للمخاطَب، فله خمس صيغ، ويُصاغ من المضارع المجزوم المسند إلى المخاطَب؛ ولذلك يوافقه في آخره.",
+      "همزة الوصل تُنطق في ابتداء الكلام، وتسقط في الدرج: وَاكْتُبْ."
+    ]
+  },
+  "examples": [
+    { "ar": "اُكْتُبِ اسْمَكَ هُنَا", "en": "Write your name here.", "note": { "en": "The final sukūn becomes kasra before the hamzat al-waṣl of اسْمَ.", "ar": "كُسر آخر الفعل لالتقاء الساكنين." } },
+    { "ar": "اِجْلِسُوا فِي أَمَاكِنِكُمْ", "en": "Sit (pl.) in your places.", "note": { "en": "يَجْلِسُ has kasra on the middle letter → hamza with kasra.", "ar": "ثالثه مكسور فكُسرت همزة الوصل." } },
+    { "ar": "اِفْتَحِي النَّافِذَةَ يَا فَاطِمَةُ", "en": "Open the window, Fatima.", "note": { "en": "يَفْتَحُ has fatḥa on the middle letter → hamza with kasra.", "ar": "ثالثه مفتوح فكُسرت همزة الوصل." } },
+    { "ar": "أَكْرِمُوا ضَيْفَكُمْ", "en": "Honour your guest (pl.).", "note": { "en": "Form IV: the hamza is hamzat al-qaṭʿ with fatḥa.", "ar": "الهمزة همزة قطع مفتوحة لأن الماضي «أَكْرَمَ»." } }
+  ],
+  "caveats": {
+    "en": [
+      "The ḍamma rule counts an original ḍamma of the pattern only; weak verbs, where a ḍamma can arise from a suffix, and irregular imperatives (خُذْ، كُلْ، مُرْ) are covered in F08 and H02, not here.",
+      "A negative command (“don’t write”) is not an imperative: it is لا الناهية + jussive (لَا تَكْتُبْ), see C07."
+    ],
+    "ar": [
+      "المعتبر في الضم الضمة الأصلية في البناء، أمّا الأفعال المعتلة وما يعرض فيه الضم بسبب اللاحقة، والأمر الشاذ (خُذْ، كُلْ، مُرْ) ففي F08 وH02.",
+      "النهي ليس أمرًا، بل هو «لا» الناهية مع المضارع المجزوم (لَا تَكْتُبْ)، وانظر C07."
+    ]
+  },
+  "convention": {
+    "en": "Mainstream (Basran) school grammar says the imperative is fixed (مبني) on whatever its jussive would be marked with. The Ājurrūmiyya follows the Kufan view, “the imperative is always jussive” (والأمر مجزوم أبدًا). Both give the same forms. Textbooks write the initial hamzat al-waṣl as a bare alif; this table marks its vowel (اُ / اِ) for clarity.",
+    "ar": "المشهور عند البصريين أن الأمر مبني على ما يُجزم به مضارعه، وتتبع الآجرومية قول الكوفيين: «والأمر مجزوم أبدًا»، والصيغ واحدة على القولين. وتُكتب همزة الوصل ألفًا بلا همزة، وضُبطت حركتها هنا للإيضاح."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give the imperative of كَتَبَ for all five addressee forms.", "ar": "صُغ الأمر من «كَتَبَ» للمخاطَبين جميعًا." }, "answer_blocks": ["forms"] },
+    { "id": "r2", "prompt": { "en": "How is the imperative built from the jussive, and when does hamzat al-waṣl take ḍamma?", "ar": "كيف يُصاغ الأمر من المضارع المجزوم؟ ومتى تُضمّ همزة الوصل؟" }, "answer_blocks": ["procedure"] }
+  ],
+  "sources": [
+    { "id": "R24", "locator": "Imperative (command) forms" },
+    { "id": "R02", "locator": "Imperative feature and verb aspect" }
+  ],
+  "extra_aliases": ["فعل الأمر", "صياغة الأمر", "همزة الوصل في الأمر", "command form", "imperative verb", "fi'l al-amr", "uktub"]
+}

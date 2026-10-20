@@ -1,0 +1,22 @@
+{
+  "id": "S04",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "A definite noun (معرفة) points to something specific: الْكِتَابُ “the book”, زَيْدٌ, هُوَ. An indefinite noun (نكرة) refers to any member of its kind: كِتَابٌ “a book”.",
+      "Definiteness matters for many rules: an adjective must match its noun in definiteness, the subject of a nominal sentence is normally definite, and an annexed noun takes neither ال nor tanwīn.",
+      "Tanwīn (ـٌ ـً ـٍ) often signals an indefinite noun, but not always: proper names such as زَيْدٌ take tanwīn and are definite. The full list of definite categories is memorised in A03."
+    ],
+    "ar": [
+      "المعرفة اسم يدلّ على معيّن: الْكِتَابُ، زَيْدٌ، هُوَ. والنكرة اسم شائع في جنسه لا يدلّ على معيّن: كِتَابٌ.",
+      "ويتوقّف على التعريف والتنكير أحكام كثيرة: يطابق النعتُ منعوتَه فيهما، والأصل في المبتدأ أن يكون معرفة، والمضاف لا تدخله «ال» ولا التنوين.",
+      "والتنوين علامة غالبة على النكرة لا لازمة، فالعلم «زَيْدٌ» منوّن وهو معرفة. وأقسام المعارف تُحفظ في الوحدة A03."
+    ]
+  },
+  "terms": [
+    { "ar": "مَعْرِفَةٌ", "gloss": { "en": "definite noun", "ar": "اسم يدلّ على معيّن" } },
+    { "ar": "نَكِرَةٌ", "gloss": { "en": "indefinite noun", "ar": "اسم شائع في جنسه" } },
+    { "ar": "أَلْ التَّعْرِيفِ", "gloss": { "en": "the definite article al-", "ar": "أداة تجعل النكرة معرفة" } },
+    { "ar": "تَنْوِينٌ", "gloss": { "en": "nunation: final -un/-an/-in", "ar": "نون ساكنة تلحق آخر الاسم لفظًا لا خطًّا" } }
+  ]
+}

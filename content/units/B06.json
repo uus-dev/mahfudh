@@ -1,0 +1,108 @@
+{
+  "id": "B06",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "al-asmāʾ al-mawṣūla al-khāṣṣa",
+  "summary": {
+    "en": "The specific relative pronouns الذي، التي and their dual (with case variants) and plural forms.",
+    "ar": "الأسماء الموصولة الخاصة: الذي والتي ومثناهما (رفعًا ونصبًا وجرًّا) وجمعهما."
+  },
+  "target": {
+    "en": "Recall the الذي / التي family by gender and number, including the dual nominative and accusative/genitive forms and the plural forms.",
+    "ar": "استحضار أسرة «الذي / التي» بحسب الجنس والعدد، بما في ذلك صيغتا المثنى في الرفع وفي النصب والجر، وصيغ الجمع."
+  },
+  "blocks": [
+    {
+      "id": "grid",
+      "kind": "table",
+      "title": { "en": "The specific relatives", "ar": "الموصولات الخاصة" },
+      "row_header": "slot",
+      "columns": [
+        { "key": "slot", "lang": "bi", "label": { "en": "Gender", "ar": "الجنس" } },
+        { "key": "sg", "lang": "ar", "label": { "en": "Singular", "ar": "المفرد" } },
+        { "key": "du_nom", "lang": "ar", "label": { "en": "Dual — nominative", "ar": "المثنى — رفعًا" } },
+        { "key": "du_acc", "lang": "ar", "label": { "en": "Dual — acc./gen.", "ar": "المثنى — نصبًا وجرًّا" } },
+        { "key": "pl", "lang": "ar", "label": { "en": "Plural", "ar": "الجمع" } }
+      ],
+      "rows": [
+        { "slot": { "en": "masculine", "ar": "المذكر" }, "sg": "الَّذِي", "du_nom": "اللَّذَانِ", "du_acc": "اللَّذَيْنِ", "pl": "الَّذِينَ" },
+        { "slot": { "en": "feminine", "ar": "المؤنث" }, "sg": "الَّتِي", "du_nom": "اللَّتَانِ", "du_acc": "اللَّتَيْنِ", "pl": "اللَّاتِي / اللَّائِي / اللَّوَاتِي" }
+      ],
+      "notes": {
+        "en": [
+          "English: who, which, that (the one who / the ones who).",
+          "Spelling: the singular and الَّذِينَ are written with one lām; the duals and feminine plurals with two (اللَّذَانِ، اللَّتَانِ، اللَّاتِي)."
+        ],
+        "ar": [
+          "المقابل الإنجليزي: who، which، that (الذي / الذين…).",
+          "تُكتب «الذي، التي، الذين» بلام واحدة، وتُكتب صيغ المثنى وجمع المؤنث بلامين (اللذان، اللتان، اللاتي)."
+        ]
+      }
+    },
+    {
+      "id": "use",
+      "kind": "rules",
+      "title": { "en": "Essential rules", "ar": "أحكام أساسية" },
+      "items": [
+        {
+          "label": { "en": "Only the duals inflect", "ar": "المثنى وحده معرب" },
+          "text": { "en": "All forms are fixed (مبنيّ) except the duals: ـانِ in the nominative, ـيْنِ in the accusative and genitive. الَّذِينَ does not change for case.", "ar": "كلّها مبنيّة إلا المثنى فيُعرب بالألف رفعًا وبالياء نصبًا وجرًّا، و«الذين» مبنيّ لا يتغيّر." },
+          "ar_example": "نَجَحَ اللَّذَانِ اجْتَهَدَا — كَافَأْتُ اللَّذَيْنِ اجْتَهَدَا"
+        },
+        {
+          "label": { "en": "Agreement and صلة", "ar": "المطابقة والصلة" },
+          "text": { "en": "The relative agrees with the noun it refers to and is followed by a clause (صلة) that contains a pronoun (عائد) referring back to it.", "ar": "يطابق الموصول ما يعود إليه، ولا بدّ له من جملة بعده (الصلة) فيها ضمير يعود عليه (العائد)." },
+          "ar_example": "الْكُتُبُ الَّتِي قَرَأْتُهَا مُفِيدَةٌ"
+        },
+        {
+          "label": { "en": "Definite antecedent only", "ar": "بعد المعرفة" },
+          "text": { "en": "As an adjective-like link after a noun, الذي and its family follow a definite noun. After an indefinite noun, the clause follows directly with no relative.", "ar": "إذا وقع الموصول بعد اسم فذلك الاسم معرفة، أمّا النكرة فتتبعها الجملة صفةً بلا موصول." },
+          "ar_example": "رَأَيْتُ الرَّجُلَ الَّذِي سَافَرَ — رَأَيْتُ رَجُلًا سَافَرَ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "These relatives are called specific (خاصّ) because each form is tied to one gender and number, unlike مَنْ and مَا which serve all.",
+      "Non-human plurals usually take الَّتِي, matching their feminine singular agreement."
+    ],
+    "ar": [
+      "سُمّيت خاصّة لأنّ لكلّ جنس وعدد لفظًا يخصّه، بخلاف «مَن» و«ما» اللتين تصلحان للجميع.",
+      "ويُستعمل «التي» غالبًا لجمع غير العاقل، لأنه يُعامل معاملة المفرد المؤنث."
+    ]
+  },
+  "examples": [
+    { "ar": "الطَّالِبُ الَّذِي فَازَ أَخِي", "en": "The student who won is my brother.", "note": { "en": "عائد: the implied subject (هو) of فاز.", "ar": "العائد ضمير مستتر في «فاز»." } },
+    { "ar": "شَكَرْتُ اللَّتَيْنِ سَاعَدَتَانِي", "en": "I thanked the two women who helped me.", "note": { "en": "اللَّتَيْنِ: accusative (object of شكرت).", "ar": "«اللتين» منصوب بالياء لأنه مفعول به." } },
+    { "ar": "الَّذِينَ يَقْرَؤُونَ كَثِيرًا يَكْتُبُونَ جَيِّدًا", "en": "Those who read a lot write well.", "note": { "en": "الَّذِينَ is the subject here, but its form never changes.", "ar": "«الذين» مبتدأ مبنيّ في محلّ رفع." } },
+    { "ar": "النِّسَاءُ اللَّاتِي حَضَرْنَ مُعَلِّمَاتٌ", "en": "The women who attended are teachers.", "note": { "en": "عائد: the نون النسوة in حضرن.", "ar": "العائد نون النسوة في «حضرن»." } }
+  ],
+  "caveats": {
+    "en": [
+      "The shared relatives مَنْ، مَا and others that serve every gender and number are a separate unit (B07).",
+      "The full analysis of relative clauses (types of صلة, omission of the عائد) is background (S07), not part of this target.",
+      "Classical variants (e.g. الأُلَى for the plural, اللَّاءِ، اللَّاتِ; اللَّذُونَ in one dialect) are outside the principal table."
+    ],
+    "ar": [
+      "الموصولات المشتركة (مَن، ما وغيرهما) في وحدة مستقلة (B07).",
+      "تفصيل أحكام الصلة والعائد مفهوم تمهيدي (S07) خارج هذا الهدف.",
+      "الصيغ الأخرى (الأُلى للجمع، اللاءِ، اللاتِ، واللذون في لغة) خارج الجدول الرئيس."
+    ]
+  },
+  "convention": {
+    "en": "The table follows school usage: three feminine plural forms are listed, of which اللَّاتِي and اللَّوَاتِي are most common today. Books differ on whether the duals are true duals or “attached to the dual” (ملحق بالمثنى); either way they inflect with ـانِ / ـيْنِ.",
+    "ar": "يجري الجدول على الاستعمال المدرسي، وذُكرت ثلاث صيغ لجمع المؤنث أشيعها اليوم «اللاتي» و«اللواتي». واختُلف في المثنى أهو مثنى حقيقي أم ملحق بالمثنى، وهو معرب بالألف والياء على القولين."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give all the forms of الذي and التي, including both dual cases and the plurals.", "ar": "اذكر صيغ «الذي» و«التي» كلّها، مع صيغتي المثنى والجمع." }, "answer_blocks": ["grid"] },
+    { "id": "r2", "prompt": { "en": "Which specific relatives change with case, and what must the صلة contain?", "ar": "ما المعرب من الموصولات الخاصة؟ وماذا يجب أن تتضمّن الصلة؟" }, "answer_blocks": ["use"] }
+  ],
+  "sources": [
+    { "id": "R22", "locator": "Relative pronouns table" }
+  ],
+  "extra_aliases": ["الاسم الموصول", "الذي والتي", "اللذان اللذين", "relative pronouns", "alladhī allatī", "who which that"]
+}

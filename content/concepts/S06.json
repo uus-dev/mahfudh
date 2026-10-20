@@ -1,0 +1,22 @@
+{
+  "id": "S06",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "Annexation (إضافة) joins two nouns so that the second defines or specifies the first: كِتَابُ الطَّالِبِ “the student’s book”. The first noun (مضاف) loses ال and tanwīn and takes whatever case its role requires; the second (مضاف إليه) is genitive.",
+      "Many grammatical pieces are attached to a word rather than written separately: attached pronouns such as ـهُ، ـكِ، ـنَا (كِتَابُهُ، رَأَيْتُكِ، كَتَبْنَا), and one-letter particles such as بِـ، لِـ، وَ، فَـ. When a pronoun is attached to a noun, the construction is itself an annexation.",
+      "The attached pronoun tables are in B02–B03, and the core annexation rules in I01."
+    ],
+    "ar": [
+      "الإضافة نسبة اسم إلى اسم ليتعرّف به أو يتخصّص: كِتَابُ الطَّالِبِ. ويُحذف من المضاف «ال» والتنوين، ويُعرب بحسب موقعه، ويكون المضاف إليه مجرورًا.",
+      "وتتصل بالكلمة عناصر لا تُكتب مستقلة: الضمائر المتصلة مثل «ـهُ، ـكِ، ـنَا» (كِتَابُهُ، رَأَيْتُكِ، كَتَبْنَا)، والحروف الأحادية مثل الباء واللام والواو والفاء. والضمير المتصل بالاسم مضاف إليه.",
+      "جداول الضمائر المتصلة في الوحدتين B02 وB03، وأحكام الإضافة الأساسية في I01."
+    ]
+  },
+  "terms": [
+    { "ar": "إِضَافَةٌ", "gloss": { "en": "annexation (iḍāfa, genitive construct)", "ar": "نسبة اسم إلى اسم" } },
+    { "ar": "مُضَافٌ", "gloss": { "en": "first term: the possessed / specified noun", "ar": "الاسم الأول في الإضافة" } },
+    { "ar": "مُضَافٌ إِلَيْهِ", "gloss": { "en": "second term, always genitive", "ar": "الاسم الثاني، ويكون مجرورًا" } },
+    { "ar": "ضَمِيرٌ مُتَّصِلٌ", "gloss": { "en": "attached (suffixed) pronoun", "ar": "ضمير لا يُبتدأ به ولا يقع بعد «إلا»" } }
+  ]
+}

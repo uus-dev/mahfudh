@@ -1,0 +1,148 @@
+{
+  "id": "B02",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "ḍamāʾir ar-rafʿ al-muttaṣila",
+  "summary": {
+    "en": "The subject pronouns attached to verbs (تاء الفاعل، نا، ألف الاثنين، واو الجماعة، نون النسوة، ياء المخاطبة) and the endings that look like them but are not pronouns.",
+    "ar": "ضمائر الرفع المتصلة بالأفعال (تاء الفاعل، نا، ألف الاثنين، واو الجماعة، نون النسوة، ياء المخاطبة)، والتفريق بينها وبين لواحق ليست ضمائر."
+  },
+  "target": {
+    "en": "Recall the attached subject-pronoun forms on verbs and distinguish them from non-pronominal verb endings (e.g. تاء التأنيث الساكنة, نون الرفع, the prefixes of the imperfect).",
+    "ar": "استحضار ضمائر الرفع المتصلة بالفعل، والتمييز بينها وبين اللواحق التي ليست ضمائر (كتاء التأنيث الساكنة ونون الرفع وأحرف المضارعة)."
+  },
+  "blocks": [
+    {
+      "id": "inventory",
+      "kind": "table",
+      "title": { "en": "The attached subject pronouns", "ar": "ضمائر الرفع المتصلة" },
+      "row_header": "pronoun",
+      "columns": [
+        { "key": "pronoun", "lang": "ar", "label": { "en": "Pronoun", "ar": "الضمير" } },
+        { "key": "name", "lang": "bi", "label": { "en": "Name", "ar": "اسمه" } },
+        { "key": "verbs", "lang": "bi", "label": { "en": "Attaches to", "ar": "يتصل بـ" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "pronoun": "ـتُ ـتَ ـتِ ـتُمَا ـتُمْ ـتُنَّ", "name": { "en": "tāʾ al-fāʿil (subject t)", "ar": "تاء الفاعل" }, "verbs": { "en": "past only", "ar": "الماضي" }, "example": "كَتَبْتُ" },
+        { "pronoun": "ـنَا", "name": { "en": "nā al-fāʿilīn (subject “we”)", "ar": "نا الفاعلين" }, "verbs": { "en": "past only", "ar": "الماضي" }, "example": "كَتَبْنَا" },
+        { "pronoun": "ـا", "name": { "en": "alif al-ithnayn (dual alif)", "ar": "ألف الاثنين" }, "verbs": { "en": "past, imperfect, imperative", "ar": "الماضي والمضارع والأمر" }, "example": "كَتَبَا — يَكْتُبَانِ — اُكْتُبَا" },
+        { "pronoun": "ـو", "name": { "en": "wāw al-jamāʿa (plural wāw)", "ar": "واو الجماعة" }, "verbs": { "en": "past, imperfect, imperative", "ar": "الماضي والمضارع والأمر" }, "example": "كَتَبُوا — يَكْتُبُونَ — اُكْتُبُوا" },
+        { "pronoun": "ـنَ", "name": { "en": "nūn an-niswa (feminine plural nūn)", "ar": "نون النسوة" }, "verbs": { "en": "past, imperfect, imperative", "ar": "الماضي والمضارع والأمر" }, "example": "كَتَبْنَ — يَكْتُبْنَ — اُكْتُبْنَ" },
+        { "pronoun": "ـي", "name": { "en": "yāʾ al-mukhāṭaba (2nd fem. sg. yāʾ)", "ar": "ياء المخاطبة" }, "verbs": { "en": "imperfect and imperative", "ar": "المضارع والأمر" }, "example": "تَكْتُبِينَ — اُكْتُبِي" }
+      ]
+    },
+    {
+      "id": "segmented",
+      "kind": "table",
+      "title": { "en": "Segmented model: كَتَبَ / يَكْتُبُ", "ar": "نموذج مُقسَّم: كَتَبَ / يَكْتُبُ" },
+      "row_header": "slot",
+      "columns": [
+        { "key": "slot", "lang": "bi", "label": { "en": "Person", "ar": "الشخص" } },
+        { "key": "past", "lang": "ar", "label": { "en": "Past", "ar": "الماضي" } },
+        { "key": "past_subj", "lang": "ar", "label": { "en": "Subject in past", "ar": "الفاعل في الماضي" } },
+        { "key": "pres", "lang": "ar", "label": { "en": "Imperfect", "ar": "المضارع" } },
+        { "key": "imp", "lang": "ar", "label": { "en": "Imperative", "ar": "الأمر" } },
+        { "key": "pres_subj", "lang": "ar", "label": { "en": "Subject in imperfect / imperative", "ar": "الفاعل في المضارع والأمر" } }
+      ],
+      "rows": [
+        { "slot": { "en": "1st sg.", "ar": "أنا" }, "past": "كَتَبْتُ", "past_subj": "ـتُ", "pres": "أَكْتُبُ", "imp": "", "pres_subj": "مُسْتَتِرٌ (أَنَا)" },
+        { "slot": { "en": "1st du./pl.", "ar": "نحن" }, "past": "كَتَبْنَا", "past_subj": "ـنَا", "pres": "نَكْتُبُ", "imp": "", "pres_subj": "مُسْتَتِرٌ (نَحْنُ)" },
+        { "slot": { "en": "2nd m. sg.", "ar": "أنتَ" }, "past": "كَتَبْتَ", "past_subj": "ـتَ", "pres": "تَكْتُبُ", "imp": "اُكْتُبْ", "pres_subj": "مُسْتَتِرٌ (أَنْتَ)" },
+        { "slot": { "en": "2nd f. sg.", "ar": "أنتِ" }, "past": "كَتَبْتِ", "past_subj": "ـتِ", "pres": "تَكْتُبِينَ", "imp": "اُكْتُبِي", "pres_subj": "ـي" },
+        { "slot": { "en": "2nd du.", "ar": "أنتما" }, "past": "كَتَبْتُمَا", "past_subj": "ـتُمَا", "pres": "تَكْتُبَانِ", "imp": "اُكْتُبَا", "pres_subj": "ـا" },
+        { "slot": { "en": "2nd m. pl.", "ar": "أنتم" }, "past": "كَتَبْتُمْ", "past_subj": "ـتُمْ", "pres": "تَكْتُبُونَ", "imp": "اُكْتُبُوا", "pres_subj": "ـو" },
+        { "slot": { "en": "2nd f. pl.", "ar": "أنتنّ" }, "past": "كَتَبْتُنَّ", "past_subj": "ـتُنَّ", "pres": "تَكْتُبْنَ", "imp": "اُكْتُبْنَ", "pres_subj": "ـنَ" },
+        { "slot": { "en": "3rd m. sg.", "ar": "هو" }, "past": "كَتَبَ", "past_subj": "مُسْتَتِرٌ (هُوَ)", "pres": "يَكْتُبُ", "imp": "", "pres_subj": "مُسْتَتِرٌ (هُوَ)" },
+        { "slot": { "en": "3rd f. sg.", "ar": "هي" }, "past": "كَتَبَتْ", "past_subj": "مُسْتَتِرٌ (هِيَ) — التَّاءُ حَرْفٌ", "pres": "تَكْتُبُ", "imp": "", "pres_subj": "مُسْتَتِرٌ (هِيَ)" },
+        { "slot": { "en": "3rd m. du.", "ar": "هما (مذكر)" }, "past": "كَتَبَا", "past_subj": "ـا", "pres": "يَكْتُبَانِ", "imp": "", "pres_subj": "ـا" },
+        { "slot": { "en": "3rd f. du.", "ar": "هما (مؤنث)" }, "past": "كَتَبَتَا", "past_subj": "ـا — التَّاءُ حَرْفٌ", "pres": "تَكْتُبَانِ", "imp": "", "pres_subj": "ـا" },
+        { "slot": { "en": "3rd m. pl.", "ar": "هم" }, "past": "كَتَبُوا", "past_subj": "ـو", "pres": "يَكْتُبُونَ", "imp": "", "pres_subj": "ـو" },
+        { "slot": { "en": "3rd f. pl.", "ar": "هنّ" }, "past": "كَتَبْنَ", "past_subj": "ـنَ", "pres": "يَكْتُبْنَ", "imp": "", "pres_subj": "ـنَ" }
+      ],
+      "notes": {
+        "en": ["مستتر = no visible pronoun; the subject is understood (implied) and is not an attached form. It is shown only for contrast."],
+        "ar": ["المستتر ضمير غير ظاهر، وليس من الضمائر المتصلة البارزة، وذُكر هنا للمقارنة."]
+      }
+    },
+    {
+      "id": "not-pronouns",
+      "kind": "rules",
+      "title": { "en": "Endings that are NOT pronouns", "ar": "لواحق ليست ضمائر" },
+      "items": [
+        {
+          "label": { "en": "تاء التأنيث الساكنة", "ar": "تاء التأنيث الساكنة" },
+          "text": { "en": "The silent ـتْ of كَتَبَتْ only marks the subject as feminine; it is a particle, not the subject. The subject is implied (هي) or a following noun.", "ar": "التاء الساكنة في «كَتَبَتْ» حرف يدلّ على تأنيث الفاعل، وليست فاعلًا؛ والفاعل ضمير مستتر أو اسم ظاهر بعدها." },
+          "ar_example": "كَتَبَتِ الطَّالِبَةُ"
+        },
+        {
+          "label": { "en": "Subject t vs feminine t", "ar": "تاء الفاعل وتاء التأنيث" },
+          "text": { "en": "تاء الفاعل is voweled and makes the verb's last letter sākin (كَتَبْتُ); تاء التأنيث is sākin and the letter before it keeps its fatḥa (كَتَبَتْ).", "ar": "تاء الفاعل متحرّكة ويُسكَّن ما قبلها (كَتَبْتُ)، وتاء التأنيث ساكنة ويبقى ما قبلها مفتوحًا (كَتَبَتْ)." },
+          "ar_example": "كَتَبْتُ — كَتَبَتْ"
+        },
+        {
+          "label": { "en": "نون الرفع", "ar": "نون الرفع" },
+          "text": { "en": "The final ـنِ / ـنَ of يَكْتُبَانِ، يَكْتُبُونَ، تَكْتُبِينَ is the indicative marker, not a pronoun; the pronoun is the ا / و / ي before it. This نون drops in the subjunctive and jussive; نون النسوة never drops.", "ar": "النون في «يكتبان، يكتبون، تكتبين» علامة رفع وليست ضميرًا، والضمير هو الألف أو الواو أو الياء قبلها؛ وتُحذف هذه النون في النصب والجزم، بخلاف نون النسوة." },
+          "ar_example": "لَمْ يَكْتُبُوا — لَمْ يَكْتُبْنَ"
+        },
+        {
+          "label": { "en": "Imperfect prefixes", "ar": "أحرف المضارعة" },
+          "text": { "en": "The prefixes أ، ن، ت، ي (أنيت) mark person but are not pronouns.", "ar": "أحرف المضارعة (أنيت) تدلّ على الشخص، وليست ضمائر." },
+          "ar_example": "نَكْتُبُ"
+        },
+        {
+          "label": { "en": "Silent alif after wāw", "ar": "الألف الفارقة" },
+          "text": { "en": "The alif written after واو الجماعة (كَتَبُوا) is a spelling letter only.", "ar": "الألف بعد واو الجماعة في «كتبوا» ألف فارقة تُكتب ولا تُنطق، وليست ضميرًا." },
+          "ar_example": "كَتَبُوا"
+        },
+        {
+          "label": { "en": "Root letters", "ar": "حروف الأصل" },
+          "text": { "en": "A final و، ي or ن belonging to the root is not a pronoun: يَدْعُو، يَرْمِي، يَسْكُنُ.", "ar": "الواو والياء والنون إذا كانت من أصل الفعل ليست ضمائر، نحو: يَدْعُو، يَرْمِي، يَسْكُنُ." },
+          "ar_example": "الرَّجُلُ يَدْعُو — النِّسَاءُ يَدْعُونَ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "When the subject of a verb is a pronoun, Arabic either attaches it to the verb (بارز متصل: كَتَبُوا) or leaves it implied (مستتر: كَتَبَ “he wrote”). This unit covers the attached ones, which are always in the nominative position (فاعل, or the اسم of كان and its sisters).",
+      "When the subject is an explicit noun after the verb, no pronoun is attached and the verb stays singular: كَتَبَ الطُّلَّابُ، not كَتَبُوا الطُّلَّابُ."
+    ],
+    "ar": [
+      "إذا كان فاعل الفعل ضميرًا فإمّا أن يتّصل به بارزًا (كَتَبُوا) وإمّا أن يستتر (كَتَبَ). وهذه الوحدة في الضمائر المتصلة البارزة، وهي في محلّ رفع دائمًا (فاعلًا، أو اسمًا لكان وأخواتها).",
+      "وإذا جاء الفاعل اسمًا ظاهرًا بعد الفعل لم يتّصل بالفعل ضمير، وبقي الفعل مفردًا: «كَتَبَ الطُّلّابُ»."
+    ]
+  },
+  "examples": [
+    { "ar": "الطُّلَّابُ حَضَرُوا مُبَكِّرِينَ", "en": "The students came early.", "note": { "en": "ـو in حضروا is the subject pronoun; the alif after it is only a spelling letter.", "ar": "واو الجماعة فاعل، والألف فارقة." } },
+    { "ar": "سَافَرَتْ أُمِّي أَمْسِ", "en": "My mother travelled yesterday.", "note": { "en": "ـتْ is تاء التأنيث (a particle); the subject is أمّي.", "ar": "التاء للتأنيث، والفاعل «أمّي»." } },
+    { "ar": "هَلْ فَهِمْتِ الدَّرْسَ؟ نَعَمْ، وَأَنْتِ سَتَفْهَمِينَهُ أَيْضًا", "en": "Did you (f.) understand the lesson? — Yes, and you (f.) too will understand it.", "note": { "en": "ـتِ (past) and ـي (imperfect) are both the 2nd fem. sg. subject.", "ar": "تاء الفاعل في «فهمتِ» وياء المخاطبة في «ستفهمين» ضميران للمخاطبة." } },
+    { "ar": "الْبَنَاتُ لَمْ يَخْرُجْنَ", "en": "The girls did not go out.", "note": { "en": "ـنَ is نون النسوة (a pronoun) and stays even after لم.", "ar": "نون النسوة ضمير فاعل، ولا تُحذف بعد «لم»." } }
+  ],
+  "caveats": {
+    "en": [
+      "Spelling changes with weak verbs (e.g. رَمَوْا، يَدْعُونَ for the plural) belong to conjugation units, not to this list of forms.",
+      "The suffixes ـنَا and ـي also occur as object/genitive pronouns (أَكْرَمَنَا، كِتَابِي); that series is B03."
+    ],
+    "ar": [
+      "التغيّرات في الأفعال المعتلّة (رَمَوْا، يَدْعُونَ للجماعة) من موضوعات التصريف لا من هذا الجدول.",
+      "«نا» والياء تأتيان أيضًا ضميرَي نصب وجرّ (أكرمَنا، كتابي)، وذلك في وحدة B03."
+    ]
+  },
+  "convention": {
+    "en": "School parsing usually treats only the ت of ـتُمَا، ـتُمْ، ـتُنَّ as the pronoun, with م / ما / ن as markers of dual or plural; some grammarians treat the whole ending as the pronoun. Lists vary between five items (without نا) and six; this unit lists six.",
+    "ar": "يُعرِب المدرسيون التاء وحدها في «ـتُما، ـتُم، ـتُنّ» ضميرًا، والميم والألف والنون حروفًا دالّة على التثنية أو الجمع، ومن النحاة من يجعل اللاحقة كلّها ضميرًا. وتعدّ بعض الكتب خمسة ضمائر (دون «نا») وأخرى ستة، وهذه الوحدة تعدّها ستة."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "List the attached subject pronouns and say which verb forms each attaches to.", "ar": "عدّد ضمائر الرفع المتصلة، وبيّن بأيّ الأفعال يتّصل كلٌّ منها." }, "answer_blocks": ["inventory"] },
+    { "id": "r2", "prompt": { "en": "In كَتَبَتْ، يَكْتُبُونَ and نَكْتُبُ, which visible letters are pronouns and which are not?", "ar": "في «كَتَبَتْ، يَكْتُبُونَ، نَكْتُبُ»: ما الحروف الظاهرة التي هي ضمائر، وما التي ليست كذلك؟" }, "answer_blocks": ["segmented", "not-pronouns"] }
+  ],
+  "sources": [
+    { "id": "R02", "locator": "Pronoun segmentation; person, gender, number" },
+    { "id": "R22", "locator": "Attached pronouns" }
+  ],
+  "extra_aliases": ["الضمائر المتصلة", "ضمائر الفاعل", "تاء الفاعل", "واو الجماعة", "ألف الاثنين", "نون النسوة", "ياء المخاطبة", "subject suffixes", "verb subject markers"]
+}

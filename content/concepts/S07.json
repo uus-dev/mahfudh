@@ -1,0 +1,22 @@
+{
+  "id": "S07",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "A relative pronoun (اسم موصول) such as الَّذِي or الَّتِي is incomplete on its own; the clause after it, called the صلة, completes its meaning: جَاءَ الَّذِي نَجَحَ “the one who succeeded came”. The صلة usually contains a pronoun (عائد) referring back to the relative.",
+      "A clause can also fill a position inside a larger sentence, e.g. as the predicate (الْوَلَدُ يَلْعَبُ) or as an adjective after an indefinite noun (رَأَيْتُ رَجُلًا يَقْرَأُ). Particles such as أَنْ and أَنَّ turn a clause into the equivalent of a noun (مصدر مؤوّل): أُرِيدُ أَنْ أُسَافِرَ.",
+      "This is just enough background to read the relative-pronoun table (B06) and the subjunctive particles (C05)."
+    ],
+    "ar": [
+      "الاسم الموصول مثل «الَّذِي، الَّتِي» لا يتمّ معناه إلا بجملة بعده تُسمّى الصلة: جَاءَ الَّذِي نَجَحَ. وتشتمل الصلة غالبًا على ضمير يعود على الموصول يُسمّى العائد.",
+      "وقد تقع الجملة موقع المفرد داخل جملة أكبر، كأن تكون خبرًا (الْوَلَدُ يَلْعَبُ) أو نعتًا للنكرة (رَأَيْتُ رَجُلًا يَقْرَأُ). وتجعل الحروف المصدرية مثل «أَنْ، أَنَّ» الجملةَ في تأويل مصدر: أُرِيدُ أَنْ أُسَافِرَ.",
+      "هذه خلفية تكفي لقراءة جدول الأسماء الموصولة (B06) ونواصب المضارع (C05)."
+    ]
+  },
+  "terms": [
+    { "ar": "اِسْمٌ مَوْصُولٌ", "gloss": { "en": "relative pronoun", "ar": "اسم مبهم يحتاج إلى صلة" } },
+    { "ar": "صِلَةُ الْمَوْصُولِ", "gloss": { "en": "relative clause", "ar": "الجملة أو شبه الجملة بعد الموصول" } },
+    { "ar": "الْعَائِدُ", "gloss": { "en": "resumptive pronoun in the relative clause", "ar": "الضمير الرابط بين الصلة والموصول" } },
+    { "ar": "مَصْدَرٌ مُؤَوَّلٌ", "gloss": { "en": "clause equivalent to a verbal noun", "ar": "حرف مصدري مع ما بعده" } }
+  ]
+}

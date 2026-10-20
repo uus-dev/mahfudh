@@ -1,0 +1,131 @@
+{
+  "id": "G01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "pattern",
+  "scope_label": "rule_package",
+  "transliteration": "al-mīzān aṣ-ṣarfī",
+  "summary": {
+    "en": "The morphological scale: ف ع ل stand for the root letters, and everything else in the word is copied into the pattern.",
+    "ar": "الميزان الصرفي: الفاء والعين واللام تقابل حروف الأصل، وما سواها يُنقل إلى الوزن كما هو."
+  },
+  "target": {
+    "en": "Recall which root slot each of ف، ع، ل represents and the compact conventions for added, doubled, extra and deleted letters.",
+    "ar": "استحضار مقابلة الفاء والعين واللام لحروف الأصل، وقواعد تمثيل الحروف الزائدة والمضعّفة والأصلية الزائدة على ثلاثة والمحذوفة."
+  },
+  "blocks": [
+    {
+      "id": "slots",
+      "kind": "table",
+      "title": { "en": "Root slots", "ar": "مقابلة الأصول" },
+      "row_header": "letter",
+      "columns": [
+        { "key": "letter", "lang": "ar", "label": { "en": "Scale letter", "ar": "حرف الميزان" } },
+        { "key": "name", "lang": "bi", "label": { "en": "Slot name", "ar": "الاسم" } },
+        { "key": "model", "lang": "ar", "label": { "en": "In كَتَبَ", "ar": "في «كَتَبَ»" } }
+      ],
+      "rows": [
+        { "letter": "ف", "name": { "en": "1st root letter (fāʾ al-kalima)", "ar": "فاء الكلمة" }, "model": "ك" },
+        { "letter": "ع", "name": { "en": "2nd root letter (ʿayn al-kalima)", "ar": "عين الكلمة" }, "model": "ت" },
+        { "letter": "ل", "name": { "en": "3rd root letter (lām al-kalima)", "ar": "لام الكلمة" }, "model": "ب" }
+      ]
+    },
+    {
+      "id": "conventions",
+      "kind": "rules",
+      "title": { "en": "Conventions", "ar": "قواعد الوزن" },
+      "items": [
+        {
+          "label": { "en": "Root letters", "ar": "الحروف الأصلية" },
+          "text": { "en": "Replace the root letters with ف ع ل in order, keeping the word’s own vowels and sukūns.", "ar": "تقابَل الأصول بالفاء والعين واللام بالترتيب، مع حركات الكلمة وسكناتها." },
+          "ar_example": "كَتَبَ = فَعَلَ، فَهِمَ = فَعِلَ، كَرُمَ = فَعُلَ"
+        },
+        {
+          "label": { "en": "Added letters", "ar": "الحروف الزائدة" },
+          "text": { "en": "Letters that are not part of the root are written as they are, in the same position.", "ar": "تُكتب الحروف الزائدة في الوزن بلفظها وفي موضعها." },
+          "ar_example": "كَاتِبٌ = فَاعِلٌ، مَكْتُوبٌ = مَفْعُولٌ، اِسْتَغْفَرَ = اِسْتَفْعَلَ"
+        },
+        {
+          "label": { "en": "Doubled root letter", "ar": "تضعيف حرف أصلي" },
+          "text": { "en": "If the pattern doubles a root letter, double its scale letter.", "ar": "إذا ضُعِّف حرف أصلي ضُعِّف ما يقابله في الميزان." },
+          "ar_example": "عَلَّمَ = فَعَّلَ، اِحْمَرَّ = اِفْعَلَّ"
+        },
+        {
+          "label": { "en": "Fourth and fifth root letters", "ar": "الأصول الزائدة على ثلاثة" },
+          "text": { "en": "For roots of four or five letters, repeat the ل.", "ar": "إذا زادت الأصول على ثلاثة كُرِّرت اللام." },
+          "ar_example": "دَحْرَجَ = فَعْلَلَ، سَفَرْجَلٌ = فَعَلَّلٌ"
+        },
+        {
+          "label": { "en": "Deleted root letter", "ar": "الحرف المحذوف" },
+          "text": { "en": "If a root letter has been dropped from the word, drop its scale letter too.", "ar": "إذا حُذف حرف أصلي من الكلمة حُذف ما يقابله من الميزان." },
+          "ar_example": "قُلْ = فُلْ، عِدَةٌ = عِلَةٌ، قَاضٍ = فَاعٍ"
+        },
+        {
+          "label": { "en": "Changed letters", "ar": "الحرف المُبدَل أو المُعَلّ" },
+          "text": { "en": "A root or pattern letter that has merely changed its shape keeps its original scale letter.", "ar": "الحرف الذي قُلب أو أُبدل يوزن بأصله في الميزان." },
+          "ar_example": "قَالَ = فَعَلَ، اِصْطَبَرَ = اِفْتَعَلَ"
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "kind": "table",
+      "title": { "en": "Model words", "ar": "أمثلة موزونة" },
+      "row_header": "word",
+      "columns": [
+        { "key": "word", "lang": "ar", "label": { "en": "Word", "ar": "الكلمة" } },
+        { "key": "root", "lang": "ar", "label": { "en": "Root", "ar": "الأصول" } },
+        { "key": "pattern", "lang": "ar", "label": { "en": "Pattern", "ar": "الوزن" } },
+        { "key": "shows", "lang": "bi", "label": { "en": "Shows", "ar": "القاعدة" } }
+      ],
+      "rows": [
+        { "word": "مَكْتَبَةٌ", "root": "ك ت ب", "pattern": "مَفْعَلَةٌ", "shows": { "en": "added م and ة", "ar": "زيادة الميم والتاء" } },
+        { "word": "عَلَّمَ", "root": "ع ل م", "pattern": "فَعَّلَ", "shows": { "en": "doubled 2nd letter", "ar": "تضعيف العين" } },
+        { "word": "مَدَّ", "root": "م د د", "pattern": "فَعَلَ", "shows": { "en": "two identical root letters, not a doubled slot", "ar": "عين ولام متماثلتان، لا تضعيف في الوزن" } },
+        { "word": "زَلْزَلَ", "root": "ز ل ز ل", "pattern": "فَعْلَلَ", "shows": { "en": "four-letter root", "ar": "أصول رباعية" } },
+        { "word": "قُلْ", "root": "ق و ل", "pattern": "فُلْ", "shows": { "en": "deleted 2nd letter", "ar": "حذف العين" } },
+        { "word": "صِفَةٌ", "root": "و ص ف", "pattern": "عِلَةٌ", "shows": { "en": "deleted 1st letter", "ar": "حذف الفاء" } },
+        { "word": "اِرْمِ", "root": "ر م ي", "pattern": "اِفْعِ", "shows": { "en": "deleted 3rd letter", "ar": "حذف اللام" } }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The scale (الميزان) is a shorthand for writing a word’s shape. It always uses the root ف ع ل, so “the pattern of كاتب is فاعل” means: root letter 1, then an added alif, then root letters 2 and 3, with these vowels.",
+      "Because the scale copies vowels, added letters, doublings and deletions, two words with the same pattern share the same shape: كَاتِبٌ، جَالِسٌ، قَارِئٌ are all فَاعِلٌ."
+    ],
+    "ar": [
+      "الميزان طريقة مختصرة لكتابة هيئة الكلمة، ومادته دائمًا «ف ع ل»؛ فقولنا: وزن «كاتب» فاعل، معناه: الفاء ثم ألف زائدة ثم العين واللام بهذه الحركات.",
+      "ولأن الميزان ينقل الحركات والزوائد والتضعيف والحذف، تتّفق الكلمات المتّحدة الوزن في الهيئة: كَاتِبٌ وجَالِسٌ وقَارِئٌ كلّها على «فَاعِلٌ»."
+    ]
+  },
+  "examples": [
+    { "ar": "وَزْنُ «مَكْتَبَةٍ» مَفْعَلَةٌ", "en": "The pattern of maktaba “library” is mafʿala.", "note": { "en": "م and ة are added letters, copied into the pattern.", "ar": "الميم والتاء زائدتان فكُتبتا في الوزن." } },
+    { "ar": "وَزْنُ «اسْتَخْرَجَ» اسْتَفْعَلَ", "en": "The pattern of istakhraja “he extracted” is istafʿala.", "note": { "en": "ا، س، ت are added; خ ر ج are the root.", "ar": "الهمزة والسين والتاء زوائد، والأصول خ ر ج." } },
+    { "ar": "وَزْنُ «قُلْ» فُلْ لِأَنَّ عَيْنَهُ حُذِفَتْ", "en": "The pattern of qul “say!” is ful, because its middle root letter was dropped.", "note": { "en": "Root ق و ل; the و is gone, so the ع is gone.", "ar": "الأصل ق و ل، حُذفت الواو فحُذفت العين." } },
+    { "ar": "وَزْنُ «زَلْزَلَ» فَعْلَلَ", "en": "The pattern of zalzala “he shook” is faʿlala.", "note": { "en": "A four-letter root repeats the ل.", "ar": "الأصول أربعة فكُرّرت اللام." } }
+  ],
+  "caveats": {
+    "en": [
+      "Identifying the root of a word (especially weak or doubled roots) is a separate skill; the scale only records the answer.",
+      "When root letters change order (القلب المكاني), the scale follows the new order (أَيِسَ from يَئِسَ = عَفِلَ). This is rare and is noted only for recognition."
+    ],
+    "ar": [
+      "معرفة أصول الكلمة، ولا سيما المعتلة والمضعّفة، مهارة مستقلة، والميزان يسجّل النتيجة فقط.",
+      "إذا تغيّر ترتيب الأصول (القلب المكاني) تبعه الميزان، نحو «أَيِسَ» من «يَئِسَ» وزنه «عَفِلَ»، وهو قليل يُذكر للتعرّف فقط."
+    ]
+  },
+  "convention": {
+    "en": "This is the traditional Arabic convention. Some English textbooks write patterns with C1-C2-C3 or with the Roman “Form I–X” numbering for verbs; these are different notations for the same idea. Books differ slightly on scale details for rare cases (e.g. how to show a letter added by repetition, as in اِعْشَوْشَبَ); the core rules above are shared.",
+    "ar": "هذا هو الاصطلاح العربي المعروف. وتكتب بعض الكتب الإنجليزية الأوزان بالرموز C1-C2-C3 أو بترقيم الأوزان الفعلية (Form I–X)، وهي طرائق أخرى للفكرة نفسها. ويختلفون في دقائق بعض الحالات النادرة، أمّا القواعد المذكورة فمتّفق عليها."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Which root letter does each of ف، ع، ل stand for?", "ar": "ما الذي يقابله كلٌّ من الفاء والعين واللام؟" }, "answer_blocks": ["slots"] },
+    { "id": "r2", "prompt": { "en": "How does the scale show added, doubled, extra, deleted and changed letters?", "ar": "كيف يمثّل الميزان الحرف الزائد والمضعّف والأصلي الزائد على ثلاثة والمحذوف والمُعَلّ؟" }, "answer_blocks": ["conventions", "models"] }
+  ],
+  "sources": [
+    { "id": "R23", "locator": "Morphological scale and augmentation letters" }
+  ],
+  "extra_aliases": ["الوزن", "فعل", "فاء الكلمة", "عين الكلمة", "لام الكلمة", "pattern notation", "fa'ala", "wazn sarfi", "F-ʿ-L"]
+}

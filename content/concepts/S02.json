@@ -1,0 +1,23 @@
+{
+  "id": "S02",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "A word is معرب (inflecting) if its ending changes with its role in the sentence: الْكِتَابُ، الْكِتَابَ، الْكِتَابِ. It is مبني (fixed) if its ending never changes: هٰذَا، الَّذِي، كَتَبَ.",
+      "The grammatical state of an inflecting word is not always visible. It may be visible (ظاهر) as in يَكْتُبُ; implied (مقدّر) when the last letter cannot carry the vowel, as in الْفَتَى or يَدْعُو; or, for a fixed word, “local” (في محلّ): the word keeps its form but occupies the position of a nominative, accusative or genitive, as in هٰذَا in هٰذَا كِتَابٌ.",
+      "Most nouns and the imperfect verb are معرب; pronouns, demonstratives, most relatives, the past and imperative verbs, and all particles are مبني."
+    ],
+    "ar": [
+      "المعرب ما يتغيّر آخره بتغيّر موقعه في الجملة: الْكِتَابُ، الْكِتَابَ، الْكِتَابِ. والمبني ما يلزم آخره حالة واحدة: هٰذَا، الَّذِي، كَتَبَ.",
+      "والإعراب قد يكون ظاهرًا (يَكْتُبُ)، أو مقدّرًا إذا تعذّرت الحركة أو ثقلت (الْفَتَى، يَدْعُو). أمّا المبني فيكون في محلّ رفع أو نصب أو جرّ، أي يشغل الموقع دون أن يتغيّر لفظه، نحو «هٰذَا» في: هٰذَا كِتَابٌ.",
+      "أكثر الأسماء والفعل المضارع معربة، والضمائر وأسماء الإشارة وأكثر الموصولات والماضي والأمر والحروف كلها مبنية."
+    ]
+  },
+  "terms": [
+    { "ar": "مُعْرَبٌ", "gloss": { "en": "inflecting: ending changes with its role", "ar": "ما يتغيّر آخره بتغيّر العوامل" } },
+    { "ar": "مَبْنِيٌّ", "gloss": { "en": "fixed: ending does not change", "ar": "ما يلزم آخره حالة واحدة" } },
+    { "ar": "إِعْرَابٌ ظَاهِرٌ", "gloss": { "en": "visible marking", "ar": "علامة تُنطق وتُكتب" } },
+    { "ar": "إِعْرَابٌ مُقَدَّرٌ", "gloss": { "en": "implied marking (not pronounced)", "ar": "علامة منويّة لا تظهر للتعذّر أو الثقل" } },
+    { "ar": "فِي مَحَلِّ", "gloss": { "en": "“in the position of” — local status of a fixed word", "ar": "موقع الكلمة المبنية من الإعراب" } }
+  ]
+}

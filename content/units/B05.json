@@ -1,0 +1,106 @@
+{
+  "id": "B05",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "asmāʾ al-ishāra",
+  "summary": {
+    "en": "The main demonstratives (هذا … هؤلاء، ذلك … أولئك) by near/far, gender and number, with the dual case forms.",
+    "ar": "أسماء الإشارة الرئيسة (هذا… هؤلاء، ذلك… أولئك) بحسب القرب والبعد والجنس والعدد، مع صيغ المثنى في الرفع والنصب والجر."
+  },
+  "target": {
+    "en": "Recall the main near and far demonstrative forms by gender and number, including the dual's nominative and accusative/genitive variants.",
+    "ar": "استحضار أسماء الإشارة الرئيسة للقريب والبعيد بحسب الجنس والعدد، بما في ذلك صيغتا المثنى في الرفع وفي النصب والجر."
+  },
+  "blocks": [
+    {
+      "id": "grid",
+      "kind": "table",
+      "title": { "en": "Principal table", "ar": "الجدول الرئيس" },
+      "row_header": "slot",
+      "columns": [
+        { "key": "slot", "lang": "bi", "label": { "en": "Gender / number", "ar": "الجنس والعدد" } },
+        { "key": "near", "lang": "ar", "label": { "en": "Near", "ar": "للقريب" } },
+        { "key": "far", "lang": "ar", "label": { "en": "Far", "ar": "للبعيد" } },
+        { "key": "gloss", "lang": "bi", "label": { "en": "English", "ar": "بالإنجليزية" } }
+      ],
+      "rows": [
+        { "slot": { "en": "masc. sg.", "ar": "المفرد المذكر" }, "near": "هٰذَا", "far": "ذٰلِكَ", "gloss": { "en": "this / that", "ar": "this / that" } },
+        { "slot": { "en": "fem. sg.", "ar": "المفردة المؤنثة" }, "near": "هٰذِهِ", "far": "تِلْكَ", "gloss": { "en": "this / that", "ar": "this / that" } },
+        { "slot": { "en": "masc. du. — nominative", "ar": "المثنى المذكر — رفعًا" }, "near": "هٰذَانِ", "far": "ذَانِكَ", "gloss": { "en": "these two / those two", "ar": "these two / those two" } },
+        { "slot": { "en": "masc. du. — acc./gen.", "ar": "المثنى المذكر — نصبًا وجرًّا" }, "near": "هٰذَيْنِ", "far": "ذَيْنِكَ", "gloss": { "en": "these two / those two", "ar": "these two / those two" } },
+        { "slot": { "en": "fem. du. — nominative", "ar": "المثنى المؤنث — رفعًا" }, "near": "هَاتَانِ", "far": "تَانِكَ", "gloss": { "en": "these two / those two", "ar": "these two / those two" } },
+        { "slot": { "en": "fem. du. — acc./gen.", "ar": "المثنى المؤنث — نصبًا وجرًّا" }, "near": "هَاتَيْنِ", "far": "تَيْنِكَ", "gloss": { "en": "these two / those two", "ar": "these two / those two" } },
+        { "slot": { "en": "plural (m. & f.)", "ar": "الجمع (للمذكر والمؤنث)" }, "near": "هٰؤُلَاءِ", "far": "أُولٰئِكَ", "gloss": { "en": "these / those", "ar": "these / those" } }
+      ],
+      "notes": {
+        "en": ["The far duals ذانك، ذينك، تانك، تينك are rare in modern writing, which usually uses the near dual or a paraphrase."],
+        "ar": ["صيغ المثنى للبعيد (ذانك، ذينك، تانك، تينك) قليلة في الكتابة المعاصرة."]
+      }
+    },
+    {
+      "id": "use",
+      "kind": "rules",
+      "title": { "en": "Key rules of use", "ar": "أحكام أساسية" },
+      "items": [
+        {
+          "label": { "en": "Only the duals inflect", "ar": "المثنى وحده معرب" },
+          "text": { "en": "All demonstratives are fixed (مبنيّ) except the duals, which change like a regular dual: ـانِ in the nominative, ـيْنِ in the accusative and genitive.", "ar": "أسماء الإشارة كلّها مبنيّة إلا المثنى، فيُعرب إعراب المثنى: بالألف رفعًا وبالياء نصبًا وجرًّا." },
+          "ar_example": "جَاءَ هٰذَانِ — رَأَيْتُ هٰذَيْنِ — مَرَرْتُ بِهٰذَيْنِ"
+        },
+        {
+          "label": { "en": "“this book” vs “this is a book”", "ar": "«هذا الكتاب» و«هذا كتاب»" },
+          "text": { "en": "Followed by a noun with al-, the demonstrative and the noun form one phrase (“this book”). Followed by an indefinite noun, they form a sentence (“this is a book”).", "ar": "إذا جاء بعد اسم الإشارة اسم محلّى بـ«أل» كانا معًا عبارة واحدة، وإن جاء بعده نكرة كانت جملة اسمية من مبتدأ وخبر." },
+          "ar_example": "هٰذَا الْكِتَابُ مُفِيدٌ — هٰذَا كِتَابٌ"
+        },
+        {
+          "label": { "en": "Non-human plurals", "ar": "جمع غير العاقل" },
+          "text": { "en": "A plural of non-human things normally takes the feminine singular demonstrative.", "ar": "يُشار إلى جمع غير العاقل غالبًا بالمفرد المؤنث." },
+          "ar_example": "هٰذِهِ الْكُتُبُ — تِلْكَ الْمُدُنُ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "Near forms start with the attention particle هَا (هٰذا، هٰذه، هٰؤلاء); far forms add the ending ـكَ, often with ل (ذٰلِكَ، تِلْكَ). The plural has one form for both genders.",
+      "The demonstrative agrees with what it points to in gender and number, and the duals also show case."
+    ],
+    "ar": [
+      "صيغ القريب تبدأ بـ«ها» التنبيه (هذا، هذه، هؤلاء)، وصيغ البعيد تلحقها كاف الخطاب وقد تسبقها اللام (ذلك، تلك). وللجمع لفظ واحد للمذكر والمؤنث.",
+      "يطابق اسم الإشارة المشار إليه في الجنس والعدد، ويُعرب المثنى منه بحسب موقعه."
+    ]
+  },
+  "examples": [
+    { "ar": "هٰذِهِ سَيَّارَتِي وَتِلْكَ سَيَّارَةُ أَخِي", "en": "This is my car and that is my brother's car.", "note": { "en": "Near and far feminine singular.", "ar": "مفرد مؤنث للقريب وللبعيد." } },
+    { "ar": "سَلَّمْتُ عَلَى هٰذَيْنِ الرَّجُلَيْنِ", "en": "I greeted these two men.", "note": { "en": "هٰذَيْنِ: genitive after على, so the ـيْنِ form.", "ar": "«هذين» مجرور بالياء لأنه مثنى." } },
+    { "ar": "هَاتَانِ الطَّالِبَتَانِ مُتَفَوِّقَتَانِ", "en": "These two (female) students are outstanding.", "note": { "en": "هَاتَانِ: nominative feminine dual.", "ar": "«هاتان» مرفوع بالألف." } },
+    { "ar": "أُولٰئِكَ الْعُلَمَاءُ خَدَمُوا النَّاسَ", "en": "Those scholars served the people.", "note": { "en": "أُولٰئِكَ: far plural, written with و that is not pronounced.", "ar": "«أولئك» للجمع البعيد، وواوها تُكتب ولا تُنطق." } }
+  ],
+  "caveats": {
+    "en": [
+      "Spelling: هٰذا، هٰذه، ذٰلك، هٰؤلاء، أُولٰئك are written without the long alif (or with a dagger alif) but pronounced long: hādhā, hādhihi, dhālika, hāʾulāʾi, ulāʾika.",
+      "The ـكَ of far forms can change with the addressee in classical usage (ذٰلِكُمْ، ذٰلِكُنَّ); modern usage generally keeps ذٰلِكَ.",
+      "Place demonstratives (هُنَا، هُنَاكَ، هُنَالِكَ، ثَمَّ) and classical variants (ذَا، ذِي، تِي، ذَاكَ، أُولَاءِ …) are outside the principal table."
+    ],
+    "ar": [
+      "تُحذف الألف رسمًا في «هذا، هذه، ذلك، هؤلاء» وتُكتب الواو في «أولئك» ولا تُنطق.",
+      "قد تتغيّر كاف الخطاب بحسب المخاطَب في الاستعمال الفصيح القديم (ذلكم، ذلكنّ)، والغالب اليوم «ذلك».",
+      "أسماء الإشارة للمكان (هنا، هناك، هنالك، ثَمّ) والصيغ الأخرى (ذا، ذي، تي، ذاك، أولاء…) خارج الجدول الرئيس."
+    ]
+  },
+  "convention": {
+    "en": "Many school books use two degrees (near/far). Many grammars add a middle degree with ـكَ but no ل (ذَاكَ، تِيكَ). The duals are called “ملحق بالمثنى” or treated as true duals depending on the book; either way they inflect.",
+    "ar": "تقتصر كتب مدرسية كثيرة على درجتين (القريب والبعيد)، وتزيد كتب كثيرة درجة «المتوسط» بالكاف دون اللام (ذاك، تيك). ويُعدّ المثنى منها ملحقًا بالمثنى عند بعضهم ومثنى حقيقيًا عند آخرين، وهو معرب على القولين."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Fill in the near and far demonstratives for every gender and number, including both dual cases.", "ar": "اذكر أسماء الإشارة للقريب والبعيد لكل جنس وعدد، مع صيغتي المثنى." }, "answer_blocks": ["grid"] },
+    { "id": "r2", "prompt": { "en": "Which demonstratives change with case, and what is the difference between هذا الكتاب and هذا كتاب?", "ar": "أيّ أسماء الإشارة معرب؟ وما الفرق بين «هذا الكتاب» و«هذا كتاب»؟" }, "answer_blocks": ["use"] }
+  ],
+  "sources": [
+    { "id": "R22", "locator": "Demonstrative pronouns table" }
+  ],
+  "extra_aliases": ["اسم الإشارة", "هذا وهذه", "ذلك وتلك", "demonstrative pronouns", "this that these those", "ism al-ishāra", "هذان هذين"]
+}

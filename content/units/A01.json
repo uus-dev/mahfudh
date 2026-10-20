@@ -1,0 +1,115 @@
+{
+  "id": "A01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "ʿalāmāt al-ism wa-l-fiʿl wa-l-ḥarf",
+  "summary": {
+    "en": "The recognition signs of nouns and verbs, and why a particle is recognised by having none of them.",
+    "ar": "العلامات التي يُعرف بها الاسم والفعل، وأنّ الحرف يُعرف بخلوّه منها."
+  },
+  "target": {
+    "en": "Recall the diagnostic signs associated with nouns and verbs, and the contrast with particles (which accept neither set).",
+    "ar": "استحضار العلامات التي يُميَّز بها الاسم والفعل، والتفريق بينهما وبين الحرف الذي لا يقبل علامات أيٍّ منهما."
+  },
+  "blocks": [
+    {
+      "id": "noun-signs",
+      "kind": "table",
+      "title": { "en": "Signs of the noun", "ar": "علامات الاسم" },
+      "row_header": "sign",
+      "columns": [
+        { "key": "sign", "lang": "ar", "label": { "en": "Sign", "ar": "العلامة" } },
+        { "key": "meaning", "lang": "bi", "label": { "en": "What to look for", "ar": "المقصود" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } },
+        { "key": "list", "lang": "bi", "label": { "en": "Listed in", "ar": "مصدرها" } }
+      ],
+      "rows": [
+        { "sign": "الْخَفْضُ (الْجَرُّ)", "meaning": { "en": "the word takes the genitive", "ar": "أن يكون الاسم مجرورًا" }, "example": "كِتَابُ الطَّالِبِ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "التَّنْوِينُ", "meaning": { "en": "nunation (-un, -an, -in)", "ar": "نون ساكنة تُلفظ ولا تُكتب في آخره" }, "example": "رَجُلٌ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "دُخُولُ الْأَلِفِ وَاللَّامِ", "meaning": { "en": "it can take the article al-", "ar": "قبوله «أل»" }, "example": "الْبَيْتُ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "حُرُوفُ الْخَفْضِ", "meaning": { "en": "it can follow a preposition", "ar": "دخول حرف جرّ عليه" }, "example": "فِي الْمَسْجِدِ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "النِّدَاءُ", "meaning": { "en": "it can be addressed with a vocative particle", "ar": "صحّة ندائه" }, "example": "يَا مُحَمَّدُ", "list": { "en": "common addition", "ar": "زيادة شائعة" } },
+        { "sign": "الْإِسْنَادُ إِلَيْهِ", "meaning": { "en": "something can be predicated of it (it can be a subject)", "ar": "أن يُحكَم عليه بشيء" }, "example": "أَنَا مُسَافِرٌ", "list": { "en": "common addition", "ar": "زيادة شائعة" } }
+      ]
+    },
+    {
+      "id": "verb-signs",
+      "kind": "table",
+      "title": { "en": "Signs of the verb", "ar": "علامات الفعل" },
+      "row_header": "sign",
+      "columns": [
+        { "key": "sign", "lang": "ar", "label": { "en": "Sign", "ar": "العلامة" } },
+        { "key": "applies", "lang": "bi", "label": { "en": "Enters / attaches to", "ar": "يدخل على" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } },
+        { "key": "list", "lang": "bi", "label": { "en": "Listed in", "ar": "مصدرها" } }
+      ],
+      "rows": [
+        { "sign": "قَدْ", "applies": { "en": "past and imperfect", "ar": "الماضي والمضارع" }, "example": "قَدْ نَجَحَ — قَدْ يَنْجَحُ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "السِّينُ", "applies": { "en": "imperfect only", "ar": "المضارع فقط" }, "example": "سَيَذْهَبُ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "سَوْفَ", "applies": { "en": "imperfect only", "ar": "المضارع فقط" }, "example": "سَوْفَ يَذْهَبُ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "تَاءُ التَّأْنِيثِ السَّاكِنَةُ", "applies": { "en": "past only", "ar": "الماضي فقط" }, "example": "كَتَبَتْ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
+        { "sign": "تَاءُ الْفَاعِلِ", "applies": { "en": "past only", "ar": "الماضي فقط" }, "example": "كَتَبْتُ", "list": { "en": "common addition", "ar": "زيادة شائعة" } },
+        { "sign": "يَاءُ الْمُخَاطَبَةِ", "applies": { "en": "imperfect and imperative", "ar": "المضارع والأمر" }, "example": "تَكْتُبِينَ — اُكْتُبِي", "list": { "en": "common addition", "ar": "زيادة شائعة" } },
+        { "sign": "نُونُ التَّوْكِيدِ", "applies": { "en": "imperfect and imperative", "ar": "المضارع والأمر" }, "example": "لَأَكْتُبَنَّ — اُكْتُبَنَّ", "list": { "en": "common addition", "ar": "زيادة شائعة" } }
+      ]
+    },
+    {
+      "id": "particle",
+      "kind": "rules",
+      "title": { "en": "The particle", "ar": "الحرف" },
+      "items": [
+        {
+          "label": { "en": "Recognition by absence", "ar": "علامته عدمية" },
+          "text": { "en": "A particle (حرف) accepts none of the noun signs and none of the verb signs. In the Ājurrūmiyya's words: الحرف ما لا يصلح معه دليل الاسم ولا دليل الفعل.", "ar": "الحرف ما لا يقبل شيئًا من علامات الاسم ولا من علامات الفعل؛ قال ابن آجرّوم: «والحرف ما لا يصلح معه دليل الاسم ولا دليل الفعل»." },
+          "ar_example": "هَلْ — فِي — لَمْ"
+        },
+        {
+          "label": { "en": "One sign is enough", "ar": "تكفي علامة واحدة" },
+          "text": { "en": "A word need not accept every sign: accepting any one sign of a class is enough to place it in that class. هو takes no al- and no nunation, but it is a noun because something can be predicated of it.", "ar": "لا يُشترط اجتماع العلامات؛ فقبول علامة واحدة يكفي للحكم بأنّ الكلمة من ذلك القسم. فـ«هو» لا يقبل «أل» ولا التنوين، وهو اسم لصحّة الإسناد إليه." },
+          "ar_example": "هُوَ كَرِيمٌ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "Every word is a noun (اسم), a verb (فعل) or a particle (حرف). The signs are tests: try the article, nunation, a preposition or the genitive on a word; if one fits, it is a noun. Try قد, the future س/سوف or the suffixed ـتْ; if one fits, it is a verb.",
+      "The Ājurrūmiyya gives four noun signs and four verb signs. Later school books commonly add vocative and predication for the noun, and تاء الفاعل, ياء المخاطبة and نون التوكيد for the verb; the table marks which list each sign comes from."
+    ],
+    "ar": [
+      "الكلمة اسم أو فعل أو حرف. والعلامات اختبارات: فإن قبلت الكلمةُ «أل» أو التنوين أو حرف الجر أو الجرَّ فهي اسم، وإن قبلت «قد» أو السين أو «سوف» أو تاء التأنيث الساكنة فهي فعل.",
+      "ذكر ابن آجرّوم أربع علامات للاسم وأربعًا للفعل، وزادت كتب مدرسية لاحقة النداءَ والإسنادَ للاسم، وتاءَ الفاعل وياءَ المخاطبة ونونَ التوكيد للفعل؛ ويبيّن الجدول مصدر كل علامة."
+    ]
+  },
+  "examples": [
+    { "ar": "دَخَلَ الطَّالِبُ إِلَى الْفَصْلِ", "en": "The student entered the classroom.", "note": { "en": "الطالب and الفصل take al-; الفصل is also governed by a preposition and is genitive → nouns. إلى accepts no sign → particle.", "ar": "«الطالب» و«الفصل» قبلا «أل»، و«الفصل» مجرور بحرف الجر، فهما اسمان؛ و«إلى» لا تقبل علامة فهي حرف." } },
+    { "ar": "قَدْ وَصَلَتْ رِسَالَةٌ", "en": "A letter has arrived.", "note": { "en": "وصلت takes قد and the feminine ـتْ → verb; رسالةٌ has nunation → noun.", "ar": "«وصلت» قبلت «قد» وتاء التأنيث الساكنة فهي فعل، و«رسالةٌ» منوّنة فهي اسم." } },
+    { "ar": "سَوْفَ تَفْهَمِينَ الدَّرْسَ", "en": "You (f.) will understand the lesson.", "note": { "en": "تفهمين takes سوف and ياء المخاطبة → verb.", "ar": "«تفهمين» قبلت «سوف» وياء المخاطبة فهي فعل." } }
+  ],
+  "caveats": {
+    "en": [
+      "A word that looks like it has a verb sign may not: the ـتْ of بِنْتٌ or the ـة of مدرسة is not تاء التأنيث الساكنة, which is a silent t on a past verb.",
+      "Some words are disputed between classes (e.g. نِعْمَ، بِئْسَ، عَسَى، لَيْسَ are treated as verbs because they accept تاء التأنيث or تاء الفاعل). The parts of speech themselves are background (S01), not this target."
+    ],
+    "ar": [
+      "ليست كل تاء علامةً للفعل؛ فتاء «بنت» والتاء المربوطة في «مدرسة» ليستا تاء التأنيث الساكنة، وهي تاء ساكنة تلحق الماضي.",
+      "بعض الكلمات اختُلف في نوعها، كـ«نِعْمَ وبِئْسَ وعَسَى ولَيْسَ»، وعُدّت أفعالًا لقبولها تاء التأنيث أو تاء الفاعل. وأقسام الكلمة نفسها مفهوم تمهيدي (S01) خارج هذا الهدف."
+    ]
+  },
+  "convention": {
+    "en": "The core is the Ājurrūmiyya's four signs for each class. Other books list more (Ibn Mālik's Alfiyya names five for the noun: الجرّ، التنوين، النداء، أل، الإسناد). The added signs are marked “common addition”.",
+    "ar": "الأساس هنا علامات الآجرومية الأربع لكلٍّ من الاسم والفعل، وتزيد كتب أخرى عليها (فألفية ابن مالك تذكر للاسم خمسًا: الجرّ والتنوين والنداء وأل والإسناد)، والعلامات الزائدة موسومة بـ«زيادة شائعة»."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give the four noun signs of the Ājurrūmiyya.", "ar": "اذكر علامات الاسم الأربع في الآجرومية." }, "answer_blocks": ["noun-signs"] },
+    { "id": "r2", "prompt": { "en": "Give the four verb signs, and say which verb forms each one enters.", "ar": "اذكر علامات الفعل الأربع، وعلى أيّ الأفعال تدخل كلٌّ منها." }, "answer_blocks": ["verb-signs"] },
+    { "id": "r3", "prompt": { "en": "How is a particle recognised?", "ar": "بمَ يُعرف الحرف؟" }, "answer_blocks": ["particle"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب الكلام: علامات الاسم والفعل والحرف" }
+  ],
+  "extra_aliases": ["علامات الاسم", "علامات الفعل", "علامة الحرف", "signs of the noun", "signs of the verb", "ʿalāmāt al-ism", "parts of speech tests"]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "C04",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "ḥurūf al-ʿaṭf",
+  "summary": {
+    "en": "The principal coordinating particles, the basic contrast in meaning among them, and how the coordinated word copies the case or mood of what it follows.",
+    "ar": "حروف العطف الرئيسة، والفروق الأساسية بين معانيها، وتبعيّة المعطوف للمعطوف عليه في الإعراب."
+  },
+  "target": {
+    "en": "Recall the principal coordinating particles, the basic contrasts in their meaning, and the rule that the coordinated item follows the preceding item in its inflection.",
+    "ar": "استحضار حروف العطف الرئيسة، والفروق الأساسية بين معانيها، وقاعدة أنّ المعطوف يتبع المعطوف عليه في إعرابه."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The principal coordinating particles", "ar": "حروف العطف الرئيسة" },
+      "row_header": "particle",
+      "columns": [
+        { "key": "particle", "lang": "ar", "label": { "en": "Particle", "ar": "الحرف" } },
+        { "key": "meaning", "lang": "bi", "label": { "en": "Basic meaning", "ar": "المعنى" } },
+        { "key": "condition", "lang": "bi", "label": { "en": "Key restriction", "ar": "القيد الأساسي" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "particle": "وَ", "meaning": { "en": "plain joining; no order implied", "ar": "مطلق الجمع" }, "condition": "", "example": "جَاءَ مُحَمَّدٌ وَعَلِيٌّ" },
+        { "particle": "فَـ", "meaning": { "en": "order with immediate succession", "ar": "الترتيب والتعقيب" }, "condition": "", "example": "دَخَلَ الْمُعَلِّمُ فَالطُّلَّابُ" },
+        { "particle": "ثُمَّ", "meaning": { "en": "order with an interval", "ar": "الترتيب والتراخي" }, "condition": "", "example": "زُرْتُ خَالِدًا ثُمَّ أَخَاهُ" },
+        { "particle": "أَوْ", "meaning": { "en": "choice or permission (in requests); doubt or vagueness (in statements)", "ar": "التخيير أو الإباحة بعد الطلب، والشكّ أو الإبهام بعد الخبر" }, "condition": "", "example": "خُذْ كِتَابًا أَوْ قَلَمًا" },
+        { "particle": "أَمْ", "meaning": { "en": "'or' asking which of two", "ar": "طلب التعيين" }, "condition": { "en": "after the interrogative hamza (or hamza of equalisation)", "ar": "بعد همزة الاستفهام أو همزة التسوية" }, "example": "أَمُحَمَّدٌ عِنْدَكَ أَمْ عَلِيٌّ؟" },
+        { "particle": "بَلْ", "meaning": { "en": "turning away: 'rather'", "ar": "الإضراب" }, "condition": { "en": "followed by a single word, not a clause", "ar": "أن يكون المعطوف مفردًا لا جملة" }, "example": "مَا جَاءَ مُحَمَّدٌ بَلْ عَلِيٌّ" },
+        { "particle": "لَا", "meaning": { "en": "negates for the second what holds for the first: 'not'", "ar": "نفي الحكم عمّا بعدها" }, "condition": { "en": "after an affirmative statement or a command", "ar": "أن تُسبق بإثبات أو أمر" }, "example": "جَاءَ مُحَمَّدٌ لَا عَلِيٌّ" },
+        { "particle": "لٰكِنْ", "meaning": { "en": "correction: 'but rather'", "ar": "الاستدراك" }, "condition": { "en": "after negation or prohibition; single word follows; no وَ before it", "ar": "أن تُسبق بنفي أو نهي، ويكون المعطوف مفردًا، ولا تقترن بالواو" }, "example": "مَا رَأَيْتُ مُحَمَّدًا لٰكِنْ عَلِيًّا" },
+        { "particle": "حَتَّى", "meaning": { "en": "extreme limit: 'even'", "ar": "الغاية" }, "condition": { "en": "a noun that is part of (or like part of) what precedes, at its extreme", "ar": "أن يكون المعطوف اسمًا ظاهرًا، بعضًا ممّا قبله أو كبعضه، وغايةً له" }, "example": "أَكَلْتُ السَّمَكَةَ حَتَّى رَأْسَهَا" }
+      ]
+    },
+    {
+      "id": "rule",
+      "kind": "rules",
+      "title": { "en": "Dependence in inflection", "ar": "التبعيّة في الإعراب" },
+      "items": [
+        {
+          "label": { "en": "Nouns follow the case", "ar": "تبعيّة الأسماء" },
+          "text": { "en": "The coordinated noun (المعطوف) takes the same case as the noun it is joined to (المعطوف عليه): nominative, accusative or genitive.", "ar": "يتبع المعطوفُ المعطوفَ عليه في الرفع والنصب والجرّ." },
+          "ar_example": "سَلَّمْتُ عَلَى الْأُسْتَاذِ وَالطُّلَّابِ"
+        },
+        {
+          "label": { "en": "Verbs follow the mood", "ar": "تبعيّة الأفعال" },
+          "text": { "en": "An imperfect verb coordinated on another imperfect verb takes its mood, including the jussive.", "ar": "إذا عُطف فعل مضارع على مضارع تبعه في الرفع والنصب والجزم." },
+          "ar_example": "لَمْ يَكْتُبْ وَيَقْرَأْ"
+        },
+        {
+          "label": { "en": "Choosing the particle", "ar": "اختيار الحرف" },
+          "text": { "en": "Core contrast: وَ joins without order; فَـ adds order with no gap; ثُمَّ adds order with a gap.", "ar": "الفرق الأساسي: الواو للجمع دون ترتيب، والفاء للترتيب مع التعقيب، وثُمَّ للترتيب مع التراخي." },
+          "ar_example": "وَصَلَ الْأَبُ فَالْأُمُّ، ثُمَّ الْأَوْلَادُ بَعْدَ سَاعَةٍ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "Coordination (عطف النسق) is one of the dependent categories (التوابع): the item after the particle shares the grammatical position of the item before it, so it copies its ending.",
+      "The particles differ in meaning: some simply join (وَ), some impose order (فَـ، ثُمَّ), some offer alternatives (أَوْ، أَمْ), and some contrast or restrict (بَلْ، لَا، لٰكِنْ، حَتَّى)."
+    ],
+    "ar": [
+      "عطف النسق من التوابع: ما بعد حرف العطف يشارك ما قبله في موقعه الإعرابي، فيأخذ حركته.",
+      "وتختلف الحروف في المعنى: فمنها ما يجمع (الواو)، وما يرتّب (الفاء وثُمّ)، وما يخيّر أو يطلب التعيين (أو وأم)، وما يُضرِب أو ينفي أو يستدرك أو يدلّ على الغاية (بل ولا ولكن وحتى)."
+    ]
+  },
+  "examples": [
+    { "ar": "قَرَأْتُ الْكِتَابَ فَالْمَجَلَّةَ", "en": "I read the book, then (straight after) the magazine.", "note": { "en": "الْمَجَلَّةَ is accusative because it follows الْكِتَابَ.", "ar": "«المجلّةَ» معطوفة على «الكتابَ» منصوبة." } },
+    { "ar": "أَشَايًا تَشْرَبُ أَمْ قَهْوَةً؟", "en": "Is it tea you drink, or coffee?", "note": { "en": "أَمْ after the interrogative hamza asks for one of two.", "ar": "«أم» بعد همزة الاستفهام لطلب التعيين." } },
+    { "ar": "لَمْ يَنَمِ الطِّفْلُ وَيَهْدَأْ", "en": "The child neither slept nor calmed down.", "note": { "en": "يَهْدَأْ is jussive because it is coordinated on the jussive يَنَمْ (its sukūn becomes kasra before الـ).", "ar": "«يهدأْ» معطوف على «ينمْ» المجزوم، فهو مجزوم مثله، وحُرّك «ينمِ» بالكسر لالتقاء الساكنين." } },
+    { "ar": "مَاتَ النَّاسُ حَتَّى الْأَنْبِيَاءُ", "en": "People died — even the prophets.", "note": { "en": "حَتَّى: the prophets are the extreme case of 'people'; nominative following النَّاسُ.", "ar": "«الأنبياءُ» بعض من الناس وغاية في الشرف، فعُطفت بحتى مرفوعة." } }
+  ],
+  "caveats": {
+    "en": [
+      "حَتَّى and لٰكِنْ coordinate only under their conditions; elsewhere حَتَّى is a preposition or introduces a clause, and لٰكِنَّ (with shadda) belongs to إنّ and its sisters (D01).",
+      "If أَمْ does not follow an interrogative/equalising hamza it is usually 'disconnected' (منقطعة) and means بَلْ; that use is outside this target.",
+      "Whether coordination with بَلْ after negation confirms the first item is discussed in fuller works."
+    ],
+    "ar": [
+      "لا تكون «حتى» و«لكنْ» عاطفتين إلا بشروطهما؛ فقد تكون «حتى» جارّة أو ابتدائية، و«لكنّ» المشدّدة من أخوات إنّ (D01).",
+      "إذا لم تُسبق «أم» بهمزة استفهام أو تسوية فهي في الغالب «منقطعة» بمعنى «بل»، وهذا خارج الهدف.",
+      "تفصيل معنى «بل» بعد النفي والنهي مذكور في المطوّلات."
+    ]
+  },
+  "convention": {
+    "en": "This unit lists the nine particles common to most school lists. The Ājurrūmiyya counts ten by adding إِمَّا (as in إِمَّا كَذَا وَإِمَّا كَذَا); many grammarians say the coordinating particle there is the وَ, not the second إِمَّا. Some books also treat حَتَّى as coordinating only rarely.",
+    "ar": "تذكر هذه الوحدة الحروف التسعة المشتركة في أكثر الكتب المدرسية. وتعدّها الآجرومية عشرة بزيادة «إمّا» (نحو: إمّا كذا وإمّا كذا)، وكثير من النحاة يرون أنّ العاطف هناك الواو لا «إمّا» الثانية. وبعض الكتب يذكر أنّ العطف بـ«حتى» قليل."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "List the principal coordinating particles and give the basic meaning of each.", "ar": "عدّد حروف العطف الرئيسة واذكر معنى كلٍّ منها." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "How does the coordinated item relate to the preceding one in inflection? What separates وَ، فَـ and ثُمَّ?", "ar": "ما علاقة المعطوف بالمعطوف عليه في الإعراب؟ وما الفرق بين الواو والفاء وثُمّ؟" }, "answer_blocks": ["rule"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب العطف" },
+    { "id": "R03", "locator": "Coordinating conjunction (CONJ) tag" }
+  ],
+  "extra_aliases": ["عطف النسق", "المعطوف", "coordination", "conjunctions", "huruf al-atf", "coordinating conjunctions", "wa fa thumma"]
+}

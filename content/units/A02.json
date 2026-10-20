@@ -1,0 +1,107 @@
+{
+  "id": "A02",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "aqsām al-iʿrāb",
+  "summary": {
+    "en": "The four grammatical states (raf‘, naṣb, jarr, jazm): three for nouns, three for inflecting imperfect verbs.",
+    "ar": "أقسام الإعراب الأربعة (الرفع والنصب والجر والجزم): ثلاثة للأسماء وثلاثة للمضارع المعرب."
+  },
+  "target": {
+    "en": "Recall the four states رفع، نصب، جر، جزم and which of them apply to nouns and which to inflecting imperfect verbs.",
+    "ar": "استحضار أقسام الإعراب الأربعة: الرفع والنصب والجر والجزم، وما يدخل منها الأسماءَ وما يدخل الفعلَ المضارعَ المعرب."
+  },
+  "blocks": [
+    {
+      "id": "states",
+      "kind": "table",
+      "title": { "en": "The four states", "ar": "أقسام الإعراب الأربعة" },
+      "row_header": "state",
+      "columns": [
+        { "key": "state", "lang": "ar", "label": { "en": "State", "ar": "القسم" } },
+        { "key": "sign", "lang": "ar", "label": { "en": "Basic sign", "ar": "العلامة الأصلية" } },
+        { "key": "noun", "lang": "bi", "label": { "en": "In nouns (case)", "ar": "في الأسماء" } },
+        { "key": "verb", "lang": "bi", "label": { "en": "In imperfect verbs (mood)", "ar": "في المضارع" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "state": "الرَّفْعُ", "sign": "الضَّمَّةُ", "noun": { "en": "nominative", "ar": "يدخلها" }, "verb": { "en": "indicative", "ar": "يدخله" }, "example": "الطَّالِبُ يَكْتُبُ" },
+        { "state": "النَّصْبُ", "sign": "الْفَتْحَةُ", "noun": { "en": "accusative", "ar": "يدخلها" }, "verb": { "en": "subjunctive", "ar": "يدخله" }, "example": "إِنَّ الطَّالِبَ لَنْ يَكْتُبَ" },
+        { "state": "الْجَرُّ (الْخَفْضُ)", "sign": "الْكَسْرَةُ", "noun": { "en": "genitive", "ar": "يدخلها" }, "verb": "", "example": "فِي الْبَيْتِ" },
+        { "state": "الْجَزْمُ", "sign": "السُّكُونُ", "noun": "", "verb": { "en": "jussive", "ar": "يدخله" }, "example": "لَمْ يَكْتُبْ" }
+      ],
+      "notes": {
+        "en": ["A dash means the state does not occur: nouns are never jussive, verbs are never genitive."],
+        "ar": ["الشَّرطة تعني أنّ القسم لا يدخل: فلا جزم في الأسماء، ولا جرّ في الأفعال."]
+      }
+    },
+    {
+      "id": "shares",
+      "kind": "rules",
+      "title": { "en": "Who takes what", "ar": "ما يختصّ به كلٌّ منهما" },
+      "items": [
+        {
+          "label": { "en": "Shared", "ar": "المشترك" },
+          "text": { "en": "رفع and نصب occur in both nouns and imperfect verbs.", "ar": "الرفع والنصب يشترك فيهما الاسم والفعل." },
+          "ar_example": "الْوَلَدُ يَلْعَبُ — إِنَّ الْوَلَدَ لَنْ يَلْعَبَ"
+        },
+        {
+          "label": { "en": "Nouns only", "ar": "خاصّ بالأسماء" },
+          "text": { "en": "جرّ (also called خفض) belongs to nouns only.", "ar": "الجرّ (ويُسمّى الخفض) خاصّ بالأسماء." },
+          "ar_example": "مَرَرْتُ بِالْوَلَدِ"
+        },
+        {
+          "label": { "en": "Verbs only", "ar": "خاصّ بالأفعال" },
+          "text": { "en": "جزم belongs to imperfect verbs only.", "ar": "الجزم خاصّ بالفعل المضارع." },
+          "ar_example": "لَمْ يَلْعَبِ الْوَلَدُ"
+        },
+        {
+          "label": { "en": "Which verbs", "ar": "أيّ الأفعال" },
+          "text": { "en": "Only the imperfect (مضارع) inflects, and only when no نون النسوة or directly attached نون التوكيد is on it. The past and the imperative are مبنيّ (fixed).", "ar": "المعرب من الأفعال هو المضارع وحده، ما لم تتصل به نون النسوة أو نون التوكيد المباشرة. أمّا الماضي والأمر فمبنيّان." },
+          "ar_example": "يَكْتُبُ (معرب) — يَكْتُبْنَ (مبني)"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "إعراب is the change at the end of a word caused by what governs it. The Ājurrūmiyya divides it into four: فللأسماء من ذلك الرفع والنصب والخفض ولا جزم فيها، وللأفعال من ذلك الرفع والنصب والجزم ولا خفض فيها.",
+      "In English, keep two sets of names: for nouns use case (nominative, accusative, genitive); for verbs use mood (indicative, subjunctive, jussive). Arabic uses the same words رفع and نصب for both."
+    ],
+    "ar": [
+      "الإعراب تغيّر أواخر الكلم لاختلاف العوامل الداخلة عليها، وأقسامه أربعة كما في الآجرومية: «فللأسماء من ذلك الرفع والنصب والخفض ولا جزم فيها، وللأفعال من ذلك الرفع والنصب والجزم ولا خفض فيها».",
+      "تستعمل العربية لفظَي «الرفع» و«النصب» للاسم والفعل معًا، أمّا الإنجليزية فتفرّق: الحالة (case) للأسماء، والصيغة (mood) للأفعال."
+    ]
+  },
+  "examples": [
+    { "ar": "يَقْرَأُ الطَّالِبُ الْكِتَابَ", "en": "The student reads the book.", "note": { "en": "يقرأُ: indicative (رفع); الطالبُ: nominative (رفع); الكتابَ: accusative (نصب).", "ar": "يقرأُ: مضارع مرفوع، الطالبُ: فاعل مرفوع، الكتابَ: مفعول به منصوب." } },
+    { "ar": "لَنْ أُسَافِرَ بِالسَّيَّارَةِ", "en": "I will not travel by car.", "note": { "en": "أسافرَ: subjunctive after لن; السيارةِ: genitive after بـ.", "ar": "أسافرَ: مضارع منصوب بـ«لن»، السيارةِ: اسم مجرور بالباء." } },
+    { "ar": "لَمْ يَحْضُرِ الْمُعَلِّمُ", "en": "The teacher did not attend.", "note": { "en": "يحضرْ is jussive after لم; its sukūn becomes kasra only to avoid two sākin letters before الـ.", "ar": "يحضرْ: مضارع مجزوم بـ«لم»، وحُرّك بالكسر لالتقاء الساكنين." } }
+  ],
+  "caveats": {
+    "en": [
+      "The basic signs (ḍamma, fatḥa, kasra, sukūn) have substitutes in many word types (duals, sound plurals, the five nouns, the five verbs, weak-final verbs). Those sign tables are separate units (E01, F05).",
+      "Fixed (مبنيّ) words do not change, but they still stand in a position: e.g. هٰؤُلاءِ is said to be في محلّ رفع / نصب / جرّ according to its role."
+    ],
+    "ar": [
+      "للعلامات الأصلية علاماتٌ فرعية تنوب عنها في المثنى والجموع والأسماء الخمسة والأفعال الخمسة والمعتلّ الآخر، ولها وحدات مستقلة (E01، F05).",
+      "المبنيّ لا يتغيّر آخره، لكنّه يقع في محلّ إعرابي، فيُقال مثلًا: «هؤلاء» في محلّ رفع أو نصب أو جرّ بحسب موقعه."
+    ]
+  },
+  "convention": {
+    "en": "School books use جرّ (Baṣran term, common today) and خفض (Kūfan term, used in the Ājurrūmiyya) for the same state. English case/mood labels follow common Western grammars; some writers call the verb moods marfūʿ/manṣūb/majzūm directly.",
+    "ar": "الجرّ (مصطلح البصريين، وهو الشائع اليوم) والخفض (مصطلح الكوفيين، وبه عبّر صاحب الآجرومية) اسمان لقسم واحد. والمقابلات الإنجليزية (case وmood) جارية على الكتب الغربية الشائعة."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the four states of إعراب and the basic sign of each.", "ar": "اذكر أقسام الإعراب الأربعة والعلامة الأصلية لكلٍّ منها." }, "answer_blocks": ["states"] },
+    { "id": "r2", "prompt": { "en": "Which state is for nouns only, which for verbs only, and which verbs inflect at all?", "ar": "ما القسم الخاصّ بالأسماء، وما الخاصّ بالأفعال، وما الفعل المعرب؟" }, "answer_blocks": ["shares"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب الإعراب" },
+    { "id": "R02", "locator": "Case and mood features" }
+  ],
+  "extra_aliases": ["الرفع والنصب والجر والجزم", "الخفض", "case and mood", "iʿrāb states", "nominative accusative genitive jussive", "indicative subjunctive jussive"]
+}

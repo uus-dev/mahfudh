@@ -1,0 +1,100 @@
+{
+  "id": "C12",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "ḥurūf an-nidāʾ",
+  "summary": {
+    "en": "The main vocative particles — يا، أ، أي، أيا، هيا، وا — with the basic near/far and lamentation distinctions.",
+    "ar": "حروف النداء الرئيسة — يا، أ، أي، أيا، هيا، وا — مع الفروق الأساسية بين القريب والبعيد والندبة."
+  },
+  "target": {
+    "en": "Recall the main vocative particles and the basic distinctions in how each is used.",
+    "ar": "استحضار حروف النداء الرئيسة، والفروق الأساسية في استعمال كلٍّ منها."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The main vocative particles", "ar": "حروف النداء الرئيسة" },
+      "row_header": "particle",
+      "columns": [
+        { "key": "particle", "lang": "ar", "label": { "en": "Particle", "ar": "الحرف" } },
+        { "key": "use", "lang": "bi", "label": { "en": "Used for", "ar": "الاستعمال" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "particle": "يَا", "use": { "en": "general: near or far; the most common", "ar": "لكلّ منادًى قريبًا كان أو بعيدًا، وهو أكثرها استعمالًا" }, "example": "يَا مُحَمَّدُ، تَعَالَ" },
+        { "particle": "أَ", "use": { "en": "the near addressee", "ar": "للقريب" }, "example": "أَمُحَمَّدُ، اسْمَعْ" },
+        { "particle": "أَيْ", "use": { "en": "the near addressee (in the common school view)", "ar": "للقريب (على الشائع)" }, "example": "أَيْ بُنَيَّ، اجْتَهِدْ" },
+        { "particle": "أَيَا", "use": { "en": "the far addressee", "ar": "للبعيد" }, "example": "أَيَا صَاحِبِي، انْتَظِرْنِي" },
+        { "particle": "هَيَا", "use": { "en": "the far addressee", "ar": "للبعيد" }, "example": "هَيَا خَالِدُ، أَقْبِلْ" },
+        { "particle": "وَا", "use": { "en": "lamentation (النُّدبة): calling out over someone lost or something painful", "ar": "للندبة: نداء المتفجَّع عليه أو المتوجَّع منه" }, "example": "وَا رَأْسَاهْ" }
+      ]
+    },
+    {
+      "id": "rules",
+      "kind": "rules",
+      "title": { "en": "Usage distinctions", "ar": "فروق الاستعمال" },
+      "items": [
+        {
+          "label": { "en": "Near vs far", "ar": "القريب والبعيد" },
+          "text": { "en": "أ (and, commonly, أي) are for someone near; أيا and هيا for someone far — or treated as far (asleep, inattentive, or held in awe). يا serves both.", "ar": "الهمزة و«أي» للقريب، و«أيا» و«هيا» للبعيد أو من في حكمه (كالنائم والساهي). و«يا» تصلح للجميع." },
+          "ar_example": "أَيَا نَائِمًا عَنْ وَاجِبِهِ"
+        },
+        {
+          "label": { "en": "Only يا", "ar": "ما يختصّ بـ«يا»" },
+          "text": { "en": "يا is the only particle used with the name of God (يا اللهُ) and in a call for help (الاستغاثة); it also replaces وا in lamentation when there is no ambiguity.", "ar": "تختصّ «يا» بنداء لفظ الجلالة (يا اللهُ) وبالاستغاثة، وتُستعمل في الندبة مكان «وا» إذا أُمِن اللبس." },
+          "ar_example": "يَا لَلْمُسْلِمِينَ"
+        },
+        {
+          "label": { "en": "Omission", "ar": "الحذف" },
+          "text": { "en": "The particle may be dropped, and يا is then understood; it is not dropped in lamentation or a call for help.", "ar": "يجوز حذف حرف النداء، والمقدَّر «يا»، ولا يُحذف في الندبة والاستغاثة." },
+          "ar_example": "يُوسُفُ أَعْرِضْ عَنْ هٰذَا"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "A vocative particle calls for someone's attention. Grammarians say it stands in for the verb 'I call' (أدعو / أنادي), which is why the addressee (المنادى) is in principle accusative.",
+      "How the addressee itself is marked (e.g. يا محمدُ vs يا عبدَ الله) is a separate topic: see I07."
+    ],
+    "ar": [
+      "حرف النداء يُطلب به إقبال المخاطَب، وهو نائب عن الفعل «أدعو» أو «أنادي»؛ ولذلك كان المنادى في الأصل منصوبًا.",
+      "أمّا أحكام المنادى نفسه (نحو: يا محمدُ، يا عبدَ الله) فموضوع الوحدة I07."
+    ]
+  },
+  "examples": [
+    { "ar": "يَا أَيُّهَا الطُّلَّابُ، أَنْصِتُوا", "en": "O students, listen quietly.", "note": { "en": "يا before a noun with الـ uses أيّها as a bridge.", "ar": "يُتوصَّل إلى نداء المعرَّف بـ«ال» بـ«أيّها»." } },
+    { "ar": "أَيْ صَدِيقِي، لَا تَتَأَخَّرْ", "en": "My friend, don't be late.", "note": { "en": "أي for a near addressee.", "ar": "«أي» لنداء القريب." } },
+    { "ar": "يُوسُفُ أَعْرِضْ عَنْ هٰذَا", "en": "Joseph, turn away from this. (Qur'an 12:29)", "note": { "en": "The particle is omitted; يا is understood.", "ar": "حُذف حرف النداء، والتقدير: يا يوسفُ." } },
+    { "ar": "وَا كَبِدَاهْ", "en": "Alas, my heart!", "note": { "en": "Lamentation with وا, often with a final ـاه.", "ar": "ندبة بـ«وا»، ويكثر لحاق الألف والهاء في آخر المندوب." } }
+  ],
+  "caveats": {
+    "en": [
+      "Some books add آ and آيْ for the far addressee; they are rare.",
+      "The ending of the addressee (inflected accusative vs indeclinable on ḍamma) depends on its type and is covered in I07, not here.",
+      "Before a noun with الـ, the bridge أيّها / أيّتها is required (except with the name of God)."
+    ],
+    "ar": [
+      "تزيد بعض الكتب «آ» و«آي» لنداء البعيد، وهما قليلتان.",
+      "إعراب المنادى (منصوب أو مبنيّ على الضمّ) بحسب نوعه، وتفصيله في I07 لا هنا.",
+      "لا يُنادى المعرَّف بـ«ال» مباشرة، بل بواسطة «أيّها» أو «أيّتها»، إلا لفظ الجلالة."
+    ]
+  },
+  "convention": {
+    "en": "Books differ on أي: many school texts group it with the hamza as 'for the near', while others count it among particles for the far. This unit uses the near/far split common in school books and notes the difference here.",
+    "ar": "يختلف النحاة في «أي»: فكثير من الكتب المدرسية تجعلها مع الهمزة للقريب، ومنهم من يجعلها للبعيد. وتتبع هذه الوحدة التقسيم المدرسي الشائع مع التنبيه على الخلاف."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the main vocative particles and say which are for the near, the far, and lamentation.", "ar": "اذكر حروف النداء الرئيسة، وبيّن ما يكون للقريب وللبعيد وللندبة." }, "answer_blocks": ["members", "rules"] }
+  ],
+  "sources": [
+    { "id": "R13", "locator": "Vocative particles overview" },
+    { "id": "R01", "locator": "باب المنادى" }
+  ],
+  "extra_aliases": ["النداء", "أدوات النداء", "يا النداء", "vocative", "vocative particle ya", "huruf an-nida", "calling particles", "الندبة"]
+}

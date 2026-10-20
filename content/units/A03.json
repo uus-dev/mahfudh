@@ -1,0 +1,93 @@
+{
+  "id": "A03",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "anwāʿ al-maʿārif",
+  "summary": {
+    "en": "The six school categories of definite nouns (pronoun, proper name, demonstrative, relative, al- noun, annexed noun) with one model each.",
+    "ar": "أنواع المعارف الستة في العدّ المدرسي (الضمير، العلم، اسم الإشارة، الاسم الموصول، المعرّف بأل، المضاف إلى معرفة) مع مثال لكلٍّ."
+  },
+  "target": {
+    "en": "Recall the named categories of definiteness (in the six-way school grouping adopted here) with one representative of each.",
+    "ar": "استحضار أنواع المعارف بأسمائها (على التقسيم المدرسي السداسي المعتمد هنا) مع مثال واحد لكلّ نوع."
+  },
+  "blocks": [
+    {
+      "id": "categories",
+      "kind": "table",
+      "title": { "en": "The six categories", "ar": "أنواع المعارف الستة" },
+      "row_header": "category",
+      "columns": [
+        { "key": "category", "lang": "ar", "label": { "en": "Category", "ar": "النوع" } },
+        { "key": "name", "lang": "bi", "label": { "en": "English", "ar": "بالإنجليزية" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Representative", "ar": "مثال" } },
+        { "key": "gloss", "lang": "bi", "label": { "en": "Gloss", "ar": "المعنى" } }
+      ],
+      "rows": [
+        { "category": "الضَّمِيرُ", "name": { "en": "personal pronoun", "ar": "personal pronoun" }, "example": "هُوَ", "gloss": { "en": "he", "ar": "he" } },
+        { "category": "الْعَلَمُ", "name": { "en": "proper name", "ar": "proper name" }, "example": "مَكَّةُ", "gloss": { "en": "Mecca", "ar": "Mecca" } },
+        { "category": "اسْمُ الْإِشَارَةِ", "name": { "en": "demonstrative", "ar": "demonstrative" }, "example": "هٰذَا", "gloss": { "en": "this", "ar": "this" } },
+        { "category": "الِاسْمُ الْمَوْصُولُ", "name": { "en": "relative noun", "ar": "relative noun" }, "example": "الَّذِي", "gloss": { "en": "the one who", "ar": "the one who" } },
+        { "category": "الْمُعَرَّفُ بِأَلْ", "name": { "en": "noun with the article al-", "ar": "noun with al-" }, "example": "الْكِتَابُ", "gloss": { "en": "the book", "ar": "the book" } },
+        { "category": "الْمُضَافُ إِلَى مَعْرِفَةٍ", "name": { "en": "noun annexed to a definite noun", "ar": "annexed to a definite" }, "example": "كِتَابُ الطَّالِبِ", "gloss": { "en": "the student's book", "ar": "the student's book" } }
+      ],
+      "notes": {
+        "en": ["Many school books add a seventh: the vocative of a specific, intended person (النكرة المقصودة), e.g. يَا رَجُلُ “O man (you there)”."],
+        "ar": ["تزيد كتب مدرسية كثيرة نوعًا سابعًا: المنادى النكرة المقصودة، نحو: يَا رَجُلُ."]
+      }
+    },
+    {
+      "id": "annexed",
+      "kind": "rules",
+      "title": { "en": "Key condition on the annexed noun", "ar": "شرط المضاف" },
+      "items": [
+        {
+          "label": { "en": "Annexed to one of the others", "ar": "يُضاف إلى واحد منها" },
+          "text": { "en": "An annexed noun is definite only when what it is annexed to is definite (any of the five other categories). Annexed to an indefinite, it stays indefinite: بابُ البيت “the door of the house” vs بابُ بيتٍ “a door of a house”.", "ar": "يكون المضاف معرفةً إذا أُضيف إلى معرفة من الأنواع الخمسة الأخرى، فإن أُضيف إلى نكرة بقي نكرة." },
+          "ar_example": "بَابُ الْبَيْتِ — بَابُ بَيْتٍ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "A definite noun (معرفة) points to something specific; an indefinite one (نكرة) does not. The categories are the ways a noun can become definite: it is a pronoun, a name, a demonstrative or a relative by nature, or it gains definiteness from al- or from annexation.",
+      "Order of strength often taught: pronoun, then proper name, then demonstrative, then relative, then the al- noun; an annexed noun takes its rank from what it is annexed to (books differ on the details)."
+    ],
+    "ar": [
+      "المعرفة ما دلّ على معيَّن، والنكرة ما دلّ على غير معيَّن. والأنواع الستة طرق التعريف: فالضمير والعلم واسم الإشارة والاسم الموصول معارفُ بأصل وضعها، والمعرّف بأل والمضاف يكتسبان التعريف.",
+      "وترتيبها في القوّة كما يُدرَّس غالبًا: الضمير، ثم العلم، ثم اسم الإشارة، ثم الموصول، ثم المعرّف بأل، والمضاف يأخذ رتبته ممّا أُضيف إليه، على خلاف في التفصيل."
+    ]
+  },
+  "examples": [
+    { "ar": "هٰذَا الطَّالِبُ أَخِي", "en": "This student is my brother.", "note": { "en": "هذا: demonstrative; الطالب: al- noun; أخي: annexed to the pronoun ـي.", "ar": "هذا: اسم إشارة، الطالب: معرّف بأل، أخي: مضاف إلى الضمير." } },
+    { "ar": "زَارَ خَالِدٌ الْمَدِينَةَ الَّتِي وُلِدَ فِيهَا", "en": "Khalid visited the city in which he was born.", "note": { "en": "خالد: proper name; المدينة: al- noun; التي: relative; ـها: pronoun.", "ar": "خالد: علم، المدينة: معرّف بأل، التي: اسم موصول، الهاء: ضمير." } },
+    { "ar": "قَرَأْتُ كِتَابَ أُسْتَاذِنَا", "en": "I read our professor's book.", "note": { "en": "كتابَ is definite because it is annexed to أستاذ, which is itself annexed to the pronoun ـنا.", "ar": "«كتاب» معرفة لإضافته إلى «أستاذ» المضاف إلى الضمير." } }
+  ],
+  "caveats": {
+    "en": [
+      "A proper name never takes al- for definiteness; where al- is part of a name (الْقَاهِرَةُ، الْعَبَّاسُ) it is fixed in the name.",
+      "Annexation rules (loss of tanwīn and of nūn, no al- on the first term) are a separate unit (I01)."
+    ],
+    "ar": [
+      "العلم معرفة بنفسه؛ و«أل» في بعض الأعلام (القاهرة، العبّاس) جزء ثابت من الاسم لا للتعريف.",
+      "أحكام الإضافة (حذف التنوين والنون، وامتناع «أل» على المضاف) في وحدة مستقلة (I01)."
+    ]
+  },
+  "convention": {
+    "en": "This unit adopts the common school count of six. The Ājurrūmiyya (chapter on the adjective) counts five, merging demonstratives and relatives under الاسم المبهم; other books count seven by adding the specific vocative. The categories are the same; only the grouping differs.",
+    "ar": "تعتمد هذه الوحدة العدّ المدرسي الشائع (ستة أنواع). وفي الآجرومية (باب النعت) خمسة، إذ جُمع اسم الإشارة والموصول تحت «الاسم المبهم»، وتجعلها كتب أخرى سبعة بزيادة النكرة المقصودة بالنداء. فالأنواع واحدة والاختلاف في التقسيم."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the six categories of definite nouns and give one example of each.", "ar": "اذكر أنواع المعارف الستة مع مثال لكلٍّ منها." }, "answer_blocks": ["categories"] },
+    { "id": "r2", "prompt": { "en": "When is an annexed noun definite?", "ar": "متى يكون المضاف معرفة؟" }, "answer_blocks": ["annexed"] }
+  ],
+  "sources": [
+    { "id": "R22", "locator": "Definiteness section" },
+    { "id": "R03", "locator": "Nominal tags (pronoun, proper noun, demonstrative, relative)" }
+  ],
+  "extra_aliases": ["المعرفة والنكرة", "المعارف الست", "definiteness", "definite nouns", "al-maʿrifa", "الاسم المبهم"]
+}

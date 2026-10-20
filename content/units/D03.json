@@ -1,0 +1,134 @@
+{
+  "id": "D03",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "kāna wa-akhawātuhā",
+  "summary": {
+    "en": "The thirteen verbs that keep the subject nominative and make the predicate accusative, with their meanings and essential conditions.",
+    "ar": "الأفعال الثلاثة عشر التي ترفع المبتدأ وتنصب الخبر، مع معانيها وشروطها الأساسية."
+  },
+  "target": {
+    "en": "Recall the standard family of كان and its sisters, the basic meaning of each, their effect on the اسم (nominative) and خبر (accusative), and the conditions essential to the list.",
+    "ar": "استحضار أفراد «كان وأخواتها» المعتمدة، ومعنى كلٍّ منها، وعملها في الاسم (الرفع) والخبر (النصب)، والشروط الأساسية المتعلّقة بالقائمة."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The thirteen members", "ar": "الأفعال الثلاثة عشر" },
+      "row_header": "verb",
+      "columns": [
+        { "key": "verb", "lang": "ar", "label": { "en": "Verb", "ar": "الفعل" } },
+        { "key": "meaning", "lang": "bi", "label": { "en": "Meaning", "ar": "المعنى" } },
+        { "key": "condition", "lang": "bi", "label": { "en": "Condition to operate", "ar": "شرط العمل" } }
+      ],
+      "rows": [
+        { "verb": "كَانَ", "meaning": { "en": "the predicate held of the subject in the past: 'was'", "ar": "اتّصاف الاسم بالخبر في الماضي" }, "condition": "" },
+        { "verb": "أَصْبَحَ", "meaning": { "en": "in the morning; or 'became'", "ar": "الاتّصاف في الصباح، أو بمعنى صار" }, "condition": "" },
+        { "verb": "أَضْحَى", "meaning": { "en": "in the forenoon; or 'became'", "ar": "الاتّصاف في الضحى، أو بمعنى صار" }, "condition": "" },
+        { "verb": "ظَلَّ", "meaning": { "en": "during the day; 'kept on'", "ar": "الاتّصاف في النهار" }, "condition": "" },
+        { "verb": "أَمْسَى", "meaning": { "en": "in the evening; or 'became'", "ar": "الاتّصاف في المساء، أو بمعنى صار" }, "condition": "" },
+        { "verb": "بَاتَ", "meaning": { "en": "during the night", "ar": "الاتّصاف في الليل" }, "condition": "" },
+        { "verb": "صَارَ", "meaning": { "en": "change of state: 'became'", "ar": "التحوّل" }, "condition": "" },
+        { "verb": "لَيْسَ", "meaning": { "en": "negation: 'is not' (present by default)", "ar": "النفي، وهو للحال عند الإطلاق" }, "condition": "" },
+        { "verb": "مَا زَالَ", "meaning": { "en": "continuity: 'still'", "ar": "الاستمرار" }, "condition": { "en": "preceded by negation, prohibition or prayer", "ar": "أن يسبقه نفي أو نهي أو دعاء" } },
+        { "verb": "مَا بَرِحَ", "meaning": { "en": "continuity: 'still'", "ar": "الاستمرار" }, "condition": { "en": "preceded by negation, prohibition or prayer", "ar": "أن يسبقه نفي أو نهي أو دعاء" } },
+        { "verb": "مَا فَتِئَ", "meaning": { "en": "continuity: 'still'", "ar": "الاستمرار" }, "condition": { "en": "preceded by negation, prohibition or prayer", "ar": "أن يسبقه نفي أو نهي أو دعاء" } },
+        { "verb": "مَا انْفَكَّ", "meaning": { "en": "continuity: 'still'", "ar": "الاستمرار" }, "condition": { "en": "preceded by negation, prohibition or prayer", "ar": "أن يسبقه نفي أو نهي أو دعاء" } },
+        { "verb": "مَا دَامَ", "meaning": { "en": "duration: 'as long as'", "ar": "بيان المدّة" }, "condition": { "en": "preceded by ما المصدرية الظرفية; past form only", "ar": "أن تسبقه «ما» المصدرية الظرفية، ولا يُستعمل إلا ماضيًا" } }
+      ],
+      "notes": {
+        "en": ["Groups to remember: time-of-day verbs (أصبح، أضحى، ظلّ، أمسى، بات); the four that need a preceding negation (زال، برح، فتئ، انفكّ); and ما دام."],
+        "ar": ["مجموعات للحفظ: أفعال الأوقات (أصبح، أضحى، ظلّ، أمسى، بات)، والأربعة المشروطة بتقدّم النفي (زال، برح، فتئ، انفكّ)، و«ما دام»."]
+      }
+    },
+    {
+      "id": "effect",
+      "kind": "rules",
+      "title": { "en": "Governing effect", "ar": "العمل" },
+      "items": [
+        {
+          "label": { "en": "Subject → اسم كان", "ar": "المبتدأ ← اسمها" },
+          "text": { "en": "The former subject (مبتدأ) stays nominative (مرفوع) and is now called the verb's اسم.", "ar": "يبقى المبتدأ مرفوعًا ويُسمّى اسمها." },
+          "ar_example": "كَانَ الْجَوُّ بَارِدًا"
+        },
+        {
+          "label": { "en": "Predicate → خبر كان", "ar": "الخبر ← خبرها" },
+          "text": { "en": "The predicate (خبر) becomes accusative (منصوب) and is called the verb's خبر — the reverse of إنّ and its sisters (D01).", "ar": "يُنصب الخبر ويُسمّى خبرها، وهذا عكس عمل «إنّ» وأخواتها (D01)." },
+          "ar_example": "أَصْبَحَ الطُّلَّابُ مُسْتَعِدِّينَ"
+        },
+        {
+          "label": { "en": "Form of the خبر", "ar": "صور الخبر" },
+          "text": { "en": "The خبر may be a single word, a sentence or a شبه جملة; a sentence or شبه جملة is then in the position of the accusative.", "ar": "يكون الخبر مفردًا أو جملة أو شبه جملة، والجملة وشبه الجملة في محلّ نصب." },
+          "ar_example": "ظَلَّ الطِّفْلُ يَبْكِي"
+        }
+      ]
+    },
+    {
+      "id": "conditions",
+      "kind": "rules",
+      "title": { "en": "Essential conditions", "ar": "الشروط الأساسية" },
+      "items": [
+        {
+          "label": { "en": "زال، برح، فتئ، انفكّ", "ar": "زال وبرح وفتئ وانفكّ" },
+          "text": { "en": "These four operate only after negation (ما، لا، لم، لن …), prohibition (لا), or a prayer. The negation of 'ceasing' gives the meaning 'still'. زال here is the one whose imperfect is يَزَالُ (not يَزُولُ 'to vanish').", "ar": "لا تعمل هذه الأربعة إلا مسبوقةً بنفي (ما، لا، لم، لن…) أو نهي أو دعاء، ونفيُ الزوال إثباتٌ للاستمرار. و«زال» هنا هي التي مضارعها «يَزالُ» لا «يَزُولُ»." },
+          "ar_example": "لَا يَزَالُ الْبَابُ مَفْتُوحًا"
+        },
+        {
+          "label": { "en": "ما دام", "ar": "ما دام" },
+          "text": { "en": "دام operates only after ما that is both infinitival and temporal (ما المصدرية الظرفية: 'for as long as'). It needs a preceding main clause and is used only in the past form.", "ar": "لا تعمل «دام» إلا مسبوقةً بـ«ما» المصدرية الظرفية (بمعنى: مدّة دوام…)، ولا بدّ أن يتقدّمها كلام، ولا تأتي إلا بصيغة الماضي." },
+          "ar_example": "سَأَبْقَى مَا دَامَ الْمَطَرُ نَازِلًا"
+        },
+        {
+          "label": { "en": "ليس", "ar": "ليس" },
+          "text": { "en": "ليس is a verb that is used only in the past form (جامد), but it negates the present unless context shows otherwise.", "ar": "«ليس» فعل جامد لا يأتي منه مضارع ولا أمر، ويدلّ على نفي الحال عند الإطلاق." },
+          "ar_example": "لَيْسَ الْكَذِبُ مَقْبُولًا"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "These verbs enter a nominal sentence (مبتدأ + خبر) and are called 'incomplete' (ناقصة) because they need a خبر to complete their meaning; they do not simply take a subject like an ordinary verb.",
+      "Memory formula: ترفع الاسم وتنصب الخبر — 'it keeps the noun nominative and makes the predicate accusative'. Contrast D01, which does the opposite."
+    ],
+    "ar": [
+      "تدخل هذه الأفعال على الجملة الاسمية (المبتدأ والخبر)، وتُسمّى «الأفعال الناقصة» لأنها لا تكتفي بمرفوعها بل تحتاج إلى خبر يتمّ به المعنى.",
+      "والقاعدة المحفوظة: «ترفع الاسم وتنصب الخبر»، وهي عكس «إنّ» وأخواتها (D01) التي تنصب الاسم وترفع الخبر."
+    ]
+  },
+  "examples": [
+    { "ar": "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا", "en": "And God is ever Forgiving, Merciful. (e.g. Qur'an 4:96)", "note": { "en": "اللَّهُ is the nominative اسم; غَفُورًا is the accusative خبر.", "ar": "لفظ الجلالة اسم كان مرفوع، و«غفورًا» خبرها منصوب." } },
+    { "ar": "صَارَ الْمَاءُ ثَلْجًا", "en": "The water became ice.", "note": { "en": "صار: change of state.", "ar": "«صار» للتحوّل." } },
+    { "ar": "مَا زَالَ الْمُعَلِّمُونَ صَابِرِينَ", "en": "The teachers are still patient.", "note": { "en": "Sound masculine plurals: اسم nominative with wāw, خبر accusative with yā'.", "ar": "«المعلّمون» اسم مرفوع بالواو، و«صابرين» خبر منصوب بالياء." } },
+    { "ar": "لَنْ أَخْرُجَ مَا دَامَتِ الشَّمْسُ حَارَّةً", "en": "I will not go out as long as the sun is hot.", "note": { "en": "ما دام after a main clause; the verb takes feminine تـ to agree with الشمس.", "ar": "تقدّمها كلام، واتصلت بها تاء التأنيث لتأنيث الاسم." } }
+  ],
+  "caveats": {
+    "en": [
+      "Most of these verbs can also be used as 'complete' verbs (تامّة) with a subject and no خبر (e.g. كان = 'existed', أصبح = 'entered the morning'); that, and which members conjugate fully, belong to D04.",
+      "The negation before زال، برح، فتئ، انفكّ can be understood after an oath, e.g. تَاللَّهِ تَفْتَأُ تَذْكُرُ يُوسُفَ (Qur'an 12:85) — 'you will not cease …'. Details are in D04.",
+      "The خبر may precede the اسم, and in most members may also precede the verb; ordering rules are outside this target."
+    ],
+    "ar": [
+      "أكثر هذه الأفعال يأتي تامًّا يكتفي بمرفوعه (نحو: كان بمعنى وُجِد، وأصبح بمعنى دخل في الصباح)، وتفصيل التمام والنقص والتصرّف في D04.",
+      "قد يُحذف النفي قبل «زال» وأخواتها بعد القسم، نحو: ﴿تَاللَّهِ تَفْتَأُ تَذْكُرُ يُوسُفَ﴾ أي: لا تفتأ؛ والتفصيل في D04.",
+      "يجوز تقديم الخبر على الاسم، وعلى الفعل في أكثرها؛ وأحكام الترتيب خارج هذا الهدف."
+    ]
+  },
+  "convention": {
+    "en": "This unit follows the list of thirteen in the Ājurrūmiyya and most school books. Some grammarians add verbs used with the meaning of صار (e.g. عاد، آض، غدا، راح); they are not part of this target.",
+    "ar": "تتبع هذه الوحدة عدّ الآجرومية وأكثر الكتب المدرسية لثلاثة عشر فعلًا. ويُلحق بعض النحاة بها أفعالًا بمعنى «صار» (كعاد، وآض، وغدا، وراح)، وليست ضمن هذا الهدف."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the thirteen sisters of كان with the meaning of each.", "ar": "اذكر أخوات «كان» الثلاث عشرة مع معنى كلٍّ منها." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "What does كان do to the subject and predicate, and how is this the opposite of إنّ?", "ar": "ما عمل «كان» في المبتدأ والخبر؟ وكيف يخالف عمل «إنّ»؟" }, "answer_blocks": ["effect"] },
+    { "id": "r3", "prompt": { "en": "Which members need a preceding negation, and what does ما دام require?", "ar": "ما الأفعال التي يُشترط تقدّم النفي عليها؟ وما شرط «ما دام»؟" }, "answer_blocks": ["conditions", "members"] }
+  ],
+  "sources": [
+    { "id": "R06", "locator": "The verb kāna and its sisters" }
+  ],
+  "extra_aliases": ["الأفعال الناقصة", "النواسخ الفعلية", "kana and her sisters", "kaana", "incomplete verbs", "kana family", "ما زال ما دام", "اسم كان وخبرها"]
+}

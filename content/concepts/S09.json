@@ -1,0 +1,22 @@
+{
+  "id": "S09",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "Most Arabic words are built from a root (جذر or أصول): usually three consonants carrying a core meaning, such as ك ت ب “writing”. The root is not a word by itself.",
+      "A pattern (وزن) is a fixed shape of vowels and added letters into which a root is poured: كَاتِبٌ “writer”, مَكْتُوبٌ “written”, مَكْتَبَةٌ “library” all share the root ك ت ب but have different patterns. Words with the same pattern often share a related meaning (e.g. فَاعِلٌ = doer), though not mechanically.",
+      "The compact notation for writing patterns with ف ع ل is memorised in G01."
+    ],
+    "ar": [
+      "تُبنى أكثر الكلمات العربية من أصول (جذر)، وهي غالبًا ثلاثة حروف تحمل معنى عامًّا، نحو «ك ت ب» للكتابة. والجذر ليس كلمة مستقلة.",
+      "والوزن هيئة ثابتة من الحركات والزوائد تُصبّ فيها الأصول: كَاتِبٌ، مَكْتُوبٌ، مَكْتَبَةٌ، أصولها واحدة وأوزانها مختلفة. وكثيرًا ما تشترك الكلمات المتّحدة الوزن في معنى عامّ (فَاعِلٌ لمن قام بالفعل)، وليس ذلك مطّردًا.",
+      "طريقة كتابة الأوزان بـ«ف ع ل» تُحفظ في الوحدة G01."
+    ]
+  },
+  "terms": [
+    { "ar": "جِذْرٌ / أُصُولٌ", "gloss": { "en": "root (radical letters)", "ar": "الحروف الأصلية التي تبقى في جميع تصاريف الكلمة غالبًا" } },
+    { "ar": "وَزْنٌ", "gloss": { "en": "pattern, template", "ar": "هيئة الكلمة من حركات وسكنات وزوائد" } },
+    { "ar": "حَرْفٌ زَائِدٌ", "gloss": { "en": "added (non-root) letter", "ar": "حرف ليس من الأصول" } },
+    { "ar": "مُجَرَّدٌ / مَزِيدٌ", "gloss": { "en": "bare / augmented (verb or noun)", "ar": "ما كانت حروفه كلها أصلية / ما زيد فيه حرف أو أكثر" } }
+  ]
+}

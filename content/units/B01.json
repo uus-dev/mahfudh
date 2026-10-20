@@ -1,0 +1,103 @@
+{
+  "id": "B01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "ḍamāʾir ar-rafʿ al-munfaṣila",
+  "summary": {
+    "en": "The independent (detached) subject pronouns أنا … هنّ by person, gender and number, with English equivalents.",
+    "ar": "ضمائر الرفع المنفصلة من «أنا» إلى «هنّ» بحسب الشخص والجنس والعدد، مع مقابلاتها الإنجليزية."
+  },
+  "target": {
+    "en": "Recall the independent pronoun grid by person, gender and number, with English equivalents.",
+    "ar": "استحضار جدول ضمائر الرفع المنفصلة بحسب الشخص (المتكلم والمخاطب والغائب) والجنس والعدد، مع مقابلاتها الإنجليزية."
+  },
+  "blocks": [
+    {
+      "id": "grid",
+      "kind": "table",
+      "title": { "en": "The pronoun grid", "ar": "جدول الضمائر" },
+      "row_header": "slot",
+      "columns": [
+        { "key": "slot", "lang": "bi", "label": { "en": "Person / gender", "ar": "الشخص والجنس" } },
+        { "key": "sg", "lang": "ar", "label": { "en": "Singular", "ar": "المفرد" } },
+        { "key": "du", "lang": "ar", "label": { "en": "Dual", "ar": "المثنى" } },
+        { "key": "pl", "lang": "ar", "label": { "en": "Plural", "ar": "الجمع" } }
+      ],
+      "rows": [
+        { "slot": { "en": "1st (m. & f.)", "ar": "المتكلم" }, "sg": "أَنَا", "du": "نَحْنُ", "pl": "نَحْنُ" },
+        { "slot": { "en": "2nd masc.", "ar": "المخاطب" }, "sg": "أَنْتَ", "du": "أَنْتُمَا", "pl": "أَنْتُمْ" },
+        { "slot": { "en": "2nd fem.", "ar": "المخاطبة" }, "sg": "أَنْتِ", "du": "أَنْتُمَا", "pl": "أَنْتُنَّ" },
+        { "slot": { "en": "3rd masc.", "ar": "الغائب" }, "sg": "هُوَ", "du": "هُمَا", "pl": "هُمْ" },
+        { "slot": { "en": "3rd fem.", "ar": "الغائبة" }, "sg": "هِيَ", "du": "هُمَا", "pl": "هُنَّ" }
+      ],
+      "notes": {
+        "en": ["15 slots, 12 distinct forms: نَحْنُ fills 1st dual and plural; أَنْتُمَا and هُمَا serve both genders in the dual."],
+        "ar": ["خمس عشرة خانة باثني عشر لفظًا: «نَحْنُ» للمثنى والجمع في المتكلم، و«أَنْتُمَا» و«هُمَا» للمذكر والمؤنث في المثنى."]
+      }
+    },
+    {
+      "id": "english",
+      "kind": "table",
+      "title": { "en": "English equivalents", "ar": "المقابلات الإنجليزية" },
+      "row_header": "slot",
+      "columns": [
+        { "key": "slot", "lang": "bi", "label": { "en": "Person / gender", "ar": "الشخص والجنس" } },
+        { "key": "sg", "lang": "bi", "label": { "en": "Singular", "ar": "المفرد" } },
+        { "key": "du", "lang": "bi", "label": { "en": "Dual", "ar": "المثنى" } },
+        { "key": "pl", "lang": "bi", "label": { "en": "Plural", "ar": "الجمع" } }
+      ],
+      "rows": [
+        { "slot": { "en": "1st (m. & f.)", "ar": "المتكلم" }, "sg": { "en": "I", "ar": "I" }, "du": { "en": "we (two)", "ar": "we (two)" }, "pl": { "en": "we", "ar": "we" } },
+        { "slot": { "en": "2nd masc.", "ar": "المخاطب" }, "sg": { "en": "you (m.)", "ar": "you (m.)" }, "du": { "en": "you two", "ar": "you two" }, "pl": { "en": "you (m. pl.)", "ar": "you (m. pl.)" } },
+        { "slot": { "en": "2nd fem.", "ar": "المخاطبة" }, "sg": { "en": "you (f.)", "ar": "you (f.)" }, "du": { "en": "you two", "ar": "you two" }, "pl": { "en": "you (f. pl.)", "ar": "you (f. pl.)" } },
+        { "slot": { "en": "3rd masc.", "ar": "الغائب" }, "sg": { "en": "he / it", "ar": "he / it" }, "du": { "en": "they two", "ar": "they two" }, "pl": { "en": "they (m.)", "ar": "they (m.)" } },
+        { "slot": { "en": "3rd fem.", "ar": "الغائبة" }, "sg": { "en": "she / it", "ar": "she / it" }, "du": { "en": "they two", "ar": "they two" }, "pl": { "en": "they (f.)", "ar": "they (f.)" } }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "These pronouns stand alone as separate words and occupy nominative positions, most often the subject of a nominal sentence: هُوَ طَبِيبٌ “he is a doctor”.",
+      "Learn the grid by rows: the 2nd person all start with أَنْتـ, the 3rd person with هـ. The masculine plural ends in ـمْ, the feminine plural in ـنَّ, the dual in ـمَا."
+    ],
+    "ar": [
+      "هذه الضمائر تُنطق مستقلّة غير متّصلة بكلمة أخرى، وتقع في مواضع الرفع، وأكثر ذلك أن تكون مبتدأً: «هُوَ طَبِيبٌ».",
+      "يسهل حفظها صفوفًا: ضمائر المخاطب تبدأ بـ«أنتـ»، وضمائر الغائب بالهاء؛ وجمع المذكر ينتهي بالميم، وجمع المؤنث بالنون المشدّدة، والمثنى بـ«ـما»."
+    ]
+  },
+  "examples": [
+    { "ar": "أَنَا طَالِبٌ وَهِيَ مُعَلِّمَةٌ", "en": "I am a student and she is a teacher.", "note": { "en": "Both pronouns are subjects (مبتدأ) of nominal sentences.", "ar": "«أنا» و«هي» مبتدآن." } },
+    { "ar": "أَنْتُمَا صَدِيقَانِ وَفِيَّانِ", "en": "You two are loyal friends.", "note": { "en": "أنتما is used for two men, two women, or a man and a woman.", "ar": "«أنتما» للمذكرَين والمؤنثتَين معًا." } },
+    { "ar": "هُنَّ يَدْرُسْنَ وَهُمْ يَلْعَبُونَ", "en": "They (f.) are studying and they (m.) are playing.", "note": { "en": "هنّ vs هم: feminine vs masculine plural.", "ar": "«هنّ» لجمع الإناث، و«هم» لجمع الذكور." } }
+  ],
+  "caveats": {
+    "en": [
+      "أَنَا is pronounced with a short final a (ana) in connected speech; the written alif is lengthened only in pause.",
+      "هُوَ and هِيَ often lose their vowel after وَ، فَ، لَ: وَهْوَ، فَهْيَ — same pronouns, not different forms.",
+      "A mixed or unspecified group takes the masculine plural (أنتم، هم).",
+      "The independent accusative series (إِيَّايَ، إِيَّاكَ …) is a separate unit (B04)."
+    ],
+    "ar": [
+      "تُنطق «أنا» بفتحة قصيرة في الوصل، ولا تُمدّ ألفها إلا في الوقف.",
+      "قد تُسكَّن الهاء في «هو» و«هي» بعد الواو والفاء واللام: «وَهْوَ، فَهْيَ»، وهما الضميران أنفسهما.",
+      "يُستعمل جمع المذكر (أنتم، هم) للجماعة المختلطة.",
+      "ضمائر النصب المنفصلة (إيّاي، إيّاك…) في وحدة مستقلة (B04)."
+    ]
+  },
+  "convention": {
+    "en": "Arabic grammar books traditionally list pronouns starting from the 3rd person (هو، هما، هم …) or the 1st (أنا، نحن …); the order differs but the forms do not. English “it” for هو/هي applies to non-human nouns according to their grammatical gender.",
+    "ar": "تبدأ بعض الكتب بالغائب (هو، هما، هم…) وبعضها بالمتكلم (أنا، نحن…)، والاختلاف في الترتيب لا في الألفاظ. ويُترجم «هو» و«هي» إلى it لغير العاقل بحسب جنسه النحوي."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Fill in the full grid of independent pronouns.", "ar": "املأ جدول ضمائر الرفع المنفصلة كاملًا." }, "answer_blocks": ["grid"] },
+    { "id": "r2", "prompt": { "en": "Give the English equivalent of أنتما، هنّ، أنتِ، نحن.", "ar": "ما المقابل الإنجليزي لـ: أنتما، هنّ، أنتِ، نحن؟" }, "answer_blocks": ["english"] }
+  ],
+  "sources": [
+    { "id": "R22", "locator": "Personal pronouns table" },
+    { "id": "R02", "locator": "Person, gender and number features" }
+  ],
+  "extra_aliases": ["الضمائر المنفصلة", "ضمائر الرفع", "personal pronouns", "detached pronouns", "independent pronouns", "anā huwa hiya", "أنا أنت هو"]
+}

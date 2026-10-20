@@ -1,0 +1,20 @@
+{
+  "id": "S08",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "A conditional sentence has two parts: the condition (فعل الشرط or جملة الشرط), and the response (جواب الشرط), which happens if the condition is met: إِنْ تَدْرُسْ تَنْجَحْ “if you study, you will succeed”.",
+      "The words that introduce a condition are called أدوات الشرط, “conditional tools”. Despite the shared name, they are not all particles: إِنْ is a particle, but مَنْ، مَا، مَتَى، أَيْنَ are nouns. Some tools put both verbs in the jussive (C08); others, such as إِذَا and لَوْ, do not."
+    ],
+    "ar": [
+      "جملة الشرط جزآن: فعل الشرط، وجواب الشرط الذي يتحقّق بتحقّقه: إِنْ تَدْرُسْ تَنْجَحْ.",
+      "وتُسمّى الكلمات التي تُصدَّر بها «أدوات الشرط»، وهي ليست كلها حروفًا: فـ«إِنْ» حرف، و«مَنْ، مَا، مَتَى، أَيْنَ» أسماء. ومنها ما يجزم فعلين (C08)، ومنها ما لا يجزم مثل «إِذَا» و«لَوْ»."
+    ]
+  },
+  "terms": [
+    { "ar": "أَدَاةُ الشَّرْطِ", "gloss": { "en": "conditional tool (particle or noun)", "ar": "ما يربط الشرط بجوابه" } },
+    { "ar": "فِعْلُ الشَّرْطِ", "gloss": { "en": "condition (protasis)", "ar": "الجزء الأول المعلَّق عليه" } },
+    { "ar": "جَوَابُ الشَّرْطِ", "gloss": { "en": "response (apodosis)", "ar": "الجزء الثاني المترتّب على الأول" } },
+    { "ar": "أَدَاةٌ جَازِمَةٌ", "gloss": { "en": "jussive-governing tool", "ar": "أداة تجزم فعلي الشرط والجواب" } }
+  ]
+}

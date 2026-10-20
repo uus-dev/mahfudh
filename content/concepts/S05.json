@@ -1,0 +1,25 @@
+{
+  "id": "S05",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "Every pronoun and verb paradigm is organised by three labels. Person: 1st (متكلّم, the speaker), 2nd (مخاطَب, the one addressed), 3rd (غائب, the one spoken about). Gender: masculine (مذكّر) or feminine (مؤنّث). Number: singular (مفرد), dual (مثنّى, exactly two) and plural (جمع, three or more).",
+      "Arabic books list 14 slots (3rd person: 6, 2nd person: 6, 1st person: 2). Not every slot has its own form: the 1st person does not mark gender, the 2nd-person dual is the same for masculine and feminine, and some spellings repeat in different slots (تَكْتُبُ = “you m.” and “she”). A repeated form is one spelling in two slots, not an extra pronoun.",
+      "Arabic tables usually start with the 3rd person (هو); many English tables start with “I”. The content is the same."
+    ],
+    "ar": [
+      "تُرتَّب جداول الضمائر والأفعال بثلاثة اعتبارات: الشخص (متكلّم، مخاطَب، غائب)، والجنس (مذكّر، مؤنّث)، والعدد (مفرد، مثنّى، جمع).",
+      "وتعدّ كتب العربية المواضع أربعة عشر: ستة للغائب، وستة للمخاطَب، واثنان للمتكلّم. وقد تشترك المواضع في صيغة واحدة: فالمتكلّم لا يُفرَّق فيه بين المذكّر والمؤنّث، ومثنّى المخاطَب واحد للجنسين، و«تَكْتُبُ» للمخاطَب وللغائبة. والصيغة المكرّرة لفظ واحد لموضعين، لا ضمير زائد.",
+      "تبدأ الجداول العربية عادة بالغائب، وتبدأ كثير من الجداول الإنجليزية بالمتكلّم، والمضمون واحد."
+    ]
+  },
+  "terms": [
+    { "ar": "الْمُتَكَلِّمُ", "gloss": { "en": "1st person (speaker)", "ar": "من يتكلّم: أنا، نحن" } },
+    { "ar": "الْمُخَاطَبُ", "gloss": { "en": "2nd person (addressee)", "ar": "من يُوجَّه إليه الكلام: أنتَ، أنتِ…" } },
+    { "ar": "الْغَائِبُ", "gloss": { "en": "3rd person (absent / spoken about)", "ar": "من يُتحدَّث عنه: هو، هي…" } },
+    { "ar": "مُفْرَدٌ", "gloss": { "en": "singular", "ar": "ما دلّ على واحد" } },
+    { "ar": "مُثَنًّى", "gloss": { "en": "dual (two)", "ar": "ما دلّ على اثنين" } },
+    { "ar": "جَمْعٌ", "gloss": { "en": "plural (three or more)", "ar": "ما دلّ على أكثر من اثنين" } },
+    { "ar": "مُذَكَّرٌ / مُؤَنَّثٌ", "gloss": { "en": "masculine / feminine", "ar": "الجنس النحوي" } }
+  ]
+}

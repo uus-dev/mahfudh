@@ -1,0 +1,22 @@
+{
+  "id": "S01",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "Arabic grammar divides every word into three parts of speech: the noun (اسم), the verb (فعل) and the particle (حرف).",
+      "A noun names something and carries no time in itself (كِتَابٌ، زَيْدٌ، هُوَ). A verb names an action or event tied to a time (كَتَبَ، يَكْتُبُ، اُكْتُبْ). A particle has a meaning only together with other words (فِي، لَمْ، هَلْ).",
+      "“Noun” here is wider than in English: it includes pronouns, demonstratives, relative pronouns, adjectives, participles and many words English calls adverbs. The signs that let you recognise each class are memorised in A01."
+    ],
+    "ar": [
+      "الكلمة في العربية ثلاثة أقسام: اسم وفعل وحرف.",
+      "الاسم ما دلّ على معنى في نفسه ولم يقترن بزمن (كِتَابٌ، زَيْدٌ، هُوَ). والفعل ما دلّ على معنى في نفسه واقترن بزمن (كَتَبَ، يَكْتُبُ، اُكْتُبْ). والحرف ما لا يظهر معناه إلا مع غيره (فِي، لَمْ، هَلْ).",
+      "والاسم في العربية أوسع من «noun» في الإنجليزية، فيشمل الضمائر وأسماء الإشارة والأسماء الموصولة والصفات وكثيرًا مما يُعدّ ظرفًا في الإنجليزية. وعلامات كل قسم تُحفظ في الوحدة A01."
+    ]
+  },
+  "terms": [
+    { "ar": "اِسْمٌ", "gloss": { "en": "noun (in the broad Arabic sense)", "ar": "ما دلّ على معنى في نفسه ولم يقترن بزمن" } },
+    { "ar": "فِعْلٌ", "gloss": { "en": "verb", "ar": "ما دلّ على معنى في نفسه واقترن بزمن" } },
+    { "ar": "حَرْفٌ", "gloss": { "en": "particle", "ar": "ما دلّ على معنى في غيره" } },
+    { "ar": "كَلِمَةٌ", "gloss": { "en": "word (a single meaningful unit)", "ar": "اللفظ المفرد الدالّ على معنى" } }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "E04",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "jamʿ al-muʾannath as-sālim",
+  "summary": {
+    "en": "Sound feminine plural in ـَاتٌ: how it is formed, and its kasra for both accusative and genitive.",
+    "ar": "جمع المؤنث السالم بـ«ـَاتٌ»: صوغه، ونصبه وجرّه بالكسرة."
+  },
+  "target": {
+    "en": "Recall formation and the nominative (ـَاتُ / ـَاتٌ) versus accusative/genitive (ـَاتِ / ـَاتٍ) ending pattern.",
+    "ar": "استحضار طريقة صوغ جمع المؤنث السالم، ورفعه بالضمة (ـَاتُ / ـَاتٌ) في مقابل نصبه وجره بالكسرة (ـَاتِ / ـَاتٍ)."
+  },
+  "blocks": [
+    {
+      "id": "endings",
+      "kind": "table",
+      "title": { "en": "Case endings (model: مُعَلِّمَة → مُعَلِّمَات)", "ar": "علامات الإعراب (نموذج: مُعَلِّمَة ← مُعَلِّمَات)" },
+      "row_header": "case",
+      "columns": [
+        { "key": "case", "lang": "bi", "label": { "en": "Case", "ar": "الحالة" } },
+        { "key": "sign", "lang": "bi", "label": { "en": "Sign", "ar": "العلامة" } },
+        { "key": "indef", "lang": "ar", "label": { "en": "Indefinite", "ar": "نكرة" } },
+        { "key": "def", "lang": "ar", "label": { "en": "With ال", "ar": "مع «ال»" } },
+        { "key": "mudaf", "lang": "ar", "label": { "en": "As مضاف", "ar": "مضاف" } }
+      ],
+      "rows": [
+        { "case": { "en": "Nominative", "ar": "الرفع" }, "sign": { "en": "ḍamma", "ar": "الضمة" }, "indef": "مُعَلِّمَاتٌ", "def": "الْمُعَلِّمَاتُ", "mudaf": "مُعَلِّمَاتُ الْمَدْرَسَةِ" },
+        { "case": { "en": "Accusative", "ar": "النصب" }, "sign": { "en": "kasra (in place of fatḥa)", "ar": "الكسرة نيابةً عن الفتحة" }, "indef": "مُعَلِّمَاتٍ", "def": "الْمُعَلِّمَاتِ", "mudaf": "مُعَلِّمَاتِ الْمَدْرَسَةِ" },
+        { "case": { "en": "Genitive", "ar": "الجر" }, "sign": { "en": "kasra", "ar": "الكسرة" }, "indef": "مُعَلِّمَاتٍ", "def": "الْمُعَلِّمَاتِ", "mudaf": "مُعَلِّمَاتِ الْمَدْرَسَةِ" }
+      ],
+      "notes": {
+        "en": ["Unlike the dual and the sound masculine plural, there is no nun to drop: the annexed form simply loses its tanwīn."],
+        "ar": ["لا نون في هذا الجمع، فإذا أُضيف حُذف تنوينه فقط."]
+      }
+    },
+    {
+      "id": "rules",
+      "kind": "rules",
+      "title": { "en": "Formation and the accusative rule", "ar": "الصوغ وقاعدة النصب" },
+      "items": [
+        {
+          "label": { "en": "Add ـَات; drop ة", "ar": "زيادة ألف وتاء، وحذف التاء المربوطة" },
+          "text": { "en": "Add ـَات to the singular. If the singular ends in ة, the ة is removed first.", "ar": "يُزاد على المفرد ألف وتاء، فإن كان مختومًا بتاء مربوطة حُذفت." },
+          "ar_example": "زَيْنَبُ ← زَيْنَبَاتٌ، طَالِبَةٌ ← طَالِبَاتٌ"
+        },
+        {
+          "label": { "en": "Accusative = genitive = kasra", "ar": "يُنصب بالكسرة كما يُجرّ" },
+          "text": { "en": "The accusative never takes fatḥa: ـَاتِ / ـَاتٍ, not ـَاتَ / ـَاتًا.", "ar": "لا يُنصب بالفتحة أبدًا، فيُقال: ـَاتِ / ـَاتٍ، لا ـَاتَ / ـَاتًا." },
+          "ar_example": "رَأَيْتُ الطَّالِبَاتِ، وَرَأَيْتُ طَالِبَاتٍ"
+        },
+        {
+          "label": { "en": "Only added ا and ت count", "ar": "الألف والتاء مزيدتان" },
+          "text": { "en": "If the alif or the ت belongs to the root, the word is a broken plural and takes a normal fatḥa in the accusative.", "ar": "إذا كانت الألف أو التاء أصلية فالكلمة جمع تكسير تُنصب بالفتحة." },
+          "ar_example": "سَمِعْتُ أَصْوَاتًا، وَرَأَيْتُ أَمْوَاتًا، وَقَابَلْتُ قُضَاةً"
+        },
+        {
+          "label": { "en": "Common users of ـَات", "ar": "أشهر ما يُجمع بالألف والتاء" },
+          "text": { "en": "Feminine names; nouns and adjectives with ة; feminine adjectives; many verbal nouns of more than three letters; some masculine nonhuman nouns and loanwords. It is not universal: many feminine nouns take a broken plural instead.", "ar": "أعلام الإناث، وما خُتم بالتاء، وصفات المؤنث، وكثير من المصادر الزائدة على ثلاثة أحرف، وبعض أسماء غير العاقل والكلمات المعرّبة. وليس قياسًا عامًّا، فكثير من المؤنث يُجمع جمع تكسير." },
+          "ar_example": "اِجْتِمَاعٌ ← اِجْتِمَاعَاتٌ، حَمَّامٌ ← حَمَّامَاتٌ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The sound feminine plural adds ـَات to the singular. Its nominative is regular (ḍamma), its genitive is regular (kasra), but its accusative borrows the genitive's kasra: this is the one point to memorize.",
+      "So ـَاتٌ / ـَاتُ signals nominative only, while ـَاتٍ / ـَاتِ can be either accusative or genitive; the sentence decides which."
+    ],
+    "ar": [
+      "جمع المؤنث السالم ما جُمع بألف وتاء مزيدتين، ويُرفع بالضمة ويُجرّ بالكسرة على الأصل، ويُنصب بالكسرة نيابةً عن الفتحة، وهذا موضع الحفظ فيه.",
+      "فـ«ـَاتٌ / ـَاتُ» للرفع وحده، و«ـَاتٍ / ـَاتِ» للنصب والجر، ويُعرف أحدهما من موقع الكلمة."
+    ]
+  },
+  "examples": [
+    { "ar": "الطَّالِبَاتُ مُجْتَهِدَاتٌ", "en": "The (female) students are diligent.", "note": { "en": "Subject and predicate, both nominative with ḍamma.", "ar": "مبتدأ وخبر مرفوعان بالضمة." } },
+    { "ar": "كَرَّمَتِ الْمَدْرَسَةُ الْمُعَلِّمَاتِ", "en": "The school honoured the (female) teachers.", "note": { "en": "Accusative object with kasra, not fatḥa.", "ar": "الْمُعَلِّمَاتِ: مفعول به منصوب بالكسرة نيابةً عن الفتحة." } },
+    { "ar": "اشْتَرَيْتُ سَيَّارَاتٍ جَدِيدَةً", "en": "I bought new cars.", "note": { "en": "Indefinite accusative ـَاتٍ; the adjective is feminine singular (I02) and keeps its fatḥa.", "ar": "سَيَّارَاتٍ: مفعول به منصوب بالكسرة، ونعته «جَدِيدَةً» منصوب بالفتحة." } },
+    { "ar": "حَضَرْتُ اجْتِمَاعَاتِ اللَّجْنَةِ", "en": "I attended the committee's meetings.", "note": { "en": "Accusative مضاف: kasra, no tanwīn.", "ar": "اجْتِمَاعَاتِ: مفعول به منصوب بالكسرة، وهو مضاف." } }
+  ],
+  "caveats": {
+    "en": [
+      "Some singulars change before ـَات: a fatḥa can be added to the middle letter of فَعْلَة nouns (سَجْدَة ← سَجَدَات), and final alif or hamza changes (صَحْرَاء ← صَحْرَاوَات). These patterns are outside this card.",
+      "Forms inflected like this plural without being one (أُولَاتُ، names like عَرَفَاتُ، أَذْرِعَاتُ) belong to E06.",
+      "After لا النافية للجنس a different ending pattern is discussed in the books; it is not part of this target."
+    ],
+    "ar": [
+      "قد يتغيّر المفرد عند الجمع، كفتح عين «فَعْلَة» (سَجْدَة ← سَجَدَات)، وتغيّر الألف والهمزة في آخره (صَحْرَاء ← صَحْرَاوَات)، وتفصيله خارج هذه البطاقة.",
+      "ما يُعرب هذا الإعراب وليس جمعًا حقيقيًا (أُولَاتُ، والأعلام نحو عَرَفَاتُ وأَذْرِعَاتُ) موضعه E06.",
+      "لاسمه بعد «لا النافية للجنس» حكم يُذكر في بابه، وليس من هذا الهدف."
+    ]
+  },
+  "convention": {
+    "en": "The Ājurrūmiyya lists the kasra as the accusative sign of the sound feminine plural, as here. Many grammarians prefer the name “plural with added alif and tāʾ” (الجمع بألف وتاء مزيدتين), because it also covers masculine words (حَمَّامَات) and singulars whose shape changes (سَجَدَات).",
+    "ar": "تذكر الآجرومية أن الكسرة علامة للنصب في جمع المؤنث السالم، كما هنا. ويُفضّل كثير من النحاة تسميته «ما جُمع بألف وتاء مزيدتين»؛ لأنه يشمل المذكر (حَمَّامَات) وما تغيّر بناء مفرده (سَجَدَات)."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Give مُعَلِّمَات in all three cases, indefinite and with ال.", "ar": "اذكر «مُعَلِّمَات» في الأحوال الثلاث نكرةً ومعرفةً." }, "answer_blocks": ["endings"] },
+    { "id": "r2", "prompt": { "en": "What is the accusative sign of the sound feminine plural, and why is أَصْوَاتًا not an exception?", "ar": "بمَ يُنصب جمع المؤنث السالم؟ ولماذا نُصبت «أَصْوَاتًا» بالفتحة؟" }, "answer_blocks": ["rules"] }
+  ],
+  "sources": [
+    { "id": "R01", "locator": "باب معرفة علامات الإعراب: الكسرة" },
+    { "id": "R15", "locator": "Grammar course index: sound feminine plural lessons" }
+  ],
+  "extra_aliases": ["sound feminine plural", "jam' mu'annath salim", "-at plural", "ـات", "الجمع بألف وتاء مزيدتين", "feminine plural accusative kasra"]
+}

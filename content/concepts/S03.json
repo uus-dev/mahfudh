@@ -1,0 +1,25 @@
+{
+  "id": "S03",
+  "review_status": "draft",
+  "body": {
+    "en": [
+      "Arabic has two basic sentence types. A nominal sentence (جملة اسمية) starts with a noun and consists of a subject (مبتدأ) and a predicate (خبر): الْجَوُّ جَمِيلٌ. A verbal sentence (جملة فعلية) starts with a verb and has a doer (فاعل): حَضَرَ الطَّالِبُ.",
+      "These short entries only name the roles used across the reference. They are not a syntax course; individual units say which role a word takes and which ending shows it."
+    ],
+    "ar": [
+      "الجملة في العربية نوعان: اسمية تبدأ باسم، وركناها المبتدأ والخبر (الْجَوُّ جَمِيلٌ)؛ وفعلية تبدأ بفعل، ولا بدّ لها من فاعل (حَضَرَ الطَّالِبُ).",
+      "هذه المداخل تعريف موجز بالوظائف المستعملة في المرجع، وليست درسًا في النحو، وتبيّن كل وحدة الوظيفة وعلامتها في موضعها."
+    ]
+  },
+  "terms": [
+    { "ar": "مُبْتَدَأٌ", "gloss": { "en": "subject of a nominal sentence (topic)", "ar": "الاسم المرفوع الذي تبدأ به الجملة الاسمية ويُخبر عنه" } },
+    { "ar": "خَبَرٌ", "gloss": { "en": "predicate of a nominal sentence", "ar": "ما يتمّ به معنى الجملة مع المبتدأ" } },
+    { "ar": "فَاعِلٌ", "gloss": { "en": "agent / doer of a verb", "ar": "الاسم المرفوع الذي قام بالفعل أو اتّصف به" } },
+    { "ar": "نَائِبُ الْفَاعِلِ", "gloss": { "en": "subject of a passive verb", "ar": "ما يحلّ محلّ الفاعل بعد حذفه مع الفعل المبني للمجهول" } },
+    { "ar": "مَفْعُولٌ بِهِ", "gloss": { "en": "direct object", "ar": "الاسم المنصوب الذي وقع عليه الفعل" } },
+    { "ar": "مُضَافٌ إِلَيْهِ", "gloss": { "en": "second term of an annexation (genitive)", "ar": "الاسم المجرور الذي يُنسب إليه ما قبله" } },
+    { "ar": "اِسْمٌ مَجْرُورٌ", "gloss": { "en": "noun after a preposition", "ar": "الاسم الواقع بعد حرف الجر" } },
+    { "ar": "نَعْتٌ", "gloss": { "en": "adjective (agreeing modifier)", "ar": "تابع يصف ما قبله" } },
+    { "ar": "حَالٌ", "gloss": { "en": "circumstantial accusative (state)", "ar": "وصف منصوب يبيّن هيئة صاحبه" } }
+  ]
+}

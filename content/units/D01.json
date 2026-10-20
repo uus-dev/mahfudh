@@ -1,0 +1,101 @@
+{
+  "id": "D01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "core_list",
+  "transliteration": "inna wa-akhawātuhā",
+  "summary": {
+    "en": "The six particles that put the subject in the accusative and leave the predicate nominative.",
+    "ar": "الأحرف الستة التي تنصب المبتدأ وترفع الخبر."
+  },
+  "target": {
+    "en": "Recall the six principal members, the basic meaning of each, and their effect on the اسم (accusative) and خبر (nominative).",
+    "ar": "استحضار الأحرف الستة الأساسية، ومعنى كلٍّ منها، وعملها في الاسم (النصب) والخبر (الرفع)."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The six members", "ar": "الأحرف الستة" },
+      "row_header": "particle",
+      "columns": [
+        { "key": "particle", "lang": "ar", "label": { "en": "Particle", "ar": "الحرف" } },
+        { "key": "meaning", "lang": "bi", "label": { "en": "Basic meaning", "ar": "المعنى" } },
+        { "key": "gloss", "lang": "bi", "label": { "en": "Typical English", "ar": "المقابل الإنجليزي" } }
+      ],
+      "rows": [
+        { "particle": "إِنَّ", "meaning": { "en": "emphasis", "ar": "التوكيد" }, "gloss": { "en": "indeed, truly", "ar": "indeed" } },
+        { "particle": "أَنَّ", "meaning": { "en": "emphasis (within a clause)", "ar": "التوكيد" }, "gloss": { "en": "that", "ar": "that" } },
+        { "particle": "كَأَنَّ", "meaning": { "en": "comparison", "ar": "التشبيه" }, "gloss": { "en": "as if, as though", "ar": "as if" } },
+        { "particle": "لٰكِنَّ", "meaning": { "en": "correction / contrast", "ar": "الاستدراك" }, "gloss": { "en": "but, however", "ar": "but" } },
+        { "particle": "لَيْتَ", "meaning": { "en": "wishing (often for the unattainable)", "ar": "التمنّي" }, "gloss": { "en": "if only, would that", "ar": "if only" } },
+        { "particle": "لَعَلَّ", "meaning": { "en": "hope or expectation", "ar": "الترجّي والتوقّع" }, "gloss": { "en": "perhaps, hopefully", "ar": "perhaps" } }
+      ]
+    },
+    {
+      "id": "effect",
+      "kind": "rules",
+      "title": { "en": "Governing effect", "ar": "العمل" },
+      "items": [
+        {
+          "label": { "en": "Subject → اسم إنّ", "ar": "المبتدأ ← اسمها" },
+          "text": { "en": "The former subject (مبتدأ) becomes the particle's اسم and takes the accusative (منصوب).", "ar": "يصير المبتدأ اسمًا لها، ويكون منصوبًا." },
+          "ar_example": "إِنَّ الْعِلْمَ نُورٌ"
+        },
+        {
+          "label": { "en": "Predicate → خبر إنّ", "ar": "الخبر ← خبرها" },
+          "text": { "en": "The predicate (خبر) stays nominative (مرفوع) and is now called the particle's خبر.", "ar": "يبقى الخبر مرفوعًا، ويُسمّى خبرها." },
+          "ar_example": "إِنَّ الْعِلْمَ نُورٌ"
+        },
+        {
+          "label": { "en": "Order", "ar": "الترتيب" },
+          "text": { "en": "The اسم normally comes directly after the particle. The خبر may come first only when it is a prepositional phrase or adverb of time/place (شبه جملة).", "ar": "يلي الاسمُ الحرفَ في الأصل، ولا يتقدّم الخبر على الاسم إلا إذا كان شبه جملة." },
+          "ar_example": "إِنَّ فِي الْبَيْتِ رَجُلًا"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "These particles enter a nominal sentence (مبتدأ + خبر). They reverse the effect of كان and its sisters: كان makes the predicate accusative, whereas إنّ and its sisters make the subject accusative and leave the predicate nominative.",
+      "A short formula many students memorise: تنصب الاسم وترفع الخبر — “it makes the noun accusative and the predicate nominative”."
+    ],
+    "ar": [
+      "تدخل هذه الأحرف على الجملة الاسمية (المبتدأ والخبر)، فتعمل عكس عمل كان وأخواتها: كان ترفع الاسم وتنصب الخبر، أمّا إنّ وأخواتها فتنصب الاسم وترفع الخبر.",
+      "وتُسمّى «الحروف المشبّهة بالفعل» لأنّها مبنية على الفتح كالفعل الماضي ولها معانٍ كمعاني الأفعال."
+    ]
+  },
+  "examples": [
+    { "ar": "إِنَّ اللّٰهَ غَفُورٌ رَحِيمٌ", "en": "Indeed, God is Forgiving, Merciful.", "note": { "en": "اللّٰهَ is the accusative اسم; غَفُورٌ is the nominative خبر.", "ar": "اللّٰهَ: اسم إنّ منصوب، غَفُورٌ: خبر إنّ مرفوع." } },
+    { "ar": "كَأَنَّ الْقَمَرَ مِصْبَاحٌ", "en": "It is as if the moon were a lamp.", "note": { "en": "Comparison with كأنّ.", "ar": "التشبيه بـ«كأنّ»." } },
+    { "ar": "لَيْتَ الشَّبَابَ يَعُودُ", "en": "If only youth would return.", "note": { "en": "The خبر here is a verbal sentence (يَعُودُ).", "ar": "الخبر جملة فعلية." } },
+    { "ar": "الطَّالِبُ مُجْتَهِدٌ لٰكِنَّ أَخَاهُ كَسُولٌ", "en": "The student is diligent, but his brother is lazy.", "note": { "en": "أَخَا is accusative with alif because it is one of the five nouns (E05).", "ar": "«أخا» منصوب بالألف لأنه من الأسماء الخمسة." } }
+  ],
+  "caveats": {
+    "en": [
+      "When ما is attached (إنّما، كأنّما، لكنّما …), the particle normally stops governing and the sentence returns to مبتدأ + خبر. ليتما is the usual exception: governing it or not are both reported.",
+      "The خبر can be a single word, a verbal or nominal sentence, or a شبه جملة.",
+      "Choosing between إنّ and أنّ (where each is used) is a separate topic and is not part of this target."
+    ],
+    "ar": [
+      "إذا اتصلت بها «ما» الكافة (إنّما، كأنّما، لكنّما…) بطل عملها غالبًا، ويُستثنى «ليتما» فيجوز فيها الإعمال والإهمال.",
+      "يكون الخبر مفردًا أو جملة فعلية أو اسمية أو شبه جملة.",
+      "مواضع كسر همزة «إنّ» وفتحها موضوع مستقل خارج هذا الهدف."
+    ]
+  },
+  "convention": {
+    "en": "This unit follows the common school list of six (as in the Ājurrūmiyya). Some books treat لا النافية للجنس alongside this family because it governs the same way; it is not part of this target.",
+    "ar": "تتبع هذه الوحدة العدّ المدرسي الشائع للأحرف الستة (كما في الآجرومية). وبعض الكتب تُلحق بها «لا النافية للجنس» لأنها تعمل عملها، وليست ضمن هذا الهدف."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Name the six members of إنّ and its sisters with the meaning of each.", "ar": "اذكر أخوات «إنّ» الستّ مع معنى كلٍّ منها." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "What does إنّ do to the subject and to the predicate?", "ar": "ما عمل «إنّ» في المبتدأ والخبر؟" }, "answer_blocks": ["effect"] }
+  ],
+  "sources": [
+    { "id": "R05", "locator": "Particle inna documentation" },
+    { "id": "R01", "locator": "باب إنّ وأخواتها" }
+  ],
+  "extra_aliases": ["الحروف المشبهة بالفعل", "inna and her sisters", "inna family"]
+}

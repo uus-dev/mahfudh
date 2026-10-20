@@ -1,0 +1,117 @@
+{
+  "id": "C08",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "list",
+  "scope_label": "selected_list",
+  "transliteration": "adawāt ash-sharṭ al-jāzima",
+  "summary": {
+    "en": "Twelve selected conditional tools (particles and nouns) that make two verbs jussive — condition and response — with the meaning of each.",
+    "ar": "اثنتا عشرة أداة شرط جازمة مختارة (حروفًا وأسماءً) تجزم فعلين — فعل الشرط وجوابه — مع معنى كلٍّ منها."
+  },
+  "target": {
+    "en": "Recall the selected inventory of jussive conditional tools, the meaning of each, and how they relate to the condition (فعل الشرط) and the response (جواب الشرط).",
+    "ar": "استحضار القائمة المختارة من أدوات الشرط الجازمة، ومعنى كلٍّ منها، وعلاقتها بفعل الشرط وجوابه."
+  },
+  "blocks": [
+    {
+      "id": "members",
+      "kind": "table",
+      "title": { "en": "The selected inventory (12 tools)", "ar": "القائمة المختارة (اثنتا عشرة أداة)" },
+      "row_header": "tool",
+      "columns": [
+        { "key": "tool", "lang": "ar", "label": { "en": "Tool", "ar": "الأداة" } },
+        { "key": "type", "lang": "bi", "label": { "en": "Particle or noun", "ar": "حرف أو اسم" } },
+        { "key": "meaning", "lang": "bi", "label": { "en": "Meaning", "ar": "المعنى" } },
+        { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
+      ],
+      "rows": [
+        { "tool": "إِنْ", "type": { "en": "particle", "ar": "حرف" }, "meaning": { "en": "if (pure linkage)", "ar": "مجرّد تعليق الجواب على الشرط" }, "example": "إِنْ تَدْرُسْ تَنْجَحْ" },
+        { "tool": "إِذْمَا", "type": { "en": "particle (school view)", "ar": "حرف (على الراجح)" }, "meaning": { "en": "if (like إنْ)", "ar": "بمعنى «إنْ»" }, "example": "إِذْمَا تَتَعَلَّمْ تَتَقَدَّمْ" },
+        { "tool": "مَنْ", "type": { "en": "noun", "ar": "اسم" }, "meaning": { "en": "whoever (rational beings)", "ar": "للعاقل" }, "example": "مَنْ يَزْرَعْ يَحْصُدْ" },
+        { "tool": "مَا", "type": { "en": "noun", "ar": "اسم" }, "meaning": { "en": "whatever (non-rational)", "ar": "لغير العاقل" }, "example": "مَا تَقْرَأْ تَسْتَفِدْ مِنْهُ" },
+        { "tool": "مَهْمَا", "type": { "en": "noun", "ar": "اسم" }, "meaning": { "en": "whatever, no matter what", "ar": "لغير العاقل مع التعميم" }, "example": "مَهْمَا تَفْعَلْ تُحَاسَبْ عَلَيْهِ" },
+        { "tool": "مَتَى", "type": { "en": "noun (time)", "ar": "اسم (ظرف زمان)" }, "meaning": { "en": "whenever", "ar": "للزمان" }, "example": "مَتَى تُسَافِرْ أُسَافِرْ" },
+        { "tool": "أَيَّانَ", "type": { "en": "noun (time)", "ar": "اسم (ظرف زمان)" }, "meaning": { "en": "whenever", "ar": "للزمان" }, "example": "أَيَّانَ تَأْتِ تَجِدْنَا" },
+        { "tool": "أَيْنَ", "type": { "en": "noun (place)", "ar": "اسم (ظرف مكان)" }, "meaning": { "en": "wherever (often أَيْنَمَا)", "ar": "للمكان، وتكثر معها «ما»" }, "example": "أَيْنَمَا تَجْلِسْ أَجْلِسْ" },
+        { "tool": "أَنَّى", "type": { "en": "noun (place)", "ar": "اسم (ظرف مكان)" }, "meaning": { "en": "wherever", "ar": "للمكان" }, "example": "أَنَّى تَذْهَبْ تَجِدْ صَدِيقًا" },
+        { "tool": "حَيْثُمَا", "type": { "en": "noun (place)", "ar": "اسم (ظرف مكان)" }, "meaning": { "en": "wherever (needs ما)", "ar": "للمكان، ولا تجزم إلا مع «ما»" }, "example": "حَيْثُمَا تَسْكُنْ أَزُرْكَ" },
+        { "tool": "كَيْفَمَا", "type": { "en": "noun (manner)", "ar": "اسم (للحال)" }, "meaning": { "en": "however, in whatever way", "ar": "للحال والكيفية" }, "example": "كَيْفَمَا تَجْلِسْ أَجْلِسْ" },
+        { "tool": "أَيُّ", "type": { "en": "noun (declinable)", "ar": "اسم مُعرَب" }, "meaning": { "en": "whichever — takes the meaning of the noun it is added to", "ar": "بحسب ما تُضاف إليه" }, "example": "أَيَّ كِتَابٍ تَقْرَأْ تَسْتَفِدْ" }
+      ],
+      "notes": {
+        "en": ["Only إنْ and إذْما are particles; all the others are nouns, so this page calls the set أدوات ('tools'), not حروف."],
+        "ar": ["الحرفان هما «إنْ» و«إذما»، والبقية أسماء؛ ولذلك تُسمّى المجموعة «أدوات» لا «حروفًا»."]
+      }
+    },
+    {
+      "id": "structure",
+      "kind": "rules",
+      "title": { "en": "Condition and response", "ar": "فعل الشرط وجوابه" },
+      "items": [
+        {
+          "label": { "en": "Two verbs", "ar": "تجزم فعلين" },
+          "text": { "en": "The tool links two clauses: the condition (فعل الشرط) and the response (جواب الشرط / جزاؤه). If both are imperfect verbs, both are jussive.", "ar": "تربط الأداة جملتين: الأولى فعل الشرط، والثانية جواب الشرط وجزاؤه؛ فإن كانا مضارعين جُزما معًا." },
+          "ar_example": "مَنْ يَجْتَهِدْ يَنْجَحْ"
+        },
+        {
+          "label": { "en": "Past-tense verbs", "ar": "الفعل الماضي" },
+          "text": { "en": "If either verb is a past verb, it keeps its form and is said to be in the position of the jussive (في محلّ جزم).", "ar": "إذا كان أحدهما أو كلاهما ماضيًا بقي على بنائه، وكان في محلّ جزم." },
+          "ar_example": "إِنْ دَرَسْتَ نَجَحْتَ"
+        },
+        {
+          "label": { "en": "Response with فَـ", "ar": "اقتران الجواب بالفاء" },
+          "text": { "en": "When the response cannot itself serve as a condition (e.g. a nominal sentence or a command), it is introduced by فَـ and the clause as a whole is in the position of the jussive. The full list is I10.", "ar": "إذا لم يصلح الجواب أن يكون فعلًا للشرط (كالجملة الاسمية أو الطلبية) اقترن بالفاء، وكانت الجملة في محلّ جزم. وتفصيل المواضع في الوحدة I10." },
+          "ar_example": "إِنْ زُرْتَنَا فَأَنْتَ ضَيْفٌ كَرِيمٌ"
+        },
+        {
+          "label": { "en": "Nouns have a role", "ar": "الأسماء لها محلّ" },
+          "text": { "en": "The noun tools also fill a slot in the sentence (subject, object, adverb of time or place, etc.); the particles إنْ and إذْما have none.", "ar": "أسماء الشرط لها محلّ من الإعراب (مبتدأ، أو مفعول به، أو ظرف…)، أمّا «إنْ» و«إذما» فحرفان لا محلّ لهما." },
+          "ar_example": "مَتَى تَزُرْنِي أُكْرِمْكَ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "A jussive conditional sentence has three parts: the tool, the condition, and the response. The response depends on the condition happening.",
+      "Contrast with C07: لم، لمّا، لام الأمر and لا الناهية each govern one verb; the conditional tools govern two."
+    ],
+    "ar": [
+      "لأسلوب الشرط الجازم ثلاثة أركان: الأداة، وفعل الشرط، وجواب الشرط؛ ويتوقّف وقوع الجواب على وقوع الشرط.",
+      "وتختلف عن جوازم الفعل الواحد (C07: لم، لمّا، لام الأمر، لا الناهية) في أنها تجزم فعلين."
+    ]
+  },
+  "examples": [
+    { "ar": "وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ", "en": "And whatever good you do, God knows it. (Qur'an 2:197)", "note": { "en": "تَفْعَلُوا (condition) drops its nūn; يَعْلَمْ (response) takes sukūn.", "ar": "«تفعلوا» فعل الشرط مجزوم بحذف النون، و«يعلمْ» جواب الشرط مجزوم بالسكون." } },
+    { "ar": "مَنْ يَصْبِرْ يَظْفَرْ", "en": "Whoever is patient will succeed.", "note": { "en": "مَنْ refers to a person; both verbs jussive.", "ar": "«مَن» للعاقل، والفعلان مجزومان." } },
+    { "ar": "أَيْنَمَا تَكُنْ أَكُنْ مَعَكَ", "en": "Wherever you are, I will be with you.", "note": { "en": "تَكُنْ / أَكُنْ: hollow verbs lose their long vowel in the jussive.", "ar": "«تكنْ» و«أكنْ» مجزومان بالسكون، وحُذفت الواو لالتقاء الساكنين." } },
+    { "ar": "إِنْ لَمْ تَحْضُرْ فَلَنْ تَفْهَمَ الدَّرْسَ", "en": "If you don't attend, you will not understand the lesson.", "note": { "en": "A response beginning with لَنْ cannot be a condition, so it takes فَـ.", "ar": "اقترن الجواب بالفاء لأنه مبدوء بـ«لن»." } }
+  ],
+  "caveats": {
+    "en": [
+      "إذا and لو are conditional but normally do not make verbs jussive (C09). إذا as a jussive tool is limited to poetry.",
+      "حيثُ and إذْ make verbs jussive only when ما is attached (حيثما، إذما).",
+      "مَنْ، ما، أين، متى، أيّ and others also have non-conditional uses (interrogative, relative); only the conditional use governs."
+    ],
+    "ar": [
+      "«إذا» و«لو» أداتا شرط غير جازمتين في الغالب (C09)، وجزم «إذا» خاصّ بالشعر.",
+      "لا تجزم «حيث» و«إذ» إلا مقترنتين بـ«ما» (حيثما، إذما).",
+      "لـ«مَن» و«ما» و«أين» و«متى» و«أيّ» وغيرها استعمالات أخرى (استفهامية أو موصولة)، ولا تجزم إلا إذا كانت شرطية."
+    ]
+  },
+  "convention": {
+    "en": "This unit adopts the school list of twelve tools found in the Ājurrūmiyya tradition (that text adds إذا in poetry). Two points differ between books: إذْما is a particle for Sībawayh and most school books but an adverb for others; كيفما is jussive for the Kufans and in the Ājurrūmiyya, but Basrans hold it does not make verbs jussive; this page keeps it but marks the dispute.",
+    "ar": "تتبع هذه الوحدة القائمة المدرسية للأدوات الاثنتي عشرة كما في الآجرومية (وتزيد الآجرومية «إذا» في الشعر خاصة). وفي موضعين خلاف: «إذما» حرف عند سيبويه وأكثر الكتب المدرسية، وظرف عند غيره؛ و«كيفما» جازمة عند الكوفيين وفي الآجرومية، والبصريون لا يجزمون بها، فتُسقطها بعض القوائم."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "List the twelve jussive conditional tools, saying which are particles and the meaning of each noun.", "ar": "عدّد أدوات الشرط الجازمة الاثنتي عشرة، وبيّن الحرف منها والاسم ومعنى كلّ اسم." }, "answer_blocks": ["members"] },
+    { "id": "r2", "prompt": { "en": "What happens to the condition and response verbs when they are imperfect, and when they are past?", "ar": "ما حكم فعل الشرط وجوابه إذا كانا مضارعين؟ وإذا كانا ماضيين؟" }, "answer_blocks": ["structure"] }
+  ],
+  "sources": [
+    { "id": "R10", "locator": "Conditional expressions overview" },
+    { "id": "R04", "locator": "Jussive mood: conditional sentences" }
+  ],
+  "extra_aliases": ["أسماء الشرط", "جوازم الفعلين", "الشرط والجزاء", "conditional particles", "jussive conditionals", "conditional nouns", "in man ma mahma", "jawazim of two verbs"]
+}

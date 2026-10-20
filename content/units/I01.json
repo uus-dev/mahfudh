@@ -1,0 +1,119 @@
+{
+  "id": "I01",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "rule",
+  "scope_label": "rule_package",
+  "transliteration": "aḥkām al-iḍāfa al-asāsiyya",
+  "summary": {
+    "en": "Annexation (iḍāfa) rule card: مضاف without ال or tanwīn, مضاف إليه in the genitive, definiteness, and nun loss.",
+    "ar": "بطاقة أحكام الإضافة: المضاف بلا «ال» ولا تنوين، والمضاف إليه مجرور، والتعريف، وحذف النون."
+  },
+  "target": {
+    "en": "Recall the core constraints of annexation: case, definiteness, loss of the article and tanwīn on the مضاف, and loss of nun on duals and sound masculine plurals.",
+    "ar": "استحضار الأحكام الأساسية للإضافة: الإعراب، والتعريف، وحذف «ال» والتنوين من المضاف، وحذف نون المثنى وجمع المذكر السالم."
+  },
+  "blocks": [
+    {
+      "id": "rules",
+      "kind": "rules",
+      "title": { "en": "The core constraints", "ar": "الأحكام الأساسية" },
+      "items": [
+        {
+          "label": { "en": "1. مضاف: no tanwīn", "ar": "١. المضاف لا يُنوَّن" },
+          "text": { "en": "The first term drops its tanwīn.", "ar": "يُحذف التنوين من المضاف." },
+          "ar_example": "كِتَابٌ ← كِتَابُ الطَّالِبِ"
+        },
+        {
+          "label": { "en": "2. مضاف: no ال", "ar": "٢. المضاف لا تدخله «ال»" },
+          "text": { "en": "The first term never takes the article in an ordinary (meaning-bearing) annexation. *الْكِتَابُ الطَّالِبِ is wrong.", "ar": "لا تدخل «ال» على المضاف في الإضافة المعنوية، فلا يُقال: الكتابُ الطالبِ." },
+          "ar_example": "بَابُ الْبَيْتِ"
+        },
+        {
+          "label": { "en": "3. Dual / sound masc. plural: nun dropped", "ar": "٣. حذف نون المثنى وجمع المذكر السالم" },
+          "text": { "en": "The nun of ـَانِ / ـَيْنِ / ـُونَ / ـِينَ is a tanwīn substitute, so it drops too.", "ar": "نون المثنى والجمع عوض عن التنوين، فتُحذف كذلك." },
+          "ar_example": "يَدَا الطِّفْلِ، مُعَلِّمُو الْمَدْرَسَةِ"
+        },
+        {
+          "label": { "en": "4. مضاف: any case", "ar": "٤. المضاف بحسب موقعه" },
+          "text": { "en": "The case of the مضاف depends on its role in the sentence.", "ar": "يُعرب المضاف بحسب موقعه في الجملة: مرفوعًا أو منصوبًا أو مجرورًا." },
+          "ar_example": "جَاءَ صَدِيقُ أَخِي، رَأَيْتُ صَدِيقَ أَخِي"
+        },
+        {
+          "label": { "en": "5. مضاف إليه: always genitive", "ar": "٥. المضاف إليه مجرور دائمًا" },
+          "text": { "en": "The second term is always genitive; if it is a pronoun, it is an attached pronoun in genitive position.", "ar": "المضاف إليه مجرور دائمًا، فإن كان ضميرًا فهو ضمير متصل في محل جر." },
+          "ar_example": "قَلَمُ مُعَلِّمٍ، قَلَمُ الْمُعَلِّمِ، قَلَمُهُ"
+        },
+        {
+          "label": { "en": "6. Definiteness passes from the second term", "ar": "٦. التعريف يأتي من المضاف إليه" },
+          "text": { "en": "Annexed to a definite noun (ال, proper name, pronoun) the مضاف becomes definite; annexed to an indefinite it stays indefinite but is narrowed (تخصيص): “the student's book” vs “a student's book”.", "ar": "إذا أُضيف إلى معرفة صار معرفة (التعريف)، وإذا أُضيف إلى نكرة بقي نكرة واكتسب التخصيص." },
+          "ar_example": "كِتَابُ الطَّالِبِ / كِتَابُ طَالِبٍ"
+        },
+        {
+          "label": { "en": "7. Chains: only the last term may take ال or tanwīn", "ar": "٧. في السلسلة: لا يُعرَّف بـ«ال» ولا يُنوَّن إلا الأخير" },
+          "text": { "en": "Each middle term is both مضاف إليه (genitive) and مضاف (no ال, no tanwīn).", "ar": "كل اسم في الوسط مضاف إليه مجرور، ومضاف في الوقت نفسه فلا «ال» فيه ولا تنوين." },
+          "ar_example": "بَابُ بَيْتِ الْمُدِيرِ"
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "kind": "table",
+      "title": { "en": "What changes on the مضاف (nominative shown)", "ar": "ما يتغيّر في المضاف (في حال الرفع)" },
+      "row_header": "state",
+      "columns": [
+        { "key": "state", "lang": "bi", "label": { "en": "State", "ar": "الحالة" } },
+        { "key": "sing", "lang": "ar", "label": { "en": "Singular", "ar": "المفرد" } },
+        { "key": "dual", "lang": "ar", "label": { "en": "Dual", "ar": "المثنى" } },
+        { "key": "smp", "lang": "ar", "label": { "en": "Sound masc. plural", "ar": "جمع المذكر السالم" } },
+        { "key": "sfp", "lang": "ar", "label": { "en": "Sound fem. plural", "ar": "جمع المؤنث السالم" } }
+      ],
+      "rows": [
+        { "state": { "en": "Indefinite", "ar": "نكرة" }, "sing": "مُعَلِّمٌ", "dual": "مُعَلِّمَانِ", "smp": "مُعَلِّمُونَ", "sfp": "مُعَلِّمَاتٌ" },
+        { "state": { "en": "With ال", "ar": "مع «ال»" }, "sing": "الْمُعَلِّمُ", "dual": "الْمُعَلِّمَانِ", "smp": "الْمُعَلِّمُونَ", "sfp": "الْمُعَلِّمَاتُ" },
+        { "state": { "en": "As مضاف", "ar": "مضاف" }, "sing": "مُعَلِّمُ الْمَدْرَسَةِ", "dual": "مُعَلِّمَا الْمَدْرَسَةِ", "smp": "مُعَلِّمُو الْمَدْرَسَةِ", "sfp": "مُعَلِّمَاتُ الْمَدْرَسَةِ" }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "In an إضافة two nouns form one unit: the first (مضاف) is specified by the second (مضاف إليه). The first gives up everything that marks its own definiteness or indefiniteness, namely ال, tanwīn, and the tanwīn-like nun of duals and sound masculine plurals, because the second term now determines that.",
+      "Its typical English equivalents are “X of Y” and “Y's X”."
+    ],
+    "ar": [
+      "الإضافة نسبة بين اسمين يتعرّف الأول (المضاف) أو يتخصّص بالثاني (المضاف إليه)، ولذلك يُجرَّد المضاف مما يدلّ على تعريفه أو تنكيره بنفسه: «ال» والتنوين ونون المثنى والجمع.",
+      "ويقابلها في الإنجليزية غالبًا: X of Y أو Y's X."
+    ]
+  },
+  "examples": [
+    { "ar": "هٰذَا قَلَمُ الْمُعَلِّمِ", "en": "This is the teacher's pen.", "note": { "en": "قَلَمُ: definite through annexation; الْمُعَلِّمِ: genitive.", "ar": "قَلَمُ: خبر مرفوع وهو مضاف، والْمُعَلِّمِ: مضاف إليه مجرور." } },
+    { "ar": "فَتَحْتُ بَابَ غُرْفَةٍ", "en": "I opened the door of a room.", "note": { "en": "Annexed to an indefinite: specified but still indefinite.", "ar": "بَابَ: مضاف إلى نكرة فاكتسب التخصيص لا التعريف." } },
+    { "ar": "سَافَرَ مُهَنْدِسُو الشَّرِكَةِ", "en": "The company's engineers travelled.", "note": { "en": "Sound masculine plural مضاف: nun dropped.", "ar": "مُهَنْدِسُو: فاعل مرفوع بالواو، وحُذفت النون للإضافة." } },
+    { "ar": "أَعْجَبَتْنِي حَدِيقَةُ بَيْتِ جَارِنَا", "en": "I liked the garden of our neighbour's house.", "note": { "en": "A chain: بَيْتِ is both مضاف إليه and مضاف.", "ar": "بَيْتِ: مضاف إليه مجرور، وهو مضاف إلى «جَارِ»، و«جَارِ» مضاف إلى الضمير." } }
+  ],
+  "caveats": {
+    "en": [
+      "An adjective describing the مضاف comes after the whole construction and agrees with it in case (بَيْتُ الْمُدِيرِ الْجَدِيدُ, “the director's new house”); see I02.",
+      "“Verbal” annexation (الإضافة اللفظية, e.g. an active participle annexed to its object: كَاتِبُ الرِّسَالَةِ) does not make the first term definite, and in limited cases allows ال on it. It is not part of this card.",
+      "Some words stay indefinite even when annexed to a definite noun (غَيْر، مِثْل). The five nouns (E05) and annexation to ياء المتكلم have their own endings."
+    ],
+    "ar": [
+      "نعت المضاف يأتي بعد المضاف إليه ويتبع المضاف في إعرابه (بَيْتُ الْمُدِيرِ الْجَدِيدُ): انظر I02.",
+      "الإضافة اللفظية (كإضافة اسم الفاعل إلى معموله: كَاتِبُ الرِّسَالَةِ) لا تفيد تعريفًا، وتجوز فيها «ال» على المضاف بشروط، وليست من هذه البطاقة.",
+      "بعض الأسماء لا تتعرّف بالإضافة (غَيْر، مِثْل)، وللأسماء الخمسة (E05) والمضاف إلى ياء المتكلم أحكام خاصة."
+    ]
+  },
+  "convention": {
+    "en": "The terms مضاف / مضاف إليه are universal. Books differ on what governs the genitive: most (following Sībawayh) say the مضاف itself; others say an implied preposition (لِ، مِنْ، فِي), which is also how some books classify the meanings of إضافة. This does not change any rule on this card.",
+    "ar": "مصطلحا «المضاف» و«المضاف إليه» متّفق عليهما. واختُلف في عامل الجر في المضاف إليه: فالأكثر على أنه المضاف نفسه (وهو مذهب سيبويه)، وقيل: حرف جر مقدّر (اللام أو من أو في)، وعليه تُقسَّم الإضافة في بعض الكتب إلى لامية وبيانية وظرفية. ولا يغيّر هذا شيئًا من أحكام البطاقة."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "List what the مضاف loses and what case the مضاف إليه takes.", "ar": "ما الذي يُحذف من المضاف؟ وما إعراب المضاف إليه؟" }, "answer_blocks": ["rules", "forms"] },
+    { "id": "r2", "prompt": { "en": "When does the مضاف become definite, and when does it stay indefinite?", "ar": "متى يكتسب المضاف التعريف، ومتى يكتسب التخصيص فقط؟" }, "answer_blocks": ["rules"] }
+  ],
+  "sources": [
+    { "id": "R08", "locator": "Possessive construction (iḍāfa)" }
+  ],
+  "extra_aliases": ["genitive construction", "construct state", "إضافة", "مضاف إليه", "mudaf ilayh", "annexation", "of construction"]
+}

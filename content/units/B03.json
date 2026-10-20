@@ -1,0 +1,152 @@
+{
+  "id": "B03",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "ḍamāʾir an-naṣb wa-l-jarr al-muttaṣila",
+  "summary": {
+    "en": "The object/genitive suffix pronouns (ـني/ـي، ـنا، ـكَ … ـهنّ) and how they change on verbs, nouns and prepositions.",
+    "ar": "ضمائر النصب والجر المتصلة (ـني/ـي، ـنا، ـكَ … ـهنّ) وما يطرأ عليها مع الأفعال والأسماء وحروف الجر."
+  },
+  "target": {
+    "en": "Recall the object/genitive suffix grid (ـني/ـي، ـكَ، ـكِ، ـهُ، ـها، ـكما، ـهما، ـنا، ـكم، ـكنّ، ـهم، ـهنّ) and the main changes when it attaches to verbs, nouns and prepositions.",
+    "ar": "استحضار جدول ضمائر النصب والجر المتصلة (ـني/ـي، ـكَ، ـكِ، ـهُ، ـها، ـكما، ـهما، ـنا، ـكم، ـكنّ، ـهم، ـهنّ)، وأهمّ ما يتغيّر عند اتصالها بالفعل والاسم وحرف الجر."
+  },
+  "blocks": [
+    {
+      "id": "grid",
+      "kind": "table",
+      "title": { "en": "The suffix grid", "ar": "جدول الضمائر" },
+      "row_header": "slot",
+      "columns": [
+        { "key": "slot", "lang": "bi", "label": { "en": "Person / gender", "ar": "الشخص والجنس" } },
+        { "key": "sg", "lang": "ar", "label": { "en": "Singular", "ar": "المفرد" } },
+        { "key": "du", "lang": "ar", "label": { "en": "Dual", "ar": "المثنى" } },
+        { "key": "pl", "lang": "ar", "label": { "en": "Plural", "ar": "الجمع" } }
+      ],
+      "rows": [
+        { "slot": { "en": "1st (m. & f.)", "ar": "المتكلم" }, "sg": "ـنِي (فعل) / ـي (اسم، حرف)", "du": "ـنَا", "pl": "ـنَا" },
+        { "slot": { "en": "2nd masc.", "ar": "المخاطب" }, "sg": "ـكَ", "du": "ـكُمَا", "pl": "ـكُمْ" },
+        { "slot": { "en": "2nd fem.", "ar": "المخاطبة" }, "sg": "ـكِ", "du": "ـكُمَا", "pl": "ـكُنَّ" },
+        { "slot": { "en": "3rd masc.", "ar": "الغائب" }, "sg": "ـهُ", "du": "ـهُمَا", "pl": "ـهُمْ" },
+        { "slot": { "en": "3rd fem.", "ar": "الغائبة" }, "sg": "ـهَا", "du": "ـهُمَا", "pl": "ـهُنَّ" }
+      ],
+      "notes": {
+        "en": ["The same suffixes are accusative on a verb (object: me, him …) and genitive on a noun or preposition (possessor: my, his …; after a preposition: me, him …)."],
+        "ar": ["الضمائر نفسها تكون في محلّ نصب مع الفعل (مفعولًا به)، وفي محلّ جرّ مع الاسم (مضافًا إليه) ومع حرف الجر."]
+      }
+    },
+    {
+      "id": "models",
+      "kind": "table",
+      "title": { "en": "Models: verb, noun, preposition", "ar": "نماذج: مع الفعل والاسم وحرف الجر" },
+      "row_header": "slot",
+      "columns": [
+        { "key": "slot", "lang": "bi", "label": { "en": "Person", "ar": "الشخص" } },
+        { "key": "verb", "lang": "ar", "label": { "en": "Verb أَكْرَمَ (object)", "ar": "مع الفعل «أَكْرَمَ»" } },
+        { "key": "noun", "lang": "ar", "label": { "en": "Noun كِتَاب (possessor)", "ar": "مع الاسم «كِتَاب»" } },
+        { "key": "prep1", "lang": "ar", "label": { "en": "Preposition مِنْ", "ar": "مع «مِنْ»" } },
+        { "key": "prep2", "lang": "ar", "label": { "en": "Preposition فِي", "ar": "مع «فِي»" } }
+      ],
+      "rows": [
+        { "slot": { "en": "1st sg.", "ar": "المتكلم" }, "verb": "أَكْرَمَنِي", "noun": "كِتَابِي", "prep1": "مِنِّي", "prep2": "فِيَّ" },
+        { "slot": { "en": "1st du./pl.", "ar": "المتكلمون" }, "verb": "أَكْرَمَنَا", "noun": "كِتَابُنَا", "prep1": "مِنَّا", "prep2": "فِينَا" },
+        { "slot": { "en": "2nd m. sg.", "ar": "المخاطب" }, "verb": "أَكْرَمَكَ", "noun": "كِتَابُكَ", "prep1": "مِنْكَ", "prep2": "فِيكَ" },
+        { "slot": { "en": "2nd f. sg.", "ar": "المخاطبة" }, "verb": "أَكْرَمَكِ", "noun": "كِتَابُكِ", "prep1": "مِنْكِ", "prep2": "فِيكِ" },
+        { "slot": { "en": "2nd du.", "ar": "المخاطبان" }, "verb": "أَكْرَمَكُمَا", "noun": "كِتَابُكُمَا", "prep1": "مِنْكُمَا", "prep2": "فِيكُمَا" },
+        { "slot": { "en": "2nd m. pl.", "ar": "المخاطبون" }, "verb": "أَكْرَمَكُمْ", "noun": "كِتَابُكُمْ", "prep1": "مِنْكُمْ", "prep2": "فِيكُمْ" },
+        { "slot": { "en": "2nd f. pl.", "ar": "المخاطبات" }, "verb": "أَكْرَمَكُنَّ", "noun": "كِتَابُكُنَّ", "prep1": "مِنْكُنَّ", "prep2": "فِيكُنَّ" },
+        { "slot": { "en": "3rd m. sg.", "ar": "الغائب" }, "verb": "أَكْرَمَهُ", "noun": "كِتَابُهُ", "prep1": "مِنْهُ", "prep2": "فِيهِ" },
+        { "slot": { "en": "3rd f. sg.", "ar": "الغائبة" }, "verb": "أَكْرَمَهَا", "noun": "كِتَابُهَا", "prep1": "مِنْهَا", "prep2": "فِيهَا" },
+        { "slot": { "en": "3rd du.", "ar": "الغائبان" }, "verb": "أَكْرَمَهُمَا", "noun": "كِتَابُهُمَا", "prep1": "مِنْهُمَا", "prep2": "فِيهِمَا" },
+        { "slot": { "en": "3rd m. pl.", "ar": "الغائبون" }, "verb": "أَكْرَمَهُمْ", "noun": "كِتَابُهُمْ", "prep1": "مِنْهُمْ", "prep2": "فِيهِمْ" },
+        { "slot": { "en": "3rd f. pl.", "ar": "الغائبات" }, "verb": "أَكْرَمَهُنَّ", "noun": "كِتَابُهُنَّ", "prep1": "مِنْهُنَّ", "prep2": "فِيهِنَّ" }
+      ],
+      "notes": {
+        "en": ["The noun column shows كِتَاب in the nominative. Before ـي the case vowel is not visible (كِتَابِي in all three cases)."],
+        "ar": ["عمود الاسم في حالة الرفع، ومع ياء المتكلم تُقدَّر الحركة الإعرابية (كِتَابِي في الأحوال الثلاث)."]
+      }
+    },
+    {
+      "id": "changes",
+      "kind": "rules",
+      "title": { "en": "Main changes on attachment", "ar": "أهمّ التغيّرات عند الاتصال" },
+      "items": [
+        {
+          "label": { "en": "1st sg. with verbs: نون الوقاية", "ar": "ياء المتكلم مع الفعل: نون الوقاية" },
+          "text": { "en": "With a verb, “me” is ـنِي: a protective nūn (نون الوقاية) is inserted before ـي. The pronoun is the ي only; the ن is not part of it.", "ar": "تُزاد نون الوقاية قبل ياء المتكلم إذا اتّصلت بالفعل؛ والضمير هو الياء وحدها، والنون حرف للوقاية." },
+          "ar_example": "سَاعَدَنِي — يُسَاعِدُنِي — سَاعِدْنِي"
+        },
+        {
+          "label": { "en": "1st sg. with nouns and most prepositions", "ar": "ياء المتكلم مع الاسم وأكثر الحروف" },
+          "text": { "en": "With nouns and most prepositions it is plain ـي, and the letter before it takes kasra. مِنْ and عَنْ take نون الوقاية (مِنِّي، عَنِّي).", "ar": "تتّصل الياء بالاسم وأكثر حروف الجر مباشرة ويُكسر ما قبلها، أمّا «مِنْ» و«عَنْ» فتلحقهما نون الوقاية: مِنِّي، عَنِّي." },
+          "ar_example": "بَيْتِي — بِي — مِنِّي — عَنِّي"
+        },
+        {
+          "label": { "en": "ـهُ → ـهِ after i or y", "ar": "كسر هاء الغائب" },
+          "text": { "en": "ـهُ، ـهُمَا، ـهُمْ، ـهُنَّ become ـهِ، ـهِمَا، ـهِمْ، ـهِنَّ after a kasra or a sākin yāʾ.", "ar": "تُكسر الهاء في «ـهُ، ـهُما، ـهُم، ـهُنّ» إذا سبقتها كسرة أو ياء ساكنة." },
+          "ar_example": "بِهِ — عَلَيْهِمْ — فِي بَيْتِهِ"
+        },
+        {
+          "label": { "en": "لِ becomes لَ", "ar": "فتح اللام" },
+          "text": { "en": "The preposition لِ takes fatḥa with every pronoun except the 1st singular.", "ar": "تُفتح لام الجر مع الضمائر إلا مع ياء المتكلم." },
+          "ar_example": "لَكَ — لَهُ — لَنَا — لِي"
+        },
+        {
+          "label": { "en": "Final ـى becomes ـيْ", "ar": "قلب الألف ياءً" },
+          "text": { "en": "إِلَى، عَلَى، لَدَى change their final alif to yāʾ before a pronoun; with ـي the two yāʾs merge (ـيَّ). The same merger happens with فِي.", "ar": "تُقلب ألف «إلى، على، لدى» ياءً مع الضمير، وتُدغم في ياء المتكلم (ـيَّ)، وكذلك «في»." },
+          "ar_example": "إِلَيْكَ — عَلَيْهَا — إِلَيَّ — فِيَّ"
+        },
+        {
+          "label": { "en": "Verb endings before a suffix", "ar": "آخر الفعل قبل الضمير" },
+          "text": { "en": "The silent alif after واو الجماعة is dropped (كَتَبُوهُ), and ـتُمْ lengthens to ـتُمُو (أَكْرَمْتُمُوهُ).", "ar": "تُحذف الألف الفارقة بعد واو الجماعة (كَتَبُوهُ)، وتُوصل ميم الجمع بواو (أَكْرَمْتُمُوهُ)." },
+          "ar_example": "الطُّلَّابُ كَتَبُوهُ — أَكْرَمْتُمُوهُ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "One set of suffixes does two jobs: on a verb it is the object (accusative position), on a noun it is the possessor and after a preposition its object (genitive position). Only the 1st singular differs in shape: ـنِي on verbs, ـي elsewhere.",
+      "The suffixes are fixed (مبنيّ); what changes is the vowel of ـه and the shape of the word they attach to."
+    ],
+    "ar": [
+      "مجموعة واحدة من الضمائر لها وظيفتان: مع الفعل تكون في محلّ نصب مفعولًا به، ومع الاسم وحرف الجر تكون في محلّ جرّ. ولا يختلف لفظها إلا في المتكلم المفرد: «ـني» مع الفعل، و«ـي» مع غيره.",
+      "وهذه الضمائر مبنيّة، والذي يتغيّر حركة الهاء وصورة الكلمة التي تتّصل بها."
+    ]
+  },
+  "examples": [
+    { "ar": "زَارَنِي صَدِيقِي فِي بَيْتِي", "en": "My friend visited me at my house.", "note": { "en": "ـنِي on the verb (object); ـي on the nouns (possessor).", "ar": "«ـني» مع الفعل في محلّ نصب، و«ـي» مع الاسمين في محلّ جرّ." } },
+    { "ar": "سَأَلْتُهَا عَنْ أُخْتِهَا", "en": "I asked her about her sister.", "note": { "en": "ـهَا as object, then as possessor.", "ar": "الهاء مفعول به في «سألتُها»، ومضاف إليه في «أختها»." } },
+    { "ar": "سَلَّمْتُ عَلَيْهِمْ وَجَلَسْتُ مَعَهُمْ", "en": "I greeted them and sat with them.", "note": { "en": "عَلَى → عَلَيْ, and ـهُمْ → ـهِمْ after the yāʾ; مَعَهُمْ keeps ḍamma.", "ar": "قُلبت ألف «على» ياءً وكُسرت الهاء بعدها، وبقيت مضمومة في «معهم»." } },
+    { "ar": "هٰذَا الْكِتَابُ لِي وَذٰلِكَ لَكَ", "en": "This book is mine and that one is yours.", "note": { "en": "لِ before ـي, لَ before other pronouns.", "ar": "اللام مكسورة مع الياء ومفتوحة مع غيرها." } }
+  ],
+  "caveats": {
+    "en": [
+      "نون الوقاية is optional with some particles (إِنِّي / إِنَّنِي، لَيْتِي / لَيْتَنِي) and with لَدُنْ; these details are outside the core target.",
+      "Changes to the noun itself before ـي (e.g. dual and sound masculine plural: كِتَابَايَ، مُعَلِّمِيَّ) are a separate topic.",
+      "ـنَا is also an attached subject pronoun (كَتَبْنَا); see B02."
+    ],
+    "ar": [
+      "تجوز نون الوقاية وتُترك مع بعض الحروف (إنّي/إنّني، ليتي/ليتني) ومع «لدن»، وهذا خارج الهدف الأساسي.",
+      "تغيّر الاسم نفسه قبل ياء المتكلم (كالمثنى وجمع المذكر السالم: كتاباي، معلّميّ) موضوع مستقل.",
+      "«نا» تأتي ضمير رفع أيضًا (كتبْنا)، وذلك في وحدة B02."
+    ]
+  },
+  "convention": {
+    "en": "This unit treats the ن of ـنِي as نون الوقاية (not part of the pronoun), the mainstream school analysis. Some textbooks list ـنِي as a single unit for learners; the slot is the same. The verb pronoun is accusative (مفعول به) and the noun/preposition pronoun genitive, following the school parsing.",
+    "ar": "تجري الوحدة على التحليل المدرسي الشائع: النون في «ـني» نون الوقاية وليست من الضمير. وبعض الكتب التعليمية تذكر «ـني» لفظًا واحدًا تيسيرًا، والخانة واحدة. ويُعرب الضمير مع الفعل في محلّ نصب، ومع الاسم والحرف في محلّ جرّ."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Fill in the suffix grid for all persons.", "ar": "املأ جدول ضمائر النصب والجر المتصلة." }, "answer_blocks": ["grid"] },
+    { "id": "r2", "prompt": { "en": "Attach every suffix to أَكْرَمَ, كِتَاب and فِي.", "ar": "صِل الضمائر كلّها بـ«أكرمَ» و«كتاب» و«في»." }, "answer_blocks": ["models"] },
+    { "id": "r3", "prompt": { "en": "Why is it أَكْرَمَنِي but كِتَابِي, and why بِهِ but مِنْهُ?", "ar": "لماذا نقول «أكرمني» و«كتابي»، و«بِهِ» و«مِنْهُ»؟" }, "answer_blocks": ["changes"] }
+  ],
+  "sources": [
+    { "id": "R02", "locator": "Pronoun segmentation (object and possessive suffixes)" },
+    { "id": "R22", "locator": "Attached pronouns" }
+  ],
+  "extra_aliases": ["الضمائر المتصلة", "ضمير النصب المتصل", "ضمير الجر المتصل", "نون الوقاية", "possessive suffixes", "object suffixes", "pronoun suffixes", "ḍamāʾir muttaṣila"]
+}

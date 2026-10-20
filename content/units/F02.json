@@ -1,0 +1,120 @@
+{
+  "id": "F02",
+  "target_version": 1,
+  "revision": 1,
+  "review_status": "draft",
+  "template": "paradigm",
+  "scope_label": "paradigm",
+  "transliteration": "taṣrīf al-muḍāriʿ aṣ-ṣaḥīḥ",
+  "summary": {
+    "en": "The indicative imperfect of a regular verb (يَكْتُبُ): a prefix from أ ن ي ت plus, in some slots, an ending.",
+    "ar": "تصريف المضارع الصحيح المرفوع (يَكْتُبُ): حرف من «أنيت» في أوله، ولاحقة في آخره في بعض المواضع."
+  },
+  "target": {
+    "en": "Recall the prefixes and endings of a regular indicative imperfect model in every person, gender and number.",
+    "ar": "استحضار سوابق المضارع الصحيح المرفوع ولواحقه في جميع المواضع بحسب الشخص والجنس والعدد."
+  },
+  "blocks": [
+    {
+      "id": "paradigm",
+      "kind": "table",
+      "title": { "en": "Indicative imperfect of يَكْتُبُ “he writes”", "ar": "تصريف «يَكْتُبُ» في المضارع المرفوع" },
+      "row_header": "pronoun",
+      "columns": [
+        { "key": "pronoun", "lang": "ar", "label": { "en": "Pronoun", "ar": "الضمير" } },
+        { "key": "slot", "lang": "bi", "label": { "en": "Slot", "ar": "الموضع" } },
+        { "key": "form", "lang": "ar", "label": { "en": "Form", "ar": "الصيغة" } },
+        { "key": "prefix", "lang": "ar", "label": { "en": "Prefix", "ar": "السابقة" } },
+        { "key": "ending", "lang": "ar", "label": { "en": "Ending", "ar": "اللاحقة" } }
+      ],
+      "rows": [
+        { "pronoun": "هُوَ", "slot": { "en": "3rd m. sg.", "ar": "غائب مفرد مذكّر" }, "form": "يَكْتُبُ", "prefix": "يَـ", "ending": "ـُ" },
+        { "pronoun": "هِيَ", "slot": { "en": "3rd f. sg.", "ar": "غائبة مفردة" }, "form": "تَكْتُبُ", "prefix": "تَـ", "ending": "ـُ" },
+        { "pronoun": "هُمَا", "slot": { "en": "3rd m. dual", "ar": "مثنّى غائب مذكّر" }, "form": "يَكْتُبَانِ", "prefix": "يَـ", "ending": "ـَانِ" },
+        { "pronoun": "هُمَا", "slot": { "en": "3rd f. dual", "ar": "مثنّى غائب مؤنّث" }, "form": "تَكْتُبَانِ", "prefix": "تَـ", "ending": "ـَانِ" },
+        { "pronoun": "هُمْ", "slot": { "en": "3rd m. pl.", "ar": "جمع غائب مذكّر" }, "form": "يَكْتُبُونَ", "prefix": "يَـ", "ending": "ـُونَ" },
+        { "pronoun": "هُنَّ", "slot": { "en": "3rd f. pl.", "ar": "جمع غائب مؤنّث" }, "form": "يَكْتُبْنَ", "prefix": "يَـ", "ending": "ـْنَ" },
+        { "pronoun": "أَنْتَ", "slot": { "en": "2nd m. sg.", "ar": "مخاطَب مفرد مذكّر" }, "form": "تَكْتُبُ", "prefix": "تَـ", "ending": "ـُ" },
+        { "pronoun": "أَنْتِ", "slot": { "en": "2nd f. sg.", "ar": "مخاطَبة مفردة" }, "form": "تَكْتُبِينَ", "prefix": "تَـ", "ending": "ـِينَ" },
+        { "pronoun": "أَنْتُمَا", "slot": { "en": "2nd dual (m. and f.)", "ar": "مثنّى مخاطَب (مذكّر ومؤنّث)" }, "form": "تَكْتُبَانِ", "prefix": "تَـ", "ending": "ـَانِ" },
+        { "pronoun": "أَنْتُمْ", "slot": { "en": "2nd m. pl.", "ar": "جمع مخاطَب مذكّر" }, "form": "تَكْتُبُونَ", "prefix": "تَـ", "ending": "ـُونَ" },
+        { "pronoun": "أَنْتُنَّ", "slot": { "en": "2nd f. pl.", "ar": "جمع مخاطَب مؤنّث" }, "form": "تَكْتُبْنَ", "prefix": "تَـ", "ending": "ـْنَ" },
+        { "pronoun": "أَنَا", "slot": { "en": "1st sg. (m. and f.)", "ar": "متكلّم مفرد" }, "form": "أَكْتُبُ", "prefix": "أَ", "ending": "ـُ" },
+        { "pronoun": "نَحْنُ", "slot": { "en": "1st dual/pl. (m. and f.)", "ar": "متكلّم مثنّى أو جمع" }, "form": "نَكْتُبُ", "prefix": "نَـ", "ending": "ـُ" }
+      ],
+      "notes": {
+        "en": [
+          "Repeated spellings fill different slots: تَكْتُبُ = “you (m. sg.)” and “she”; تَكْتُبَانِ = “they two (f.)” and “you two” (m. and f.). Context or an explicit pronoun tells them apart.",
+          "يَكْتُبْنَ (they f.) and تَكْتُبْنَ (you f. pl.) differ only in the prefix."
+        ],
+        "ar": [
+          "تتكرّر بعض الصيغ في مواضع مختلفة: «تَكْتُبُ» للمخاطَب وللغائبة، و«تَكْتُبَانِ» للغائبتين وللمخاطَبَين والمخاطَبتين، ويميّز بينها السياق أو الضمير.",
+          "لا يفرق «يَكْتُبْنَ» للغائبات عن «تَكْتُبْنَ» للمخاطَبات إلا حرفُ المضارعة."
+        ]
+      }
+    },
+    {
+      "id": "prefix-ending-rules",
+      "kind": "rules",
+      "title": { "en": "Prefixes and endings", "ar": "حروف المضارعة واللواحق" },
+      "items": [
+        {
+          "label": { "en": "Prefixes: أ ن ي ت", "ar": "حروف المضارعة: أنيت" },
+          "text": { "en": "أَ = I; نَ = we; يَ = he, they two (m.), they (m. and f. pl.); تَ = she, they two (f.), and every “you”.", "ar": "الهمزة للمتكلّم، والنون للمتكلّمين، والياء للغائب والغائبَين والغائبين والغائبات، والتاء للغائبة والغائبتين وللمخاطَب في جميع أحواله." },
+          "ar_example": "أَكْتُبُ، نَكْتُبُ، يَكْتُبُ، تَكْتُبُ"
+        },
+        {
+          "label": { "en": "Prefix vowel", "ar": "حركة حرف المضارعة" },
+          "text": { "en": "The prefix takes fatḥa, except in verbs whose past has four letters (أَكْرَمَ، دَحْرَجَ، عَلَّمَ), where it takes ḍamma.", "ar": "يُفتح حرف المضارعة، ويُضمّ إذا كان الماضي رباعيًّا." },
+          "ar_example": "يَكْتُبُ — يُكْرِمُ، يُعَلِّمُ"
+        },
+        {
+          "label": { "en": "Endings", "ar": "اللواحق" },
+          "text": { "en": "No suffix → ḍamma on the last letter. Suffixes: ـَانِ (dual), ـُونَ (m. pl.), ـِينَ (2nd f. sg.), ـْنَ (f. pl.).", "ar": "إذا لم تتصل به لاحقة رُفع بالضمة، واللواحق: ألف الاثنين «ـَانِ»، وواو الجماعة «ـُونَ»، وياء المخاطَبة «ـِينَ»، ونون النسوة «ـْنَ»." },
+          "ar_example": "يَكْتُبُ، يَكْتُبَانِ، يَكْتُبُونَ، تَكْتُبِينَ، يَكْتُبْنَ"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "en": [
+      "The imperfect (المضارع) marks the subject on both sides of the stem: a prefix always, and an ending in the dual, the masculine plural, the 2nd feminine singular and the feminine plural.",
+      "The vowel after the second root letter (يَكْتُبُ، يَفْتَحُ، يَجْلِسُ) belongs to the individual verb and is learned with it; the prefixes and endings in this table do not change.",
+      "This unit shows the indicative (مرفوع), the default form. The subjunctive and jussive endings are in F05 on the same page; the forms ending in ـانِ / ـونَ / ـينَ are the “five verbs” (F06)."
+    ],
+    "ar": [
+      "يدلّ المضارع على الفاعل بسابقة دائمًا، وبلاحقة أيضًا في المثنّى وجمع الذكور والمخاطَبة وجمع الإناث.",
+      "وحركة العين (يَكْتُبُ، يَفْتَحُ، يَجْلِسُ) تُحفظ مع كل فعل، أمّا السوابق واللواحق في الجدول فثابتة.",
+      "تعرض هذه الوحدة المضارع المرفوع، وعلامات النصب والجزم في الوحدة F05 في الصفحة نفسها، والصيغ المنتهية بـ«ـانِ، ـونَ، ـينَ» هي الأفعال الخمسة (F06)."
+    ]
+  },
+  "examples": [
+    { "ar": "يَكْتُبُ الطَّالِبُ رِسَالَةً إِلَى أُمِّهِ", "en": "The student is writing a letter to his mother.", "note": { "en": "No suffix: the verb ends in ḍamma.", "ar": "لم تتصل به لاحقة فرُفع بالضمة." } },
+    { "ar": "أَنْتِ تَدْرُسِينَ كُلَّ يَوْمٍ", "en": "You (f.) study every day.", "note": { "en": "تَـ + ـِينَ for the 2nd feminine singular.", "ar": "التاء في أوله وياء المخاطَبة في آخره." } },
+    { "ar": "الْبَنَاتُ يَلْعَبْنَ فِي الْحَدِيقَةِ", "en": "The girls are playing in the garden.", "note": { "en": "يَـ + ـْنَ for the 3rd feminine plural.", "ar": "الياء في أوله ونون النسوة في آخره." } },
+    { "ar": "نَحْنُ نَسْكُنُ قَرِيبًا مِنَ الْمَدْرَسَةِ", "en": "We live near the school.", "note": { "en": "نَـ serves every “we”.", "ar": "النون للمتكلّمين مطلقًا." } }
+  ],
+  "caveats": {
+    "en": [
+      "When an explicit noun subject follows the verb, the verb stays singular: يَكْتُبُ الطُّلَّابُ، تَكْتُبُ الطَّالِبَاتُ.",
+      "Weak and doubled verbs (يَقُولُ، يَدْعُو، يَمُدُّ) follow the same prefixes and endings but change their stem in places; they are outside this regular model."
+    ],
+    "ar": [
+      "إذا جاء بعد الفعل فاعل اسم ظاهر لزم الإفراد: يَكْتُبُ الطُّلَّابُ، تَكْتُبُ الطَّالِبَاتُ.",
+      "المعتل والمضعّف (يَقُولُ، يَدْعُو، يَمُدُّ) يأخذان السوابق واللواحق نفسها مع تغيّر في الجذع أحيانًا، وهما خارج هذا النموذج."
+    ]
+  },
+  "convention": {
+    "en": "Arabic books collect the four prefixes in a mnemonic such as أَنَيْتُ or نَأْتِي. Some English textbooks call this form the “present tense”; the corpus labels it imperfect (IMPF) with indicative mood (MOOD:IND).",
+    "ar": "تجمع الكتب حروف المضارعة في كلمة «أَنَيْتُ» أو «نَأْتِي». وتسمّيه بعض الكتب الإنجليزية «present tense»، ويسمّيه المدوَّن القرآني «imperfect» في حالة الرفع (indicative)."
+  },
+  "recall": [
+    { "id": "r1", "prompt": { "en": "Conjugate يَكْتُبُ in the indicative for every slot.", "ar": "صرّف «يَكْتُبُ» مرفوعًا مع الضمائر جميعها." }, "answer_blocks": ["paradigm"] },
+    { "id": "r2", "prompt": { "en": "Which prefix goes with which person, and what are the four endings?", "ar": "ما حرف المضارعة لكل ضمير؟ وما اللواحق الأربع؟" }, "answer_blocks": ["prefix-ending-rules"] }
+  ],
+  "sources": [
+    { "id": "R24", "locator": "Present/imperfect conjugation table" },
+    { "id": "R02", "locator": "Person, gender and number; imperfect prefixes" }
+  ],
+  "extra_aliases": ["الفعل المضارع", "حروف المضارعة", "أنيت", "present tense", "imperfect tense", "al-mudari", "mudari conjugation", "yaktubu"]
+}
