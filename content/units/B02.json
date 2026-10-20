@@ -26,6 +26,7 @@
         { "key": "verbs", "lang": "bi", "label": { "en": "Attaches to", "ar": "يتصل بـ" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["pronoun"],
       "rows": [
         { "pronoun": "ـتُ ـتَ ـتِ ـتُمَا ـتُمْ ـتُنَّ", "name": { "en": "tāʾ al-fāʿil (subject t)", "ar": "تاء الفاعل" }, "verbs": { "en": "past only", "ar": "الماضي" }, "example": "كَتَبْتُ" },
         { "pronoun": "ـنَا", "name": { "en": "nā al-fāʿilīn (subject “we”)", "ar": "نا الفاعلين" }, "verbs": { "en": "past only", "ar": "الماضي" }, "example": "كَتَبْنَا" },
@@ -48,6 +49,7 @@
         { "key": "imp", "lang": "ar", "label": { "en": "Imperative", "ar": "الأمر" } },
         { "key": "pres_subj", "lang": "ar", "label": { "en": "Subject in imperfect / imperative", "ar": "الفاعل في المضارع والأمر" } }
       ],
+      "recite": ["past_subj", "pres_subj"],
       "rows": [
         { "slot": { "en": "1st sg.", "ar": "أنا" }, "past": "كَتَبْتُ", "past_subj": "ـتُ", "pres": "أَكْتُبُ", "imp": "", "pres_subj": "مُسْتَتِرٌ (أَنَا)" },
         { "slot": { "en": "1st du./pl.", "ar": "نحن" }, "past": "كَتَبْنَا", "past_subj": "ـنَا", "pres": "نَكْتُبُ", "imp": "", "pres_subj": "مُسْتَتِرٌ (نَحْنُ)" },

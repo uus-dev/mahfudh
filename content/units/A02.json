@@ -27,6 +27,7 @@
         { "key": "verb", "lang": "bi", "label": { "en": "In imperfect verbs (mood)", "ar": "في المضارع" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["state", "sign"],
       "rows": [
         { "state": "الرَّفْعُ", "sign": "الضَّمَّةُ", "noun": { "en": "nominative", "ar": "يدخلها" }, "verb": { "en": "indicative", "ar": "يدخله" }, "example": "الطَّالِبُ يَكْتُبُ" },
         { "state": "النَّصْبُ", "sign": "الْفَتْحَةُ", "noun": { "en": "accusative", "ar": "يدخلها" }, "verb": { "en": "subjunctive", "ar": "يدخله" }, "example": "إِنَّ الطَّالِبَ لَنْ يَكْتُبَ" },

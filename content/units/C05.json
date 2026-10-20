@@ -57,6 +57,7 @@
           }
         }
       ],
+      "recite": ["particle"],
       "rows": [
         {
           "particle": "أَنْ",

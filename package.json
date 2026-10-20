@@ -9,6 +9,7 @@
     "preview": "node src/serve.mjs"
   },
   "devDependencies": {
-    "@fontsource/noto-naskh-arabic": "5.2.5"
+    "@fontsource/eb-garamond": "5.2.5",
+    "@fontsource/scheherazade-new": "5.2.5"
   }
 }

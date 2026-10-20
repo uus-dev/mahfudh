@@ -26,6 +26,7 @@
         { "key": "condition", "lang": "bi", "label": { "en": "Key restriction", "ar": "القيد الأساسي" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["particle"],
       "rows": [
         { "particle": "وَ", "meaning": { "en": "plain joining; no order implied", "ar": "مطلق الجمع" }, "condition": "", "example": "جَاءَ مُحَمَّدٌ وَعَلِيٌّ" },
         { "particle": "فَـ", "meaning": { "en": "order with immediate succession", "ar": "الترتيب والتعقيب" }, "condition": "", "example": "دَخَلَ الْمُعَلِّمُ فَالطُّلَّابُ" },

@@ -82,6 +82,7 @@ export function validateUnit(u, taxUnit, tax, errors) {
         bi(c.label, `${bw}.columns[${c.key}].label`, errors);
       }
       if (b.row_header && !keys.has(b.row_header)) errors.push(`${bw}.row_header: unknown column`);
+      if (b.recite !== undefined && (!Array.isArray(b.recite) || b.recite.some((k) => !keys.has(k)))) errors.push(`${bw}.recite: array of column keys`);
       if (!Array.isArray(b.rows) || !b.rows.length) errors.push(`${bw}.rows: required`);
       for (const [ri, r] of (b.rows || []).entries()) {
         for (const k of Object.keys(r)) if (!keys.has(k)) errors.push(`${bw}.rows[${ri}]: unknown key ${k}`);

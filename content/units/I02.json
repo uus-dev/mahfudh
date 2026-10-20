@@ -25,6 +25,7 @@
         { "key": "rule", "lang": "bi", "label": { "en": "Rule", "ar": "الحكم" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["rule"],
       "rows": [
         { "dimension": { "en": "Case", "ar": "الإعراب" }, "rule": { "en": "Same case as the noun", "ar": "يتبعه في الرفع والنصب والجر" }, "example": "جَاءَ رَجُلٌ كَرِيمٌ، رَأَيْتُ رَجُلًا كَرِيمًا، مَرَرْتُ بِرَجُلٍ كَرِيمٍ" },
         { "dimension": { "en": "Definiteness", "ar": "التعريف والتنكير" }, "rule": { "en": "Definite noun (by ال, name, or إضافة) → adjective with ال; indefinite → no ال", "ar": "المعرفة (بـ«ال» أو العلمية أو الإضافة) تُنعت بمعرّف بـ«ال»، والنكرة بنكرة" }, "example": "الْبَيْتُ الْجَدِيدُ، بَيْتٌ جَدِيدٌ، بَيْتُ الْمُدِيرِ الْجَدِيدُ" },
@@ -46,6 +47,7 @@
         { "key": "adj", "lang": "bi", "label": { "en": "Adjective form", "ar": "صورة النعت" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["adj"],
       "rows": [
         { "noun": { "en": "Human, masculine plural", "ar": "جمع مذكر عاقل" }, "adj": { "en": "masculine plural (sound or broken)", "ar": "جمع مذكر (سالم أو تكسير)" }, "example": "الْمُهَنْدِسُونَ الْمَاهِرُونَ، رِجَالٌ كِرَامٌ" },
         { "noun": { "en": "Human, feminine plural", "ar": "جمع مؤنث عاقل" }, "adj": { "en": "feminine plural", "ar": "جمع مؤنث" }, "example": "الطَّالِبَاتُ الْمُجْتَهِدَاتُ" },

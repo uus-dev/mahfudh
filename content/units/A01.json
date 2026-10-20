@@ -26,6 +26,7 @@
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } },
         { "key": "list", "lang": "bi", "label": { "en": "Listed in", "ar": "مصدرها" } }
       ],
+      "recite": ["sign"],
       "rows": [
         { "sign": "الْخَفْضُ (الْجَرُّ)", "meaning": { "en": "the word takes the genitive", "ar": "أن يكون الاسم مجرورًا" }, "example": "كِتَابُ الطَّالِبِ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
         { "sign": "التَّنْوِينُ", "meaning": { "en": "nunation (-un, -an, -in)", "ar": "نون ساكنة تُلفظ ولا تُكتب في آخره" }, "example": "رَجُلٌ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
@@ -46,6 +47,7 @@
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } },
         { "key": "list", "lang": "bi", "label": { "en": "Listed in", "ar": "مصدرها" } }
       ],
+      "recite": ["sign"],
       "rows": [
         { "sign": "قَدْ", "applies": { "en": "past and imperfect", "ar": "الماضي والمضارع" }, "example": "قَدْ نَجَحَ — قَدْ يَنْجَحُ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },
         { "sign": "السِّينُ", "applies": { "en": "imperfect only", "ar": "المضارع فقط" }, "example": "سَيَذْهَبُ", "list": { "en": "Ājurrūmiyya", "ar": "الآجرومية" } },

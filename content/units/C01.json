@@ -26,6 +26,7 @@
         { "key": "gloss", "lang": "bi", "label": { "en": "Typical English", "ar": "المقابل الإنجليزي" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["particle"],
       "rows": [
         { "particle": "مِنْ", "meaning": { "en": "starting point; also 'part of'", "ar": "ابتداء الغاية، والتبعيض" }, "gloss": { "en": "from; (some) of", "ar": "from" }, "example": "خَرَجْتُ مِنَ الْبَيْتِ" },
         { "particle": "إِلَى", "meaning": { "en": "end point", "ar": "انتهاء الغاية" }, "gloss": { "en": "to, until", "ar": "to" }, "example": "مَشَيْتُ إِلَى الْمَسْجِدِ" },

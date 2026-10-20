@@ -27,6 +27,7 @@
         { "key": "governs", "lang": "bi", "label": { "en": "Effect on endings", "ar": "العمل" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["tool"],
       "rows": [
         { "tool": "لَا", "enters": { "en": "imperfect verb (also nouns)", "ar": "المضارع (وتدخل على الاسم)" }, "time": { "en": "present / future", "ar": "الحال أو الاستقبال" }, "governs": { "en": "none with a verb: verb stays indicative", "ar": "لا تعمل في الفعل، فيبقى مرفوعًا" }, "example": "لَا يَكْذِبُ الصَّادِقُ" },
         { "tool": "مَا", "enters": { "en": "past or imperfect verb; nominal sentence", "ar": "الماضي والمضارع والجملة الاسمية" }, "time": { "en": "past (with past verb); present (with imperfect)", "ar": "الماضي مع الماضي، والحال مع المضارع" }, "governs": { "en": "none with a verb", "ar": "لا تعمل في الفعل" }, "example": "مَا سَافَرَ أَخِي" },

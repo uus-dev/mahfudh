@@ -26,6 +26,7 @@
         { "key": "meaning", "lang": "bi", "label": { "en": "Meaning", "ar": "المعنى" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["tool"],
       "rows": [
         { "tool": "إِنْ", "type": { "en": "particle", "ar": "حرف" }, "meaning": { "en": "if (pure linkage)", "ar": "مجرّد تعليق الجواب على الشرط" }, "example": "إِنْ تَدْرُسْ تَنْجَحْ" },
         { "tool": "إِذْمَا", "type": { "en": "particle (school view)", "ar": "حرف (على الراجح)" }, "meaning": { "en": "if (like إنْ)", "ar": "بمعنى «إنْ»" }, "example": "إِذْمَا تَتَعَلَّمْ تَتَقَدَّمْ" },

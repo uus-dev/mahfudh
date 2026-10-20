@@ -26,6 +26,7 @@
         { "key": "example", "lang": "ar", "label": { "en": "Representative", "ar": "مثال" } },
         { "key": "gloss", "lang": "bi", "label": { "en": "Gloss", "ar": "المعنى" } }
       ],
+      "recite": ["category", "example"],
       "rows": [
         { "category": "الضَّمِيرُ", "name": { "en": "personal pronoun", "ar": "personal pronoun" }, "example": "هُوَ", "gloss": { "en": "he", "ar": "he" } },
         { "category": "الْعَلَمُ", "name": { "en": "proper name", "ar": "proper name" }, "example": "مَكَّةُ", "gloss": { "en": "Mecca", "ar": "Mecca" } },

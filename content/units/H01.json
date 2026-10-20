@@ -27,6 +27,7 @@
         { "key": "model", "lang": "ar", "label": { "en": "Model", "ar": "المثال" } },
         { "key": "root", "lang": "ar", "label": { "en": "Root", "ar": "الأصول" } }
       ],
+      "recite": ["name", "model"],
       "rows": [
         { "name": "السَّالِمُ", "group": { "en": "sound", "ar": "صحيح" }, "definition": { "en": "no weak letter, no hamza, no doubling", "ar": "خلت أصوله من حروف العلة والهمز والتضعيف" }, "model": "كَتَبَ", "root": "ك ت ب" },
         { "name": "الْمَهْمُوزُ", "group": { "en": "sound", "ar": "صحيح" }, "definition": { "en": "a hamza as a root letter", "ar": "أحد أصوله همزة" }, "model": "أَخَذَ", "root": "ء خ ذ" },

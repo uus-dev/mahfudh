@@ -49,6 +49,7 @@
         { "key": "du", "lang": "bi", "label": { "en": "Dual", "ar": "المثنى" } },
         { "key": "pl", "lang": "bi", "label": { "en": "Plural", "ar": "الجمع" } }
       ],
+      "recite": ["sg", "du", "pl"],
       "rows": [
         { "slot": { "en": "1st (m. & f.)", "ar": "المتكلم" }, "sg": { "en": "I", "ar": "I" }, "du": { "en": "we (two)", "ar": "we (two)" }, "pl": { "en": "we", "ar": "we" } },
         { "slot": { "en": "2nd masc.", "ar": "المخاطب" }, "sg": { "en": "you (m.)", "ar": "you (m.)" }, "du": { "en": "you two", "ar": "you two" }, "pl": { "en": "you (m. pl.)", "ar": "you (m. pl.)" } },

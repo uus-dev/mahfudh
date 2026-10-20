@@ -26,6 +26,7 @@
         { "key": "jussive", "lang": "ar", "label": { "en": "Jussive", "ar": "المضارع المجزوم" } },
         { "key": "imperative", "lang": "ar", "label": { "en": "Imperative", "ar": "الأمر" } }
       ],
+      "recite": ["imperative"],
       "rows": [
         { "pronoun": "أَنْتَ", "slot": { "en": "m. sg.", "ar": "مفرد مذكّر" }, "jussive": "تَكْتُبْ", "imperative": "اُكْتُبْ" },
         { "pronoun": "أَنْتِ", "slot": { "en": "f. sg.", "ar": "مفردة مؤنّثة" }, "jussive": "تَكْتُبِي", "imperative": "اُكْتُبِي" },

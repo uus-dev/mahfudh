@@ -25,6 +25,7 @@
         { "key": "use", "lang": "bi", "label": { "en": "Used for", "ar": "الاستعمال" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["particle"],
       "rows": [
         { "particle": "يَا", "use": { "en": "general: near or far; the most common", "ar": "لكلّ منادًى قريبًا كان أو بعيدًا، وهو أكثرها استعمالًا" }, "example": "يَا مُحَمَّدُ، تَعَالَ" },
         { "particle": "أَ", "use": { "en": "the near addressee", "ar": "للقريب" }, "example": "أَمُحَمَّدُ، اسْمَعْ" },

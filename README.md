@@ -22,7 +22,15 @@ src/serve.mjs                local preview server
 assets/style.css, app.js     styling and browser enhancements (status, recall, search, backup)
 ```
 
-The build reads the taxonomy and the content files and writes plain HTML for `/en/` and `/ar/`. Reference content is fully readable without JavaScript; the script adds search, filters, status, recall and backup. Progress is stored only in the browser's `localStorage`.
+The build reads the taxonomy and the content files and writes plain HTML for `/en/` and `/ar/`. Reference content is fully readable without JavaScript; the script adds search, filters, status, recitation and backup. Progress is stored only in the browser's `localStorage`.
+
+### Design
+
+Each unit page follows the manuscript layout of *matn* and *sharḥ*: the centre sheet holds only what is memorised (target, tables, rules, examples); explanation, convention and caveats sit in the margin as numbered commentary (a bottom sheet on phones). The status is a seal in the left margin. Light theme by default, dark on request.
+
+**Recite (تسميع)** turns the memorisation target into lapis zellige tiles. Tapping a tile turns it over to show the answer, then the learner marks it *Knew it* or *Not yet* (a small stamp). A finished round offers *Again*, *Only the ones I missed*, or — if everything was known — *Mark as memorized*. Rounds are never stored or scored.
+
+Fonts are self-hosted: **Scheherazade New** for all Arabic, **EB Garamond** for Latin text.
 
 ## Working locally
 
@@ -39,7 +47,7 @@ node src/build.mjs --partial           # preview while some content files are st
 Each unit file follows the structure of [`content/units/D01.json`](content/units/D01.json):
 
 - `target` — exactly what the checklist status covers. Changing what a student must recall means bumping `target_version`; any other edit bumps `revision` only.
-- `blocks` — the reference material: `table` blocks (columns are `ar` = Arabic string or `bi` = `{en, ar}`) and `rules` blocks.
+- `blocks` — the reference material: `table` blocks (columns are `ar` = Arabic string or `bi` = `{en, ar}`) and `rules` blocks. A table's optional `recite` lists the column keys that become tiles in recitation; without it, the Arabic columns are used (keeping an Arabic row header visible as the cue). Every rule's text becomes a tile.
 - `explanation`, `examples` (≥ 2), `caveats`, `convention`, `recall` (prompts point to block IDs), `sources` (IDs from the taxonomy).
 - `review_status` — `draft` → `arabic_review` → `bilingual_review` → `ready` → `published`.
 

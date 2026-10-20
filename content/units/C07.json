@@ -26,6 +26,7 @@
         { "key": "time", "lang": "bi", "label": { "en": "Time reference", "ar": "الزمن" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["particle"],
       "rows": [
         { "particle": "لَمْ", "use": { "en": "negation", "ar": "النفي" }, "time": { "en": "shifts the imperfect to past: 'did not'", "ar": "تقلب زمنه إلى الماضي" }, "example": "لَمْ يَحْضُرْ أَحَدٌ" },
         { "particle": "لَمَّا", "use": { "en": "negation, with the event still expected", "ar": "النفي مع توقّع الحصول" }, "time": { "en": "past continuing up to now: 'has not yet'", "ar": "الماضي المتصل بالحاضر" }, "example": "لَمَّا يَصِلْ أَبِي" },

@@ -26,6 +26,7 @@
         { "key": "gloss", "lang": "bi", "label": { "en": "Typical English", "ar": "المقابل الإنجليزي" } },
         { "key": "example", "lang": "ar", "label": { "en": "Example", "ar": "مثال" } }
       ],
+      "recite": ["noun"],
       "rows": [
         { "noun": "مَنْ", "asks": { "en": "a person (rational being)", "ar": "العاقل" }, "gloss": { "en": "who?", "ar": "who?" }, "example": "مَنْ فِي الْبَيْتِ؟" },
         { "noun": "مَا", "asks": { "en": "a thing (non-rational), or a definition", "ar": "غير العاقل، وحقيقة الشيء" }, "gloss": { "en": "what?", "ar": "what?" }, "example": "مَا اسْمُكَ؟" },

@@ -25,6 +25,7 @@
         { "key": "name", "lang": "bi", "label": { "en": "Slot name", "ar": "الاسم" } },
         { "key": "model", "lang": "ar", "label": { "en": "In كَتَبَ", "ar": "في «كَتَبَ»" } }
       ],
+      "recite": ["letter"],
       "rows": [
         { "letter": "ف", "name": { "en": "1st root letter (fāʾ al-kalima)", "ar": "فاء الكلمة" }, "model": "ك" },
         { "letter": "ع", "name": { "en": "2nd root letter (ʿayn al-kalima)", "ar": "عين الكلمة" }, "model": "ت" },
@@ -79,6 +80,7 @@
         { "key": "pattern", "lang": "ar", "label": { "en": "Pattern", "ar": "الوزن" } },
         { "key": "shows", "lang": "bi", "label": { "en": "Shows", "ar": "القاعدة" } }
       ],
+      "recite": ["root", "pattern"],
       "rows": [
         { "word": "مَكْتَبَةٌ", "root": "ك ت ب", "pattern": "مَفْعَلَةٌ", "shows": { "en": "added م and ة", "ar": "زيادة الميم والتاء" } },
         { "word": "عَلَّمَ", "root": "ع ل م", "pattern": "فَعَّلَ", "shows": { "en": "doubled 2nd letter", "ar": "تضعيف العين" } },
