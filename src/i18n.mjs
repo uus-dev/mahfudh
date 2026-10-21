@@ -72,7 +72,7 @@ export const AR_DIGITS = (n) => String(n).replace(/[0-9]/g, (d) => '٠١٢٣٤٥
 
 export const UI = {
   en: {
-    siteName: 'Rasikh',
+    siteName: 'Mahfudh',
     siteTagline: 'Arabic grammar memory reference',
     homeLead: 'Look up the lists, tables and rules your teacher or book expects you to remember — and keep a private record of what you are learning.',
     searchLabel: 'Search the reference',
@@ -203,7 +203,7 @@ export const UI = {
     close: 'Close',
   },
   ar: {
-    siteName: 'راسخ',
+    siteName: 'محفوظ',
     siteTagline: 'مرجع لحفظ قواعد العربية',
     homeLead: 'ابحث عن القوائم والجداول والقواعد التي يطلب منك معلّمك أو كتابك حفظها، واحتفظ بسجلّ خاص لما تتعلّمه.',
     searchLabel: 'ابحث في المرجع',
@@ -347,7 +347,7 @@ export function clientStrings(lang) {
 
 export const ABOUT = {
   en: [
-    ['What this is', ['Rasikh is a bilingual reference for the bounded parts of Arabic grammar that students are asked to memorise: closed lists, paradigms, patterns and compact rules. It is not a course, and there is no required order. A single lookup is a complete use of the site.']],
+    ['What this is', ['Mahfudh is a bilingual reference for the bounded parts of Arabic grammar that students are asked to memorise: closed lists, paradigms, patterns and compact rules. It is not a course, and there is no required order. A single lookup is a complete use of the site.']],
     ['How a page is laid out', ['Each page follows the old layout of matn and sharḥ. The centre column — the matn — holds only what you are asked to memorise. Explanations, caveats and conventions sit beside it in the margin as numbered commentary. On a phone the commentary opens from the bottom of the screen.', 'Recite (tasmīʿ) turns the memorisation target into tiles. Say the answer to yourself, turn the tile, and tell yourself honestly whether you knew it. Nothing in a round is saved or scored.']],
     ['Draft status', ['All content on this site is a first draft and has not yet been reviewed by a qualified Arabic specialist. Every page is marked accordingly. Pages are hidden from search engines until review is complete.']],
     ['Conventions', ['Where grammar books list or analyse something differently, each unit states which convention it follows and points out the main alternative. “Core list” means the common school list; “selected” means an editorial selection, explained on the page; “extended” means a longer list than most courses require.']],
@@ -355,7 +355,7 @@ export const ABOUT = {
     ['Corrections', ['Every unit has a “Report a problem” link that opens a pre-filled issue on the project’s public GitHub repository, including the unit ID and revision. Please describe the problem and, if possible, the book or teacher convention you are comparing with.']],
   ],
   ar: [
-    ['ما هذا الموقع', ['«راسخ» مرجع ثنائي اللغة للأجزاء المحدودة من قواعد العربية التي يُطلب من الطلاب حفظها: القوائم المغلقة وجداول التصريف والأوزان والقواعد الموجزة. وليس منهجًا دراسيًا، ولا يفرض ترتيبًا معيّنًا؛ فالبحث عن معلومة واحدة استخدام كامل للموقع.']],
+    ['ما هذا الموقع', ['«محفوظ» مرجع ثنائي اللغة للأجزاء المحدودة من قواعد العربية التي يُطلب من الطلاب حفظها: القوائم المغلقة وجداول التصريف والأوزان والقواعد الموجزة. وليس منهجًا دراسيًا، ولا يفرض ترتيبًا معيّنًا؛ فالبحث عن معلومة واحدة استخدام كامل للموقع.']],
     ['ترتيب الصفحة', ['تتبع كل صفحة ترتيب المتن والشرح: في الوسط المتن، وفيه ما يُطلب حفظه فقط، وفي الهامش الشرح والتنبيهات والاصطلاح تعليقاتٍ مرقّمة. وفي الهاتف يُفتح الشرح من أسفل الشاشة.', 'ويحوّل «التسميع» مادة الحفظ إلى بلاطات: قل الجواب في نفسك، ثم اقلب البلاطة، وقل لنفسك بصدق هل عرفته. ولا يُحفظ من الجولة شيء ولا يُحسب.']],
     ['حالة المحتوى', ['كل المحتوى في هذا الموقع مسوّدة أولى لم يراجعها متخصص في العربية بعد، وكل صفحة موسومة بذلك. والصفحات محجوبة عن محركات البحث حتى تكتمل المراجعة.']],
     ['الاصطلاح', ['إذا اختلفت كتب النحو في العدّ أو التحليل، تذكر كل وحدة الاصطلاح الذي تتبعه وتشير إلى أهمّ البدائل. «القائمة الأساسية» هي القائمة المدرسية الشائعة، و«المختارة» اختيار تحريري موضّح في الصفحة، و«الموسّعة» أطول مما تطلبه أغلب المناهج.']],

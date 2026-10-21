@@ -1,4 +1,4 @@
-# Rasikh · راسخ
+# Mahfudh · محفوظ
 
 A bilingual (Arabic/English) reference for the bounded parts of Arabic grammar that students memorise — closed lists, paradigms, patterns and compact rules — with a private, browser-local checklist.
 
@@ -37,8 +37,8 @@ Fonts are self-hosted: **Scheherazade New** for all Arabic, **EB Garamond** for 
 ```sh
 npm install
 npm run validate                       # schema and link checks
-BASE=/rasikh/ npm run build            # full build (fails on any missing or invalid content)
-BASE=/rasikh/ npm run preview          # http://localhost:4321/rasikh/
+BASE=/mahfudh/ npm run build            # full build (fails on any missing or invalid content)
+BASE=/mahfudh/ npm run preview          # http://localhost:4321/mahfudh/
 node src/build.mjs --partial           # preview while some content files are still missing
 ```
 
@@ -55,4 +55,4 @@ Run `npm run validate` after editing. Corrections from readers arrive as GitHub 
 
 ## Deployment
 
-Pushing to `main` runs `.github/workflows/pages.yml`: validate, build with `BASE=/rasikh/`, and deploy to GitHub Pages (Settings → Pages → Source: GitHub Actions).
+Pushing to `main` runs `.github/workflows/pages.yml`: validate, build with `BASE` set to `/<repository name>/` (so links keep working if the repository is renamed), and deploy to GitHub Pages (Settings → Pages → Source: GitHub Actions).

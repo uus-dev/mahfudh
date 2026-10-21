@@ -1,5 +1,5 @@
 // Minimal preview server for dist/, mounted under BASE like GitHub Pages.
-//   BASE=/rasikh/ node src/build.mjs && BASE=/rasikh/ node src/serve.mjs
+//   BASE=/mahfudh/ node src/build.mjs && BASE=/mahfudh/ node src/serve.mjs
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { join, extname, normalize } from 'node:path';

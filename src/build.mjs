@@ -1,7 +1,7 @@
 // Static site generator: taxonomy + content/ -> dist/
 //   node src/build.mjs            full build, fails on any validation error
 //   node src/build.mjs --partial  skip units/concepts whose content is missing (local preview only)
-// BASE (env) is the URL prefix the site is served under, e.g. "/rasikh/". Defaults to "/".
+// BASE (env) is the URL prefix the site is served under, e.g. "/mahfudh/". Defaults to "/".
 import { mkdirSync, writeFileSync, rmSync, cpSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
@@ -10,7 +10,8 @@ import { UI, LOCALES, CATEGORY_AR, CATEGORY_TONE, STAGE, SCOPE_LABEL, SHARED_PAG
 
 const partial = process.argv.includes('--partial');
 const BASE = (process.env.BASE || '/').replace(/\/?$/, '/');
-const REPO = 'https://github.com/uus-dev/rasikh';
+// Repository links follow the repository the site is built from (GITHUB_REPOSITORY in CI).
+const REPO = `https://github.com/${process.env.GITHUB_REPOSITORY || 'uus-dev/mahfudh'}`;
 const DIST = join(ROOT, 'dist');
 
 const { tax, units, concepts, errors } = loadContent();
@@ -161,8 +162,8 @@ function layout({ lang, title, path, body, pageType, alt, data, headSearch = tru
 <meta name="description" content="${esc(t.siteTagline)}">
 <meta name="color-scheme" content="light dark">
 <link rel="alternate" hreflang="${other}" href="${altPath}">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231F3E8C'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' fill='%23FBF8F1' font-family='serif'%3E%D8%B1%3C/text%3E%3C/svg%3E">
-<script>(function(d){try{var p=JSON.parse(localStorage.getItem('rasikh:v1:prefs')||'{}');if(p.explain&&/^(en|ar|both)$/.test(p.explain))d.dataset.explain=p.explain;if(p.theme==='dark')d.dataset.theme='dark';}catch(e){}d.classList.add('js');})(document.documentElement);</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231F3E8C'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' fill='%23FBF8F1' font-family='serif'%3E%D9%85%3C/text%3E%3C/svg%3E">
+<script>(function(d){try{var p=JSON.parse(localStorage.getItem('mahfudh:v1:prefs')||'{}');if(p.explain&&/^(en|ar|both)$/.test(p.explain))d.dataset.explain=p.explain;if(p.theme==='dark')d.dataset.theme='dark';}catch(e){}d.classList.add('js');})(document.documentElement);</script>
 ${fontCss ? `<style>${fontCss}</style>` : ''}
 <link rel="stylesheet" href="${CSS}">
 </head>
@@ -171,7 +172,7 @@ ${fontCss ? `<style>${fontCss}</style>` : ''}
 <a class="skip" href="#main">${esc(t.skip)}</a>
 <header class="site">
   <div class="bar">
-    <a class="brand" href="${url.home(lang)}"><span class="brand-ar" lang="ar">راسخ</span><span class="brand-en" lang="en">Rasikh</span></a>
+    <a class="brand" href="${url.home(lang)}"><span class="brand-ar" lang="ar">محفوظ</span><span class="brand-en" lang="en">Mahfudh</span></a>
     <nav class="mainnav" aria-label="${esc(t.navMain)}"><ul>${nav.map(([k, h, l]) => `<li><a href="${h}"${k === current ? ' aria-current="page"' : ''}>${esc(l)}</a></li>`).join('')}</ul></nav>
     <div class="bar-end">
       ${headSearch ? `<form class="hsearch" action="${url.reference(lang)}" role="search"><label class="vh" for="hq">${esc(t.searchLabel)}</label>${ICON.search}<input id="hq" name="q" type="search" autocomplete="off" placeholder="${esc(t.searchPlaceholder)}" dir="auto"><kbd aria-hidden="true">/</kbd></form>` : ''}
@@ -395,7 +396,7 @@ for (const lang of LOCALES) {
   write(`${lang}/index.html`, layout({
     lang, title: t.siteTagline, path: url.home(lang), pageType: 'home', data, headSearch: false,
     body: `<section class="hero wrap">
-  <p class="hero-mark" lang="ar" aria-hidden="true">راسخ</p>
+  <p class="hero-mark" lang="ar" aria-hidden="true">محفوظ</p>
   <h1 class="hero-title">${esc(t.siteTagline)}</h1>
   <p class="lead">${esc(t.homeLead)}</p>
   <form class="search big" action="${url.reference(lang)}" role="search">
@@ -517,8 +518,8 @@ ${conceptIds
 }
 
 // Root: pick a locale. Explicit choice (stored) wins, then browser language, then English.
-write('index.html', `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Rasikh · راسخ</title>
-<script>var l='en';try{var p=JSON.parse(localStorage.getItem('rasikh:v1:prefs')||'{}');if(p.locale==='ar'||p.locale==='en')l=p.locale;else if((navigator.language||'').slice(0,2)==='ar')l='ar';}catch(e){if((navigator.language||'').slice(0,2)==='ar')l='ar';}location.replace('${BASE}'+l+'/');</script>
+write('index.html', `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Mahfudh · محفوظ</title>
+<script>var l='en';try{var p=JSON.parse(localStorage.getItem('mahfudh:v1:prefs')||'{}');if(p.locale==='ar'||p.locale==='en')l=p.locale;else if((navigator.language||'').slice(0,2)==='ar')l='ar';}catch(e){if((navigator.language||'').slice(0,2)==='ar')l='ar';}location.replace('${BASE}'+l+'/');</script>
 </head><body><p><a href="${BASE}en/">English</a> · <a href="${BASE}ar/" lang="ar">العربية</a></p></body></html>`);
 
 write('404.html', layout({

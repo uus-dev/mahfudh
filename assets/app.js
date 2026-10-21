@@ -1,4 +1,4 @@
-// Rasikh client enhancements: theme, explanation language, status seal, sharḥ drawer,
+// Mahfudh client enhancements: theme, explanation language, status seal, sharḥ drawer,
 // recitation tiles, search and filters, checklist rosette, backup.
 // Reference content is fully readable without this script.
 (function () {
@@ -12,7 +12,7 @@
   var catEl = doc.getElementById('catalog');
   var CATALOG = catEl ? JSON.parse(catEl.textContent) : null;
 
-  var PREFIX = 'rasikh:v1:';
+  var PREFIX = 'mahfudh:v1:';
   var PREFS_KEY = PREFIX + 'prefs';
   var UNIT_PREFIX = PREFIX + 'u:';
   var STATUSES = ['not_started', 'learning', 'memorized'];
@@ -736,11 +736,11 @@
     });
     out.sort(function (a, b) { return a.unit_id.localeCompare(b.unit_id); });
     var p = prefs();
-    return { format: 'rasikh-progress', format_version: 1, schema_version: 1, exported_at: new Date().toISOString(), preferences: { locale: p.locale || null, explain: p.explain || null, theme: p.theme || null }, units: out };
+    return { format: 'mahfudh-progress', format_version: 1, schema_version: 1, exported_at: new Date().toISOString(), preferences: { locale: p.locale || null, explain: p.explain || null, theme: p.theme || null }, units: out };
   }
   function download() {
     var blob = new Blob([JSON.stringify(snapshot(), null, 2)], { type: 'application/json' });
-    var a = el('a', { href: URL.createObjectURL(blob), download: 'rasikh-progress-' + new Date().toISOString().slice(0, 10) + '.json' });
+    var a = el('a', { href: URL.createObjectURL(blob), download: 'mahfudh-progress-' + new Date().toISOString().slice(0, 10) + '.json' });
     body.appendChild(a);
     a.click();
     setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
@@ -748,7 +748,7 @@
   var ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z$/;
   function parseBackup(text) {
     var data = JSON.parse(text);
-    if (!data || data.format !== 'rasikh-progress' || data.format_version !== 1 || !Array.isArray(data.units)) throw new Error('format');
+    if (!data || data.format !== 'mahfudh-progress' || data.format_version !== 1 || !Array.isArray(data.units)) throw new Error('format');
     var seen = {};
     var units = data.units.map(function (u) {
       if (!u || typeof u.unit_id !== 'string' || !/^[A-Z]\d{2}$/.test(u.unit_id)) throw new Error('id');
